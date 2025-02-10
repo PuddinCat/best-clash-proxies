@@ -6,20 +6,19 @@ proxies:
   server: mdss-hk.04z3susick.download
   type: ss
   udp: true
-- name: HK_speednode_0117
-  password: 3f76cb88-d4f7-432c-9639-13ef6a0e8abe
-  port: 48663
-  server: 9865cdfcd7fe92e4a76800429f9950c2.v1.cac.node-is.green
-  skip-cert-verify: true
-  sni: hk12.bilibili.com
-  type: trojan
+- cipher: aes-128-gcm
+  name: CN_speednode_0077
+  password: 6419ff34-6c3e-4cbf-b58b-b6bb34e1ccff
+  port: 12009
+  server: mdss-hk.04z3susick.download
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0060
+  name: CN_speednode_0059
   network: ws
   port: 16632
-  server: yes.mojcn.com
+  server: m.cnmjin.net
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -29,6 +28,14 @@ proxies:
     headers:
       Host: 2835dfeccdb7fd37119978ee6e32ae61.mobgslb.tbcache.com
     path: /
+- name: HK_speednode_0117
+  password: 3f76cb88-d4f7-432c-9639-13ef6a0e8abe
+  port: 48663
+  server: 9865cdfcd7fe92e4a76800429f9950c2.v1.cac.node-is.green
+  skip-cert-verify: true
+  sni: hk12.bilibili.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: CN_speednode_0027
@@ -44,23 +51,34 @@ proxies:
     headers:
       Host: 2835dfeccdb7fd37119978ee6e32ae61.mobgslb.tbcache.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-62.210.88.22-5798"
-  password: R0flZcpSJ1GjvH3mzap1qg
-  port: 443
-  server: 62.210.88.22
-  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - moi.ir
+    method: GET
+    path:
+    - /
+  name: "\U0001F1FA\U0001F1F8US-155.138.204.188-0776"
+  network: http
+  port: 8881
+  server: 155.138.204.188
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 1440 \u2192 tg@nicevpn123"
-  password: e4FCWrgpkji3QY
-  port: 9102
+  name: "\U0001F1FA\U0001F1F8 US 689 \u2192 tg@nicevpn123"
+  password: PCnnH6SQSnfoS27
+  port: 8090
   server: 38.110.1.202
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 612 \u2192 tg@nicevpn123"
-  password: XKFKl2rULjIp74
-  port: 8008
+  name: "\U0001F1FA\U0001F1F8 US 1440 \u2192 tg@nicevpn123"
+  password: e4FCWrgpkji3QY
+  port: 9102
   server: 38.110.1.202
   type: ss
   udp: true
@@ -71,25 +89,10 @@ proxies:
   server: 38.110.1.202
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - moi.ir
-    path:
-    - /
-  name: "\u7F8E\u56FD 043"
-  network: http
-  port: 8881
-  server: 66.42.90.216
-  tls: false
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 689 \u2192 tg@nicevpn123"
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.110.1.202
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0044
+  password: 8886d2da-6252-468c-8e6a-6d76d0a4d5dc
+  port: 30003
+  server: gdgs.tarioblink.me
   type: ss
   udp: true
