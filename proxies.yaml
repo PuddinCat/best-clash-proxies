@@ -6,13 +6,6 @@ proxies:
   server: mdss-hk.04z3susick.download
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: CN_speednode_0077
-  password: 6419ff34-6c3e-4cbf-b58b-b6bb34e1ccff
-  port: 12009
-  server: mdss-hk.04z3susick.download
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: CN_speednode_0044
   password: 8886d2da-6252-468c-8e6a-6d76d0a4d5dc
@@ -27,6 +20,12 @@ proxies:
   skip-cert-verify: true
   sni: hk12.bilibili.com
   type: trojan
+- name: "\U0001F1E8\U0001F1F3CN-219.135.231.205-143"
+  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
+  port: 21019
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
@@ -36,18 +35,19 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 121 \u2192 tg@nicevpn123"
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 38.86.135.223
+  name: "\U0001F1FA\U0001F1F8 US 1440 \u2192 tg@nicevpn123"
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 38.110.1.202
   type: ss
   udp: true
-- name: "\U0001F1E8\U0001F1F3CN-219.135.231.205-143"
-  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
-  port: 21019
-  server: 219.135.231.205
-  skip-cert-verify: true
-  type: trojan
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 US 1789 \u2192 tg@nicevpn123"
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.110.1.202
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8 US 689 \u2192 tg@nicevpn123"
   password: PCnnH6SQSnfoS27
@@ -62,10 +62,9 @@ proxies:
   server: 120.232.81.50
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 612 \u2192 tg@nicevpn123"
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 38.110.1.202
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1EEFI-150.241.97.216-0914"
+  password: gj1dvw15nnjIyMSjSficeC
+  port: 26039
+  server: 150.241.97.216
   type: ss
-  udp: true
