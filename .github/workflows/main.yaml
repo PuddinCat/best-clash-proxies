@@ -1,4 +1,4 @@
-name: Scrape ITHome
+name: Fetch from server
 on:
   schedule:
     - cron: "34 */3 * * *"
