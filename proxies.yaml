@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5947"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: CN_speednode_0044
   password: 8886d2da-6252-468c-8e6a-6d76d0a4d5dc
@@ -12,6 +6,46 @@ proxies:
   server: gdgs.tarioblink.me
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: "\u53F0\u6E7E\u7701\u6843\u56ED\u5E02 \u4E2D\u534E\u7535\u4FE1 5"
+  network: ws
+  port: 25780
+  server: bvdhgfhfs.fask511.cfd
+  tls: false
+  type: vmess
+  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
+  ws-opts:
+    headers:
+      Host: www.douyin.com
+    path: /?ed=1024
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-218.38.103.150-5943"
+  password: qwerREWQ@@
+  port: 28902
+  server: 218.38.103.150
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F9\U0001F1FCTW-1.162.174.147-0900"
+  network: ws
+  port: 25777
+  server: qdfhytmhg.fask511.cfd
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
+  ws-opts:
+    headers:
+      Host: www.douyin.com
+    path: /?ed=1024
+- name: "\U0001F1E8\U0001F1F3CN-183.236.51.50-162"
+  password: dc15d997-8b26-4294-870e-c90a5784dca4
+  port: 13011
+  server: naiu-jp.05vr9nyqg5.download
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - cipher: aes-256-cfb
   name: CN_speednode_0068
   password: hGkQ6915tD
@@ -19,6 +53,12 @@ proxies:
   server: 120.232.81.50
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6165"
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
+  type: ss
 - name: "\U0001F1ED\U0001F1F0HK-43.198.113.115-050"
   password: 299beacf-37f0-41c6-a122-9260c75731bf
   port: 49782
@@ -27,43 +67,15 @@ proxies:
   sni: hk12.bilibili.com
   type: trojan
 - cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.68.135.239
+  type: ss
+- cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8 US 121 \u2192 tg@nicevpn123"
   password: lGqs95QkFHo2NV
   port: 5499
   server: 38.86.135.223
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.68.135.239
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-0502"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: US_speednode_0163
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.121.43.248
-  type: ss
-  udp: true
-- name: "\u7F8E\u56FD \u534E\u76DB\u987F\u5DDE\u897F\u96C5\u56FE\u5E02\u4E9A\u9A6C\
-    \u900A(Amazon)\u516C\u53F8\u6570\u636E\u4E2D\u5FC3"
-  password: 6557bf4a-852b-4a69-ad35-d53293386a13
-  port: 443
-  server: vn.mjt000.com
-  sni: vn.mjt000.com
-  type: trojan
