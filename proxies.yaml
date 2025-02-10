@@ -1,16 +1,16 @@
 proxies:
-- cipher: aes-128-gcm
-  name: CN_speednode_0010
-  password: 6419ff34-6c3e-4cbf-b58b-b6bb34e1ccff
-  port: 12008
-  server: mdss-hk.04z3susick.download
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: CN_speednode_0044
   password: 8886d2da-6252-468c-8e6a-6d76d0a4d5dc
   port: 30003
   server: gdgs.tarioblink.me
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: CN_speednode_0068
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
   type: ss
   udp: true
 - name: "\U0001F1ED\U0001F1F0HK-43.198.113.115-050"
@@ -20,12 +20,13 @@ proxies:
   skip-cert-verify: true
   sni: hk12.bilibili.com
   type: trojan
-- name: "\U0001F1E8\U0001F1F3CN-219.135.231.205-143"
-  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
-  port: 21019
-  server: 219.135.231.205
-  skip-cert-verify: true
-  type: trojan
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 US 638 \u2192 tg@nicevpn123"
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.121.43.248
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
@@ -35,9 +36,9 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 1440 \u2192 tg@nicevpn123"
-  password: e4FCWrgpkji3QY
-  port: 9102
+  name: "\U0001F1FA\U0001F1F8 US 612 \u2192 tg@nicevpn123"
+  password: XKFKl2rULjIp74
+  port: 8008
   server: 38.110.1.202
   type: ss
   udp: true
@@ -48,20 +49,26 @@ proxies:
   server: 38.110.1.202
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 689 \u2192 tg@nicevpn123"
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.110.1.202
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: CN_speednode_0068
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
-  udp: true
+- name: "\U0001F1E8\U0001F1F3CN-219.135.231.205-143"
+  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
+  port: 21019
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8US-192.74.241.133-6153"
+  network: ws
+  port: 30003
+  server: 192.74.241.133
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.38740067.xyz
+    path: /path/1739017407418
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1EEFI-150.241.97.216-0914"
   password: gj1dvw15nnjIyMSjSficeC
