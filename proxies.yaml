@@ -6,39 +6,24 @@ proxies:
   server: gdgs.tarioblink.me
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: "\u53F0\u6E7E\u7701\u6843\u56ED\u5E02 \u4E2D\u534E\u7535\u4FE1 5"
-  network: ws
-  port: 25780
-  server: bvdhgfhfs.fask511.cfd
-  tls: false
-  type: vmess
-  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
-  ws-opts:
-    headers:
-      Host: www.douyin.com
-    path: /?ed=1024
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0HK-216.250.97.118-5936"
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  port: 443
+  server: hong-kong.keenvpn.me
+  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5947"
   password: qwerREWQ@@
   port: 51633
   server: 211.178.105.134
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F9\U0001F1FCTW-1.162.174.147-0900"
-  network: ws
-  port: 25777
-  server: qdfhytmhg.fask511.cfd
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
-  ws-opts:
-    headers:
-      Host: www.douyin.com
-    path: /?ed=1024
+- cipher: aes-256-gcm
+  name: "\U0001F1F7\U0001F1FARU-46.17.40.190-6188"
+  password: dongtaiwang.com
+  port: 12330
+  server: 46.17.40.190
+  type: ss
 - name: "\U0001F1ED\U0001F1F0HK-43.198.113.115-050"
   password: 299beacf-37f0-41c6-a122-9260c75731bf
   port: 49782
@@ -46,19 +31,36 @@ proxies:
   skip-cert-verify: true
   sni: hk12.bilibili.com
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: NL_speednode_0133
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.47
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: CN_speednode_0068
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6159"
   password: hGkQ6915tD
   port: 15084
   server: 120.232.81.50
   type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\u7F8E\u56FD \u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 38.86.135.223
-  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - moi.ir
+    method: GET
+    path:
+    - /
+  name: "\U0001F1FA\U0001F1F8US-155.138.208.122-0865"
+  network: http
+  port: 8881
+  server: 155.138.208.122
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8 US 121 \u2192 tg@nicevpn123"
   password: lGqs95QkFHo2NV
@@ -66,15 +68,10 @@ proxies:
   server: 38.86.135.223
   type: ss
   udp: true
-- name: "\U0001F1E8\U0001F1F3CN-219.135.231.205-143"
-  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
-  port: 21019
-  server: 219.135.231.205
-  skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1NL-103.104.247.47-0697"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.47
+- cipher: aes-256-cfb
+  name: CN_speednode_0068
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
   type: ss
+  udp: true
