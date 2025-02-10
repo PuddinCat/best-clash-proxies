@@ -1,15 +1,15 @@
 proxies:
 - cipher: aes-128-gcm
-  name: CN_speednode_0077
+  name: CN_speednode_0010
   password: 6419ff34-6c3e-4cbf-b58b-b6bb34e1ccff
-  port: 12009
+  port: 12008
   server: mdss-hk.04z3susick.download
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_speednode_0010
+  name: CN_speednode_0077
   password: 6419ff34-6c3e-4cbf-b58b-b6bb34e1ccff
-  port: 12008
+  port: 12009
   server: mdss-hk.04z3susick.download
   type: ss
   udp: true
@@ -27,11 +27,39 @@ proxies:
   skip-cert-verify: true
   sni: hk12.bilibili.com
   type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 US 121 \u2192 tg@nicevpn123"
+  password: lGqs95QkFHo2NV
+  port: 5499
+  server: 38.86.135.223
+  type: ss
+  udp: true
+- name: "\U0001F1E8\U0001F1F3CN-219.135.231.205-143"
+  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
+  port: 21019
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
 - cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8 US 689 \u2192 tg@nicevpn123"
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 38.110.1.202
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: CN_speednode_0068
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -41,32 +69,3 @@ proxies:
   server: 38.110.1.202
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 1789 \u2192 tg@nicevpn123"
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.110.1.202
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 121 \u2192 tg@nicevpn123"
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 38.86.135.223
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 1440 \u2192 tg@nicevpn123"
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 38.110.1.202
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  tfo: false
-  type: ss
