@@ -19,4 +19,4 @@ jobs:
         env:
           PROXIES_URL: ${{ secrets.PROXIES_URL }}
         run: |
-          curl $PROXIES_URL -O proxies.yaml && git add . && git commit -m 'Update: '"$(date)" && git push || echo 'nothing to push'
+          curl $PROXIES_URL > proxies.yaml && git add . && git commit -m 'Update: '"$(date)" && git push || echo 'nothing to push'
