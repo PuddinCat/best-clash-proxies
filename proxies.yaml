@@ -6,45 +6,33 @@ proxies:
   server: mdss-hk.04z3susick.download
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "SS-\u6CD5\u56FD-NF\u89E3\u9501\u6CD5\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-62.210.88.22:443"
-  password: R0flZcpSJ1GjvH3mzap1qg
-  port: 443
-  server: 62.210.88.22
-  type: ss
 - alterId: 0
   cipher: auto
-  name: "\u53F0\u6E7E\u7701\u6843\u56ED\u5E02 \u4E2D\u534E\u7535\u4FE1 4"
-  network: ws
-  port: 25775
-  server: kkkghdragxc.fask511.cfd
+  http-opts:
+    headers:
+      Host:
+      - moi.ir
+    method: GET
+    path:
+    - /
+  name: "\U0001F1FA\U0001F1F8US-155.138.208.122-5789"
+  network: http
+  port: 8881
+  server: 155.138.208.122
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
-  ws-opts:
-    headers:
-      Host: www.douyin.com
-    path: /?ed=1024
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8US-192.74.241.133-6023"
-  network: ws
-  port: 30003
-  server: 192.74.241.133
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.38740067.xyz
-    path: /path/1739017407418
-- cipher: chacha20-ietf-poly1305
-  name: NL_speednode_0161
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.47
-  type: ss
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: rc4-md5
+  name: CN_speednode_0139
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40255
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 3.link-hub.click
+  type: ssr
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1EEFI-77.239.99.180-5523"
@@ -64,23 +52,48 @@ proxies:
   server: yourjobnavigator.online
   skip-cert-verify: false
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-103.216.253.197-6026"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: 103.216.253.197
-  type: ss
-- alterId: 2
+- alterId: 64
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8211"
+  name: "\U0001F1FA\U0001F1F8US-192.74.241.133-6023"
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
+  port: 30003
+  server: 192.74.241.133
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
-    path: /
+      Host: www.38740067.xyz
+    path: /path/1739017407418
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - moi.ir
+    method: GET
+    path:
+    - /
+  name: US_speednode_0198
+  network: http
+  port: 8881
+  server: 66.42.90.216
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u6CD5\u56FD-NF\u89E3\u9501\u6CD5\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-62.210.88.22:443"
+  password: R0flZcpSJ1GjvH3mzap1qg
+  port: 443
+  server: 62.210.88.22
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 US 638 \u2192 tg@nicevpn123"
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.121.43.248
+  type: ss
+  udp: true
