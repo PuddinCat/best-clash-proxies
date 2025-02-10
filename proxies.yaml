@@ -6,13 +6,25 @@ proxies:
   server: mdss-hk.04z3susick.download
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 638 \u2192 tg@nicevpn123"
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.121.43.248
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u6CD5\u56FD-NF\u89E3\u9501\u6CD5\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-62.210.88.22:443"
+  password: R0flZcpSJ1GjvH3mzap1qg
+  port: 443
+  server: 62.210.88.22
   type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\u53F0\u6E7E\u7701\u6843\u56ED\u5E02 \u4E2D\u534E\u7535\u4FE1 4"
+  network: ws
+  port: 25775
+  server: kkkghdragxc.fask511.cfd
+  tls: false
+  type: vmess
+  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
+  ws-opts:
+    headers:
+      Host: www.douyin.com
+    path: /?ed=1024
 - alterId: 64
   cipher: auto
   name: "\U0001F1FA\U0001F1F8US-192.74.241.133-6023"
@@ -27,6 +39,25 @@ proxies:
     headers:
       Host: www.38740067.xyz
     path: /path/1739017407418
+- cipher: chacha20-ietf-poly1305
+  name: NL_speednode_0161
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.47
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1EEFI-77.239.99.180-5523"
+  password: nHDhqhjSzmrCNUeRalyPwQ
+  port: 34775
+  server: 77.239.99.180
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F3\U0001F1F1NL-103.104.247.47-164"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.47
+  type: ss
 - name: "\U0001F1EC\U0001F1E7GB-161.35.34.48-1201"
   password: 2cba4104747d49d18319e5ade1b93ab5
   port: 443
@@ -34,16 +65,10 @@ proxies:
   skip-cert-verify: false
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: "SS-\u6CD5\u56FD-NF\u89E3\u9501\u6CD5\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-62.210.88.22:443"
-  password: R0flZcpSJ1GjvH3mzap1qg
-  port: 443
-  server: 62.210.88.22
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1EEFI-77.239.99.180-5523"
-  password: nHDhqhjSzmrCNUeRalyPwQ
-  port: 34775
-  server: 77.239.99.180
+  name: "\U0001F1E8\U0001F1F3CN-103.216.253.197-6026"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: 103.216.253.197
   type: ss
 - alterId: 2
   cipher: auto
@@ -59,29 +84,3 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\u52A0\u62FF\u5927 005"
-  network: ws
-  port: 2095
-  server: s1.db-link01.top
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-105-92-158.s1.db-link01.top
-    path: /dabai.in104.24.89.11
-- cipher: chacha20-ietf-poly1305
-  name: NL_speednode_0161
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.47
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1NL-103.104.247.47-164"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.47
-  type: ss
