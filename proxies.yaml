@@ -13,6 +13,13 @@ proxies:
   server: mdss-hk.04z3susick.download
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0044
+  password: 8886d2da-6252-468c-8e6a-6d76d0a4d5dc
+  port: 30003
+  server: gdgs.tarioblink.me
+  type: ss
+  udp: true
 - name: "\U0001F1ED\U0001F1F0HK-43.198.113.115-050"
   password: 299beacf-37f0-41c6-a122-9260c75731bf
   port: 49782
@@ -21,10 +28,10 @@ proxies:
   sni: hk12.bilibili.com
   type: trojan
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 121 \u2192 tg@nicevpn123"
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 38.86.135.223
+  name: "\U0001F1FA\U0001F1F8 US 689 \u2192 tg@nicevpn123"
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.110.1.202
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -42,40 +49,24 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 689 \u2192 tg@nicevpn123"
-  password: PCnnH6SQSnfoS27
-  port: 8090
+  name: "\U0001F1FA\U0001F1F8 US 121 \u2192 tg@nicevpn123"
+  password: lGqs95QkFHo2NV
+  port: 5499
+  server: 38.86.135.223
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 US 1440 \u2192 tg@nicevpn123"
+  password: e4FCWrgpkji3QY
+  port: 9102
   server: 38.110.1.202
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0044
-  password: 8886d2da-6252-468c-8e6a-6d76d0a4d5dc
-  port: 30003
-  server: gdgs.tarioblink.me
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - moi.ir
-    method: GET
-    path:
-    - /
-  name: US_speednode_0146
-  network: http
-  port: 8881
-  server: 155.138.208.122
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1EEFI-150.241.97.216-0914"
-  password: gj1dvw15nnjIyMSjSficeC
-  port: 26039
-  server: 150.241.97.216
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
   type: ss
