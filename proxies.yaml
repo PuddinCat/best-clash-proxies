@@ -1,72 +1,10 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0044
-  password: 8886d2da-6252-468c-8e6a-6d76d0a4d5dc
-  port: 30003
-  server: gdgs.tarioblink.me
+  name: "\U0001F1F9\U0001F1FCTW-103.115.108.83-6160"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40020
+  server: tw.fastsoonlink.com
   type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F8\U0001F1ECSG-20.188.117.201-012"
-  network: tcp
-  port: 32995
-  server: 20.188.117.201
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 27cf0b94-a09a-4c7d-9818-9696076d7b52
-  ws-headers:
-    Host: 20.188.117.201
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-216.250.97.118-5936"
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  port: 443
-  server: hong-kong.keenvpn.me
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\u8377\u5170 V2CROSS.COM"
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.189
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD V2CROSS.COM 2"
-  port: 20182
-  server: 23.162.200.91
-  tls: false
-  type: vmess
-  uuid: cc9b66b7-1de7-4aa9-9642-575a8ae3ff19
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1NL-193.29.139.189-1490"
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 193.29.139.189
-  type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - moi.ir
-    path:
-    - /
-  name: "\u7F8E\u56FD 043"
-  network: http
-  port: 8881
-  server: 66.42.90.216
-  tls: false
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 121 \u2192 tg@nicevpn123"
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 38.86.135.223
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: NL_speednode_0133
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -75,8 +13,52 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F3\U0001F1F1NL-193.29.139.189-0692"
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 193.29.139.189
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: "\U0001F1EC\U0001F1EEGI-95.164.68.37-0482"
   password: OTBkYmFk
   port: 8388
   server: 95.164.68.37
   type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 US 1789 \u2192 tg@nicevpn123"
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.110.1.202
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1EEFI-150.241.97.216-0914"
+  password: gj1dvw15nnjIyMSjSficeC
+  port: 26039
+  server: 150.241.97.216
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 US 612 \u2192 tg@nicevpn123"
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 38.110.1.202
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.110.1.202-032"
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 38.110.1.202
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8US-103.219.193.17-6158"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40001
+  server: us.fastsoonlink.com
+  type: ss
+- name: "\U0001F1E8\U0001F1F3CN-219.135.231.205-140"
+  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
+  port: 21019
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
