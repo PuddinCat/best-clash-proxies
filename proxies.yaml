@@ -1,25 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.63.247.149-5470"
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0006
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  type: ss
-  udp: true
 - name: CN_speednode_0010
   password: 069a7054-7269-554b-bfab-a7f2651f92e5
   port: 5306
@@ -44,6 +23,20 @@ proxies:
   sni: jp-4-557.flztjc.net
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5515"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
+- name: CN_speednode_0009
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 9301
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: sgp-1-546.flztjc.net
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: CN_speednode_0015
@@ -59,13 +52,23 @@ proxies:
     headers:
       Host: cs.ktmhy.cc
     path: /
-- name: CN_speednode_0009
-  password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 9301
-  server: dozo01.flztjc.top
-  skip-cert-verify: true
-  sni: sgp-1-546.flztjc.net
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0006
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NL_speednode_0036
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.47
+  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EE\U0001F1EAIE-52.138.234.185-018"
@@ -85,17 +88,3 @@ proxies:
   server: console.02.aliyun.aq.kunlunaqs.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\U0001F1FA\U0001F1F8US-155.138.208.122-0675"
-  network: http
-  port: 8881
-  server: 155.138.208.122
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
