@@ -1,5 +1,11 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-1249"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40000
+  server: hk.fastsoonlink.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: CN_speednode_0003
   password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
   port: 40005
@@ -23,12 +29,6 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-1249"
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40000
-  server: hk.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: CN_speednode_0005
   password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
   port: 40032
@@ -51,12 +51,17 @@ proxies:
   sni: jp-4-557.flztjc.net
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1E9ID-103.28.53.21-1236"
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40033
-  server: idn.fastsoonlink.com
-  type: ss
+- cipher: rc4-md5
+  name: CN_speednode_0007
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40219
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
+  udp: true
 - name: CN_speednode_0009
   password: 069a7054-7269-554b-bfab-a7f2651f92e5
   port: 9301
@@ -65,9 +70,10 @@ proxies:
   sni: sgp-1-546.flztjc.net
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5427"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
-  type: ss
+- name: "\U0001F1ED\U0001F1F0HK-20.2.4.251-5423"
+  password: 6557bf4a-852b-4a69-ad35-d53293386a13
+  port: 443
+  server: vn.mjt000.com
+  skip-cert-verify: false
+  sni: vn.mjt000.com
+  type: trojan
