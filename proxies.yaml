@@ -1,42 +1,57 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "\U0001F1FA\U0001F1F8US-155.138.208.122-0675"
+  network: http
+  port: 8881
+  server: 155.138.208.122
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: chacha20-ietf-poly1305
   name: "\u7231\u5C14\u5170 V2CROSS.COM"
   password: cEZPI4PrVloPulwPHRYi5G
   port: 42658
   server: 52.138.234.185
   type: ss
-- name: "\U0001F1EF\U0001F1F5JP-54.65.16.239-034"
-  password: 6557bf4a-852b-4a69-ad35-d53293386a13
-  port: 443
-  server: vn.mjt000.com
-  skip-cert-verify: true
-  sni: vn.mjt000.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  http-opts: {}
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
-  network: http
-  port: 8881
-  server: 155.138.208.122
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- name: "\U0001F1ED\U0001F1F0HK-52.175.38.3-1377"
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 US 689 \u2192 tg@nicevpn123"
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.110.1.202
+  type: ss
+  udp: true
+- name: JP_speednode_0123
   password: 6557bf4a-852b-4a69-ad35-d53293386a13
   port: 443
   server: vn.mjt000.com
   skip-cert-verify: false
   sni: vn.mjt000.com
   type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 1789 \u2192 tg@nicevpn123"
-  password: faBAoD54k87UJG7
-  port: 2376
+  name: "\U0001F1FA\U0001F1F8US-38.110.1.202-5635"
+  password: PCnnH6SQSnfoS27
+  port: 8090
   server: 38.110.1.202
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8 US 1440 \u2192 tg@nicevpn123"
   password: e4FCWrgpkji3QY
@@ -45,42 +60,19 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.110.1.202-5635"
-  password: PCnnH6SQSnfoS27
-  port: 8090
+  name: "\U0001F1FA\U0001F1F8 US 612 \u2192 tg@nicevpn123"
+  password: XKFKl2rULjIp74
+  port: 8008
   server: 38.110.1.202
   type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - moi.ir
-    path:
-    - /
-  name: "\u7F8E\u56FD 043"
-  network: http
-  port: 8881
-  server: 66.42.90.216
-  tls: false
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- alterId: 0
-  cipher: auto
-  delay: 1702
-  name: "\u7F8E\u56FD 017"
-  network: ws
-  port: 443
-  server: eu9.998998.best
-  servername: server54-2.998877.best
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
-  ws-opts:
-    headers:
-      Host: server54-2.998877.best
-    path: /edgikmfhnrusb?ed=2560
+  udp: true
+- cipher: aes-256-gcm
+  name: US_speednode_0163
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.121.43.248
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: "15|\U0001F1EE\U0001F1F8 \u51B0\u5C9B|@ripaojiedian"
