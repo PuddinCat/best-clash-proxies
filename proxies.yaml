@@ -1,33 +1,4 @@
 proxies:
-- name: CN_speednode_0012
-  password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 5303
-  server: dozo01.flztjc.top
-  skip-cert-verify: true
-  sni: tw-03-505.flztjc.net
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0006
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.63.247.149-5470"
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
@@ -40,12 +11,33 @@ proxies:
   server: console.02.aliyun.aq.kunlunaqs.com
   tfo: false
   type: ss
-- name: CN_speednode_0011
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-58.63.247.149-5470"
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0006
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  type: ss
+  udp: true
+- name: CN_speednode_0012
   password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 6304
+  port: 5303
   server: dozo01.flztjc.top
   skip-cert-verify: true
-  sni: jp-4-557.flztjc.net
+  sni: tw-03-505.flztjc.net
   type: trojan
   udp: true
 - name: CN_speednode_0008
@@ -62,6 +54,14 @@ proxies:
   server: dozo01.flztjc.top
   skip-cert-verify: true
   sni: tw-06-592.flztjc.net
+  type: trojan
+  udp: true
+- name: CN_speednode_0011
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 6304
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: jp-4-557.flztjc.net
   type: trojan
   udp: true
 - name: CN_speednode_0009
@@ -87,10 +87,9 @@ proxies:
     headers:
       Host: cs.ktmhy.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: IE_speednode_0019
-  password: cEZPI4PrVloPulwPHRYi5G
-  port: 42658
-  server: 52.138.234.185
+- cipher: aes-256-cfb
+  name: "\U0001F1ED\U0001F1F0HK-112.213.102.228-5535"
+  password: qwerREWQ@@
+  port: 4231
+  server: 112.213.102.228
   type: ss
-  udp: true
