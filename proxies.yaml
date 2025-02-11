@@ -1,10 +1,37 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0006
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  type: ss
+  udp: true
 - name: CN_speednode_0010
   password: 069a7054-7269-554b-bfab-a7f2651f92e5
   port: 5306
   server: dozo01.flztjc.top
   skip-cert-verify: true
   sni: tw-06-592.flztjc.net
+  type: trojan
+  udp: true
+- name: CN_speednode_0012
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 5303
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: tw-03-505.flztjc.net
+  type: trojan
+  udp: true
+- name: CN_speednode_0009
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 9301
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: sgp-1-546.flztjc.net
   type: trojan
   udp: true
 - name: CN_speednode_0008
@@ -23,68 +50,45 @@ proxies:
   sni: jp-4-557.flztjc.net
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5515"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
-- name: CN_speednode_0009
-  password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 9301
-  server: dozo01.flztjc.top
-  skip-cert-verify: true
-  sni: sgp-1-546.flztjc.net
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0015
-  network: ws
-  port: 12889
-  server: cs.ktmhy.cc
+  http-opts:
+    headers:
+      Host:
+      - moi.ir
+    method: GET
+    path:
+    - /
+  name: "\u7F8E\u56FD 117"
+  network: http
+  port: 8881
+  server: 155.138.208.122
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 89718007-5cb2-42db-bbb6-15b6dcdd8e41
-  ws-opts:
-    headers:
-      Host: cs.ktmhy.cc
-    path: /
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0006
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
+  name: "\U0001F1EB\U0001F1EEFI-77.239.99.180-5527"
+  password: nHDhqhjSzmrCNUeRalyPwQ
+  port: 34775
+  server: 77.239.99.180
   type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts: {}
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
+  network: http
+  port: 8881
+  server: 155.138.208.122
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - cipher: chacha20-ietf-poly1305
-  name: NL_speednode_0036
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.47
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1EAIE-52.138.234.185-018"
+  name: IE_speednode_0019
   password: cEZPI4PrVloPulwPHRYi5G
   port: 42658
   server: 52.138.234.185
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  tfo: false
-  type: ss
+  udp: true
