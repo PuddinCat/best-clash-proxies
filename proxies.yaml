@@ -7,6 +7,14 @@ proxies:
   sni: tw-06-592.flztjc.net
   type: trojan
   udp: true
+- name: CN_speednode_0012
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 5303
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: tw-03-505.flztjc.net
+  type: trojan
+  udp: true
 - name: CN_speednode_0011
   password: 069a7054-7269-554b-bfab-a7f2651f92e5
   port: 6304
@@ -31,6 +39,12 @@ proxies:
   sni: sgp-1-546.flztjc.net
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-105"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  type: ss
 - alterId: 0
   cipher: auto
   http-opts: {}
@@ -42,35 +56,23 @@ proxies:
   sni: ''
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- name: CN_speednode_0012
-  password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 5303
-  server: dozo01.flztjc.top
-  skip-cert-verify: true
-  sni: tw-03-505.flztjc.net
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: SG_speednode_0059
-  password: amazonskr05
-  port: 443
-  server: 47.129.223.160
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   http-opts:
     headers:
       Host:
       - moi.ir
+    method: GET
     path:
     - /
-  name: "\u7F8E\u56FD 043"
+  name: "\u7F8E\u56FD 117"
   network: http
   port: 8881
-  server: 66.42.90.216
+  server: 155.138.208.122
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - alterId: 0
   cipher: auto
@@ -88,15 +90,16 @@ proxies:
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - alterId: 0
   cipher: auto
-  name: "\U0001F3C1RELAY-104.16.155.10-0239"
-  network: ws
-  port: 80
-  server: 104.16.155.10
-  skip-cert-verify: false
+  http-opts:
+    headers:
+      Host:
+      - moi.ir
+    path:
+    - /
+  name: "\u7F8E\u56FD 043"
+  network: http
+  port: 8881
+  server: 66.42.90.216
   tls: false
   type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
