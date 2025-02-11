@@ -13,12 +13,6 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-1249"
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40000
-  server: hk.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: "\U0001F1EF\U0001F1F5JP-52.197.171.218-5544"
   password: 2afbc97400ca71c8f3306f9843a6e1c2
   port: 443
@@ -38,19 +32,6 @@ proxies:
   sni: tw-06-592.flztjc.net
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1E9ID-103.28.53.21-1236"
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40033
-  server: idn.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0005
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40032
-  server: kr.fastsoonlink.com
-  type: ss
-  udp: true
 - name: CN_speednode_0011
   password: 069a7054-7269-554b-bfab-a7f2651f92e5
   port: 6304
@@ -65,5 +46,25 @@ proxies:
   server: dozo01.flztjc.top
   skip-cert-verify: true
   sni: jp-6-559.flztjc.net
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-1249"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40000
+  server: hk.fastsoonlink.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EE\U0001F1E9ID-103.28.53.21-1236"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40033
+  server: idn.fastsoonlink.com
+  type: ss
+- name: CN_speednode_0009
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 9301
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: sgp-1-546.flztjc.net
   type: trojan
   udp: true
