@@ -1,4 +1,76 @@
 proxies:
+- name: CN_speednode_0010
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 5306
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: tw-06-592.flztjc.net
+  type: trojan
+  udp: true
+- name: CN_speednode_0012
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 5303
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: tw-03-505.flztjc.net
+  type: trojan
+  udp: true
+- name: CN_speednode_0008
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 6306
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: jp-6-559.flztjc.net
+  type: trojan
+  udp: true
+- name: CN_speednode_0011
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 6304
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: jp-4-557.flztjc.net
+  type: trojan
+  udp: true
+- name: CN_speednode_0009
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 9301
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: sgp-1-546.flztjc.net
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0015
+  network: ws
+  port: 12889
+  server: cs.ktmhy.cc
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 89718007-5cb2-42db-bbb6-15b6dcdd8e41
+  ws-opts:
+    headers:
+      Host: cs.ktmhy.cc
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: IE_speednode_0019
+  password: cEZPI4PrVloPulwPHRYi5G
+  port: 42658
+  server: 52.138.234.185
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "16|\u65E5\u672C|@ripaojiedian"
+  network: tcp
+  port: '33184'
+  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e1541125-9df4-4ee7-bb05-e68f85d7937f
 - alterId: 0
   cipher: auto
   http-opts:
@@ -13,81 +85,9 @@ proxies:
   tls: false
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- alterId: 0
-  cipher: auto
-  http-opts: {}
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
-  network: http
-  port: 8881
-  server: 155.138.208.122
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - cipher: chacha20-ietf-poly1305
-  name: "\u7231\u5C14\u5170 V2CROSS.COM"
+  name: "\U0001F1EE\U0001F1EAIE-52.138.234.185-018"
   password: cEZPI4PrVloPulwPHRYi5G
   port: 42658
   server: 52.138.234.185
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: NL_speednode_0133
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.47
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - moi.ir
-    path:
-    - /
-  name: "\u7F8E\u56FD 043"
-  network: http
-  port: 8881
-  server: 66.42.90.216
-  tls: false
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1EEFI-150.241.97.216-5524"
-  password: gj1dvw15nnjIyMSjSficeC
-  port: 26039
-  server: 150.241.97.216
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EC\U0001F1EEGI-95.164.68.37-1156"
-  password: OTBkYmFk
-  port: 8388
-  server: 95.164.68.37
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.21.48.1-5686"
-  network: ws
-  port: 8443
-  server: deovhcdn.899994.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
-  ws-opts:
-    headers:
-      Host: deovhcdn.899994.xyz
-    path: /index
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_1"
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 612 \u2192 tg@nicevpn123"
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 38.110.1.202
-  type: ss
-  udp: true
