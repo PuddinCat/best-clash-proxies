@@ -1,36 +1,30 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-1249"
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40000
-  server: hk.fastsoonlink.com
-  type: ss
 - cipher: chacha20-ietf
   name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5892"
   password: asd123456
   port: 8388
   server: 194.41.59.80
   type: ss
-- name: CN_speednode_0010
-  password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 5306
-  server: dozo01.flztjc.top
-  skip-cert-verify: true
-  sni: tw-06-592.flztjc.net
-  type: trojan
-  udp: true
-- name: "\u65E5\u672C V2CROSS.COM"
-  password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 5306
-  server: dozo01.flztjc.top
-  sni: tw-06-592.flztjc.net
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EF\U0001F1F5JP-52.197.171.218-5544"
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  port: 443
-  server: japan-5.keenvpn.me
+  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-1249"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40000
+  server: hk.fastsoonlink.com
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0003
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: JP_speednode_0027
+  password: amazonskr05
+  port: 443
+  server: 54.249.60.76
+  type: ss
+  udp: true
 - name: CN_speednode_0012
   password: 069a7054-7269-554b-bfab-a7f2651f92e5
   port: 5303
@@ -40,17 +34,10 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0003
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40005
-  server: sgp.fastsoonlink.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1E9ID-103.28.53.21-1236"
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40033
-  server: idn.fastsoonlink.com
+  name: "\U0001F1EF\U0001F1F5JP-52.197.171.218-5544"
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  port: 443
+  server: japan-5.keenvpn.me
   type: ss
 - cipher: rc4-md5
   name: CN_speednode_0007
@@ -63,6 +50,20 @@ proxies:
   server: 2.hublink.pro
   type: ssr
   udp: true
+- name: CN_speednode_0011
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 6304
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: jp-4-557.flztjc.net
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EE\U0001F1E9ID-103.28.53.21-1236"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40033
+  server: idn.fastsoonlink.com
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: CN_speednode_0005
   password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
