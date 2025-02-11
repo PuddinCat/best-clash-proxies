@@ -1,4 +1,12 @@
 proxies:
+- name: CN_speednode_0012
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 5303
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: tw-03-505.flztjc.net
+  type: trojan
+  udp: true
 - name: CN_speednode_0010
   password: 069a7054-7269-554b-bfab-a7f2651f92e5
   port: 5306
@@ -21,14 +29,6 @@ proxies:
   server: dozo01.flztjc.top
   skip-cert-verify: true
   sni: jp-6-559.flztjc.net
-  type: trojan
-  udp: true
-- name: CN_speednode_0012
-  password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 5303
-  server: dozo01.flztjc.top
-  skip-cert-verify: true
-  sni: tw-03-505.flztjc.net
   type: trojan
   udp: true
 - name: CN_speednode_0009
@@ -82,14 +82,6 @@ proxies:
   type: vmess
   udp: true
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- name: JP_speednode_0032
-  password: 6557bf4a-852b-4a69-ad35-d53293386a13
-  port: 443
-  server: vn.mjt000.com
-  skip-cert-verify: false
-  sni: vn.mjt000.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-172.67.209.14-5655"
@@ -105,3 +97,18 @@ proxies:
     headers:
       Host: yaml777.133010.xyz
     path: /yaml777
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F3C1RELAY-104.17.213.241-1343"
+  network: ws
+  port: 80
+  server: 104.17.213.241
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      host: chunchuan.kejixiaoqi666.store
+    path: /
