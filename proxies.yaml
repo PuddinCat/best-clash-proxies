@@ -1,4 +1,23 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0044
+  password: 8886d2da-6252-468c-8e6a-6d76d0a4d5dc
+  port: 30003
+  server: gdgs.tarioblink.me
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: "\U0001F1F8\U0001F1ECSG-20.188.117.201-012"
@@ -13,22 +32,10 @@ proxies:
     Host: 20.188.117.201
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: "\u7231\u5C14\u5170 V2CROSS.COM"
-  password: cEZPI4PrVloPulwPHRYi5G
-  port: 42658
-  server: 52.138.234.185
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1ED\U0001F1F0HK-112.213.102.228-5535"
-  password: qwerREWQ@@
-  port: 4231
-  server: 112.213.102.228
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 1440 \u2192 tg@nicevpn123"
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 38.110.1.202
+  name: NL_speednode_0133
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.47
   type: ss
   udp: true
 - alterId: 0
@@ -47,13 +54,6 @@ proxies:
     headers:
       Host: server54-2.998877.best
     path: /edgikmfhnrusb?ed=2560
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 689 \u2192 tg@nicevpn123"
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.110.1.202
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EE\U0001F1F8IS-89.221.224.166-1500"
   password: NjBlZDlk
@@ -74,20 +74,20 @@ proxies:
     headers:
       Host: deovhcdn.899994.xyz
     path: /index
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\U0001F1FA\U0001F1F8US-155.138.208.122-0675"
-  network: http
-  port: 8881
-  server: 155.138.208.122
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1EE\U0001F1F8 \u51B0\u5C9B|@ripaojiedian"
+  password: NjBlZDlk
+  port: 8388
+  server: 89.221.224.166
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1EEFI-150.241.97.216-5524"
+  password: gj1dvw15nnjIyMSjSficeC
+  port: 26039
+  server: 150.241.97.216
+  type: ss
 - alterId: 0
   cipher: auto
   http-opts:
