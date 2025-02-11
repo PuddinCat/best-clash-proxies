@@ -1,18 +1,10 @@
 proxies:
-- name: CN_speednode_0010
+- name: CN_speednode_0012
   password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 5306
+  port: 5303
   server: dozo01.flztjc.top
   skip-cert-verify: true
-  sni: tw-06-592.flztjc.net
-  type: trojan
-  udp: true
-- name: CN_speednode_0011
-  password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 6304
-  server: dozo01.flztjc.top
-  skip-cert-verify: true
-  sni: jp-4-557.flztjc.net
+  sni: tw-03-505.flztjc.net
   type: trojan
   udp: true
 - name: CN_speednode_0008
@@ -23,6 +15,22 @@ proxies:
   sni: jp-6-559.flztjc.net
   type: trojan
   udp: true
+- name: CN_speednode_0011
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 6304
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: jp-4-557.flztjc.net
+  type: trojan
+  udp: true
+- name: CN_speednode_0010
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 5306
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: tw-06-592.flztjc.net
+  type: trojan
+  udp: true
 - name: CN_speednode_0009
   password: 069a7054-7269-554b-bfab-a7f2651f92e5
   port: 9301
@@ -31,17 +39,6 @@ proxies:
   sni: sgp-1-546.flztjc.net
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  http-opts: {}
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_8"
-  network: http
-  port: 8881
-  server: 155.138.208.122
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - alterId: 0
   cipher: auto
   http-opts:
@@ -74,6 +71,12 @@ proxies:
   tls: false
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-105"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  type: ss
 - alterId: 0
   cipher: auto
   http-opts:
@@ -89,15 +92,14 @@ proxies:
   tls: false
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-105"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5383"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
+- cipher: rc4-md5
+  name: CN_speednode_0013
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40211
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
+  udp: true
