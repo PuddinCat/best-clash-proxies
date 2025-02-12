@@ -19,10 +19,10 @@ proxies:
   server: 120.232.81.50
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-1318"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
+  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5827"
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
   type: ss
 - name: "\U0001F1E8\U0001F1F3CN-219.135.231.205-079"
   password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
@@ -30,6 +30,12 @@ proxies:
   server: 219.135.231.205
   skip-cert-verify: true
   type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-1318"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
@@ -47,25 +53,21 @@ proxies:
   protocol: origin
   server: 147.78.1.27
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: RU_speednode_0092
-  network: ws
-  port: 20316
-  server: 195.58.49.42
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c8972631-fca7-4f2e-ae9e-3547904f8170
-- name: "\u4FC4\u7F57\u65AF V2CROSS.COM"
-  password: 65086441068973800
-  port: 443
-  server: live-serval.shiner427.skin
-  type: trojan
 - name: "\U0001F1FA\U0001F1F8US-37.9.34.103-110"
   password: 65086441068973800
   port: 443
   server: live-serval.shiner427.skin
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F7\U0001F1FARU-185.22.153.73-1275"
+  network: ws
+  port: 17479
+  server: 185.22.153.73
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: af7f07dc-d726-4b1e-967d-dbb6c594999f
+  ws-opts:
+    path: github.com/Alvin9999
