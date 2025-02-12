@@ -6,13 +6,6 @@ proxies:
   server: js.wnwwv.cn
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0035
-  password: 7c28b43c-41c4-4af1-81c4-48690133d1cd
-  port: 52149
-  server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com
-  type: ss
-  udp: true
 - cipher: aes-128-gcm
   name: CN_speednode_0021
   password: 32c41b01-84be-11ef-bb6b-bc241111d95d
@@ -20,11 +13,26 @@ proxies:
   server: js.wnwwv.cn
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: CN_speednode_0010
-  password: ee2d2b8b-18b0-4fdd-afd1-a7c0030ec635
-  port: 58148
-  server: lm.kaiqsz.com
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: GB_speednode_0072
+  network: http
+  port: 49691
+  server: 193.42.25.242
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c7e04382-01be-40ab-b174-4dbff44b5cf4
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0035
+  password: 7c28b43c-41c4-4af1-81c4-48690133d1cd
+  port: 52149
+  server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -35,6 +43,13 @@ proxies:
   server: lm.kaiqsz.com
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  name: CN_speednode_0010
+  password: ee2d2b8b-18b0-4fdd-afd1-a7c0030ec635
+  port: 58148
+  server: lm.kaiqsz.com
+  type: ss
+  udp: true
 - name: US_speednode_0150
   password: 915476b6-7b20-4b57-be47-d9d0fd6a6ffb
   port: 42911
@@ -46,41 +61,29 @@ proxies:
 - alterId: 0
   cipher: auto
   http-opts:
-    headers:
-      Host:
-      - moi.ir
     method: GET
     path:
     - /
-  name: "\u7F8E\u56FD 117"
+  name: "\U0001F1FA\U0001F1F8US-155.138.208.122-0657"
   network: http
   port: 8881
   server: 155.138.208.122
   skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-18.138.252.136-5735"
-  password: amazonskr05
-  port: 443
-  server: 18.138.252.136
-  type: ss
-- cipher: rc4-md5
-  name: CN_speednode_0047
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40254
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 3.link-hub.click
-  type: ssr
+- name: US_speednode_0148
+  password: 915476b6-7b20-4b57-be47-d9d0fd6a6ffb
+  port: 46463
+  server: cea291b7d55c322ec47dbd8c56359e7a.us.in.node-is.green
+  skip-cert-verify: true
+  sni: hk12.bilibili.com
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5822"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
-  type: ss
+- name: "\U0001F1E8\U0001F1F3CN-183.240.139.185-6055"
+  password: d0cfea6c-2052-4add-aef5-501a4714d2f8
+  port: 32001
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: false
+  sni: cert.bitbyte.one
+  type: trojan
