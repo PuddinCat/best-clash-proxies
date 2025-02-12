@@ -7,37 +7,12 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\u4E9A\u592A\u5730\u533A V2CROSS.COM"
+  name: CN_speednode_0016
   password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40005
-  server: sgp.fastsoonlink.com
+  port: 40011
+  server: frk.fastsoonlink.com
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F0\U0001F1F7KR-61.111.247.242-1232"
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40032
-  server: kr.fastsoonlink.com
-  type: ss
-- name: GB_speednode_0041
-  password: '65086441068973800'
-  port: 443
-  server: grown-mackerel.shiner427.skin
-  skip-cert-verify: false
-  type: trojan
   udp: true
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8US-38.11.50.72-6096"
-  network: ws
-  port: 31005
-  server: 38.11.50.72
-  servername: www.65420682.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/1737194780660
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
@@ -46,6 +21,55 @@ proxies:
   server: 103.106.229.219
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\u4E9A\u592A\u5730\u533A V2CROSS.COM"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\u4E9A\u592A\u5730\u533A V2CROSS.COM 3"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40003
+  server: jp.fastsoonlink.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "\U0001F1FA\U0001F1F8US-155.138.208.122-0657"
+  network: http
+  port: 8881
+  server: 155.138.208.122
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- alterId: 0
+  cipher: auto
+  http-opts: {}
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  network: http
+  port: 8881
+  server: 155.138.208.122
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40030
+  server: pr.fastsoonlink.com
+  type: ss
+- name: "\U0001F1FA\U0001F1F8US-3.147.196.132-116"
+  password: 65086441068973800
+  port: 443
+  server: grateful-lark.shiner427.skin
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
   http-opts:
@@ -64,38 +88,3 @@ proxies:
   type: vmess
   udp: true
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\U0001F1FA\U0001F1F8US-155.138.208.122-0657"
-  network: http
-  port: 8881
-  server: 155.138.208.122
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- cipher: chacha20-ietf-poly1305
-  name: "\u4E9A\u592A\u5730\u533A V2CROSS.COM 3"
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40003
-  server: jp.fastsoonlink.com
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: US_speednode_0151
-  network: ws
-  port: 31005
-  server: 38.11.50.72
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.65420682.xyz
-    path: /path/1737194780660
