@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0035
+  password: 7c28b43c-41c4-4af1-81c4-48690133d1cd
+  port: 52149
+  server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
   name: CN_speednode_0001
   password: 32c41b01-84be-11ef-bb6b-bc241111d95d
@@ -21,41 +28,12 @@ proxies:
   type: vmess
   udp: true
   uuid: c7e04382-01be-40ab-b174-4dbff44b5cf4
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0035
-  password: 7c28b43c-41c4-4af1-81c4-48690133d1cd
-  port: 52149
-  server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-18.138.252.136-5735"
+  password: amazonskr05
+  port: 443
+  server: 18.138.252.136
   type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_speednode_0021
-  password: 32c41b01-84be-11ef-bb6b-bc241111d95d
-  port: 28029
-  server: js.wnwwv.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_speednode_0009
-  password: a198b290-7f12-40d4-8b0f-3f388148809e
-  port: 31367
-  server: 6782.03.ddns-dm.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_speednode_0006
-  password: a198b290-7f12-40d4-8b0f-3f388148809e
-  port: 26597
-  server: 3278.03.ddns-dm.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_speednode_0012
-  password: a198b290-7f12-40d4-8b0f-3f388148809e
-  port: 43681
-  server: 8239.03.ddns-dm.cc
-  type: ss
-  udp: true
 - cipher: aes-128-gcm
   name: CN_speednode_0017
   password: a198b290-7f12-40d4-8b0f-3f388148809e
@@ -70,21 +48,31 @@ proxies:
   server: 4252.03.ddns-dm.cc
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - moi.ir
-    method: GET
-    path:
-    - /
-  name: "\u7F8E\u56FD 117"
-  network: http
-  port: 8881
-  server: 155.138.208.122
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-gcm
+  name: CN_speednode_0010
+  password: ee2d2b8b-18b0-4fdd-afd1-a7c0030ec635
+  port: 58148
+  server: lm.kaiqsz.com
+  type: ss
   udp: true
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: aes-128-gcm
+  name: CN_speednode_0009
+  password: a198b290-7f12-40d4-8b0f-3f388148809e
+  port: 31367
+  server: 6782.03.ddns-dm.cc
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_speednode_0012
+  password: a198b290-7f12-40d4-8b0f-3f388148809e
+  port: 43681
+  server: 8239.03.ddns-dm.cc
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_speednode_0021
+  password: 32c41b01-84be-11ef-bb6b-bc241111d95d
+  port: 28029
+  server: js.wnwwv.cn
+  type: ss
+  udp: true
