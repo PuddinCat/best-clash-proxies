@@ -1,4 +1,11 @@
 proxies:
+- cipher: aes-256-cfb
+  name: SG_speednode_0061
+  password: amazonskr05
+  port: 443
+  server: 47.128.14.130
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   http-opts: {}
@@ -8,20 +15,6 @@ proxies:
   server: 155.138.208.122
   skip-cert-verify: true
   sni: ''
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\U0001F1FA\U0001F1F8US-155.138.208.122-0675"
-  network: http
-  port: 8881
-  server: 155.138.208.122
-  skip-cert-verify: false
-  tls: false
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - alterId: 0
@@ -42,44 +35,23 @@ proxies:
   type: vmess
   udp: true
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- cipher: rc4-md5
-  name: CN_speednode_0014
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40210
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5427"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
-  type: ss
 - alterId: 0
   cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9"
+  h2-opts: {}
+  http-opts: {}
+  name: "VMESS-\u672A\u77E5>\u5FB7\u56FD-NF\u89E3\u9501\u5FB7\u56FD\u5730\u533A\u975E\
+    \u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-yaml777.133010.xyz:80"
   network: ws
   port: 80
-  server: dora.ns.cloudflare.com
-  tls: false
+  server: yaml777.133010.xyz
+  servername: yaml777.133010.xyz
+  skip-cert-verify: true
   type: vmess
-  uuid: f26505cc-2278-4bab-b0ca-955c3c966baa
+  uuid: 4a1cb611-381c-4fff-ca35-99be316eee17
   ws-opts:
     headers:
-      Host: vmesspl.trevely.us.kg
-    path: /serv00?ed=2048
+      HOST: yaml777.133010.xyz
+    path: /yaml777
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -95,29 +67,48 @@ proxies:
     headers:
       host: chunchuan.kejixiaoqi666.store
     path: /
+- name: JP_speednode_0032
+  password: 6557bf4a-852b-4a69-ad35-d53293386a13
+  port: 443
+  server: vn.mjt000.com
+  skip-cert-verify: false
+  sni: vn.mjt000.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: "\u5FB7\u56FD V2CROSS.COM"
-  network: ws
-  port: 18400
-  server: 213.136.83.240
-  tls: false
-  type: vmess
-  uuid: bc97f674-c578-4940-9234-0a1da46041b0
-  ws-opts:
-    path: /vmess-argo?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.21.74.249-5523"
-  network: ws
-  port: 80
-  server: yaml777.133010.xyz
-  servername: yaml777.133010.xyz
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "\U0001F1FA\U0001F1F8US-155.138.208.122-0675"
+  network: http
+  port: 8881
+  server: 155.138.208.122
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 4a1cb611-381c-4fff-ca35-99be316eee17
-  ws-opts:
-    headers:
-      Host: yaml777.133010.xyz
-    path: /yaml777
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: chacha20-ietf-poly1305
+  name: "\u897F\u73ED\u7259 V2CROSS.COM 2"
+  password: yhDWDX3XM7yLFr1YWB7QOe
+  port: 1601
+  server: 150.241.97.212
+  type: ss
+- cipher: rc4-md5
+  name: CN_speednode_0014
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40210
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u4E4C\u514B\u5170 V2CROSS.COM"
+  password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
+  port: 31348
+  server: 188.191.147.127
+  type: ss
