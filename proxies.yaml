@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf
+  name: "\U0001F1FA\U0001F1F8US-103.36.90.195-6080"
+  password: asd123456
+  port: 8388
+  server: 103.36.90.195
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: CN_speednode_0012
   password: 7c28b43c-41c4-4af1-81c4-48690133d1cd
@@ -7,18 +13,16 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-52.78.5.163-6045"
-  password: amazonskr05
-  port: 443
-  server: 52.78.5.163
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6067"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
   type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  tfo: false
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6055"
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
   type: ss
 - name: "\U0001F1E8\U0001F1F3CN-219.135.231.205-079"
   password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
@@ -27,10 +31,12 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6055"
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: "SSR-\u58A8\u897F\u54E5-NF\u89E3\u9501\u58A8\u897F\u54E5\u81EA\u5236\u5267\
@@ -56,27 +62,17 @@ proxies:
     headers:
       host: ''
     path: /path/1720963559796
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1EEFI-150.241.97.212-5808"
-  password: yhDWDX3XM7yLFr1YWB7QOe
-  port: 1601
-  server: 150.241.97.212
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1EEFI-37.143.129.230-1024"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 37.143.129.230
-  type: ss
-- name: "\U0001F1FA\U0001F1F8US-192.227.231.56-0766"
-  network: ws
-  password: Aimer
-  port: 15392
-  server: 192.227.231.56
-  skip-cert-verify: false
-  sni: agepq.ambercc.filegear-sg.me
+- name: "\U0001F1FA\U0001F1F8US-37.9.34.103-110"
+  password: 65086441068973800
+  port: 443
+  server: live-serval.shiner427.skin
+  skip-cert-verify: true
   type: trojan
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-54.218.121.242:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 54.218.121.242
+  type: ssr
