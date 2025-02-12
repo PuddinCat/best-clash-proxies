@@ -19,6 +19,20 @@ proxies:
   server: 120.232.81.50
   type: ss
 - cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-54.218.121.242:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 54.218.121.242
+  type: ssr
+- name: "\U0001F1E8\U0001F1F3CN-219.135.231.205-079"
+  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
+  port: 21019
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   password: f8f7aCzcPKbsF8p3
@@ -26,12 +40,6 @@ proxies:
   server: 103.106.229.219
   tfo: false
   type: ss
-- name: "\U0001F1E8\U0001F1F3CN-219.135.231.205-079"
-  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
-  port: 21019
-  server: 219.135.231.205
-  skip-cert-verify: true
-  type: trojan
 - cipher: aes-256-cfb
   name: "SSR-\u58A8\u897F\u54E5-NF\u89E3\u9501\u58A8\u897F\u54E5\u81EA\u5236\u5267\
     -ChatGPT-TikTok-YouTube-147.78.1.27:989"
@@ -41,21 +49,6 @@ proxies:
   protocol: origin
   server: 147.78.1.27
   type: ssr
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-142.4.108.135-0768"
-  network: ws
-  port: 38007
-  server: 142.4.108.135
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: ''
-    path: /path/1720963559796
 - alterId: 0
   cipher: auto
   name: "\U0001F1F7\U0001F1FARU-185.22.153.73-1275"
@@ -82,17 +75,10 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8304"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\u4E9A\u592A\u5730\u533A V2CROSS.COM"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
