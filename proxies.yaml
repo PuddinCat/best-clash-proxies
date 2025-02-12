@@ -1,5 +1,12 @@
 proxies:
 - cipher: aes-128-gcm
+  name: CN_speednode_0001
+  password: 32c41b01-84be-11ef-bb6b-bc241111d95d
+  port: 41895
+  server: js.wnwwv.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
   name: CN_speednode_0007
   password: 32c41b01-84be-11ef-bb6b-bc241111d95d
   port: 28029
@@ -7,10 +14,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: CN_speednode_0001
-  password: 32c41b01-84be-11ef-bb6b-bc241111d95d
-  port: 41895
-  server: js.wnwwv.cn
+  name: CN_speednode_0010
+  password: a198b290-7f12-40d4-8b0f-3f388148809e
+  port: 43681
+  server: 8239.03.ddns-dm.cc
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -18,13 +25,6 @@ proxies:
   password: 7c28b43c-41c4-4af1-81c4-48690133d1cd
   port: 52149
   server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_speednode_0010
-  password: a198b290-7f12-40d4-8b0f-3f388148809e
-  port: 43681
-  server: 8239.03.ddns-dm.cc
   type: ss
   udp: true
 - alterId: 0
@@ -42,34 +42,6 @@ proxies:
   type: vmess
   udp: true
   uuid: c7e04382-01be-40ab-b174-4dbff44b5cf4
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F0\U0001F1F7KR-61.111.247.242-029"
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40032
-  server: kr.fastsoonlink.com
-  type: ss
-- name: US_speednode_0107
-  password: 915476b6-7b20-4b57-be47-d9d0fd6a6ffb
-  port: 42911
-  server: b81d0ebd97b5d2f9526651812be75f7e.us.in.node-is.green
-  skip-cert-verify: true
-  sni: hk12.bilibili.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FB\U0001F1F3VN-160.22.16.6-022"
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40021
-  server: 160.22.16.6
-  type: ss
-- name: US_speednode_0105
-  password: 915476b6-7b20-4b57-be47-d9d0fd6a6ffb
-  port: 46463
-  server: cea291b7d55c322ec47dbd8c56359e7a.us.in.node-is.green
-  skip-cert-verify: true
-  sni: hk12.bilibili.com
-  type: trojan
-  udp: true
 - cipher: aes-128-gcm
   name: CN_speednode_0013
   password: a198b290-7f12-40d4-8b0f-3f388148809e
@@ -77,3 +49,38 @@ proxies:
   server: 3278.03.ddns-dm.cc
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: CN_speednode_0009
+  password: a198b290-7f12-40d4-8b0f-3f388148809e
+  port: 59550
+  server: 4947.03.ddns-dm.cc
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "\U0001F1FA\U0001F1F8US-155.138.208.122-0657"
+  network: http
+  port: 8881
+  server: 155.138.208.122
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  password: ee2d2b8b-18b0-4fdd-afd1-a7c0030ec635
+  port: 58148
+  server: lm.kaiqsz.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F0\U0001F1F7KR-61.111.247.242-029"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40032
+  server: kr.fastsoonlink.com
+  type: ss
