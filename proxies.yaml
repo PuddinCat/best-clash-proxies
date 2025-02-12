@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5812"
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: CN_speednode_0016
   password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
@@ -13,20 +19,6 @@ proxies:
   server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6062"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
 - name: DE_speednode_0030
   password: '65086441068973800'
   port: 443
@@ -40,6 +32,45 @@ proxies:
   server: mature-flamingo.shiner427.skin
   skip-cert-verify: true
   type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6062"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - moi.ir
+    method: GET
+    path:
+    - /
+  name: US_speednode_0135
+  network: http
+  port: 8881
+  server: 155.138.208.122
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- alterId: 64
+  cipher: auto
+  name: US_speednode_0151
+  network: ws
+  port: 31005
+  server: 38.11.50.72
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.65420682.xyz
+    path: /path/1737194780660
 - alterId: 64
   cipher: auto
   name: "\U0001F1FA\U0001F1F8US-38.11.50.72-6096"
@@ -53,28 +84,9 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     path: /path/1737194780660
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "15|\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
-  password: '65086441068973800'
-  port: 443
-  server: grown-mackerel.shiner427.skin
-  skip-cert-verify: false
-  sni: grown-mackerel.shiner427.skin
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F0\U0001F1F7KR-61.111.247.242-1232"
   password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
   port: 40032
   server: kr.fastsoonlink.com
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8US-54.200.164.45-5148"
-  password: amazonskr05
-  port: 443
-  server: 54.200.164.45
   type: ss
