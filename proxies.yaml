@@ -1,5 +1,12 @@
 proxies:
 - cipher: aes-128-gcm
+  name: CN_speednode_0007
+  password: 32c41b01-84be-11ef-bb6b-bc241111d95d
+  port: 28029
+  server: js.wnwwv.cn
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
   name: CN_speednode_0001
   password: 32c41b01-84be-11ef-bb6b-bc241111d95d
   port: 41895
@@ -13,48 +20,12 @@ proxies:
   server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com
   type: ss
   udp: true
-- name: US_speednode_0107
-  password: 915476b6-7b20-4b57-be47-d9d0fd6a6ffb
-  port: 42911
-  server: b81d0ebd97b5d2f9526651812be75f7e.us.in.node-is.green
-  skip-cert-verify: true
-  sni: hk12.bilibili.com
-  type: trojan
-  udp: true
 - cipher: aes-128-gcm
-  name: CN_speednode_0007
-  password: 32c41b01-84be-11ef-bb6b-bc241111d95d
-  port: 28029
-  server: js.wnwwv.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_speednode_0011
+  name: CN_speednode_0010
   password: a198b290-7f12-40d4-8b0f-3f388148809e
-  port: 31367
-  server: 6782.03.ddns-dm.cc
+  port: 43681
+  server: 8239.03.ddns-dm.cc
   type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: CN_speednode_0009
-  password: a198b290-7f12-40d4-8b0f-3f388148809e
-  port: 59550
-  server: 4947.03.ddns-dm.cc
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6062"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
-- name: US_speednode_0105
-  password: 915476b6-7b20-4b57-be47-d9d0fd6a6ffb
-  port: 46463
-  server: cea291b7d55c322ec47dbd8c56359e7a.us.in.node-is.green
-  skip-cert-verify: true
-  sni: hk12.bilibili.com
-  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
@@ -77,3 +48,32 @@ proxies:
   port: 40032
   server: kr.fastsoonlink.com
   type: ss
+- name: US_speednode_0107
+  password: 915476b6-7b20-4b57-be47-d9d0fd6a6ffb
+  port: 42911
+  server: b81d0ebd97b5d2f9526651812be75f7e.us.in.node-is.green
+  skip-cert-verify: true
+  sni: hk12.bilibili.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FB\U0001F1F3VN-160.22.16.6-022"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40021
+  server: 160.22.16.6
+  type: ss
+- name: US_speednode_0105
+  password: 915476b6-7b20-4b57-be47-d9d0fd6a6ffb
+  port: 46463
+  server: cea291b7d55c322ec47dbd8c56359e7a.us.in.node-is.green
+  skip-cert-verify: true
+  sni: hk12.bilibili.com
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_speednode_0013
+  password: a198b290-7f12-40d4-8b0f-3f388148809e
+  port: 26597
+  server: 3278.03.ddns-dm.cc
+  type: ss
+  udp: true
