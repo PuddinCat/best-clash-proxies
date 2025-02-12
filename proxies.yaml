@@ -1,76 +1,49 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-13.212.175.124-5736"
-  password: amazonskr05
-  port: 443
-  server: 13.212.175.124
-  type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: GB_speednode_0034
-  network: http
-  port: 49691
-  server: 193.42.25.242
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c7e04382-01be-40ab-b174-4dbff44b5cf4
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0014
+  name: CN_speednode_0010
+  password: 1f2a2f7f-d95e-43b6-bab9-212f679b749e
+  port: 34103
+  server: southvip1.pkyun.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0016
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40011
+  server: frk.fastsoonlink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0012
   password: 7c28b43c-41c4-4af1-81c4-48690133d1cd
   port: 52149
   server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com
   type: ss
   udp: true
-- name: US_speednode_0107
-  password: 915476b6-7b20-4b57-be47-d9d0fd6a6ffb
-  port: 42911
-  server: b81d0ebd97b5d2f9526651812be75f7e.us.in.node-is.green
-  skip-cert-verify: true
-  sni: hk12.bilibili.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FB\U0001F1F3VN-160.22.16.6-022"
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40021
-  server: 160.22.16.6
-  type: ss
 - alterId: 0
   cipher: auto
-  name: US_speednode_0132
-  network: ws
-  port: 443
-  server: dave.ns.cloudflare.com
-  servername: vmessde.trevely.us.kg
+  http-opts:
+    headers:
+      Host:
+      - moi.ir
+    method: GET
+    path:
+    - /
+  name: US_speednode_0135
+  network: http
+  port: 8881
+  server: 155.138.208.122
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: f46bb68f-3069-494d-8650-f8e2a9294c92
-  ws-opts:
-    headers:
-      Host: vmessde.trevely.us.kg
-    path: /serv00?ed=2048
-- name: IE_speednode_0038
-  password: '65086441068973800'
-  port: 443
-  server: tops-lobster.shiner427.skin
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - cipher: aes-256-cfb
-  name: JP_speednode_0039
-  password: amazonskr05
-  port: 443
-  server: 54.249.60.76
+  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-6114"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
   type: ss
-  udp: true
 - alterId: 64
   cipher: auto
   name: "\U0001F1FA\U0001F1F8US-38.11.50.72-6096"
@@ -84,6 +57,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     path: /path/1737194780660
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FB\U0001F1F3VN-160.22.16.6-1225"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40021
+  server: 160.22.16.6
+  type: ss
+- name: GB_speednode_0041
+  password: '65086441068973800'
+  port: 443
+  server: grown-mackerel.shiner427.skin
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -97,3 +83,9 @@ proxies:
   tls: false
   type: trojan
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F5\U0001F1F1PL-5.187.51.212-0658"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40030
+  server: pr.fastsoonlink.com
+  type: ss
