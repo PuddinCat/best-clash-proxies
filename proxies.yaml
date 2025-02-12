@@ -13,16 +13,30 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-218.38.103.150-5824"
+  password: qwerREWQ@@
+  port: 28902
+  server: 218.38.103.150
+  type: ss
+- cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6055"
   password: hGkQ6915tD
   port: 16088
   server: 120.232.81.50
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5827"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-54.200.164.45:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 54.200.164.45
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F0\U0001F1F7KR-43.202.96.177-5887"
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  port: 443
+  server: 43.202.96.177
   type: ss
 - name: "\U0001F1E8\U0001F1F3CN-219.135.231.205-079"
   password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
@@ -30,12 +44,6 @@ proxies:
   server: 219.135.231.205
   skip-cert-verify: true
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-1318"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
@@ -53,12 +61,6 @@ proxies:
   protocol: origin
   server: 147.78.1.27
   type: ssr
-- name: "\U0001F1FA\U0001F1F8US-37.9.34.103-110"
-  password: 65086441068973800
-  port: 443
-  server: live-serval.shiner427.skin
-  skip-cert-verify: true
-  type: trojan
 - alterId: 0
   cipher: auto
   name: "\U0001F1F7\U0001F1FARU-185.22.153.73-1275"
