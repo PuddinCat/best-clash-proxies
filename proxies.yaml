@@ -6,6 +6,13 @@ proxies:
   server: js.wnwwv.cn
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0035
+  password: 7c28b43c-41c4-4af1-81c4-48690133d1cd
+  port: 52149
+  server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
   name: CN_speednode_0021
   password: 32c41b01-84be-11ef-bb6b-bc241111d95d
@@ -13,6 +20,28 @@ proxies:
   server: js.wnwwv.cn
   type: ss
   udp: true
+- name: US_speednode_0148
+  password: 915476b6-7b20-4b57-be47-d9d0fd6a6ffb
+  port: 46463
+  server: cea291b7d55c322ec47dbd8c56359e7a.us.in.node-is.green
+  skip-cert-verify: true
+  sni: hk12.bilibili.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-1308"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  type: ss
 - alterId: 0
   cipher: auto
   http-opts:
@@ -28,78 +57,36 @@ proxies:
   type: vmess
   udp: true
   uuid: c7e04382-01be-40ab-b174-4dbff44b5cf4
-- alterId: 0
+- alterId: 64
   cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - moi.ir
-    method: GET
-    path:
-    - /
-  name: "\u7F8E\u56FD 117"
-  network: http
-  port: 8881
-  server: 155.138.208.122
+  name: "\U0001F1FA\U0001F1F8US-38.11.50.72-6096"
+  network: ws
+  port: 31005
+  server: 38.11.50.72
+  servername: www.65420682.xyz
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
-  udp: true
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\U0001F1FA\U0001F1F8US-155.138.208.122-0657"
-  network: http
-  port: 8881
-  server: 155.138.208.122
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/1737194780660
+- name: US_speednode_0168
+  password: '65086441068973800'
+  port: 443
+  server: grateful-lark.shiner427.skin
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- cipher: rc4-md5
-  name: CN_speednode_0047
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40254
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 3.link-hub.click
-  type: ssr
-  udp: true
-- name: US_speednode_0150
-  password: 915476b6-7b20-4b57-be47-d9d0fd6a6ffb
-  port: 42911
-  server: b81d0ebd97b5d2f9526651812be75f7e.us.in.node-is.green
-  skip-cert-verify: true
-  sni: hk12.bilibili.com
   type: trojan
   udp: true
-- cipher: rc4-md5
-  name: CN_speednode_0048
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40255
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 3.link-hub.click
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-18.138.252.136-5735"
-  password: amazonskr05
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "15|\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  password: '65086441068973800'
   port: 443
-  server: 18.138.252.136
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0035
-  password: 7c28b43c-41c4-4af1-81c4-48690133d1cd
-  port: 52149
-  server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com
-  type: ss
-  udp: true
+  server: grown-mackerel.shiner427.skin
+  skip-cert-verify: false
+  sni: grown-mackerel.shiner427.skin
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
