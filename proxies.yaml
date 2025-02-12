@@ -6,6 +6,31 @@ proxies:
   server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F9\U0001F1F7_TR_\u571F\u8033\
+    \u5176"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40019
+  server: tur.fastsoonlink.com
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-54.180.248.97-5820"
+  password: amazonskr05
+  port: 443
+  server: 54.180.248.97
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\u4E9A\u592A\u5730\u533A V2CROSS.COM 4"
+  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
+  port: 40030
+  server: pr.fastsoonlink.com
+  type: ss
+- name: "\U0001F1FA\U0001F1F8US-3.147.196.132-116"
+  password: 65086441068973800
+  port: 443
+  server: grateful-lark.shiner427.skin
+  skip-cert-verify: true
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
@@ -14,68 +39,39 @@ proxies:
   server: 103.106.229.219
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F9\U0001F1F7_TR_\u571F\u8033\
-    \u5176"
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40019
-  server: tur.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\u4E9A\u592A\u5730\u533A V2CROSS.COM 4"
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40030
-  server: pr.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5812"
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
-  type: ss
+- name: "\U0001F1E8\U0001F1F3CN-183.240.139.185-6055"
+  password: d0cfea6c-2052-4add-aef5-501a4714d2f8
+  port: 32001
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: false
+  sni: cert.bitbyte.one
+  type: trojan
 - name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
   password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
   port: 40007
   server: uk.fastsoonlink.com
   sni: uknode.soon.guru
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.21.48.1-6103"
-  network: ws
-  port: 443
-  server: uswapcdn.899994.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
-  ws-opts:
-    headers:
-      Host: uswapcdn.899994.xyz
-    path: /index
-- name: "\U0001F1FA\U0001F1F8US-3.147.196.132-116"
-  password: 65086441068973800
-  port: 443
-  server: grateful-lark.shiner427.skin
-  skip-cert-verify: true
-  type: trojan
-- client-fingerprint: chrome
-  name: "\u8377\u5170 006"
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 178.159.43.246
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-54.180.248.97-5820"
+  client-fingerprint: chrome
+  name: "15|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 54.180.248.97
+  server: 18.143.103.137
+  tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F3C1RELAY-104.17.221.248-0490"
+  network: ws
+  port: 80
+  server: 104.17.221.248
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      host: chunchuan.kejixiaoqi666.store
+    path: /
