@@ -7,17 +7,23 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6067"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
-- cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6055"
   password: hGkQ6915tD
   port: 16088
   server: 120.232.81.50
   type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6067"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
+- name: "\U0001F1E8\U0001F1F3CN-219.135.231.205-079"
+  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
+  port: 21019
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
@@ -26,12 +32,6 @@ proxies:
   server: 103.106.229.219
   tfo: false
   type: ss
-- name: "\U0001F1E8\U0001F1F3CN-219.135.231.205-079"
-  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
-  port: 21019
-  server: 219.135.231.205
-  skip-cert-verify: true
-  type: trojan
 - cipher: aes-256-cfb
   name: "SSR-\u58A8\u897F\u54E5-NF\u89E3\u9501\u58A8\u897F\u54E5\u81EA\u5236\u5267\
     -ChatGPT-TikTok-YouTube-147.78.1.27:989"
@@ -41,6 +41,12 @@ proxies:
   protocol: origin
   server: 147.78.1.27
   type: ssr
+- name: "\U0001F1FA\U0001F1F8US-37.9.34.103-110"
+  password: 65086441068973800
+  port: 443
+  server: live-serval.shiner427.skin
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
   name: "\U0001F1F7\U0001F1FARU-185.22.153.73-1275"
@@ -53,38 +59,17 @@ proxies:
   uuid: af7f07dc-d726-4b1e-967d-dbb6c594999f
   ws-opts:
     path: github.com/Alvin9999
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-6057"
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1EEFI-150.241.97.212-5808"
-  password: yhDWDX3XM7yLFr1YWB7QOe
-  port: 1601
-  server: 150.241.97.212
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1EEFI-37.143.129.230-1024"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.143.129.230
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F3C1RELAY-104.19.48.236-0214"
-  network: ws
-  port: 80
-  server: 104.19.48.236
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      host: chunchuan.kejixiaoqi666.store
-    path: /
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-54.218.121.242:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 54.218.121.242
+  type: ssr
