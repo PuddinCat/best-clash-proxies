@@ -33,6 +33,12 @@ proxies:
   tls: false
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-6114"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
+  type: ss
 - alterId: 64
   cipher: auto
   name: US_speednode_0151
@@ -48,12 +54,6 @@ proxies:
     headers:
       Host: www.65420682.xyz
     path: /path/1737194780660
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-6114"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.173
-  type: ss
 - alterId: 64
   cipher: auto
   name: "\U0001F1FA\U0001F1F8US-38.11.50.72-6096"
@@ -69,36 +69,27 @@ proxies:
     path: /path/1737194780660
 - alterId: 0
   cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - moi.ir
-    method: GET
-    path:
-    - /
-  name: US_speednode_0135
-  network: http
-  port: 8881
-  server: 155.138.208.122
+  client-fingerprint: chrome
+  name: "15|\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  password: '65086441068973800'
+  port: 443
+  server: grown-mackerel.shiner427.skin
   skip-cert-verify: false
+  sni: grown-mackerel.shiner427.skin
+  tfo: false
   tls: false
-  type: vmess
-  udp: true
+  type: trojan
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F5\U0001F1F1PL-5.187.51.212-0658"
+  name: "\U0001F1FB\U0001F1F3VN-160.22.16.6-1225"
   password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40030
-  server: pr.fastsoonlink.com
+  port: 40021
+  server: 160.22.16.6
   type: ss
-- alterId: 0
-  cipher: auto
-  http-opts: {}
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  network: http
-  port: 8881
-  server: 155.138.208.122
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- name: GB_speednode_0041
+  password: '65086441068973800'
+  port: 443
+  server: grown-mackerel.shiner427.skin
+  skip-cert-verify: false
+  type: trojan
+  udp: true
