@@ -1,20 +1,24 @@
 proxies:
-- cipher: rc4-md5
-  name: "\U0001F1E8\U0001F1F3CN-59.42.247.243-5813"
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 3036
-  server: 59.42.247.243
-  type: ss
 - client-fingerprint: chrome
   name: "\u7F8E\u56FD 081"
   network: ws
   password: Aimer
   port: 443
   server: 154.26.177.9
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: "\u8377\u5170 006"
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 178.159.43.246
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
@@ -35,24 +39,12 @@ proxies:
     headers:
       Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: "\U0001F1F3\U0001F1F1NL-178.159.43.246-0806"
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 178.159.43.246
-  skip-cert-verify: false
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: "\U0001F3C1RELAY-104.19.48.236-0253"
+  name: "\U0001F3C1RELAY-104.17.213.241-0490"
   network: ws
   port: 80
-  server: 104.19.48.236
+  server: 104.17.213.241
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -61,31 +53,29 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
+- name: "\U0001F1FA\U0001F1F8US-45.140.88.118-0804"
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 45.140.88.118
+  skip-cert-verify: false
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: "\u6B27\u76DF V2CROSS.COM"
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.171
+  name: "\u6CD5\u56FD ONLINE S.A.S.\u6570\u636E\u4E2D\u5FC3"
+  password: wcPj9Swi93cGqPacVNTMI4
+  port: 443
+  server: 62.210.88.22
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 4"
-  network: ws
-  port: 80
-  server: 104.16.155.10
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- client-fingerprint: chrome
-  name: "\u8377\u5170 006"
+- name: "\u6CE2\u5170 002"
   network: ws
   password: Aimer
-  port: 8443
-  server: 178.159.43.246
+  port: 443
+  server: 91.149.239.70
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
@@ -94,19 +84,26 @@ proxies:
     headers:
       Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.114.123.245-0829"
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 38.114.123.245
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-134"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
   type: ss
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
+- name: "\U0001F1FB\U0001F1F3VN-36.50.135.142-073"
+  password: 94d219c9-1afc-4d42-b090-8b3794764380
+  port: 443
+  server: bs1.loadingip.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  sni: bs1.loadingip.com
+  type: trojan
+- cipher: rc4-md5
+  name: "\U0001F1E8\U0001F1F3CN-59.42.247.243-5813"
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3036
+  server: 59.42.247.243
+  type: ss
