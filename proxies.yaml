@@ -1,9 +1,19 @@
 proxies:
-- cipher: aes-128-gcm
-  name: "\U0001F1F3\U0001F1F1NL-149.34.244.72-0425"
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.72
+- cipher: rc4-md5
+  name: "\U0001F1E8\U0001F1F3CN-59.42.247.243-5787"
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3036
+  server: 59.42.247.243
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5847"
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
   type: ss
 - name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
   password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
@@ -11,6 +21,20 @@ proxies:
   server: 219.135.231.205
   skip-cert-verify: true
   type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-62.210.88.22-014"
+  password: wcPj9Swi93cGqPacVNTMI4
+  port: 443
+  server: 62.210.88.22
+  type: ss
 - name: "\u7F8E\u56FD \u5F17\u5409\u5C3C\u4E9A\u5DDE\u963F\u4EC0\u672CAmazon\u4E1C\
     \u6D77\u5CB8\u6570\u636E\u4E2D\u5FC3"
   password: 3747000103274291200
@@ -18,16 +42,17 @@ proxies:
   server: 23.22.196.39
   sni: quick-viper.adder289.quest
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5847"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
-  type: ss
 - name: "\U0001F1E8\U0001F1F3CN-183.236.51.50-5808"
   password: dc15d997-8b26-4294-870e-c90a5784dca4
   port: 13036
   server: naiu-other.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- name: "\U0001F1E8\U0001F1F3CN-183.236.51.4-5807"
+  password: dc15d997-8b26-4294-870e-c90a5784dca4
+  port: 13028
+  server: naiu-sg.05vr9nyqg5.download
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
@@ -38,35 +63,9 @@ proxies:
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.114.123.245-5872"
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 38.114.123.245
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-62.210.88.22-014"
-  password: wcPj9Swi93cGqPacVNTMI4
+- cipher: aes-128-gcm
+  name: "\U0001F1F3\U0001F1F1NL-149.34.244.72-0425"
+  password: shadowsocks
   port: 443
-  server: 62.210.88.22
+  server: 149.34.244.72
   type: ss
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-103.149.183.61-5798"
-  password: asd123456
-  port: 8388
-  server: 103.149.183.61
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8008"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
