@@ -15,35 +15,6 @@ proxies:
   port: 443
   server: 149.34.244.72
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5847"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: "\u672A\u77E5105"
-  password: YTNjNDY5
-  port: 8388
-  server: 185.234.64.35
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-54.218.121.242:443"
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 54.218.121.242
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: "SS-\u6CD5\u56FD-TikTok-YouTube-185.234.64.35:8388"
-  password: YTNjNDY5
-  port: 8388
-  server: 185.234.64.35
-  type: ss
 - name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
   password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
   port: 21019
@@ -56,15 +27,49 @@ proxies:
   port: 989
   server: 185.231.233.173
   type: ss
-- cipher: rc4-md5
-  name: "\U0001F1EC\U0001F1E7GB-146.70.61.18-0404"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.18
-  type: ss
 - name: "\u4E4C\u514B\u5170 V2CROSS.COM"
   password: 3747000103274291200
   port: 443
   server: 85.90.194.160
   sni: awaited-chicken.adder289.quest
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-62.210.88.22-014"
+  password: wcPj9Swi93cGqPacVNTMI4
+  port: 443
+  server: 62.210.88.22
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u6CD5\u56FD-TikTok-YouTube-185.234.64.35:8388"
+  password: YTNjNDY5
+  port: 8388
+  server: 185.234.64.35
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: "\u672A\u77E5105"
+  password: YTNjNDY5
+  port: 8388
+  server: 185.234.64.35
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: rc4-md5
+  name: "\U0001F1EC\U0001F1E7GB-146.70.61.18-0404"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.18
+  type: ss
+- name: "\u8377\u5170 005"
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 45.140.88.118
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
