@@ -6,44 +6,17 @@ proxies:
   skip-cert-verify: true
   sni: crisp-gibbon.adder289.quest
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-5194"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.16.155.10-0252"
-  network: ws
-  port: 80
-  server: 104.16.155.10
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- name: "\u7F8E\u56FD 082"
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 154.26.176.94
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-62.210.88.22-014"
   password: wcPj9Swi93cGqPacVNTMI4
   port: 443
   server: 62.210.88.22
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-5194"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
   type: ss
 - client-fingerprint: chrome
   name: "\u8377\u5170 006"
@@ -59,27 +32,35 @@ proxies:
     headers:
       Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: "\u7F8E\u56FD 083"
+- name: "\U0001F3C1RELAY-162.159.44.76-0780"
   network: ws
   password: Aimer
   port: 443
   server: 162.159.44.76
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: "\U0001F1FA\U0001F1F8US-45.140.88.118-0766"
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-34.220.100.94:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 34.220.100.94
+  type: ssr
+- name: "\u7F8E\u56FD 082"
   network: ws
   password: Aimer
   port: 8443
-  server: 45.140.88.118
-  skip-cert-verify: false
+  server: 154.26.176.94
+  skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: agepq.ambercc.filegear-sg.me
@@ -98,14 +79,25 @@ proxies:
     headers:
       Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: "\U0001F3C1RELAY-162.159.44.76-0780"
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: "\u7F8E\u56FD 083"
   network: ws
   password: Aimer
   port: 443
   server: 162.159.44.76
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: agepq.ambercc.filegear-sg.me
