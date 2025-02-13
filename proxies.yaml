@@ -1,11 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EB\U0001F1F7 \u6CD5\u56FD ONLINE S.A.S.\u6570\u636E\u4E2D\u5FC3"
-  password: wcPj9Swi93cGqPacVNTMI4
-  port: 443
-  server: 62.210.88.22
-  type: ss
 - name: "\u7F8E\u56FD 086"
   network: ws
   password: Aimer
@@ -20,11 +13,11 @@ proxies:
       Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: "\u8377\u5170 006"
+  name: "\u7F8E\u56FD 081"
   network: ws
   password: Aimer
-  port: 8443
-  server: 178.159.43.246
+  port: 443
+  server: 154.26.177.9
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
@@ -33,11 +26,18 @@ proxies:
     headers:
       Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: "\U0001F3C1RELAY-172.64.33.128-0805"
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1EB\U0001F1F7 \u6CD5\u56FD ONLINE S.A.S.\u6570\u636E\u4E2D\u5FC3"
+  password: wcPj9Swi93cGqPacVNTMI4
+  port: 443
+  server: 62.210.88.22
+  type: ss
+- name: "\U0001F1F3\U0001F1F1NL-178.159.43.246-0806"
   network: ws
   password: Aimer
-  port: 443
-  server: kip.ns.cloudflare.com
+  port: 8443
+  server: 178.159.43.246
   skip-cert-verify: false
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
@@ -59,22 +59,24 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 185 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: "\u7F8E\u56FD 081"
+- name: "\U0001F3C1RELAY-172.64.33.128-0805"
   network: ws
   password: Aimer
   port: 443
-  server: 154.26.177.9
+  server: kip.ns.cloudflare.com
+  skip-cert-verify: false
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: "\u8377\u5170 006"
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 178.159.43.246
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
@@ -97,21 +99,26 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
-- name: "\U0001F1F3\U0001F1F1NL-178.159.43.246-0806"
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 178.159.43.246
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 185 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  password: '65086441068973800'
+  port: 45402
+  server: 120.232.153.123
   skip-cert-verify: false
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-1378"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  type: ss
+  sni: live-serval.shiner427.skin
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
