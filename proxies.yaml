@@ -1,37 +1,9 @@
 proxies:
-- cipher: rc4-md5
-  name: "\U0001F1E8\U0001F1F3CN-59.42.247.243-5787"
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 3036
-  server: 59.42.247.243
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-62.210.88.22-014"
   password: wcPj9Swi93cGqPacVNTMI4
   port: 443
   server: 62.210.88.22
-  type: ss
-- cipher: rc4-md5
-  name: "\U0001F1EC\U0001F1E7GB-146.70.61.18-0404"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "SS-\u6CD5\u56FD-TikTok-YouTube-185.234.64.35:8388"
-  password: YTNjNDY5
-  port: 8388
-  server: 185.234.64.35
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-5857"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.173
   type: ss
 - name: "\U0001F1E8\U0001F1F3CN-183.236.51.50-5808"
   password: dc15d997-8b26-4294-870e-c90a5784dca4
@@ -41,10 +13,36 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5847"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-5857"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
+  type: ss
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
+  port: 21019
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
+- name: "\u4E4C\u514B\u5170 V2CROSS.COM"
+  password: 3747000103274291200
+  port: 443
+  server: 85.90.194.160
+  sni: awaited-chicken.adder289.quest
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u6CD5\u56FD-TikTok-YouTube-185.234.64.35:8388"
+  password: YTNjNDY5
+  port: 8388
+  server: 185.234.64.35
   type: ss
 - cipher: aes-128-gcm
   name: "\U0001F1F3\U0001F1F1NL-149.34.244.72-0377"
@@ -52,18 +50,22 @@ proxies:
   port: 443
   server: 149.34.244.72
   type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: "\u672A\u77E5105"
-  password: YTNjNDY5
-  port: 8388
-  server: 185.234.64.35
-  skip-cert-verify: true
-  tls: true
+- cipher: rc4-md5
+  name: "\U0001F1EC\U0001F1E7GB-146.70.61.18-0404"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.18
   type: ss
-- name: "\u4E4C\u514B\u5170 V2CROSS.COM"
-  password: 3747000103274291200
-  port: 443
-  server: 85.90.194.160
-  sni: awaited-chicken.adder289.quest
+- name: "\u7F8E\u56FD 062"
+  network: ws
+  password: Aimer
+  port: 15392
+  server: 192.227.231.56
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
   type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
