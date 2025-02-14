@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-128-gcm
+  name: "\u4FDD\u52A0\u5229\u4E9A V2CROSS.COM"
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.82
+  type: ss
 - client-fingerprint: chrome
   name: "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF V2CROSS.COM"
   password: 3747000103274291200
@@ -6,18 +12,6 @@ proxies:
   server: content-shrimp.pigeon031.one
   sni: content-shrimp.pigeon031.one
   type: trojan
-- cipher: aes-128-gcm
-  name: "\u4FDD\u52A0\u5229\u4E9A V2CROSS.COM"
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.82
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1FFKZ-213.156.137.67-0457"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 213.156.137.67
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -30,42 +24,6 @@ proxies:
   uuid: baa12607-a6a1-423e-bf3c-ed71597e89a3
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F3C1RELAY-104.17.221.248-0506"
-  network: ws
-  port: 80
-  server: 104.17.221.248
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      host: chunchuan.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 5"
-  network: ws
-  port: 80
-  server: 104.17.221.248
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1FA RU 54 \u2192 tg@nicevpn123"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 213.156.137.67
-  type: ss
-  udp: true
 - name: "\u7F8E\u56FD V2CROSS.COM"
   password: 3747000103274291200
   port: 443
@@ -87,6 +45,33 @@ proxies:
     headers:
       Host: vc.fly.dev
     path: /vc
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1FFKZ-213.156.137.67-0457"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 213.156.137.67
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1FA RU 54 \u2192 tg@nicevpn123"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 213.156.137.67
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 5"
+  network: ws
+  port: 80
+  server: 104.17.221.248
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-104.16.155.10-0224"
@@ -100,4 +85,19 @@ proxies:
   ws-opts:
     headers:
       Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F3C1RELAY-104.17.221.248-0506"
+  network: ws
+  port: 80
+  server: 104.17.221.248
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      host: chunchuan.kejixiaoqi666.store
     path: /
