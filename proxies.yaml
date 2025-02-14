@@ -11,28 +11,12 @@ proxies:
   port: 443
   server: 149.34.244.82
   type: ss
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Amazon EC2\u670D\u52A1\u5668"
-  password: 3747000103274291200
-  port: 443
-  server: welcome-gorilla.adder289.quest
-  skip-cert-verify: false
-  sni: welcome-gorilla.adder289.quest
-  type: trojan
-- name: "\U0001F1E9\U0001F1EADE-3.64.115.140-173"
-  password: 3747000103274291200
-  port: 443
-  server: welcome-gorilla.adder289.quest
-  skip-cert-verify: true
-  sni: welcome-gorilla.adder289.quest
-  type: trojan
-- cipher: aes-256-cfb
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  tfo: false
+  name: "\U0001F1E7\U0001F1EC \u4FDD\u52A0\u5229\u4E9A V2CROSS.COM"
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.82
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-0815"
@@ -40,19 +24,11 @@ proxies:
   port: 989
   server: 103.106.229.219
   type: ss
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD \u9EBB\u7701\u7406\u5DE5\u5B66\u9662"
-  password: 3747000103274291200
-  port: 443
-  server: 18.132.30.207
-  sni: working-drake.adder289.quest
-  type: trojan
-- name: "\u7F8E\u56FD Amazon EC2\u670D\u52A1\u5668"
-  password: 3747000103274291200
-  port: 443
-  server: welcome-gorilla.adder289.quest
-  skip-cert-verify: false
-  sni: welcome-gorilla.adder289.quest
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
+  port: 21019
+  server: 219.135.231.205
+  skip-cert-verify: true
   type: trojan
 - name: "\U0001F1EE\U0001F1EAIE-54.247.103.58-171"
   password: 3747000103274291200
@@ -61,10 +37,31 @@ proxies:
   skip-cert-verify: true
   sni: living-adder.adder289.quest
   type: trojan
+- name: "\u7F8E\u56FD Xerox"
+  password: 3747000103274291200
+  port: 443
+  server: 13.50.141.41
+  sni: adjusted-mongoose.adder289.quest
+  type: trojan
 - client-fingerprint: chrome
   name: "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF V2CROSS.COM"
   password: 3747000103274291200
   port: 443
   server: content-shrimp.pigeon031.one
   sni: content-shrimp.pigeon031.one
+  type: trojan
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD \u9EBB\u7701\u7406\u5DE5\u5B66\u9662"
+  password: 3747000103274291200
+  port: 443
+  server: 18.132.30.207
+  sni: working-drake.adder289.quest
+  type: trojan
+- client-fingerprint: chrome
+  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C V2CROSS.COM"
+  password: 3747000103274291200
+  port: 443
+  server: humble-rodent.treefrog761.one
+  skip-cert-verify: false
+  sni: humble-rodent.treefrog761.one
   type: trojan
