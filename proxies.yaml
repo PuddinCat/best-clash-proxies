@@ -1,21 +1,21 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5944"
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.157-0353"
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.157
   type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1F3\U0001F1F1NL-149.34.244.72-0388"
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.72
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-180"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.49
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5967"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-45.158.171.146-0386"
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 45.158.171.146
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5994"
@@ -39,6 +39,18 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5944"
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
+  type: ss
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
+  port: 21019
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-cfb
   name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF->\U0001F1FA\U0001F1F8_US_\u7F8E\
     \u56FD"
   password: f8f7aCzcPKbsF8p3
@@ -50,17 +62,4 @@ proxies:
   port: 443
   server: ultimate-civet.adder289.quest
   sni: ultimate-civet.adder289.quest
-  type: trojan
-- name: "\U0001F1F3\U0001F1F1NL-89.39.70.207-020"
-  password: 3747000103274291200
-  port: 443
-  server: 89.39.70.207
-  skip-cert-verify: true
-  sni: sunny-jackal.insect388.motorcycles
-  type: trojan
-- name: "\u7F8E\u56FD \u9EBB\u7701\u7406\u5DE5\u5B66\u9662"
-  password: 3747000103274291200
-  port: 443
-  server: 18.132.30.207
-  sni: working-drake.adder289.quest
   type: trojan
