@@ -1,49 +1,16 @@
 proxies:
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-154.197.26.237-5813"
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  type: ss
 - cipher: aes-128-gcm
   name: "\U0001F1F3\U0001F1F1NL-149.34.244.72-0425"
   password: shadowsocks
   port: 443
   server: 149.34.244.72
   type: ss
-- name: "\u97E9\u56FD 007"
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 121.184.10.253
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: "\u7F8E\u56FD 030"
-  network: ws
-  password: Aimer
-  port: 17443
-  server: 38.47.117.85
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: "\U0001F1F0\U0001F1F7KR-43.201.176.8-286"
-  password: 65086441068973800
-  port: 443
-  server: useful-jennet.shiner427.skin
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-154.197.26.237-5813"
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -61,11 +28,11 @@ proxies:
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - client-fingerprint: chrome
-  name: "\u8377\u5170 006"
+  name: "\u7F8E\u56FD 030"
   network: ws
   password: Aimer
-  port: 8443
-  server: 178.159.43.246
+  port: 17443
+  server: 38.47.117.85
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
@@ -74,11 +41,18 @@ proxies:
     headers:
       Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: "\u8377\u5170 005"
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
+  port: 21019
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: "\u97E9\u56FD 002"
   network: ws
   password: Aimer
-  port: 8443
-  server: 45.140.88.118
+  port: 12542
+  server: 125.138.28.68
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
@@ -87,6 +61,12 @@ proxies:
     headers:
       Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
+- name: "\U0001F1F0\U0001F1F7KR-43.201.176.8-286"
+  password: 65086441068973800
+  port: 443
+  server: useful-jennet.shiner427.skin
+  skip-cert-verify: true
+  type: trojan
 - client-fingerprint: chrome
   name: "\u97E9\u56FD 009"
   network: ws
@@ -101,12 +81,24 @@ proxies:
     headers:
       Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: "\u7F8E\u56FD 028"
+- name: "\U0001F1F3\U0001F1F1NL-178.159.43.246-0723"
   network: ws
   password: Aimer
-  port: 666
-  server: 91.217.139.139
+  port: 8443
+  server: 178.159.43.246
+  skip-cert-verify: false
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: "\u7F8E\u56FD 081"
+  network: ws
+  password: Aimer
+  port: 443
+  server: 154.26.177.9
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
