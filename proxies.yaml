@@ -1,33 +1,65 @@
 proxies:
-- cipher: aes-128-gcm
-  name: "\U0001F1F3\U0001F1F1NL-149.34.244.72-0425"
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.72
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  password: 961ab95c-7b17-4fea-8a3f-6b27a426172d
+  port: 48497
+  server: wb.kaiqsz.com
+  tfo: false
   type: ss
-- alterId: 32
+- alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: "VMESS-\u7F8E\u56FD>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-vc.fly.dev:443"
-  network: ws
-  port: 443
-  server: vc.fly.dev
-  servername: vc.fly.dev
-  skip-cert-verify: true
-  tls: true
+  name: "16|\u65B0\u52A0\u57613|@ripaojiedian"
+  network: tcp
+  port: '10564'
+  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  ws-opts:
+  uuid: ead8fb73-ff42-4fce-af33-5991e72006b7
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  password: 961ab95c-7b17-4fea-8a3f-6b27a426172d
+  port: 56257
+  server: wb.kaiqsz.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\u7F8E\u56FD \u7EBD\u7EA6DigitalOcean\u6570\u636E\u4E2D\u5FC3"
+  password: fWBwCw9NZ30U4JGjyOudEl
+  port: 17667
+  server: 159.203.79.177
+  type: ss
+- name: "\u4E4C\u514B\u5170 001"
+  network: tcp
+  password: '3747000103274291200'
+  port: 443
+  server: 85.90.194.160
+  sni: awaited-chicken.adder289.quest
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
     headers:
-      HOST: vc.fly.dev
-    path: /vc
+      Host:
+      - moi.ir
+    path:
+    - /
+  name: "\u7F8E\u56FD 021"
+  network: http
+  port: 8881
+  server: 155.138.200.123
+  tls: false
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - client-fingerprint: chrome
-  name: "\u8377\u5170 006"
+  name: "\u7F8E\u56FD 030"
   network: ws
   password: Aimer
-  port: 8443
-  server: 178.159.43.246
+  port: 17443
+  server: 38.47.117.85
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
@@ -36,71 +68,29 @@ proxies:
     headers:
       Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.16.155.10-0252"
-  network: ws
-  port: 80
-  server: 104.16.155.10
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5847"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
-  type: ss
-- name: "\U0001F3C1RELAY-108.162.195.82-0781"
-  network: ws
-  password: Aimer
+- cipher: aes-128-gcm
+  name: "\U0001F1E7\U0001F1EC_BG_\u4FDD\u52A0\u5229\u4E9A->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD"
+  password: shadowsocks
   port: 443
-  server: ignacio.ns.cloudflare.com
-  skip-cert-verify: false
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F3C1RELAY-198.41.209.70-0497"
-  network: ws
-  port: 80
-  server: 198.41.209.70
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      host: chunchuan.kejixiaoqi666.store
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1EF\U0001F1F5JP-13.230.111.71-0392"
-  password: amazonskr05
-  port: 443
-  server: 13.230.111.71
+  server: 149.34.244.72
   type: ss
-- cipher: chacha20-ietf
-  name: "\U0001F1F8\U0001F1ECSG-202.162.109.169-5862"
-  password: asd123456
-  port: 8388
-  server: 202.162.109.169
+- cipher: rc4-md5
+  name: "\U0001F1E8\U0001F1F3CN-59.42.247.243-5787"
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3036
+  server: 59.42.247.243
   type: ss
 - client-fingerprint: chrome
-  name: "\u7F8E\u56FD 081"
+  name: "\u97E9\u56FD 004"
   network: ws
   password: Aimer
-  port: 443
-  server: 154.26.177.9
+  port: 10037
+  server: 125.128.229.252
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
