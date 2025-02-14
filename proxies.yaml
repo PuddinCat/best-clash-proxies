@@ -1,102 +1,68 @@
 proxies:
+- name: "\U0001F1E9\U0001F1EADE-3.64.115.140-173"
+  password: 3747000103274291200
+  port: 443
+  server: welcome-gorilla.adder289.quest
+  skip-cert-verify: true
+  sni: welcome-gorilla.adder289.quest
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-0658"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
+  type: ss
+- name: "\U0001F1EE\U0001F1EAIE-54.220.242.24-167"
+  password: 3747000103274291200
+  port: 443
+  server: steady-grackle.adder289.quest
+  skip-cert-verify: true
+  sni: steady-grackle.adder289.quest
+  type: trojan
+- name: "\u571F\u8033\u5176 V2CROSS.COM"
+  password: 3747000103274291200
+  port: 443
+  server: 185.67.127.69
+  sni: ultimate-civet.adder289.quest
+  type: trojan
+- client-fingerprint: chrome
+  name: "\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 V2CROSS.COM"
+  password: 3747000103274291200
+  port: 443
+  server: 185.67.127.69
+  sni: ultimate-civet.adder289.quest
+  type: trojan
 - client-fingerprint: chrome
   name: "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF V2CROSS.COM"
   password: 3747000103274291200
   port: 443
-  server: content-shrimp.pigeon031.one
+  server: 95.85.93.172
   sni: content-shrimp.pigeon031.one
   type: trojan
 - cipher: aes-128-gcm
-  name: "\u4FDD\u52A0\u5229\u4E9A V2CROSS.COM"
+  name: "\U0001F1F3\U0001F1F1NL-149.34.244.72-182"
   password: shadowsocks
   port: 443
-  server: 149.34.244.82
+  server: 149.34.244.72
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 \u82F1\u56FD V2CROSS.COM"
-  network: ws
-  port: 20318
-  server: 185.121.134.12
-  tls: false
-  type: vmess
-  uuid: baa12607-a6a1-423e-bf3c-ed71597e89a3
-  ws-opts:
-    path: /
-- name: "\u7F8E\u56FD V2CROSS.COM"
+- name: "\U0001F1EE\U0001F1F3IN-185.67.125.177-139"
   password: 3747000103274291200
   port: 443
-  server: 216.238.77.127
-  sni: grateful-glowworm.treefrog761.one
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F3C1RELAY-104.17.221.248-0506"
-  network: ws
-  port: 80
-  server: 104.17.221.248
+  server: quality-albacore.adder289.quest
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      host: chunchuan.kejixiaoqi666.store
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1FA RU 54 \u2192 tg@nicevpn123"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 213.156.137.67
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.16.155.10-0224"
-  network: ws
-  port: 80
-  server: 104.16.155.10
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 5"
-  network: ws
-  port: 80
-  server: 104.17.221.248
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1FFKZ-213.156.137.67-0457"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 213.156.137.67
-  type: ss
+  sni: quality-albacore.adder289.quest
+  type: trojan
+- name: "\U0001F1EE\U0001F1EAIE-54.247.103.58-171"
+  password: 3747000103274291200
+  port: 443
+  server: living-adder.adder289.quest
+  skip-cert-verify: true
+  sni: living-adder.adder289.quest
+  type: trojan
 - client-fingerprint: chrome
-  name: "\u97E9\u56FD 002"
-  network: ws
-  password: Aimer
-  port: 12542
-  server: 125.138.28.68
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
+  name: "\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 V2CROSS.COM 2"
+  password: 3747000103274291200
+  port: 443
+  server: polished-collie.adder289.quest
+  sni: polished-collie.adder289.quest
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
