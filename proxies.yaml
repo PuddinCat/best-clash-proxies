@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5994"
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: "\U0001F1E7\U0001F1EC \u4FDD\u52A0\u5229\u4E9A V2CROSS.COM"
@@ -12,11 +18,12 @@ proxies:
   port: 443
   server: 149.34.244.82
   type: ss
-- name: "\U0001F1E9\U0001F1EADE-3.64.115.140-173"
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Amazon EC2\u670D\u52A1\u5668"
   password: 3747000103274291200
   port: 443
   server: welcome-gorilla.adder289.quest
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: welcome-gorilla.adder289.quest
   type: trojan
 - name: "\u7F8E\u56FD Amazon EC2\u670D\u52A1\u5668"
@@ -26,25 +33,19 @@ proxies:
   skip-cert-verify: false
   sni: welcome-gorilla.adder289.quest
   type: trojan
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
-  port: 21019
-  server: 219.135.231.205
-  skip-cert-verify: true
-  type: trojan
-- name: "\U0001F1EE\U0001F1EAIE-54.220.242.24-167"
+- name: "\U0001F1E9\U0001F1EADE-3.64.115.140-173"
   password: 3747000103274291200
   port: 443
-  server: steady-grackle.adder289.quest
+  server: welcome-gorilla.adder289.quest
   skip-cert-verify: true
-  sni: steady-grackle.adder289.quest
+  sni: welcome-gorilla.adder289.quest
   type: trojan
 - client-fingerprint: chrome
-  name: "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF V2CROSS.COM"
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD \u9EBB\u7701\u7406\u5DE5\u5B66\u9662"
   password: 3747000103274291200
   port: 443
-  server: content-shrimp.pigeon031.one
-  sni: content-shrimp.pigeon031.one
+  server: 18.132.30.207
+  sni: working-drake.adder289.quest
   type: trojan
 - name: "\u7F8E\u56FD \u9EBB\u7701\u7406\u5DE5\u5B66\u9662"
   password: 3747000103274291200
@@ -53,16 +54,17 @@ proxies:
   sni: working-drake.adder289.quest
   type: trojan
 - client-fingerprint: chrome
-  name: "\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 V2CROSS.COM 2"
+  name: "\U0001F1EE\U0001F1EA \u7231\u5C14\u5170 \u90FD\u67CF\u6797Amazon\u6570\u636E\
+    \u4E2D\u5FC3"
   password: 3747000103274291200
   port: 443
-  server: 185.67.127.69
-  sni: ultimate-civet.adder289.quest
+  server: 54.220.242.24
+  sni: steady-grackle.adder289.quest
   type: trojan
 - client-fingerprint: chrome
-  name: "\U0001F1F7\U0001F1F4 \u7F57\u9A6C\u5C3C\u4E9A V2CROSS.COM"
+  name: "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF V2CROSS.COM"
   password: 3747000103274291200
   port: 443
-  server: 89.39.70.207
-  sni: sunny-jackal.insect388.motorcycles
+  server: content-shrimp.pigeon031.one
+  sni: content-shrimp.pigeon031.one
   type: trojan
