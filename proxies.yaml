@@ -1,10 +1,31 @@
 proxies:
 - cipher: aes-128-gcm
-  name: "\U0001F1F3\U0001F1F1NL-149.34.244.72-0425"
+  name: "\u4FDD\u52A0\u5229\u4E9A V2CROSS.COM"
   password: shadowsocks
   port: 443
-  server: 149.34.244.72
+  server: 149.34.244.82
   type: ss
+- client-fingerprint: chrome
+  name: "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF V2CROSS.COM"
+  password: 3747000103274291200
+  port: 443
+  server: content-shrimp.pigeon031.one
+  sni: content-shrimp.pigeon031.one
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 8"
+  network: ws
+  port: 2086
+  server: s1.db-link02.top
+  tls: false
+  type: vmess
+  uuid: 532e1541-4b65-3409-81f1-43f206846615
+  ws-opts:
+    headers:
+      Host: 100-236-195-61.s1.db-link02.top
+    path: /dabai.in172.64.2.59
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -23,24 +44,29 @@ proxies:
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - alterId: 0
   cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9"
+  client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 \u82F1\u56FD V2CROSS.COM"
   network: ws
-  port: 80
-  server: 104.19.48.236
+  port: 20318
+  server: 185.121.134.12
   tls: false
   type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  uuid: baa12607-a6a1-423e-bf3c-ed71597e89a3
   ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
     path: /
+- name: "\u7F8E\u56FD V2CROSS.COM"
+  password: 3747000103274291200
+  port: 443
+  server: 216.238.77.127
+  sni: grateful-glowworm.treefrog761.one
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F3C1RELAY-104.19.48.236-0253"
+  name: "\U0001F3C1RELAY-104.17.221.248-0506"
   network: ws
   port: 80
-  server: 104.19.48.236
+  server: 104.17.221.248
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -51,10 +77,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F3C1RELAY-104.17.221.248-0462"
+  name: "\U0001F3C1RELAY-104.16.155.10-0224"
   network: ws
   port: 80
-  server: 104.17.221.248
+  server: 104.16.155.10
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -63,50 +89,23 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
-- cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-34.220.100.94:443"
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 34.220.100.94
-  type: ssr
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8154"
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 5"
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
+  port: 80
+  server: 104.17.221.248
   tls: false
   type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1FA RU 54 \u2192 tg@nicevpn123"
+  name: "\U0001F1F0\U0001F1FFKZ-213.156.137.67-0457"
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 213.156.137.67
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  tfo: false
   type: ss
