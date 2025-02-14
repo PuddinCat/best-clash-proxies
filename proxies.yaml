@@ -1,16 +1,24 @@
 proxies:
-- cipher: aes-128-gcm
-  name: "\U0001F1F3\U0001F1F1NL-149.34.244.72-182"
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.72
-  type: ss
 - name: "\U0001F1F8\U0001F1ECSG-18.139.99.11-133"
   password: 3747000103274291200
   port: 443
   server: probable-drum.treefrog761.one
   skip-cert-verify: true
   sni: probable-drum.treefrog761.one
+  type: trojan
+- client-fingerprint: chrome
+  name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 Amazon\u6570\u636E\u4E2D\u5FC3 2"
+  password: 3747000103274291200
+  port: 443
+  server: 18.139.99.11
+  sni: probable-drum.treefrog761.one
+  type: trojan
+- name: "\U0001F1E9\U0001F1EADE-3.64.115.140-173"
+  password: 3747000103274291200
+  port: 443
+  server: welcome-gorilla.adder289.quest
+  skip-cert-verify: true
+  sni: welcome-gorilla.adder289.quest
   type: trojan
 - name: "\u4FC4\u7F57\u65AF V2CROSS.COM"
   password: 3747000103274291200
@@ -25,12 +33,6 @@ proxies:
   server: 95.85.93.172
   sni: content-shrimp.pigeon031.one
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-0658"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.173
-  type: ss
 - name: "\U0001F1EE\U0001F1EAIE-54.220.242.24-167"
   password: 3747000103274291200
   port: 443
@@ -38,25 +40,17 @@ proxies:
   skip-cert-verify: true
   sni: steady-grackle.adder289.quest
   type: trojan
-- client-fingerprint: chrome
-  name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 Amazon\u6570\u636E\u4E2D\u5FC3 2"
-  password: 3747000103274291200
-  port: 443
-  server: 18.139.99.11
-  sni: probable-drum.treefrog761.one
-  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-0658"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
+  type: ss
 - name: "\u571F\u8033\u5176 V2CROSS.COM"
   password: 3747000103274291200
   port: 443
   server: 185.67.127.69
   sni: ultimate-civet.adder289.quest
-  type: trojan
-- name: "\U0001F1F0\U0001F1F7KR-43.202.142.243-134"
-  password: 3747000103274291200
-  port: 443
-  server: humble-rodent.treefrog761.one
-  skip-cert-verify: true
-  sni: humble-rodent.treefrog761.one
   type: trojan
 - client-fingerprint: chrome
   name: "\U0001F1FF\U0001F1E6 \u5357\u975E V2CROSS.COM"
@@ -64,4 +58,11 @@ proxies:
   port: 443
   server: 154.205.151.46
   sni: loving-boa.treefrog761.one
+  type: trojan
+- name: "\U0001F1EE\U0001F1F3IN-185.67.125.177-139"
+  password: 3747000103274291200
+  port: 443
+  server: quality-albacore.adder289.quest
+  skip-cert-verify: true
+  sni: quality-albacore.adder289.quest
   type: trojan
