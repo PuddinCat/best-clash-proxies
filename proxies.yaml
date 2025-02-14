@@ -9,17 +9,18 @@ proxies:
   protocol-param: ''
   server: 150.107.46.21
   type: ssr
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5994"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1E7\U0001F1EC \u4FDD\u52A0\u5229\u4E9A V2CROSS.COM"
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.72
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5944"
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
+- cipher: aes-128-gcm
+  name: "\U0001F1F3\U0001F1F1NL-149.34.244.72-183"
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.72
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-175"
@@ -33,34 +34,24 @@ proxies:
   server: 219.135.231.205
   skip-cert-verify: true
   type: trojan
-- cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-TikTok-YouTube-34.218.233.42:443"
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 34.218.233.42
-  type: ssr
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-185.234.64.35-0657"
   password: YTNjNDY5
   port: 8388
   server: 185.234.64.35
   type: ss
-- name: "\U0001F1EE\U0001F1EAIE-54.247.103.58-171"
+- client-fingerprint: chrome
+  name: "\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 V2CROSS.COM 2"
   password: 3747000103274291200
   port: 443
-  server: living-adder.adder289.quest
-  skip-cert-verify: true
-  sni: living-adder.adder289.quest
+  server: ultimate-civet.adder289.quest
+  sni: ultimate-civet.adder289.quest
+  type: trojan
+- name: "\u571F\u8033\u5176 V2CROSS.COM 2"
+  password: 3747000103274291200
+  port: 443
+  server: ultimate-civet.adder289.quest
+  sni: ultimate-civet.adder289.quest
   type: trojan
 - client-fingerprint: chrome
   name: "\U0001F1F7\U0001F1F4 \u7F57\u9A6C\u5C3C\u4E9A V2CROSS.COM"
@@ -69,4 +60,10 @@ proxies:
   server: 89.39.70.207
   skip-cert-verify: false
   sni: sunny-jackal.insect388.motorcycles
+  type: trojan
+- name: "\u4FC4\u7F57\u65AF \u83AB\u65AF\u79D1"
+  password: 3778399750324494336
+  port: 443
+  server: trusting-titmouse.adder289.quest
+  sni: trusting-titmouse.adder289.quest
   type: trojan
