@@ -18,48 +18,10 @@ proxies:
   server: uk1.ssocks.wiki
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-1421"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.49
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.16.155.10-0224"
-  network: ws
-  port: 80
-  server: 104.16.155.10
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-5878"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-5564"
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: "\U0001F1E8\U0001F1E6CA-146.19.106.5-029"
   password: MzZjN
   port: 8388
   server: ca1.ssocks.wiki
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F5\U0001F1F1PL-77.83.246.74-011"
-  password: C6m8khVsu41VcuiUta0bLF
-  port: 443
-  server: 77.83.246.74
   type: ss
 - alterId: 0
   cipher: auto
@@ -76,3 +38,49 @@ proxies:
     headers:
       host: chunchuan.kejixiaoqi666.store
     path: /
+- alterId: 0
+  cipher: auto
+  name: "\u5FB7\u56FD 002"
+  network: tcp
+  port: 443
+  server: 141.94.237.82
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a79a4bc8-6980-4fef-8507-01f4bb5e81af
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F5\U0001F1F1PL-77.83.246.74-011"
+  password: C6m8khVsu41VcuiUta0bLF
+  port: 443
+  server: 77.83.246.74
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.16.155.10-0224"
+  network: ws
+  port: 80
+  server: 104.16.155.10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-5564"
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.188
+  type: ss
