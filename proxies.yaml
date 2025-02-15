@@ -1,17 +1,5 @@
 proxies:
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.86.135.169-7636"
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 38.86.135.169
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.86.135.169-7781"
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 38.86.135.169
-  type: ss
-- cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8US-38.86.135.169-7544"
   password: KixLvKzwjekG00rm
   port: 5500
@@ -24,11 +12,37 @@ proxies:
   server: 38.86.135.169
   type: ss
 - cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.86.135.169-7781"
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 38.86.135.169
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.86.135.169-7636"
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 38.86.135.169
+  type: ss
+- cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8US-38.86.135.169-7559"
   password: KixLvKzwjekG00rm
   port: 8080
   server: 38.86.135.169
   type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.17.221.248-0449"
+  network: ws
+  port: 80
+  server: 104.17.221.248
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -57,35 +71,26 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.17.221.248-0449"
-  network: ws
-  port: 80
-  server: 104.17.221.248
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-47.128.14.130-5921"
-  password: amazonskr05
-  port: 443
-  server: 47.128.14.130
-  type: ss
-- name: "\u7F8E\u56FD 044"
+- name: "\U0001F1F0\U0001F1F7KR-125.138.28.68-0720"
   network: ws
   password: Aimer
-  port: 15572
-  server: 154.17.239.70
-  skip-cert-verify: true
+  port: 12542
+  server: 125.138.28.68
+  skip-cert-verify: false
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: "\U0001F1F0\U0001F1F7KR-112.169.242.150-0745"
+  network: ws
+  password: Aimer
+  port: 50000
+  server: 112.169.242.150
+  skip-cert-verify: false
   sni: agepw.ambercc.filegear-sg.me
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: agepw.ambercc.filegear-sg.me
