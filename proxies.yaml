@@ -1,25 +1,5 @@
 proxies:
 - cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-TikTok-YouTube-34.218.233.42:443"
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 34.218.233.42
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-45.158.171.146-0386"
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 45.158.171.146
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.157-0353"
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.157
-  type: ss
-- cipher: aes-256-cfb
   name: "\U0001F1ED\U0001F1F0HK-150.107.46.21-5940"
   obfs: tls1.2_ticket_auth
   obfs-param: ''
@@ -29,19 +9,51 @@ proxies:
   protocol-param: ''
   server: 150.107.46.21
   type: ssr
-- name: "\u5FB7\u56FD \u9ED1\u68EE\u5DDE\u6CD5\u5170\u514B\u798FAmazon\u6570\u636E\
-    \u4E2D\u5FC3"
-  password: 3778399737045327872
-  port: 443
-  server: popular-pheasant.adder289.quest
-  sni: popular-pheasant.adder289.quest
-  type: trojan
-- name: "\u571F\u8033\u5176 V2CROSS.COM 2"
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.157-0353"
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.157
+  type: ss
+- name: "\u7F8E\u56FD \u9EBB\u7701\u7406\u5DE5\u5B66\u9662"
   password: 3747000103274291200
   port: 443
-  server: ultimate-civet.adder289.quest
-  sni: ultimate-civet.adder289.quest
+  server: 18.132.30.207
+  sni: working-drake.adder289.quest
   type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5994"
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
+  type: ss
+- alterId: 32
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8US-77.83.141.171-6194"
+  network: ws
+  port: 443
+  server: vc.fly.dev
+  servername: vc.fly.dev
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+  ws-opts:
+    headers:
+      Host: vc.fly.dev
+    path: /vc
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-180"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.49
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-45.158.171.146-0386"
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 45.158.171.146
+  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF->\U0001F1FA\U0001F1F8_US_\u7F8E\
     \u56FD"
@@ -49,22 +61,24 @@ proxies:
   port: 989
   server: 185.231.233.173
   type: ss
-- name: "\U0001F1F3\U0001F1F1NL-89.39.70.207-020"
-  password: 3747000103274291200
-  port: 443
-  server: 89.39.70.207
-  skip-cert-verify: true
-  sni: sunny-jackal.insect388.motorcycles
-  type: trojan
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5944"
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
+  name: "\U0001F1F7\U0001F1FA RU 54 \u2192 tg@nicevpn123"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 213.156.137.67
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-180"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.49
-  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.16.155.10-0224"
+  network: ws
+  port: 80
+  server: 104.16.155.10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
