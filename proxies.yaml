@@ -11,24 +11,6 @@ proxies:
   port: 5500
   server: 38.91.107.72
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.91.107.43-7261"
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.91.107.43
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-5281"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.173
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8US-54.218.121.242-5926"
-  password: amazonskr05
-  port: 443
-  server: 54.218.121.242
-  type: ss
 - name: "\U0001F1EC\U0001F1E7GB-62.112.221.57-144"
   password: 3747000103274291200
   port: 443
@@ -36,6 +18,18 @@ proxies:
   skip-cert-verify: true
   sni: integral-malamute.adder289.quest
   type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-5281"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.91.107.43-7261"
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.91.107.43
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -58,6 +52,12 @@ proxies:
   protocol: origin
   server: 34.221.182.25
   type: ssr
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8US-54.218.121.242-5926"
+  password: amazonskr05
+  port: 443
+  server: 54.218.121.242
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-104.16.155.10-0224"
