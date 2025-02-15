@@ -1,20 +1,14 @@
 proxies:
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.86.135.169-7544"
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.86.135.169
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.86.135.169-7429"
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.86.135.169
-  type: ss
-- cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8US-38.86.135.169-7781"
   password: KixLvKzwjekG00rm
   port: 8000
+  server: 38.86.135.169
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.86.135.169-7544"
+  password: KixLvKzwjekG00rm
+  port: 5500
   server: 38.86.135.169
   type: ss
 - cipher: aes-256-gcm
@@ -29,20 +23,18 @@ proxies:
   port: 8080
   server: 38.86.135.169
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.17.221.248-0449"
-  network: ws
-  port: 80
-  server: 104.17.221.248
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.86.135.169-7429"
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.86.135.169
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-47.128.14.130-5921"
+  password: amazonskr05
+  port: 443
+  server: 47.128.14.130
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -71,27 +63,27 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
-- name: "\U0001F1F0\U0001F1F7KR-125.138.28.68-0720"
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.17.221.248-0449"
   network: ws
-  password: Aimer
-  port: 12542
-  server: 125.138.28.68
+  port: 80
+  server: 104.17.221.248
   skip-cert-verify: false
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
   ws-opts:
     headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: "\U0001F1F0\U0001F1F7KR-112.169.242.150-0745"
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 112.169.242.150
-  skip-cert-verify: false
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
