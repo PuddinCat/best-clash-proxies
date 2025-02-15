@@ -21,10 +21,10 @@ proxies:
       Host: zxjp-a.tkong.cc
     path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-13.125.199.67-5855"
-  password: amazonskr05
-  port: 443
-  server: 13.125.199.67
+  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-5245"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
   type: ss
 - alterId: 64
   cipher: auto
@@ -60,6 +60,12 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-13.125.199.67-5855"
+  password: amazonskr05
+  port: 443
+  server: 13.125.199.67
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -75,24 +81,25 @@ proxies:
     headers:
       host: chunchuan.kejixiaoqi666.store
     path: /
-- cipher: aes-256-gcm
-  name: "SS-\u5FB7\u56FD-NF\u89E3\u9501\u5FB7\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-193.108.119.63:7002"
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 193.108.119.63
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-5245"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.173
-  type: ss
-- client-fingerprint: chrome
-  name: "\u97E9\u56FD 004"
+- name: "\u97E9\u56FD 022"
   network: ws
   password: Aimer
-  port: 10037
-  server: 125.128.229.252
+  port: 33022
+  server: 222.103.130.244
+  skip-cert-verify: true
+  sni: agepw.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepw.ambercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: "\u97E9\u56FD 002"
+  network: ws
+  password: Aimer
+  port: 12542
+  server: 125.138.28.68
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
