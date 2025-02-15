@@ -1,9 +1,9 @@
 proxies:
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5845"
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
+- cipher: aes-128-gcm
+  name: "\U0001F1F3\U0001F1F1NL-149.34.244.82-0413"
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.82
   type: ss
 - alterId: 2
   cipher: auto
@@ -19,6 +19,12 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-5245"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
+  type: ss
 - client-fingerprint: chrome
   name: "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 V2CROSS.COM"
   password: 3774827088566296576
@@ -26,24 +32,32 @@ proxies:
   server: 95.110.142.205
   sni: destined-cub.treefrog761.one
   type: trojan
-- cipher: aes-128-gcm
-  name: "\U0001F1F3\U0001F1F1NL-149.34.244.82-0413"
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.82
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-5245"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.173
-  type: ss
 - name: "\u610F\u5927\u5229 V2CROSS.COM 2"
   password: 3774827088566296576
   port: 443
   server: destined-cub.treefrog761.one
   sni: destined-cub.treefrog761.one
   type: trojan
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5845"
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-198.41.209.70-0437"
+  network: ws
+  port: 80
+  server: 198.41.209.70
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
 - cipher: aes-256-cfb
   name: "\U0001F1EE\U0001F1F8 IS 1 \u2192 tg@nicevpn123"
   password: f8f7aCzcPKbsF8p3
@@ -71,10 +85,4 @@ proxies:
   password: MzZjN
   port: 8388
   server: ca1.ssocks.wiki
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F9\U0001F1F7TR-95.164.34.7-018"
-  password: ZTFkZ
-  port: 8388
-  server: uk1.ssocks.wiki
   type: ss
