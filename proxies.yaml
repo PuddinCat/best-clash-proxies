@@ -1,16 +1,35 @@
 proxies:
 - cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5881"
+  name: "\U0001F1FA\U0001F1F8US-103.36.91.32-5879"
   password: asd123456
   port: 8388
-  server: 194.41.59.80
+  server: 103.36.91.32
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.91.107.43-7261"
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.91.107.43
+  type: ss
+- name: "\U0001F1EC\U0001F1E7GB-62.112.221.57-144"
+  password: 3747000103274291200
+  port: 443
+  server: 62.112.221.57
+  skip-cert-verify: true
+  sni: integral-malamute.adder289.quest
+  type: trojan
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.91.107.72-4322"
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.91.107.72
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F3C1RELAY-104.17.221.248-0449"
+  name: "\U0001F3C1RELAY-104.16.155.10-0224"
   network: ws
   port: 80
-  server: 104.17.221.248
+  server: 104.16.155.10
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -20,18 +39,32 @@ proxies:
       Host: chunchuan.kejixiaoqi666.store
     path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-47.128.14.130-5921"
+  name: "\U0001F1FA\U0001F1F8US-54.218.121.242-5926"
   password: amazonskr05
   port: 443
-  server: 47.128.14.130
+  server: 54.218.121.242
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F3C1RELAY-104.17.213.241-0433"
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 6"
   network: ws
   port: 80
-  server: 104.17.213.241
+  server: 104.16.155.10
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F3C1RELAY-198.41.209.70-0437"
+  network: ws
+  port: 80
+  server: 198.41.209.70
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -40,69 +73,17 @@ proxies:
     headers:
       host: chunchuan.kejixiaoqi666.store
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 8"
-  network: ws
-  port: 80
-  server: 198.41.209.70
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: "\U0001F1F0\U0001F1F7KR-125.138.28.68-0720"
-  network: ws
-  password: Aimer
-  port: 12542
-  server: 125.138.28.68
-  skip-cert-verify: false
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: "\u7F8E\u56FD 044"
-  network: ws
-  password: Aimer
-  port: 15572
-  server: 154.17.239.70
-  skip-cert-verify: true
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: "\U0001F1F0\U0001F1F7KR-112.169.242.150-0745"
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 112.169.242.150
-  skip-cert-verify: false
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.86.135.169-7544"
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.86.135.169
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-34.221.182.25:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 34.221.182.25
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-185.234.64.35-162"
+  password: YTNjNDY5
+  port: 8388
+  server: 185.234.64.35
   type: ss
