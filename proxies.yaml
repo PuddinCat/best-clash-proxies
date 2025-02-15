@@ -11,35 +11,17 @@ proxies:
   port: 8080
   server: 103.104.247.49
   type: ss
-- name: "\u82F1\u56FD \u4F26\u6566Amazon\u6570\u636E\u4E2D\u5FC3"
-  password: 3778399737045327872
-  port: 443
-  server: simple-toad.adder289.quest
-  sni: simple-toad.adder289.quest
-  type: trojan
-- name: "\u5308\u7259\u5229 V2CROSS.COM"
-  password: 3747000103274291200
-  port: 443
-  server: integral-malamute.adder289.quest
-  sni: integral-malamute.adder289.quest
-  type: trojan
-- name: "\u7F8E\u56FD Xerox"
-  password: 3747000103274291200
-  port: 443
-  server: 13.50.141.41
-  sni: adjusted-mongoose.adder289.quest
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-5564"
-  password: 4a2rfixophdjffa8KVA4Aa
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-1071"
+  password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 45.87.175.188
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F9\U0001F1F7TR-95.164.34.7-5877"
-  password: ZTFkZ
-  port: 8388
-  server: uk1.ssocks.wiki
+  name: "\u7F57\u9A6C\u5C3C\u4E9A V2CROSS.COM"
+  password: C6m8khVsu41VcuiUta0bLF
+  port: 443
+  server: 77.83.246.74
   type: ss
 - name: "\U0001F1EC\U0001F1E7GB-18.132.30.207-013"
   password: 3747000103274291200
@@ -49,14 +31,33 @@ proxies:
   sni: working-drake.adder289.quest
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1E6CA-146.19.106.5-5881"
-  password: MzZjN
+  name: "\U0001F1F9\U0001F1F7TR-95.164.34.7-5877"
+  password: ZTFkZ
   port: 8388
-  server: ca1.ssocks.wiki
+  server: uk1.ssocks.wiki
   type: ss
+- name: "\u5308\u7259\u5229 V2CROSS.COM"
+  password: 3747000103274291200
+  port: 443
+  server: integral-malamute.adder289.quest
+  sni: integral-malamute.adder289.quest
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1FA RU 54 \u2192 tg@nicevpn123"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 213.156.137.67
+  type: ss
+  udp: true
+- name: "\u82F1\u56FD \u4F26\u6566Amazon\u6570\u636E\u4E2D\u5FC3"
+  password: 3778399737045327872
+  port: 443
+  server: simple-toad.adder289.quest
+  sni: simple-toad.adder289.quest
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-1071"
-  password: cvII85TrW6n0OGyfpHVS1u
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-5564"
+  password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.188
   type: ss
