@@ -1,63 +1,65 @@
 proxies:
 - cipher: aes-128-gcm
-  name: "\U0001F1F3\U0001F1F1NL-149.34.244.82-0385"
+  name: "\U0001F1F3\U0001F1F1NL-149.34.244.82-025"
   password: shadowsocks
   port: 443
   server: 149.34.244.82
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
+  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-1421"
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 103.104.247.49
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-1071"
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\u7F57\u9A6C\u5C3C\u4E9A V2CROSS.COM"
-  password: C6m8khVsu41VcuiUta0bLF
-  port: 443
-  server: 77.83.246.74
-  type: ss
-- name: "\U0001F1EC\U0001F1E7GB-18.132.30.207-013"
-  password: 3747000103274291200
-  port: 443
-  server: 18.132.30.207
-  skip-cert-verify: true
-  sni: working-drake.adder289.quest
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F9\U0001F1F7TR-95.164.34.7-5877"
+  name: "\U0001F1F9\U0001F1F7TR-95.164.34.7-018"
   password: ZTFkZ
   port: 8388
   server: uk1.ssocks.wiki
   type: ss
-- name: "\u5308\u7259\u5229 V2CROSS.COM"
-  password: 3747000103274291200
-  port: 443
-  server: integral-malamute.adder289.quest
-  sni: integral-malamute.adder289.quest
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1FA RU 54 \u2192 tg@nicevpn123"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 213.156.137.67
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5845"
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
   type: ss
-  udp: true
-- name: "\u82F1\u56FD \u4F26\u6566Amazon\u6570\u636E\u4E2D\u5FC3"
-  password: 3778399737045327872
-  port: 443
-  server: simple-toad.adder289.quest
-  sni: simple-toad.adder289.quest
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-5564"
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.188
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-5878"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1E6CA-146.19.106.5-029"
+  password: MzZjN
+  port: 8388
+  server: ca1.ssocks.wiki
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F5\U0001F1F1PL-77.83.246.74-011"
+  password: C6m8khVsu41VcuiUta0bLF
+  port: 443
+  server: 77.83.246.74
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u5FB7\u56FD 002"
+  network: tcp
+  port: 443
+  server: 141.94.237.82
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a79a4bc8-6980-4fef-8507-01f4bb5e81af
+- cipher: aes-256-gcm
+  name: "\U0001F1E9\U0001F1EADE-193.108.119.63-5834"
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 193.108.119.63
   type: ss
