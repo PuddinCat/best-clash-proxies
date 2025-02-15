@@ -1,10 +1,18 @@
 proxies:
-- cipher: aes-128-gcm
-  name: "\U0001F1F3\U0001F1F1NL-149.34.244.82-0413"
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.82
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8139"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
 - client-fingerprint: chrome
   name: "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 V2CROSS.COM"
   password: 3774827088566296576
@@ -18,32 +26,18 @@ proxies:
   port: 989
   server: 185.231.233.173
   type: ss
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5845"
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
+  type: ss
 - name: "\u610F\u5927\u5229 V2CROSS.COM 2"
   password: 3774827088566296576
   port: 443
   server: destined-cub.treefrog761.one
   sni: destined-cub.treefrog761.one
   type: trojan
-- cipher: aes-256-gcm
-  name: "\U0001F1E9\U0001F1EADE-193.108.119.63-5834"
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 193.108.119.63
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-198.41.209.70-0437"
-  network: ws
-  port: 80
-  server: 198.41.209.70
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -59,22 +53,43 @@ proxies:
     headers:
       host: chunchuan.kejixiaoqi666.store
     path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-198.41.209.70-0437"
+  network: ws
+  port: 80
+  server: 198.41.209.70
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- cipher: aes-256-gcm
+  name: "\U0001F1E9\U0001F1EADE-193.108.119.63-5834"
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 193.108.119.63
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1E8\U0001F1E6CA-146.19.106.5-029"
   password: MzZjN
   port: 8388
   server: ca1.ssocks.wiki
   type: ss
-- name: "\U0001F1F8\U0001F1ECSG-54.255.163.19-5876"
-  password: f08d6a6b-a0b3-410e-a0ba-eae71b521904
-  port: 20230
-  server: sg008.421421.xyz
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1ECSG-18.141.231.205-5826"
+  network: ws
+  port: 40000
+  server: ml01.333210.xyz
   skip-cert-verify: false
-  sni: 421421.xyz
-  type: trojan
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5845"
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 13364789-a8b2-4bcd-8df7-a794fb6f87e5
+  ws-opts:
+    headers:
+      Host: down.dingtalk.com
+    path: /bby
