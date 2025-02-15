@@ -5,6 +5,18 @@ proxies:
   port: 8388
   server: 103.36.91.32
   type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5850"
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.91.107.43-7261"
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.91.107.43
+  type: ss
 - cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8US-38.91.107.72-4322"
   password: KixLvKzwjekG00rm
@@ -18,60 +30,26 @@ proxies:
   skip-cert-verify: true
   sni: integral-malamute.adder289.quest
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-5281"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.173
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.91.107.43-7261"
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.91.107.43
-  type: ss
-- alterId: 0
+- alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 6"
+  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8177"
   network: ws
-  port: 80
-  server: 104.16.155.10
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-34.221.182.25:443"
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 34.221.182.25
-  type: ssr
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8US-54.218.121.242-5926"
-  password: amazonskr05
-  port: 443
-  server: 54.218.121.242
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.16.155.10-0224"
-  network: ws
-  port: 80
-  server: 104.16.155.10
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: chunchuan.kejixiaoqi666.store
+      Host: zxjp-a.tkong.cc
     path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-3.36.73.26-0372"
+  password: amazonskr05
+  port: 443
+  server: 3.36.73.26
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -87,3 +65,17 @@ proxies:
     headers:
       host: chunchuan.kejixiaoqi666.store
     path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1EA\U0001F1E8EC-185.47.253.171-5872"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.47.253.171
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
+  type: ss
