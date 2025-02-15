@@ -1,10 +1,21 @@
 proxies:
-- cipher: aes-128-gcm
-  name: "\U0001F1F3\U0001F1F1NL-149.34.244.82-0385"
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.82
-  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1ED\U0001F1F0HK-150.107.46.21-5940"
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  protocol-param: ''
+  server: 150.107.46.21
+  type: ssr
+- name: "\U0001F1ED\U0001F1F0HK-43.198.108.194-034"
+  password: 3f76cb88-d4f7-432c-9639-13ef6a0e8abe
+  port: 48663
+  server: 9865cdfcd7fe92e4a76800429f9950c2.v1.cac.node-is.green
+  skip-cert-verify: true
+  sni: hk12.bilibili.com
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-019"
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -36,13 +47,6 @@ proxies:
   server: adjusted-mongoose.adder289.quest
   sni: adjusted-mongoose.adder289.quest
   type: trojan
-- name: "\U0001F1ED\U0001F1F0HK-43.198.108.194-034"
-  password: 3f76cb88-d4f7-432c-9639-13ef6a0e8abe
-  port: 48663
-  server: 9865cdfcd7fe92e4a76800429f9950c2.v1.cac.node-is.green
-  skip-cert-verify: true
-  sni: hk12.bilibili.com
-  type: trojan
 - name: "\U0001F1EC\U0001F1E7GB-18.132.30.207-013"
   password: 3747000103274291200
   port: 443
@@ -50,23 +54,15 @@ proxies:
   skip-cert-verify: true
   sni: working-drake.adder289.quest
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1FA RU 54 \u2192 tg@nicevpn123"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 213.156.137.67
+- cipher: aes-128-gcm
+  name: "\U0001F1F3\U0001F1F1NL-149.34.244.82-0385"
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.82
   type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9"
-  network: ws
-  port: 8443
-  server: uswuxian.pai50288.uk
-  tls: true
-  type: vmess
-  uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
-  ws-opts:
-    headers:
-      Host: uswuxian.pai50288.uk
-    path: /
+- name: "\u5357\u975E V2CROSS.COM"
+  password: 3747000103274291200
+  port: 443
+  server: loving-boa.treefrog761.one
+  sni: loving-boa.treefrog761.one
+  type: trojan
