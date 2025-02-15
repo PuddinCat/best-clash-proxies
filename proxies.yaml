@@ -5,17 +5,17 @@ proxies:
   port: 8388
   server: 107.148.6.121
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.91.107.72-4322"
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.91.107.72
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-185.234.64.35-162"
   password: YTNjNDY5
   port: 8388
   server: 185.234.64.35
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.91.107.72-4322"
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.91.107.72
   type: ss
 - cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8US-38.91.107.43-7261"
@@ -29,20 +29,6 @@ proxies:
   port: 16088
   server: 120.232.81.50
   type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8177"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -61,6 +47,41 @@ proxies:
     headers:
       host: qurantv.iribquran.com
     path: /
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8177"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.19.48.236-0225"
+  network: ws
+  port: 80
+  server: 104.19.48.236
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- name: "\U0001F1EC\U0001F1E7GB-62.112.221.57-144"
+  password: 3747000103274291200
+  port: 443
+  server: 62.112.221.57
+  skip-cert-verify: true
+  sni: integral-malamute.adder289.quest
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -76,16 +97,3 @@ proxies:
     headers:
       host: chunchuan.kejixiaoqi666.store
     path: /
-- name: "\U0001F1EC\U0001F1E7GB-62.112.221.57-144"
-  password: 3747000103274291200
-  port: 443
-  server: 62.112.221.57
-  skip-cert-verify: true
-  sni: integral-malamute.adder289.quest
-  type: trojan
-- cipher: aes-256-gcm
-  name: "SS-\u5FB7\u56FD-NF\u89E3\u9501\u5FB7\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-193.108.119.63:7002"
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 193.108.119.63
-  type: ss
