@@ -1,40 +1,19 @@
 proxies:
 - cipher: chacha20-ietf
-  name: "\U0001F1FA\U0001F1F8US-103.36.91.32-5879"
+  name: "\U0001F1EF\U0001F1F5JP-107.148.6.121-5920"
   password: asd123456
   port: 8388
-  server: 103.36.91.32
+  server: 107.148.6.121
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5850"
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-175"
   password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-173"
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- name: "\U0001F1EC\U0001F1E7GB-62.112.221.57-144"
-  password: 3747000103274291200
-  port: 443
-  server: 62.112.221.57
-  skip-cert-verify: true
-  sni: integral-malamute.adder289.quest
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-174"
-  password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 8080
   server: 45.87.175.188
   type: ss
@@ -43,18 +22,6 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 5500
   server: 38.91.107.72
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.91.107.43-7261"
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.91.107.43
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5850"
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
   type: ss
 - alterId: 2
   cipher: auto
@@ -70,3 +37,46 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-0351"
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.188
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.91.107.43-7261"
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.91.107.43
+  type: ss
+- name: "\U0001F1EC\U0001F1E7GB-62.112.221.57-144"
+  password: 3747000103274291200
+  port: 443
+  server: 62.112.221.57
+  skip-cert-verify: true
+  sni: integral-malamute.adder289.quest
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "91a68175aa204b8a9b03cbe1e8e2b228_@_@meli_proxyy\u0633\u0631\u0648\u0631\u0627\
+    \u06CC\u200C\u0628\u06CC\u0634\u062A\u0631"
+  network: ws
+  port: 2053
+  server: 104.21.16.100
+  servername: qurantv.iribquran.com
+  tls: true
+  type: vmess
+  udp: false
+  uuid: eb817168-5f83-4fba-af99-881ec0e547b1
+  ws-opts:
+    headers:
+      host: qurantv.iribquran.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-174"
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.188
+  type: ss
