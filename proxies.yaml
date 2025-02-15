@@ -5,45 +5,29 @@ proxies:
   port: 8388
   server: 194.41.59.80
   type: ss
+- cipher: aes-128-gcm
+  name: "\U0001F1F3\U0001F1F1NL-149.34.244.82-0413"
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.82
+  type: ss
+- name: "\u7F57\u9A6C\u5C3C\u4E9A V2CROSS.COM"
+  password: 3747000103274291200
+  port: 443
+  server: 89.39.70.207
+  sni: sunny-jackal.insect388.motorcycles
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1E6CA-146.19.106.5-5881"
+  password: MzZjN
+  port: 8388
+  server: ca1.ssocks.wiki
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F9\U0001F1F7TR-95.164.34.7-018"
   password: ZTFkZ
   port: 8388
   server: uk1.ssocks.wiki
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-5878"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1E6CA-146.19.106.5-029"
-  password: MzZjN
-  port: 8388
-  server: ca1.ssocks.wiki
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1F3\U0001F1F1NL-149.34.244.82-025"
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.82
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u5FB7\u56FD 002"
-  network: tcp
-  port: 443
-  server: 141.94.237.82
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a79a4bc8-6980-4fef-8507-01f4bb5e81af
-- cipher: aes-256-gcm
-  name: "\U0001F1E9\U0001F1EADE-193.108.119.63-5834"
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 193.108.119.63
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-5564"
@@ -53,11 +37,39 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F3C1RELAY-198.41.209.70-0484"
+  name: "\U0001F3C1RELAY-104.16.155.10-0224"
   network: ws
   port: 80
-  server: 198.41.209.70
+  server: 104.16.155.10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "\u4E4C\u514B\u5170 V2CROSS.COM"
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 193.108.119.63
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F3C1RELAY-104.17.213.241-0483"
+  network: ws
+  port: 80
+  server: 104.17.213.241
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -66,9 +78,3 @@ proxies:
     headers:
       host: chunchuan.kejixiaoqi666.store
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F5\U0001F1F1PL-77.83.246.74-011"
-  password: C6m8khVsu41VcuiUta0bLF
-  port: 443
-  server: 77.83.246.74
-  type: ss
