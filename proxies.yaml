@@ -11,6 +11,26 @@ proxies:
   port: 5601
   server: 38.143.66.64
   type: ss
+- cipher: rc4-md5
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-194.5.215.59:8080"
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 194.5.215.59
+  type: ssr
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-026"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 016_2@25"
@@ -25,31 +45,11 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "77cfae56c56c4cffa16f0befcc18d3fe_@_\U0001F49B43@oneclickvpnkeys"
-  network: ws
-  port: 53236
-  server: yueg2.tifa.pro
-  tls: false
-  type: vmess
-  udp: false
-  uuid: d8e6f12b-6582-3efa-88cc-992b13fee5aa
-  ws-opts:
-    path: /windows10
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-026"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0327"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
   type: ss
 - alterId: 2
   cipher: auto
@@ -65,36 +65,25 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-13.213.40.92-5834"
-  password: amazonskr05
-  port: 443
-  server: 13.213.40.92
-  type: ss
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 185 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "77cfae56c56c4cffa16f0befcc18d3fe_@_\U0001F49B43@oneclickvpnkeys"
+  network: ws
+  port: 53236
+  server: yueg2.tifa.pro
   tls: false
   type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: "VMESS-\u672A\u77E5>\u65B0\u52A0\u5761-NF\u89E3\u9501\u65B0\u52A0\u5761\u81EA\
-    \u5236\u5267-ChatGPT-TikTok-YouTube-104.17.221.248:80"
-  network: ws
-  port: 80
-  server: 104.17.221.248
-  servername: chunchuan.kejixiaoqi666.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  udp: false
+  uuid: d8e6f12b-6582-3efa-88cc-992b13fee5aa
   ws-opts:
-    headers:
-      HOST: chunchuan.kejixiaoqi666.store
-    path: /
+    path: /windows10
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
+  type: ss
