@@ -12,23 +12,11 @@ proxies:
   ws-headers:
     Host: 34.92.208.172
   ws-path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-1181"
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
 - cipher: chacha20-ietf
   name: "\U0001F1FA\U0001F1F8US-103.36.91.32-5874"
   password: asd123456
   port: 8388
   server: 103.36.91.32
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5896"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-45.158.171.151-0383"
@@ -48,20 +36,25 @@ proxies:
   port: 8388
   server: fr1.opensocks.site
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-185.234.64.35-0681"
-  password: YTNjNDY5
-  port: 8388
-  server: 185.234.64.35
-  type: ss
-- cipher: aes-256-gcm
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  password: 7H6G6GF38VT7LIS2
-  port: 21002
-  server: qh62onjn.slashdevslashnetslashtun.net
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u4FC4\u7F57\u65AF V2CROSS.COM"
+  network: ws
+  port: 20320
+  server: 195.58.49.42
+  tls: false
+  type: vmess
+  uuid: 5a2748d3-40f2-4298-8721-8f43a155fb7f
+  ws-opts:
+    path: /
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8151"
@@ -76,3 +69,25 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  password: 7H6G6GF38VT7LIS2
+  port: 21002
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD 016_2@25"
+  network: ws
+  port: 443
+  server: 104.21.21.21
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
+  ws-opts:
+    headers:
+      host: laxfree.starsea.vip
+    path: /?ed=2048
