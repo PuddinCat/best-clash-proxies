@@ -5,6 +5,12 @@ proxies:
   port: 8388
   server: 202.162.109.169
   type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.143.66.64-5789"
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.143.66.64
+  type: ss
 - cipher: aes-128-gcm
   name: "\U0001F1F3\U0001F1F1NL-149.34.244.80-0912"
   password: shadowsocks
@@ -39,14 +45,20 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  password: 84XAJL8SYU5DFEO1
-  port: 18004
-  server: 156.231.104.14
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.21.16.100-0906"
+  network: ws
+  port: 2053
+  server: 104.21.16.100
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: eb817168-5f83-4fba-af99-881ec0e547b1
+  ws-opts:
+    headers:
+      Host: qurantv.iribquran.com
+    path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: "15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
@@ -55,33 +67,29 @@ proxies:
   server: 23.185.248.16
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  password: DW1B46PTWS3XSPYU
-  port: 15003
-  server: 156.245.190.12
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: "\u7F8E\u56FD 037"
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "bab9b73ff0834b1c87d304fcc8e6156a_@_@meli_proxyy\u0633\u0631\u0648\u0631\u0627\
+    \u06CC\u200C\u0628\u06CC\u0634\u062A\u0631"
   network: ws
   port: 2053
   server: 104.21.16.100
-  skip-cert-verify: true
-  tfo: false
+  servername: qurantv.iribquran.com
   tls: true
   type: vmess
-  udp: true
+  udp: false
   uuid: eb817168-5f83-4fba-af99-881ec0e547b1
   ws-opts:
     headers:
-      Host: qurantv.iribquran.com
+      host: qurantv.iribquran.com
     path: /
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.143.66.64-5789"
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.143.66.64
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  password: 7U4Y1WQBHKIMGFBR
+  port: 18006
+  server: 156.231.104.16
+  tfo: false
   type: ss
