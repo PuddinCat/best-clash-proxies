@@ -11,6 +11,12 @@ proxies:
   port: 5601
   server: 38.143.66.64
   type: ss
+- cipher: chacha20-ietf
+  name: "\U0001F1F8\U0001F1ECSG-202.162.109.169-5793"
+  password: asd123456
+  port: 8388
+  server: 202.162.109.169
+  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8055"
@@ -25,38 +31,12 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-0669"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  type: ss
-- cipher: chacha20-ietf
-  name: "\U0001F1F8\U0001F1ECSG-202.162.109.169-5793"
-  password: asd123456
-  port: 8388
-  server: 202.162.109.169
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0306"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 194.5.215.59
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
-  password: QVEA1CX5SETMCW02
-  port: 21005
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  password: 84XAJL8SYU5DFEO1
+  port: 18004
+  server: 156.231.104.14
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -67,11 +47,31 @@ proxies:
   server: 156.231.104.25
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.91.107.72-0663"
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.91.107.72
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1EF\U0001F1F5JP-156.231.104.25-5770"
+  password: IE7SC3YR9X2T5I76
+  port: 18015
+  server: 156.231.104.25
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  password: DW1B46PTWS3XSPYU
-  port: 15003
-  server: 156.245.190.12
+  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  password: QVEA1CX5SETMCW02
+  port: 21005
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
