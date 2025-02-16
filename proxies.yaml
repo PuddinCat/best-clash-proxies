@@ -5,12 +5,6 @@ proxies:
   port: 5601
   server: 38.143.66.64
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
 - cipher: rc4-md5
   name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-194.5.215.59:8080"
   obfs: plain
@@ -19,6 +13,24 @@ proxies:
   protocol: origin
   server: 194.5.215.59
   type: ssr
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0327"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
+  type: ss
+- cipher: chacha20-ietf
+  name: "\U0001F1FA\U0001F1F8US-103.36.91.32-5778"
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 016_2@25"
@@ -33,31 +45,11 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0327"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 194.5.215.59
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8055"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5800"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
+  name: "\U0001F1F8\U0001F1ECSG-13.213.40.92-5834"
+  password: amazonskr05
+  port: 443
+  server: 13.213.40.92
   type: ss
 - alterId: 2
   cipher: auto
@@ -73,17 +65,31 @@ proxies:
   uuid: d8e6f12b-6582-3efa-88cc-992b13fee5aa
   ws-opts:
     path: /windows10
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  name: "\U0001F1FA\U0001F1F8US-103.36.91.32-5778"
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8055"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-198.41.209.70-0452"
+  network: ws
+  port: 80
+  server: 198.41.209.70
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
