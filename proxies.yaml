@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E6\U0001F1F6GOOGLE-34.92.208.172-010"
+  network: tcp
+  port: 30251
+  server: 34.92.208.172
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
+  ws-headers:
+    Host: 34.92.208.172
+  ws-path: /
 - cipher: aes-256-cfb
   name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0482"
   password: qwerREWQ@@
@@ -25,6 +38,12 @@ proxies:
   server: 103.106.229.219
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.91.107.72-235"
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.91.107.72
+  type: ss
 - name: "\U0001F1F9\U0001F1F7TR-213.156.152.210-026"
   password: 3747000103274291200
   port: 443
@@ -32,18 +51,20 @@ proxies:
   skip-cert-verify: true
   sni: game-condor.treefrog761.one
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-13.212.177.74-5929"
-  password: amazonskr05
-  port: 443
-  server: 13.212.177.74
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1EEFI-37.143.129.230-0678"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 37.143.129.230
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8151"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 016_2@25"
@@ -59,22 +80,10 @@ proxies:
       host: laxfree.starsea.vip
     path: /?ed=2048
 - cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-0879"
-  password: 7H6G6GF38VT7LIS2
-  port: 21002
-  server: qh62onjn.slashdevslashnetslashtun.net
+  client-fingerprint: chrome
+  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  password: QVEA1CX5SETMCW02
+  port: 21005
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8151"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
