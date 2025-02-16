@@ -1,21 +1,15 @@
 proxies:
-- cipher: chacha20-ietf
-  name: "\U0001F1EF\U0001F1F5JP-107.148.6.121-5838"
-  password: asd123456
-  port: 8388
-  server: 107.148.6.121
+- cipher: aes-128-gcm
+  name: "\U0001F1F3\U0001F1F1NL-149.34.244.80-0912"
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.80
   type: ss
 - cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8US-38.143.66.64-5789"
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 38.143.66.64
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1F3\U0001F1F1NL-149.34.244.80-0912"
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.80
   type: ss
 - cipher: rc4-md5
   name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0313"
@@ -37,25 +31,17 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.21.16.100-0906"
-  network: ws
-  port: 2053
-  server: 104.21.16.100
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: eb817168-5f83-4fba-af99-881ec0e547b1
-  ws-opts:
-    headers:
-      Host: qurantv.iribquran.com
-    path: /
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F4CO-181.119.30.20-5801"
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 181.119.30.20
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1EF\U0001F1F5JP-156.231.104.25-5770"
+  password: IE7SC3YR9X2T5I76
+  port: 18015
+  server: 156.231.104.25
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
@@ -65,15 +51,23 @@ proxies:
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EF\U0001F1F5JP-156.231.104.14-5795"
-  password: 84XAJL8SYU5DFEO1
-  port: 18004
-  server: 156.231.104.14
+- cipher: chacha20-ietf
+  name: "\U0001F1EF\U0001F1F5JP-107.148.6.121-5838"
+  password: asd123456
+  port: 8388
+  server: 107.148.6.121
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1EF\U0001F1F5JP-156.231.104.25-5770"
-  password: IE7SC3YR9X2T5I76
-  port: 18015
-  server: 156.231.104.25
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  password: DW1B46PTWS3XSPYU
+  port: 15003
+  server: 156.245.190.12
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "SS-\u5FB7\u56FD-NF\u89E3\u9501\u5FB7\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-193.108.119.63:7002"
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 193.108.119.63
   type: ss
