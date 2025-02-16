@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E6\U0001F1F6GOOGLE-34.92.208.172-010"
+  network: tcp
+  port: 30251
+  server: 34.92.208.172
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
+  ws-headers:
+    Host: 34.92.208.172
+  ws-path: /
 - cipher: chacha20-ietf
   name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5952"
   password: asd123456
@@ -6,10 +19,24 @@ proxies:
   server: 194.41.59.80
   type: ss
 - cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5913"
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
+  type: ss
+- cipher: aes-256-cfb
   name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0482"
   password: qwerREWQ@@
   port: 64759
   server: 185.189.160.98
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 13.231.248.146
+  tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5896"
@@ -42,29 +69,4 @@ proxies:
   password: OTVlMzcy
   port: 8388
   server: fr1.opensocks.site
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.91.107.43
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E6\U0001F1F6GOOGLE-34.92.208.172-010"
-  network: tcp
-  port: 30251
-  server: 34.92.208.172
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
-  ws-headers:
-    Host: 34.92.208.172
-  ws-path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.91.107.72-235"
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.91.107.72
   type: ss
