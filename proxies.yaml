@@ -5,6 +5,12 @@ proxies:
   server: iepl2.lgjf.top
   skip-cert-verify: true
   type: trojan
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.143.66.64-5789"
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.143.66.64
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E6\U0001F1F6GOOGLE-34.92.208.172-021"
@@ -18,18 +24,6 @@ proxies:
   ws-headers:
     Host: 34.92.208.172
   ws-path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0482"
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1F3\U0001F1F1NL-149.34.244.80-243"
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.80
-  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8055"
@@ -44,33 +38,59 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.143.66.64-5789"
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.143.66.64
+- cipher: aes-128-gcm
+  name: "\U0001F1F3\U0001F1F1NL-149.34.244.80-243"
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.80
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "9f55368f018540208cfa3a09da0444c4_@_@meli_proxyy\u0633\u0631\u0648\u0631\u0627\
+    \u06CC\u200C\u0628\u06CC\u0634\u062A\u0631"
+  network: ws
+  port: 2053
+  server: 104.21.16.100
+  servername: qurantv.iribquran.com
+  tls: true
+  type: vmess
+  udp: false
+  uuid: eb817168-5f83-4fba-af99-881ec0e547b1
+  ws-opts:
+    headers:
+      host: qurantv.iribquran.com
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0482"
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.91.107.43
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD 016_2@25"
+  network: ws
+  port: 443
+  server: 104.21.21.21
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
+  ws-opts:
+    headers:
+      host: laxfree.starsea.vip
+    path: /?ed=2048
 - cipher: rc4-md5
   name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0327"
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 194.5.215.59
-  type: ss
-- cipher: aes-256-gcm
-  name: "SS-\u5FB7\u56FD-NF\u89E3\u9501\u5FB7\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-193.108.119.63:7002"
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 193.108.119.63
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-224"
-  password: 7H6G6GF38VT7LIS2
-  port: 21002
-  server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1ED\U0001F1F0HK-156.245.190.20-129"
-  password: DSSFTF2MJGHSTOOF
-  port: 15011
-  server: 156.245.190.20
   type: ss
