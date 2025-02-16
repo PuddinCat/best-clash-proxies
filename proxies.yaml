@@ -31,32 +31,17 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- cipher: aes-256-gcm
+  name: "SS-\u5FB7\u56FD-NF\u89E3\u9501\u5FB7\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-193.108.119.63:7002"
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 193.108.119.63
+  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F4CO-181.119.30.20-5801"
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 181.119.30.20
-  type: ss
-- alterId: 32
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-77.83.141.171-6085"
-  network: ws
-  port: 443
-  server: vc.fly.dev
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  ws-opts:
-    headers:
-      host: vc.fly.dev
-    path: /vc
-- cipher: aes-256-gcm
-  name: "\U0001F1EF\U0001F1F5JP-156.231.104.25-5770"
-  password: IE7SC3YR9X2T5I76
-  port: 18015
-  server: 156.231.104.25
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
@@ -66,15 +51,29 @@ proxies:
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.21.16.100-0906"
+  network: ws
+  port: 2053
+  server: 104.21.16.100
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: eb817168-5f83-4fba-af99-881ec0e547b1
+  ws-opts:
+    headers:
+      Host: qurantv.iribquran.com
+    path: /
 - cipher: aes-256-gcm
-  name: "SS-\u5FB7\u56FD-NF\u89E3\u9501\u5FB7\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-193.108.119.63:7002"
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 193.108.119.63
+  name: "\U0001F1EF\U0001F1F5JP-156.231.104.25-5770"
+  password: IE7SC3YR9X2T5I76
+  port: 18015
+  server: 156.231.104.25
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.91.107.72
+  name: "\U0001F1EF\U0001F1F5JP-156.231.104.14-5795"
+  password: 84XAJL8SYU5DFEO1
+  port: 18004
+  server: 156.231.104.14
   type: ss
