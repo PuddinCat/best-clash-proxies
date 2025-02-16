@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf
-  name: "\U0001F1EF\U0001F1F5JP-107.148.6.121-5920"
-  password: asd123456
-  port: 8388
-  server: 107.148.6.121
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F1\U0001F1F9LT-45.87.175.154-0233"
   password: 4a2rfixophdjffa8KVA4Aa
@@ -12,24 +6,41 @@ proxies:
   server: 45.87.175.154
   type: ss
 - cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0306"
+  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0327"
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 194.5.215.59
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.91.107.72-4322"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
   password: KixLvKzwjekG00rm
   port: 5500
   server: 38.91.107.72
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\u4E9A\u592A\u5730\u533A V2CROSS.COM"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
+- cipher: chacha20-ietf
+  name: "\U0001F1FA\U0001F1F8US-103.36.91.32-5879"
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "328abe682ae04c8b8be2e53931a6f417_@_@meli_proxyy\u0633\u0631\u0648\u0631\u0627\
+    \u06CC\u200C\u0628\u06CC\u0634\u062A\u0631"
+  network: ws
+  port: 2053
+  server: 104.21.16.100
+  servername: qurantv.iribquran.com
+  tls: true
+  type: vmess
+  udp: false
+  uuid: eb817168-5f83-4fba-af99-881ec0e547b1
+  ws-opts:
+    headers:
+      host: qurantv.iribquran.com
+    path: /
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8177"
@@ -44,18 +55,24 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.91.107.43-7261"
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.91.107.43
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-45.158.171.146-0410"
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 45.158.171.146
   type: ss
+- name: "\u5308\u7259\u5229 V2CROSS.COM"
+  password: 3747000103274291200
+  port: 443
+  server: integral-malamute.adder289.quest
+  sni: integral-malamute.adder289.quest
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: "\U0001F3C1RELAY-104.16.155.10-0224"
+  name: "\U0001F3C1RELAY-104.17.221.248-0449"
   network: ws
   port: 80
-  server: 104.16.155.10
+  server: 104.17.221.248
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -64,15 +81,9 @@ proxies:
     headers:
       Host: chunchuan.kejixiaoqi666.store
     path: /
-- name: "\U0001F1EC\U0001F1E7GB-185.67.127.66-029"
-  password: 3778399737045327872
-  port: 443
-  server: divine-slug.adder289.quest
-  skip-cert-verify: true
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5850"
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.91.107.43
   type: ss
