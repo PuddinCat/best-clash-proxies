@@ -1,4 +1,23 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E6\U0001F1F6GOOGLE-34.92.208.172-010"
+  network: tcp
+  port: 30251
+  server: 34.92.208.172
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
+  ws-headers:
+    Host: 34.92.208.172
+  ws-path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0482"
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
+  type: ss
 - cipher: chacha20-ietf
   name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5952"
   password: asd123456
@@ -6,16 +25,16 @@ proxies:
   server: 194.41.59.80
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0482"
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
-- cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5896"
   password: hGkQ6915tD
   port: 15084
   server: 120.232.81.50
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.143.66.64-5885"
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.143.66.64
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-45.158.171.151-0394"
@@ -31,25 +50,6 @@ proxies:
   server: 103.106.229.219
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-185.231.205.179-0407"
-  password: OTVlMzcy
-  port: 8388
-  server: fr1.opensocks.site
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E6\U0001F1F6GOOGLE-34.92.208.172-010"
-  network: tcp
-  port: 30251
-  server: 34.92.208.172
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
-  ws-headers:
-    Host: 34.92.208.172
-  ws-path: /
 - name: "\U0001F1F9\U0001F1F7TR-213.156.152.210-026"
   password: 3747000103274291200
   port: 443
@@ -63,9 +63,9 @@ proxies:
   server: 213.156.152.210
   sni: game-condor.treefrog761.one
   type: trojan
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.91.107.72-235"
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.91.107.72
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0679"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
   type: ss
