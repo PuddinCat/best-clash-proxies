@@ -11,6 +11,18 @@ proxies:
   port: 5601
   server: 38.143.66.64
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-026"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0327"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 016_2@25"
@@ -25,6 +37,30 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
+- cipher: aes-256-cfb
+  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0482"
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1E9\U0001F1EADE-193.108.119.63-241"
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 193.108.119.63
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-45.158.171.151-0366"
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.158.171.151
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-011"
+  password: 7H6G6GF38VT7LIS2
+  port: 21002
+  server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E6\U0001F1F6GOOGLE-34.92.208.172-021"
@@ -38,51 +74,3 @@ proxies:
   ws-headers:
     Host: 34.92.208.172
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-026"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-141"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  type: ss
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0327"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 194.5.215.59
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0482"
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  password: 7H6G6GF38VT7LIS2
-  port: 21002
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD 001"
-  network: ws
-  port: 80
-  server: anycast.cf.030419.xyz
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
-  ws-opts:
-    headers:
-      Host: 33.bycf.us.kg
-    path: /rongseven?ed=2048
