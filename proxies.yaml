@@ -5,11 +5,39 @@ proxies:
   server: iepl2.lgjf.top
   skip-cert-verify: true
   type: trojan
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0327"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 194.5.215.59
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.143.66.64-5789"
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.143.66.64
+  type: ss
+- cipher: aes-128-gcm
+  name: "\U0001F1F3\U0001F1F1NL-149.34.244.80-243"
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.80
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD 016_2@25"
+  network: ws
+  port: 443
+  server: 104.21.21.21
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
+  ws-opts:
+    headers:
+      host: laxfree.starsea.vip
+    path: /?ed=2048
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
   type: ss
 - alterId: 2
   cipher: auto
@@ -26,30 +54,10 @@ proxies:
       Host: zxjp-a.tkong.cc
     path: /
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.143.66.64-5789"
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.143.66.64
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD 016_2@25"
-  network: ws
-  port: 443
-  server: 104.21.21.21
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
-  ws-opts:
-    headers:
-      host: laxfree.starsea.vip
-    path: /?ed=2048
-- cipher: aes-128-gcm
-  name: "\U0001F1F3\U0001F1F1NL-149.34.244.80-243"
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.80
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.91.107.43
   type: ss
 - cipher: aes-256-gcm
   name: "SS-\u5FB7\u56FD-NF\u89E3\u9501\u5FB7\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-193.108.119.63:7002"
@@ -57,28 +65,25 @@ proxies:
   port: 7002
   server: 193.108.119.63
   type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD 001"
+  network: ws
+  port: 80
+  server: anycast.cf.030419.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+  ws-opts:
+    headers:
+      Host: 33.bycf.us.kg
+    path: /rongseven?ed=2048
 - cipher: aes-256-gcm
   name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-224"
   password: 7H6G6GF38VT7LIS2
   port: 21002
   server: qh62onjn.slashdevslashnetslashtun.net
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.91.107.43
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E6\U0001F1F6GOOGLE-34.92.208.172-021"
-  network: tcp
-  port: 30251
-  server: 34.92.208.172
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
-  ws-headers:
-    Host: 34.92.208.172
-  ws-path: /
