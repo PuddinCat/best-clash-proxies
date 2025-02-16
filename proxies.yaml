@@ -5,11 +5,11 @@ proxies:
   port: 5601
   server: 38.143.66.64
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5896"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0335"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
   type: ss
 - cipher: rc4-md5
   name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-194.5.215.59:8080"
@@ -19,12 +19,6 @@ proxies:
   protocol: origin
   server: 194.5.215.59
   type: ssr
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0335"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 194.5.215.59
-  type: ss
 - name: "\U0001F1F9\U0001F1F7TR-213.156.152.210-026"
   password: 3747000103274291200
   port: 443
@@ -37,6 +31,32 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 176.103.53.105
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-18.139.221.191-5881"
+  password: amazonskr05
+  port: 443
+  server: 18.139.221.191
+  type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: ae0de387909747cf9cb657577b9803bb_@_@Hope_Net-join-us-on-Telegram
+  network: ws
+  port: 53236
+  server: 183.232.155.43
+  tls: false
+  type: vmess
+  udp: false
+  uuid: d8e6f12b-6582-3efa-88cc-992b13fee5aa
+  ws-opts:
+    path: /windows10
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.178-0402"
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 45.87.175.178
   type: ss
 - alterId: 0
   cipher: auto
@@ -52,26 +72,6 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-18.139.221.191-5881"
-  password: amazonskr05
-  port: 443
-  server: 18.139.221.191
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8151"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-141.101.121.52-0732"
