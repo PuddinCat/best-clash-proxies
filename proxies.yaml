@@ -1,4 +1,16 @@
 proxies:
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5952"
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.143.66.64-5885"
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.143.66.64
+  type: ss
 - cipher: rc4-md5
   name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-194.5.215.59:8080"
   obfs: plain
@@ -7,6 +19,12 @@ proxies:
   protocol: origin
   server: 194.5.215.59
   type: ssr
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0335"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
+  type: ss
 - name: "\U0001F1F9\U0001F1F7TR-213.156.152.210-026"
   password: 3747000103274291200
   port: 443
@@ -20,12 +38,22 @@ proxies:
   port: 989
   server: 176.103.53.105
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.143.66.64-5885"
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.143.66.64
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD 001"
+  network: ws
+  port: 80
+  server: anycast.cf.030419.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+  ws-opts:
+    headers:
+      Host: 33.bycf.us.kg
+    path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 016_2@25"
@@ -40,41 +68,33 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0335"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 194.5.215.59
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-18.139.221.191-5881"
-  password: amazonskr05
-  port: 443
-  server: 18.139.221.191
-  type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  fingerprint: ''
-  name: ae0de387909747cf9cb657577b9803bb_@_@Hope_Net-join-us-on-Telegram
+  name: "\U0001F3C1RELAY-104.17.221.248-0448"
   network: ws
-  port: 53236
-  server: 183.232.155.43
+  port: 80
+  server: 104.17.221.248
+  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: false
-  uuid: d8e6f12b-6582-3efa-88cc-992b13fee5aa
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
   ws-opts:
-    path: /windows10
-- cipher: chacha20-ietf-poly1305
-  name: "\u6B27\u76DF V2CROSS.COM"
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.192
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.178-0402"
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 45.87.175.178
-  type: ss
+    headers:
+      host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: "VMESS-\u672A\u77E5>\u65B0\u52A0\u5761-NF\u89E3\u9501\u65B0\u52A0\u5761\u81EA\
+    \u5236\u5267-ChatGPT-TikTok-YouTube-104.16.155.10:80"
+  network: ws
+  port: 80
+  server: 104.16.155.10
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
