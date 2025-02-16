@@ -18,17 +18,11 @@ proxies:
   port: 8388
   server: 103.36.91.32
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-45.158.171.151-0383"
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.158.171.151
-  type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8US-34.221.182.25-0662"
-  password: amazonskr05
-  port: 443
-  server: 34.221.182.25
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5896"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-185.231.205.179-0407"
@@ -44,50 +38,41 @@ proxies:
   server: 103.106.229.219
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u4FC4\u7F57\u65AF V2CROSS.COM"
-  network: ws
-  port: 20320
-  server: 195.58.49.42
-  tls: false
-  type: vmess
-  uuid: 5a2748d3-40f2-4298-8721-8f43a155fb7f
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8151"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  password: 7H6G6GF38VT7LIS2
-  port: 21002
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F2\U0001F1E9MD-103.35.188.18-6078"
+  password: NzJhMDc1
+  port: 8388
+  server: 103.35.188.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EA\U0001F1E8EC-185.47.253.171-5953"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.47.253.171
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-45.158.171.151-0383"
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.158.171.151
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\u7F8E\u56FD 016_2@25"
+  name: "\U0001F3C1RELAY-141.101.121.52-0732"
   network: ws
-  port: 443
-  server: 104.21.21.21
-  skip-cert-verify: true
-  tls: true
+  port: 80
+  server: anycast.cf.030419.xyz
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
   ws-opts:
     headers:
-      host: laxfree.starsea.vip
-    path: /?ed=2048
+      Host: 33.bycf.us.kg
+    path: /rongseven?ed=2048
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.91.107.43-190"
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.91.107.43
+  type: ss
