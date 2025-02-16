@@ -1,22 +1,24 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-13.213.40.92-5834"
-  password: amazonskr05
-  port: 443
-  server: 13.213.40.92
-  type: ss
 - cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8US-38.143.66.64-5789"
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 38.143.66.64
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-026"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
   type: ss
+- cipher: rc4-md5
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-194.5.215.59:8080"
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 194.5.215.59
+  type: ssr
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 016_2@25"
@@ -37,20 +39,6 @@ proxies:
   port: 8080
   server: 194.5.215.59
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
-- cipher: rc4-md5
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-194.5.215.59:8080"
-  obfs: plain
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  protocol: origin
-  server: 194.5.215.59
-  type: ssr
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8055"
@@ -65,19 +53,37 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5800"
   password: hGkQ6915tD
   port: 15084
   server: 120.232.81.50
+  type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "77cfae56c56c4cffa16f0befcc18d3fe_@_\U0001F49B43@oneclickvpnkeys"
+  network: ws
+  port: 53236
+  server: yueg2.tifa.pro
+  tls: false
+  type: vmess
+  udp: false
+  uuid: d8e6f12b-6582-3efa-88cc-992b13fee5aa
+  ws-opts:
+    path: /windows10
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  name: "\U0001F1FA\U0001F1F8US-103.36.91.32-5778"
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
   type: ss
