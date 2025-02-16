@@ -13,16 +13,16 @@ proxies:
     Host: 34.92.208.172
   ws-path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0482"
+  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-1181"
   password: qwerREWQ@@
   port: 64759
   server: 185.189.160.98
   type: ss
 - cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5952"
+  name: "\U0001F1FA\U0001F1F8US-103.36.91.32-5874"
   password: asd123456
   port: 8388
-  server: 194.41.59.80
+  server: 103.36.91.32
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5896"
@@ -30,42 +30,49 @@ proxies:
   port: 15084
   server: 120.232.81.50
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.143.66.64-5885"
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.143.66.64
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-45.158.171.151-0394"
+  name: "\U0001F1EB\U0001F1F7FR-45.158.171.151-0383"
   password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 8080
   server: 45.158.171.151
   type: ss
 - cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8US-34.221.182.25-0662"
+  password: amazonskr05
+  port: 443
+  server: 34.221.182.25
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-185.231.205.179-0407"
+  password: OTVlMzcy
+  port: 8388
+  server: fr1.opensocks.site
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-185.234.64.35-0681"
+  password: YTNjNDY5
+  port: 8388
+  server: 185.234.64.35
+  type: ss
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
+  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  password: 7H6G6GF38VT7LIS2
+  port: 21002
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- name: "\U0001F1F9\U0001F1F7TR-213.156.152.210-026"
-  password: 3747000103274291200
-  port: 443
-  server: 213.156.152.210
-  skip-cert-verify: true
-  sni: game-condor.treefrog761.one
-  type: trojan
-- name: "\u4FC4\u7F57\u65AF V2CROSS.COM 2"
-  password: 3747000103274291200
-  port: 443
-  server: 213.156.152.210
-  sni: game-condor.treefrog761.one
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0679"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8151"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
