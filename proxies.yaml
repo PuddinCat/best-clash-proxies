@@ -17,19 +17,17 @@ proxies:
   port: 443
   server: 149.34.244.80
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-45.158.171.146-5847"
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 45.158.171.146
+  type: ss
 - cipher: rc4-md5
   name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0306"
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 194.5.215.59
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
-  password: QVEA1CX5SETMCW02
-  port: 21005
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
   type: ss
 - alterId: 2
   cipher: auto
@@ -47,13 +45,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F3C1RELAY-104.21.16.100-0906"
+  name: "\u7F8E\u56FD 037"
   network: ws
   port: 2053
   server: 104.21.16.100
-  skip-cert-verify: false
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vmess
+  udp: true
   uuid: eb817168-5f83-4fba-af99-881ec0e547b1
   ws-opts:
     headers:
@@ -61,10 +61,10 @@ proxies:
     path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  password: B0UPGL2IUSB0UV4B
-  port: 17006
-  server: 23.185.248.16
+  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  password: QVEA1CX5SETMCW02
+  port: 21005
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - alterId: 0
@@ -85,11 +85,17 @@ proxies:
     headers:
       host: qurantv.iribquran.com
     path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  password: 7U4Y1WQBHKIMGFBR
-  port: 18006
-  server: 156.231.104.16
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u672A\u77E535"
+  network: ws
+  port: 2053
+  server: 104.21.16.100
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: eb817168-5f83-4fba-af99-881ec0e547b1
+  ws-opts:
+    headers:
+      host: qurantv.iribquran.com
+    path: /
