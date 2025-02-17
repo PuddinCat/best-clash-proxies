@@ -42,22 +42,10 @@ proxies:
       Host: zxjp-a.tkong.cc
     path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5947"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
-- cipher: aes-256-cfb
   name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0691"
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 176.103.53.105
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-13.209.11.204-1271"
-  password: amazonskr05
-  port: 443
-  server: 13.209.11.204
   type: ss
 - name: "\U0001F1F8\U0001F1ECSG-13.213.40.209-5989"
   password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d
@@ -66,6 +54,18 @@ proxies:
   skip-cert-verify: false
   sni: sg-01.littlexing.eu.org
   type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5947"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-13.209.11.204-1271"
+  password: amazonskr05
+  port: 443
+  server: 13.209.11.204
+  type: ss
 - name: "\U0001F1F0\U0001F1F7KR-43.202.114.99-5971"
   password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d
   port: 10005
@@ -77,25 +77,25 @@ proxies:
   cipher: auto
   h2-opts:
     headers:
-      Host: slot4.raywhat.xyz
-    path: /29275bea-6373
-  name: Slot4
+      Host: slot2.raywhat.xyz
+    path: /b0c66d14-a0ab
+  name: Slot2
   network: h2
   port: 443
-  server: slot4.raywhat.xyz
+  server: slot2.raywhat.xyz
   tls: true
   type: vmess
-  uuid: d20df4c7-82a9-4196-a06d-93cb35822726
+  uuid: 64887a16-468c-4e98-b064-b82b01662727
 - alterId: 0
   cipher: auto
-  h2-opts:
-    headers:
-      Host: slot5.raywhat.xyz
-    path: /57e71947-7827
-  name: Slot5
-  network: h2
-  port: 443
-  server: slot5.raywhat.xyz
-  tls: true
+  name: "\u4FC4\u7F57\u65AF \u9791\u977C\u65AF\u5766\u5580\u5C71justhost"
+  network: ws
+  port: 80
+  server: eedp257bubu2wefy3.lovebaipiao.net
+  tls: false
   type: vmess
-  uuid: 4d3b4011-7363-4a64-9cb4-51ca301cab87
+  uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /iphone
