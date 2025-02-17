@@ -1,53 +1,19 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-1181"
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.158.171.151
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
-  password: OTVlMzcy
+- cipher: chacha20-ietf
+  name: "\U0001F1FA\U0001F1F8US-103.36.91.32-5874"
+  password: asd123456
   port: 8388
-  server: 185.231.205.179
-  type: ss
-- cipher: rc4-md5
-  name: "\U0001F1E9\U0001F1EADE-193.108.119.230-1183"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 193.108.119.230
+  server: 103.36.91.32
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\u7F8E\u56FD 016_2@25"
-  network: ws
-  port: 443
-  server: 104.21.21.21
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
-  ws-opts:
-    headers:
-      host: laxfree.starsea.vip
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD 001"
+  name: "\U0001F3C1RELAY-141.101.121.52-0732"
   network: ws
   port: 80
   server: anycast.cf.030419.xyz
-  skip-cert-verify: true
-  tfo: true
+  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
   ws-opts:
     headers:
@@ -60,24 +26,17 @@ proxies:
   port: 8080
   server: 45.87.175.199
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E6\U0001F1F6GOOGLE-34.92.208.172-039"
-  network: tcp
-  port: 30251
-  server: 34.92.208.172
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
-  ws-headers:
-    Host: 34.92.208.172
-  ws-path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5913"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  password: OTVlMzcy
+  port: 8388
+  server: 185.231.205.179
+  type: ss
+- cipher: rc4-md5
+  name: "\U0001F1E9\U0001F1EADE-193.108.119.230-1183"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
   type: ss
 - alterId: 2
   cipher: auto
@@ -93,3 +52,42 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD 016_2@25"
+  network: ws
+  port: 443
+  server: 104.21.21.21
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
+  ws-opts:
+    headers:
+      host: laxfree.starsea.vip
+    path: /?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.158.171.151
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-1181"
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E6\U0001F1F6GOOGLE-34.92.208.172-039"
+  network: tcp
+  port: 30251
+  server: 34.92.208.172
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
+  ws-headers:
+    Host: 34.92.208.172
+  ws-path: /
