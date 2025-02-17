@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5947"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
 - alterId: 64
   cipher: auto
   name: "\U0001F1FA\U0001F1F8US-137.175.42.249-5938"
@@ -33,6 +27,12 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5969"
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 016_2@25"
@@ -47,13 +47,6 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- name: "\U0001F1F0\U0001F1F7KR-43.202.114.99-5971"
-  password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d
-  port: 10005
-  server: kr-01.littlexing.eu.org
-  skip-cert-verify: false
-  sni: kr-01.littlexing.eu.org
-  type: trojan
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3 CN 185 \u2192 tg@nicevpn123"
@@ -64,19 +57,19 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: "\U0001F1F8\U0001F1ECSG-13.213.40.209-5989"
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5947"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
+- name: "\U0001F1F0\U0001F1F7KR-43.202.114.99-5971"
   password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d
   port: 10005
-  server: sg-01.littlexing.eu.org
+  server: kr-01.littlexing.eu.org
   skip-cert-verify: false
-  sni: sg-01.littlexing.eu.org
+  sni: kr-01.littlexing.eu.org
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5969"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
-  type: ss
 - cipher: chacha20-ietf
   name: "\U0001F1FA\U0001F1F8US-103.36.91.32-5921"
   password: asd123456
@@ -84,8 +77,15 @@ proxies:
   server: 103.36.91.32
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-0909"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
+  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0477"
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
   type: ss
+- name: "\U0001F1F8\U0001F1ECSG-13.213.40.209-5989"
+  password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d
+  port: 10005
+  server: sg-01.littlexing.eu.org
+  skip-cert-verify: false
+  sni: sg-01.littlexing.eu.org
+  type: trojan
