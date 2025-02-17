@@ -1,4 +1,10 @@
 proxies:
+- name: "\U0001F1EC\U0001F1E7GB-161.35.34.48-0400"
+  password: 2cba4104747d49d18319e5ade1b93ab5
+  port: 443
+  server: yourjobnavigator.online
+  skip-cert-verify: false
+  type: trojan
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 016_2@25"
@@ -13,12 +19,6 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- name: "\U0001F1EC\U0001F1E7GB-161.35.34.48-0400"
-  password: 2cba4104747d49d18319e5ade1b93ab5
-  port: 443
-  server: yourjobnavigator.online
-  skip-cert-verify: false
-  type: trojan
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8237"
@@ -45,6 +45,12 @@ proxies:
   port: 8388
   server: 194.41.59.80
   type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-52.77.230.72-5925"
+  password: amazonskr05
+  port: 443
+  server: 52.77.230.72
+  type: ss
 - alterId: 64
   cipher: auto
   name: "\U0001F1FA\U0001F1F8US-137.175.42.249-5938"
@@ -59,38 +65,6 @@ proxies:
     headers:
       Host: www.22368793.xyz
     path: /path/1739036985733
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-52.77.230.72-5925"
-  password: amazonskr05
-  port: 443
-  server: 52.77.230.72
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts:
-    headers:
-      Host: slot4.raywhat.xyz
-    path: /29275bea-6373
-  name: Slot4
-  network: h2
-  port: 443
-  server: slot4.raywhat.xyz
-  tls: true
-  type: vmess
-  uuid: d20df4c7-82a9-4196-a06d-93cb35822726
-- alterId: 0
-  cipher: auto
-  h2-opts:
-    headers:
-      Host: slot3.raywhat.xyz
-    path: /b0c66d14-a0ab
-  name: Slot3
-  network: h2
-  port: 443
-  server: slot3.raywhat.xyz
-  tls: true
-  type: vmess
-  uuid: 64887a16-468c-4e98-b064-b82b01662727
 - alterId: 0
   cipher: auto
   h2-opts:
@@ -104,3 +78,17 @@ proxies:
   tls: true
   type: vmess
   uuid: 4d3b4011-7363-4a64-9cb4-51ca301cab87
+- cipher: aes-128-gcm
+  name: "\u4E2D\u56FD\u3010\u4ED8\u8D39\u63A8\u8350\uFF1Ahttps://socks.news\u30113"
+  password: e2c62a73-3132-48a6-a020-25c3ae0d8af2
+  port: 46595
+  server: bj.xissyun.com
+  type: ss
+- down: 100 Mbps
+  name: HySlot2
+  obfs: dcee89a9-b499-43e2-a994-9a58b063edd0
+  port: 44301
+  protocol: udp
+  server: hyslot2.raywhat.xyz
+  type: hysteria
+  up: 30 Mbps
