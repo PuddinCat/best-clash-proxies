@@ -18,6 +18,12 @@ proxies:
   server: 185.231.233.173
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: "\u82F1\u56FD V2CROSS.COM"
+  password: Y3bjXCJbTPlRdyTqFAYGDZ
+  port: 443
+  server: 78.129.140.11
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-185.231.205.179-0500"
   password: OTVlMzcy
   port: 8388
@@ -37,6 +43,12 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-13.209.11.204-6000"
+  password: amazonskr05
+  port: 443
+  server: 13.209.11.204
+  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8269"
@@ -51,26 +63,13 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "9c878afb4e8f4457b38910abd4a63d5f_@_\U0001F43B51@oneclickvpnkeys"
-  network: ws
-  port: 20322
-  server: 185.121.134.12
-  tls: false
-  type: vmess
-  udp: false
-  uuid: 70166ce6-326f-4b67-a296-a3253d8090fb
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\u82F1\u56FD V2CROSS.COM"
-  password: Y3bjXCJbTPlRdyTqFAYGDZ
-  port: 443
-  server: 78.129.140.11
-  type: ss
+- name: "\U0001F1F8\U0001F1ECSG-13.213.40.209-6021"
+  password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d
+  port: 10005
+  server: sg-01.littlexing.eu.org
+  skip-cert-verify: false
+  sni: sg-01.littlexing.eu.org
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: "15|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
@@ -79,10 +78,3 @@ proxies:
   server: 3.36.73.26
   tfo: false
   type: ss
-- name: "\U0001F1F8\U0001F1ECSG-13.213.40.209-6021"
-  password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d
-  port: 10005
-  server: sg-01.littlexing.eu.org
-  skip-cert-verify: false
-  sni: sg-01.littlexing.eu.org
-  type: trojan
