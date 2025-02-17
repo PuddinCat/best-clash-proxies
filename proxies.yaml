@@ -19,6 +19,12 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0691"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
+  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8237"
@@ -33,12 +39,6 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0691"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
 - cipher: chacha20-ietf
   name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-6008"
   password: asd123456
@@ -69,6 +69,19 @@ proxies:
   cipher: auto
   h2-opts:
     headers:
+      Host: slot2.raywhat.xyz
+    path: /b0c66d14-a0ab
+  name: Slot2
+  network: h2
+  port: 443
+  server: slot2.raywhat.xyz
+  tls: true
+  type: vmess
+  uuid: 64887a16-468c-4e98-b064-b82b01662727
+- alterId: 0
+  cipher: auto
+  h2-opts:
+    headers:
       Host: slot5.raywhat.xyz
     path: /57e71947-7827
   name: Slot5
@@ -78,17 +91,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 4d3b4011-7363-4a64-9cb4-51ca301cab87
-- cipher: aes-128-gcm
-  name: "\u4E2D\u56FD\u3010\u4ED8\u8D39\u63A8\u8350\uFF1Ahttps://socks.news\u30113"
-  password: e2c62a73-3132-48a6-a020-25c3ae0d8af2
-  port: 46595
-  server: bj.xissyun.com
-  type: ss
-- down: 100 Mbps
-  name: HySlot2
-  obfs: dcee89a9-b499-43e2-a994-9a58b063edd0
-  port: 44301
-  protocol: udp
-  server: hyslot2.raywhat.xyz
-  type: hysteria
-  up: 30 Mbps
+- alterId: 0
+  cipher: auto
+  h2-opts:
+    headers:
+      Host: slot4.raywhat.xyz
+    path: /29275bea-6373
+  name: Slot4
+  network: h2
+  port: 443
+  server: slot4.raywhat.xyz
+  tls: true
+  type: vmess
+  uuid: d20df4c7-82a9-4196-a06d-93cb35822726
