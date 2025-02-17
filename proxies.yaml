@@ -1,24 +1,4 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8269"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0691"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 016_2@25"
@@ -34,23 +14,51 @@ proxies:
       host: laxfree.starsea.vip
     path: /?ed=2048
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5979"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
-- cipher: aes-256-cfb
   name: "\U0001F1FA\U0001F1F8US-54.212.56.86-5457"
   password: amazonskr05
   port: 443
   server: 54.212.56.86
   type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0691"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5979"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8269"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
 - cipher: chacha20-ietf
   name: "\U0001F1ED\U0001F1F0HK-103.149.183.61-5959"
   password: asd123456
   port: 8388
   server: 103.149.183.61
   type: ss
+- down: 100 Mbps
+  name: HySlot2
+  obfs: dcee89a9-b499-43e2-a994-9a58b063edd0
+  port: 44301
+  protocol: udp
+  server: hyslot2.raywhat.xyz
+  type: hysteria
+  up: 30 Mbps
 - down: 100 Mbps
   name: HySlot3
   obfs: 9aaeee3f-a2ec-4b2a-b98c-266fbb5da0b2
@@ -76,20 +84,12 @@ proxies:
   cipher: auto
   h2-opts:
     headers:
-      Host: slot3.raywhat.xyz
-    path: /b0c66d14-a0ab
-  name: Slot3
+      Host: slot4.raywhat.xyz
+    path: /29275bea-6373
+  name: Slot4
   network: h2
   port: 443
-  server: slot3.raywhat.xyz
+  server: slot4.raywhat.xyz
   tls: true
   type: vmess
-  uuid: 64887a16-468c-4e98-b064-b82b01662727
-- down: 100 Mbps
-  name: HySlot2
-  obfs: dcee89a9-b499-43e2-a994-9a58b063edd0
-  port: 44301
-  protocol: udp
-  server: hyslot2.raywhat.xyz
-  type: hysteria
-  up: 30 Mbps
+  uuid: d20df4c7-82a9-4196-a06d-93cb35822726
