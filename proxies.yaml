@@ -1,15 +1,15 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-185.231.205.179-0470"
+  password: OTVlMzcy
+  port: 8388
+  server: 185.231.205.179
+  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-1181"
   password: qwerREWQ@@
   port: 64759
   server: 185.189.160.98
-  type: ss
-- cipher: chacha20-ietf
-  name: "\U0001F1FA\U0001F1F8US-103.36.91.32-5874"
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-45.158.171.151-0383"
@@ -17,15 +17,92 @@ proxies:
   port: 8080
   server: 45.158.171.151
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-185.231.205.179-0407"
-  password: OTVlMzcy
-  port: 8388
-  server: fr1.opensocks.site
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD 001"
+  network: ws
+  port: 80
+  server: anycast.cf.030419.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+  ws-opts:
+    headers:
+      Host: 33.bycf.us.kg
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-141.101.121.52-0732"
+  network: ws
+  port: 80
+  server: anycast.cf.030419.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+  ws-opts:
+    headers:
+      Host: 33.bycf.us.kg
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F3C1RELAY-198.41.209.70-0452"
+  network: ws
+  port: 80
+  server: 198.41.209.70
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: "VMESS-\u672A\u77E5>\u65B0\u52A0\u5761-NF\u89E3\u9501\u65B0\u52A0\u5761\u81EA\
+    \u5236\u5267-ChatGPT-TikTok-YouTube-104.16.155.10:80"
+  network: ws
+  port: 80
+  server: 104.16.155.10
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: "VMESS-\u672A\u77E5>\u65B0\u52A0\u5761-NF\u89E3\u9501\u65B0\u52A0\u5761\u81EA\
+    \u5236\u5267-ChatGPT-TikTok-YouTube-198.41.209.70:80"
+  network: ws
+  port: 80
+  server: 198.41.209.70
+  servername: chunchuan.kejixiaoqi666.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      HOST: chunchuan.kejixiaoqi666.store
+    path: /
+- cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-0879"
+  password: 7H6G6GF38VT7LIS2
+  port: 21002
+  server: qh62onjn.slashdevslashnetslashtun.net
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E6\U0001F1F6GOOGLE-34.92.208.172-010"
+  name: "\U0001F1E6\U0001F1F6GOOGLE-34.92.208.172-039"
   network: tcp
   port: 30251
   server: 34.92.208.172
@@ -36,48 +113,3 @@ proxies:
   ws-headers:
     Host: 34.92.208.172
   ws-path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8151"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-185.234.64.35-0681"
-  password: YTNjNDY5
-  port: 8388
-  server: 185.234.64.35
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u4FC4\u7F57\u65AF V2CROSS.COM"
-  network: ws
-  port: 20320
-  server: 195.58.49.42
-  tls: false
-  type: vmess
-  uuid: 5a2748d3-40f2-4298-8721-8f43a155fb7f
-  ws-opts:
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  password: 7H6G6GF38VT7LIS2
-  port: 21002
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: "SS-\u5FB7\u56FD-NF\u89E3\u9501\u5FB7\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-193.108.119.63:7002"
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 193.108.119.63
-  type: ss
