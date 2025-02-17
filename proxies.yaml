@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-185.231.205.179-0470"
-  password: OTVlMzcy
-  port: 8388
-  server: 185.231.205.179
-  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-1181"
   password: qwerREWQ@@
@@ -17,6 +11,19 @@ proxies:
   port: 8080
   server: 45.158.171.151
   type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E6\U0001F1F6GOOGLE-34.92.208.172-039"
+  network: tcp
+  port: 30251
+  server: 34.92.208.172
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
+  ws-headers:
+    Host: 34.92.208.172
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 001"
@@ -33,50 +40,12 @@ proxies:
     headers:
       Host: 33.bycf.us.kg
     path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-141.101.121.52-0732"
-  network: ws
-  port: 80
-  server: anycast.cf.030419.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
-  ws-opts:
-    headers:
-      Host: 33.bycf.us.kg
-    path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F3C1RELAY-198.41.209.70-0452"
-  network: ws
-  port: 80
-  server: 198.41.209.70
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      host: chunchuan.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: "VMESS-\u672A\u77E5>\u65B0\u52A0\u5761-NF\u89E3\u9501\u65B0\u52A0\u5761\u81EA\
-    \u5236\u5267-ChatGPT-TikTok-YouTube-104.16.155.10:80"
-  network: ws
-  port: 80
-  server: 104.16.155.10
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-185.231.205.179-0470"
+  password: OTVlMzcy
+  port: 8388
+  server: 185.231.205.179
+  type: ss
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -94,22 +63,52 @@ proxies:
     headers:
       HOST: chunchuan.kejixiaoqi666.store
     path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-0879"
-  password: 7H6G6GF38VT7LIS2
-  port: 21002
-  server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E6\U0001F1F6GOOGLE-34.92.208.172-039"
-  network: tcp
-  port: 30251
-  server: 34.92.208.172
+  name: "\u7F8E\u56FD 016_2@25"
+  network: ws
+  port: 443
+  server: 104.21.21.21
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
+  ws-opts:
+    headers:
+      host: laxfree.starsea.vip
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F3C1RELAY-198.41.209.70-0452"
+  network: ws
+  port: 80
+  server: 198.41.209.70
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
-  ws-headers:
-    Host: 34.92.208.172
-  ws-path: /
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      host: chunchuan.kejixiaoqi666.store
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5913"
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8151"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
