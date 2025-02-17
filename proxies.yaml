@@ -19,12 +19,6 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0691"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8237"
@@ -39,6 +33,12 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0691"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
+  type: ss
 - name: "\U0001F1F0\U0001F1F7KR-43.202.114.99-5971"
   password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d
   port: 10005
@@ -59,35 +59,38 @@ proxies:
   skip-cert-verify: false
   sni: sg-01.littlexing.eu.org
   type: trojan
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8US-137.175.42.249-5938"
+  network: ws
+  port: 30001
+  server: 137.175.42.249
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.22368793.xyz
+    path: /path/1739036985733
 - alterId: 0
   cipher: auto
   h2-opts:
     headers:
-      Host: slot4.raywhat.xyz
-    path: /29275bea-6373
-  name: Slot4
+      Host: slot5.raywhat.xyz
+    path: /57e71947-7827
+  name: Slot5
   network: h2
   port: 443
-  server: slot4.raywhat.xyz
+  server: slot5.raywhat.xyz
   tls: true
   type: vmess
-  uuid: d20df4c7-82a9-4196-a06d-93cb35822726
-- cipher: aes-128-gcm
-  name: "\u4E2D\u56FD\u3010\u4ED8\u8D39\u63A8\u8350\uFF1Ahttps://socks.news\u30112"
-  password: e2c62a73-3132-48a6-a020-25c3ae0d8af2
-  port: 46461
-  server: mmt-shyd.iwe.la
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u4FC4\u7F57\u65AF \u9791\u977C\u65AF\u5766\u5580\u5C71justhost"
-  network: ws
-  port: 80
-  server: eedp257bubu2wefy3.lovebaipiao.net
-  tls: false
-  type: vmess
-  uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-  ws-opts:
-    headers:
-      Host: www.apple.com
-    path: /iphone
+  uuid: 4d3b4011-7363-4a64-9cb4-51ca301cab87
+- down: 100 Mbps
+  name: HySlot2
+  obfs: dcee89a9-b499-43e2-a994-9a58b063edd0
+  port: 44301
+  protocol: udp
+  server: hyslot2.raywhat.xyz
+  type: hysteria
+  up: 30 Mbps
