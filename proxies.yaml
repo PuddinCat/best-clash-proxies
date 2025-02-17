@@ -25,6 +25,12 @@ proxies:
     headers:
       Host: www.22368793.xyz
     path: /path/1739036985733
+- cipher: rc4-md5
+  name: "\U0001F1E9\U0001F1EADE-193.108.119.230-1183"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 016_2@25"
@@ -39,12 +45,6 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- cipher: rc4-md5
-  name: "\U0001F1E9\U0001F1EADE-193.108.119.230-1183"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 193.108.119.230
-  type: ss
 - alterId: 0
   cipher: auto
   delay: 1353
@@ -61,6 +61,20 @@ proxies:
     headers:
       Host: jp1-1.zfork.com
     path: /5e6hsl8onu4i?ed=2560
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-141.101.120.151-0754"
+  network: ws
+  port: 80
+  server: anycast.cf.030419.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+  ws-opts:
+    headers:
+      Host: 33.bycf.us.kg
+    path: /rongseven?ed=2048
 - cipher: aes-256-gcm
   name: "\U0001F1EF\U0001F1F5JP-156.231.104.22-5928"
   password: V4R0XM7GMEZF9QA5
@@ -68,24 +82,16 @@ proxies:
   server: 156.231.104.22
   type: ss
 - cipher: aes-256-gcm
-  name: "\u5357\u975E V2CROSS.COM"
-  password: QCK38XJJU4WIUYRK
-  port: 18003
-  server: 156.231.104.13
+  name: "\U0001F1F7\U0001F1FARU-185.126.239.231-5911"
+  password: 4XMQB6GZ26O7YYUN
+  port: 20002
+  server: 185.126.239.231
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  password: DV716KZ4YQTBZ5Y5
-  port: 21006
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  password: YKB42JGKK8H5DIWF
-  port: 17002
-  server: 23.185.248.12
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  password: V4R0XM7GMEZF9QA5
+  port: 18012
+  server: 156.231.104.22
   tfo: false
   type: ss
