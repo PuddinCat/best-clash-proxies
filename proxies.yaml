@@ -12,22 +12,36 @@ proxies:
   server: 103.36.91.32
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-5464"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.173
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\u82F1\u56FD V2CROSS.COM"
-  password: Y3bjXCJbTPlRdyTqFAYGDZ
+  name: "\U0001F1F0\U0001F1F7KR-13.209.11.204-6000"
+  password: amazonskr05
   port: 443
-  server: 78.129.140.11
+  server: 13.209.11.204
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-185.231.205.179-0500"
   password: OTVlMzcy
   port: 8388
   server: 185.231.205.179
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-5464"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
+  type: ss
+- cipher: aes-256-cfb
+  name: "SSR-\u4E39\u9EA6-NF\u89E3\u9501\u4E39\u9EA6\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-185.186.79.53:989"
+  obfs: plain
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  protocol: origin
+  server: 185.186.79.53
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: "\u82F1\u56FD V2CROSS.COM"
+  password: Y3bjXCJbTPlRdyTqFAYGDZ
+  port: 443
+  server: 78.129.140.11
   type: ss
 - alterId: 0
   cipher: auto
@@ -43,12 +57,6 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-13.209.11.204-6000"
-  password: amazonskr05
-  port: 443
-  server: 13.209.11.204
-  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8269"
@@ -63,18 +71,13 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- name: "\U0001F1F8\U0001F1ECSG-13.213.40.209-6021"
-  password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d
-  port: 10005
-  server: sg-01.littlexing.eu.org
-  skip-cert-verify: false
-  sni: sg-01.littlexing.eu.org
-  type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
-  password: amazonskr05
-  port: 443
-  server: 3.36.73.26
-  tfo: false
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
