@@ -1,4 +1,16 @@
 proxies:
+- cipher: aes-128-gcm
+  name: "\U0001F1EC\U0001F1E7GB-212.102.53.197-0415"
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.197
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EE\U0001F1EAIE-52.169.50.245-5961"
+  password: N9aY0pE81YY0eDpZGKGDk4
+  port: 37500
+  server: 52.169.50.245
+  type: ss
 - alterId: 64
   cipher: auto
   name: "\U0001F1FA\U0001F1F8US-137.175.42.249-5938"
@@ -13,23 +25,25 @@ proxies:
     headers:
       Host: www.22368793.xyz
     path: /path/1739036985733
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD 016_2@25"
+  network: ws
+  port: 443
+  server: 104.21.21.21
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
+  ws-opts:
+    headers:
+      host: laxfree.starsea.vip
+    path: /?ed=2048
 - cipher: rc4-md5
   name: "\U0001F1E9\U0001F1EADE-193.108.119.230-1183"
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 193.108.119.230
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1EC\U0001F1E7GB-212.102.53.197-0415"
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.197
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1EAIE-52.169.50.245-5961"
-  password: N9aY0pE81YY0eDpZGKGDk4
-  port: 37500
-  server: 52.169.50.245
   type: ss
 - alterId: 0
   cipher: auto
@@ -47,25 +61,12 @@ proxies:
     headers:
       Host: jp1-1.zfork.com
     path: /5e6hsl8onu4i?ed=2560
-- alterId: 32
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8US-77.83.141.171-6095"
-  network: ws
-  port: 443
-  server: 77.83.141.171
-  servername: vc.fly.dev
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  ws-opts:
-    path: /vc
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  password: YKB42JGKK8H5DIWF
-  port: 17002
-  server: 23.185.248.12
+  name: "15|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  password: 4XMQB6GZ26O7YYUN
+  port: 20002
+  server: 185.126.239.231
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -76,23 +77,17 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD 016_2@25"
-  network: ws
-  port: 443
-  server: 104.21.21.21
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
-  ws-opts:
-    headers:
-      host: laxfree.starsea.vip
-    path: /?ed=2048
 - cipher: aes-256-gcm
   name: "\U0001F1F7\U0001F1FARU-185.126.239.231-5911"
   password: 4XMQB6GZ26O7YYUN
   port: 20002
   server: 185.126.239.231
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  password: 0HLKWXU2MV5KGEX4
+  port: 15013
+  server: 156.245.190.22
+  tfo: false
   type: ss
