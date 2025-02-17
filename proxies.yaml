@@ -1,15 +1,15 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1EAIE-52.169.50.245-5961"
-  password: N9aY0pE81YY0eDpZGKGDk4
-  port: 37500
-  server: 52.169.50.245
-  type: ss
 - cipher: aes-128-gcm
   name: "\U0001F1EC\U0001F1E7GB-212.102.53.197-0415"
   password: shadowsocks
   port: 443
   server: 212.102.53.197
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EE\U0001F1EAIE-52.169.50.245-5961"
+  password: N9aY0pE81YY0eDpZGKGDk4
+  port: 37500
+  server: 52.169.50.245
   type: ss
 - alterId: 64
   cipher: auto
@@ -25,12 +25,6 @@ proxies:
     headers:
       Host: www.22368793.xyz
     path: /path/1739036985733
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F9PT-185.231.233.112-5975"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 016_2@25"
@@ -45,21 +39,11 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  password: V4R0XM7GMEZF9QA5
-  port: 18012
-  server: 156.231.104.22
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
-  password: 4XMQB6GZ26O7YYUN
-  port: 20002
-  server: 185.126.239.231
-  tfo: false
+- cipher: rc4-md5
+  name: "\U0001F1E9\U0001F1EADE-193.108.119.230-1183"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
   type: ss
 - alterId: 0
   cipher: auto
@@ -78,6 +62,12 @@ proxies:
       Host: jp1-1.zfork.com
     path: /5e6hsl8onu4i?ed=2560
 - cipher: aes-256-gcm
+  name: "\U0001F1EF\U0001F1F5JP-156.231.104.22-5928"
+  password: V4R0XM7GMEZF9QA5
+  port: 18012
+  server: 156.231.104.22
+  type: ss
+- cipher: aes-256-gcm
   name: "\u5357\u975E V2CROSS.COM"
   password: QCK38XJJU4WIUYRK
   port: 18003
@@ -85,9 +75,17 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
-  password: PO156F4FRXFM1UOT
-  port: 17003
-  server: 23.185.248.13
+  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  password: DV716KZ4YQTBZ5Y5
+  port: 21006
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  password: YKB42JGKK8H5DIWF
+  port: 17002
+  server: 23.185.248.12
   tfo: false
   type: ss
