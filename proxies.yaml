@@ -11,46 +11,12 @@ proxies:
   port: 51633
   server: 211.178.105.134
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-185.231.205.179-0694"
-  password: OTVlMzcy
-  port: 8388
-  server: fr1.opensocks.site
-  type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5936"
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
+  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-1212"
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD 016_2@25"
-  network: ws
-  port: 443
-  server: 104.21.21.21
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
-  ws-opts:
-    headers:
-      host: laxfree.starsea.vip
-    path: /?ed=2048
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8269"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
 - alterId: 32
   cipher: auto
   name: "\U0001F1FA\U0001F1F8US-77.83.141.171-6124"
@@ -66,31 +32,68 @@ proxies:
     headers:
       Host: vc.fly.dev
     path: /vc
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
-  password: YTNjNDY5
-  port: 8388
-  server: 185.234.64.35
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD 016_2@25"
+  network: ws
+  port: 443
+  server: 104.21.21.21
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
+  ws-opts:
+    headers:
+      host: laxfree.starsea.vip
+    path: /?ed=2048
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5936"
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-185.231.205.179-0694"
+  password: OTVlMzcy
+  port: 8388
+  server: fr1.opensocks.site
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u4FC4\u7F57\u65AF V2CROSS.COM"
+  network: ws
+  port: 20321
+  server: 195.58.49.42
+  tls: false
+  type: vmess
+  uuid: b1e8e96b-3173-4917-87ca-878fdde67120
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8269"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "081e826f21a24abdb3bcb38463b8fa8c_@_\U0001F43B51@oneclickvpnkeys"
+  name: "abf2d8ed30324befb8f6468b0792ad06_@_\U0001F43B57@oneclickvpnkeys"
   network: ws
-  port: 20322
-  server: 185.121.134.12
+  port: 20321
+  server: 195.58.49.42
   tls: false
   type: vmess
   udp: false
   uuid: 70166ce6-326f-4b67-a296-a3253d8090fb
   ws-opts:
     path: /
-- cipher: aes-256-cfb
-  name: "SSR-\u4E39\u9EA6-NF\u89E3\u9501\u4E39\u9EA6\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-185.186.79.53:989"
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 185.186.79.53
-  type: ssr
