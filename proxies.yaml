@@ -27,6 +27,12 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-13.209.11.204-1271"
+  password: amazonskr05
+  port: 443
+  server: 13.209.11.204
+  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8237"
@@ -47,6 +53,12 @@ proxies:
   port: 989
   server: 176.103.53.105
   type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5947"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
 - name: "\U0001F1F8\U0001F1ECSG-13.213.40.209-5989"
   password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d
   port: 10005
@@ -54,18 +66,6 @@ proxies:
   skip-cert-verify: false
   sni: sg-01.littlexing.eu.org
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5947"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-13.209.11.204-1271"
-  password: amazonskr05
-  port: 443
-  server: 13.209.11.204
-  type: ss
 - name: "\U0001F1F0\U0001F1F7KR-43.202.114.99-5971"
   password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d
   port: 10005
@@ -73,29 +73,17 @@ proxies:
   skip-cert-verify: false
   sni: kr-01.littlexing.eu.org
   type: trojan
-- alterId: 0
-  cipher: auto
-  h2-opts:
-    headers:
-      Host: slot2.raywhat.xyz
-    path: /b0c66d14-a0ab
-  name: Slot2
-  network: h2
-  port: 443
-  server: slot2.raywhat.xyz
-  tls: true
-  type: vmess
-  uuid: 64887a16-468c-4e98-b064-b82b01662727
-- alterId: 0
-  cipher: auto
-  name: "\u4FC4\u7F57\u65AF \u9791\u977C\u65AF\u5766\u5580\u5C71justhost"
-  network: ws
-  port: 80
-  server: eedp257bubu2wefy3.lovebaipiao.net
-  tls: false
-  type: vmess
-  uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-  ws-opts:
-    headers:
-      Host: www.apple.com
-    path: /iphone
+- cipher: aes-128-gcm
+  name: "\u4E2D\u56FD\u3010\u4ED8\u8D39\u63A8\u8350\uFF1Ahttps://socks.news\u30113"
+  password: e2c62a73-3132-48a6-a020-25c3ae0d8af2
+  port: 46595
+  server: bj.xissyun.com
+  type: ss
+- down: 100 Mbps
+  name: HySlot2
+  obfs: dcee89a9-b499-43e2-a994-9a58b063edd0
+  port: 44301
+  protocol: udp
+  server: hyslot2.raywhat.xyz
+  type: hysteria
+  up: 30 Mbps
