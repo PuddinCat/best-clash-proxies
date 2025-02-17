@@ -27,19 +27,6 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- name: "\U0001F1F8\U0001F1ECSG-13.213.40.209-5989"
-  password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d
-  port: 10005
-  server: sg-01.littlexing.eu.org
-  skip-cert-verify: false
-  sni: sg-01.littlexing.eu.org
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0691"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8237"
@@ -54,6 +41,31 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5947"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0691"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-13.209.11.204-1271"
+  password: amazonskr05
+  port: 443
+  server: 13.209.11.204
+  type: ss
+- name: "\U0001F1F8\U0001F1ECSG-13.213.40.209-5989"
+  password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d
+  port: 10005
+  server: sg-01.littlexing.eu.org
+  skip-cert-verify: false
+  sni: sg-01.littlexing.eu.org
+  type: trojan
 - name: "\U0001F1F0\U0001F1F7KR-43.202.114.99-5971"
   password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d
   port: 10005
@@ -61,18 +73,6 @@ proxies:
   skip-cert-verify: false
   sni: kr-01.littlexing.eu.org
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-13.209.11.204-1271"
-  password: amazonskr05
-  port: 443
-  server: 13.209.11.204
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5947"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
 - alterId: 0
   cipher: auto
   h2-opts:
