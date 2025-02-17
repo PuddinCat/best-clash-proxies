@@ -1,35 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.192
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: "\U0001F1EE\U0001F1EAIE-52.169.50.245-5961"
   password: N9aY0pE81YY0eDpZGKGDk4
   port: 37500
   server: 52.169.50.245
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1EC\U0001F1E7GB(AzadNet.t.me)_013"
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.197
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EF\U0001F1F5JP-156.231.104.22-5928"
-  password: V4R0XM7GMEZF9QA5
-  port: 18012
-  server: 156.231.104.22
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  password: V4R0XM7GMEZF9QA5
-  port: 18012
-  server: 156.231.104.22
-  tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
@@ -39,39 +13,71 @@ proxies:
   server: 156.231.104.13
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: "\u9999\u6E2F Google\u4E91\u8BA1\u7B97\u6570\u636E\u4E2D\u5FC3"
-  port: 30251
-  server: 34.92.208.172
-  tls: false
+  name: "\U0001F1FA\U0001F1F8US-137.175.42.249-5938"
+  network: ws
+  port: 30001
+  server: 137.175.42.249
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.22368793.xyz
+    path: /path/1739036985733
 - cipher: aes-256-gcm
   name: "\U0001F1EF\U0001F1F5JP-156.231.104.13-5910"
   password: QCK38XJJU4WIUYRK
   port: 18003
   server: 156.231.104.13
   type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170_1"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-23.185.248.13-5907"
+  password: PO156F4FRXFM1UOT
+  port: 17003
+  server: 23.185.248.13
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "15|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
-  password: 4XMQB6GZ26O7YYUN
-  port: 20002
-  server: 185.126.239.231
+  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  password: DV716KZ4YQTBZ5Y5
+  port: 21006
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  password: PO156F4FRXFM1UOT
+  port: 17003
+  server: 23.185.248.13
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1EF\U0001F1F5JP-156.231.104.22-5928"
+  password: V4R0XM7GMEZF9QA5
+  port: 18012
+  server: 156.231.104.22
+  type: ss
+- alterId: 2
   cipher: auto
-  name: "\u7F8E\u56FD 016_2@25"
+  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8237"
   network: ws
-  port: 443
-  server: 104.21.21.21
-  skip-cert-verify: true
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      host: laxfree.starsea.vip
-    path: /?ed=2048
+      Host: zxjp-a.tkong.cc
+    path: /
