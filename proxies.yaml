@@ -14,22 +14,16 @@ proxies:
       host: laxfree.starsea.vip
     path: /?ed=2048
 - cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8US-54.212.56.86-5457"
-  password: amazonskr05
-  port: 443
-  server: 54.212.56.86
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5979"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0691"
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 176.103.53.105
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5979"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
   type: ss
 - alterId: 2
   cipher: auto
@@ -45,6 +39,12 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8US-54.212.56.86-5457"
+  password: amazonskr05
+  port: 443
+  server: 54.212.56.86
+  type: ss
 - cipher: chacha20-ietf
   name: "\U0001F1ED\U0001F1F0HK-103.149.183.61-5959"
   password: asd123456
@@ -82,14 +82,16 @@ proxies:
   uuid: 4d3b4011-7363-4a64-9cb4-51ca301cab87
 - alterId: 0
   cipher: auto
-  h2-opts:
-    headers:
-      Host: slot4.raywhat.xyz
-    path: /29275bea-6373
-  name: Slot4
-  network: h2
-  port: 443
-  server: slot4.raywhat.xyz
-  tls: true
+  client-fingerprint: chrome
+  name: "\U0001F3C1RELAY-104.16.155.10-0756"
+  network: ws
+  port: 80
+  server: cloudflare.182682.xyz
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: d20df4c7-82a9-4196-a06d-93cb35822726
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+  ws-opts:
+    headers:
+      host: kr.cfyyds.filegear-sg.me
+    path: /rongseven?ed=2048
