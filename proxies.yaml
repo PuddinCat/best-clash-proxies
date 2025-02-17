@@ -1,34 +1,27 @@
 proxies:
+- cipher: chacha20-ietf
+  name: "\U0001F1EF\U0001F1F5JP-107.148.6.121-6029"
+  password: asd123456
+  port: 8388
+  server: 107.148.6.121
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-6001"
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
+  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5979"
   password: hGkQ6915tD
   port: 15084
   server: 120.232.81.50
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 \u82F1\u56FD V2CROSS.COM"
-  password: Y3bjXCJbTPlRdyTqFAYGDZ
-  port: 443
-  server: 78.129.140.11
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\u82F1\u56FD V2CROSS.COM"
-  password: Y3bjXCJbTPlRdyTqFAYGDZ
-  port: 443
-  server: 78.129.140.11
-  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5936"
   password: hGkQ6915tD
   port: 16088
   server: 120.232.81.50
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0477"
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
   type: ss
 - alterId: 0
   cipher: auto
@@ -45,16 +38,23 @@ proxies:
       host: laxfree.starsea.vip
     path: /?ed=2048
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
-  password: OTVlMzcy
-  port: 8388
-  server: 185.231.205.179
+  name: "\u82F1\u56FD V2CROSS.COM"
+  password: Y3bjXCJbTPlRdyTqFAYGDZ
+  port: 443
+  server: 78.129.140.11
   type: ss
-- cipher: chacha20-ietf
-  name: "\U0001F1EF\U0001F1F5JP-107.148.6.121-6029"
-  password: asd123456
-  port: 8388
-  server: 107.148.6.121
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0691"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 \u82F1\u56FD V2CROSS.COM"
+  password: Y3bjXCJbTPlRdyTqFAYGDZ
+  port: 443
+  server: 78.129.140.11
   type: ss
 - alterId: 2
   cipher: auto
@@ -70,9 +70,9 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-52.221.234.117-5459"
-  password: amazonskr05
-  port: 443
-  server: 52.221.234.117
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  password: OTVlMzcy
+  port: 8388
+  server: 185.231.205.179
   type: ss
