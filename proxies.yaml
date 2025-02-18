@@ -10,65 +10,65 @@ proxies:
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0015
-  password: 8771d456-6779-4c33-a796-b6defc67bc75
-  port: 11561
-  server: sgp-01-zz.manatraffic.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0057
-  password: 8771d456-6779-4c33-a796-b6defc67bc75
-  port: 11412
-  server: hkg-02-zz.manatraffic.top
+  name: CN_speednode_0016
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19009
+  server: yy1.vyunyunnode.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: CN_speednode_0009
-  password: 8771d456-6779-4c33-a796-b6defc67bc75
-  port: 11413
-  server: hkg-03-zz.manatraffic.top
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19006
+  server: yy1.vyunyunnode.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0019
-  password: 8771d456-6779-4c33-a796-b6defc67bc75
-  port: 11563
-  server: sgp-03-zz.manatraffic.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0016
+  name: CN_speednode_0006
   password: 8771d456-6779-4c33-a796-b6defc67bc75
   port: 11562
   server: sgp-02-zz.manatraffic.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0020
-  password: 8771d456-6779-4c33-a796-b6defc67bc75
-  port: 14202
-  server: jpn-02-zz.manatraffic.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0031
-  password: 8771d456-6779-4c33-a796-b6defc67bc75
-  port: 14201
-  server: jpn-01-zz.manatraffic.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0036
+  name: CN_speednode_0011
   password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19023
+  port: 19003
   server: yy1.vyunyunnode.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0010
+  name: CN_speednode_0015
   password: 8771d456-6779-4c33-a796-b6defc67bc75
-  port: 12822
-  server: twn-02-zz.manatraffic.top
+  port: 11563
+  server: sgp-03-zz.manatraffic.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0008
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19088
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0020
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19014
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0007
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19013
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0012
+  password: 8771d456-6779-4c33-a796-b6defc67bc75
+  port: 14202
+  server: jpn-02-zz.manatraffic.top
   type: ss
   udp: true
