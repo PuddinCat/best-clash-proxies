@@ -10,10 +10,10 @@ proxies:
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0057
+  name: CN_speednode_0015
   password: 8771d456-6779-4c33-a796-b6defc67bc75
-  port: 11412
-  server: hkg-02-zz.manatraffic.top
+  port: 11561
+  server: sgp-01-zz.manatraffic.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -24,30 +24,16 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0051
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19006
-  server: yy1.vyunyunnode.top
+  name: CN_speednode_0016
+  password: 8771d456-6779-4c33-a796-b6defc67bc75
+  port: 11562
+  server: sgp-02-zz.manatraffic.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0017
+  name: CN_speednode_0032
   password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19003
-  server: yy1.vyunyunnode.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0033
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19019
-  server: yy1.vyunyunnode.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0025
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19017
+  port: 19009
   server: yy1.vyunyunnode.top
   type: ss
   udp: true
@@ -59,10 +45,17 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0039
+  name: CN_speednode_0047
   password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19014
+  port: 19088
   server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0031
+  password: 8771d456-6779-4c33-a796-b6defc67bc75
+  port: 14201
+  server: jpn-01-zz.manatraffic.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -70,5 +63,12 @@ proxies:
   password: 3FB23A19-9424-40C7-9139-3540228283FA
   port: 40000
   server: hk.fastsoonlink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0017
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19003
+  server: yy1.vyunyunnode.top
   type: ss
   udp: true
