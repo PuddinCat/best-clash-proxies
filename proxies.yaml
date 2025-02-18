@@ -10,16 +10,16 @@ proxies:
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EC\U0001F1E7GB-78.129.140.11-5648"
-  password: Y3bjXCJbTPlRdyTqFAYGDZ
-  port: 443
-  server: 78.129.140.11
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1NL-193.29.139.189-5769"
-  password: QCXDxuDlTTMD7jtgHUjIoj
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.166-0409"
+  password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
-  server: 193.29.139.189
+  server: 45.87.175.166
+  type: ss
+- cipher: aes-128-gcm
+  name: "\U0001F1F2\U0001F1FAMU-45.196.248.144-5675"
+  password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3
+  port: 51301
+  server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0673"
@@ -27,20 +27,6 @@ proxies:
   port: 989
   server: 176.103.53.105
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-172.67.141.68-5698"
-  network: ws
-  port: 443
-  server: tasnim.ITN24.IR
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 468a9557-2855-4c53-94c1-5e97180c9790
-  ws-opts:
-    headers:
-      Host: tasnim.ITN24.IR
-    path: /24820/?ed=2048
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-7920"
@@ -69,25 +55,31 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- alterId: 2
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F3\U0001F1F1NL-193.29.139.189-5769"
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.189
+  type: ss
+- alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-5651"
+  name: "\U0001F3C1RELAY-172.67.141.68-5698"
   network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
+  port: 443
+  server: tasnim.ITN24.IR
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 468a9557-2855-4c53-94c1-5e97180c9790
   ws-opts:
     headers:
-      Host: zxjp-c.tkong.cc
-    path: /
+      Host: tasnim.ITN24.IR
+    path: /24820/?ed=2048
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.166-0409"
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.166
+  name: "\U0001F1EC\U0001F1E7GB-78.129.140.11-5648"
+  password: Y3bjXCJbTPlRdyTqFAYGDZ
+  port: 443
+  server: 78.129.140.11
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
