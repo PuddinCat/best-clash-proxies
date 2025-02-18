@@ -5,12 +5,6 @@ proxies:
   port: 8388
   server: 202.162.109.169
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-1212"
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-185.231.205.179-0694"
   password: OTVlMzcy
@@ -22,6 +16,12 @@ proxies:
   password: hGkQ6915tD
   port: 16088
   server: 120.232.81.50
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-6001"
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
   type: ss
 - alterId: 0
   cipher: auto
@@ -37,12 +37,6 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-6001"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
-  type: ss
 - alterId: 32
   cipher: auto
   name: "\U0001F1FA\U0001F1F8US-77.83.141.171-6124"
@@ -58,12 +52,6 @@ proxies:
     headers:
       Host: vc.fly.dev
     path: /vc
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\u4E9A"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 188.214.36.155
-  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8269"
@@ -82,13 +70,25 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "081e826f21a24abdb3bcb38463b8fa8c_@_\U0001F43B51@oneclickvpnkeys"
+  name: "abf2d8ed30324befb8f6468b0792ad06_@_\U0001F43B57@oneclickvpnkeys"
   network: ws
-  port: 20322
-  server: 185.121.134.12
+  port: 20321
+  server: 195.58.49.42
   tls: false
   type: vmess
   udp: false
   uuid: 70166ce6-326f-4b67-a296-a3253d8090fb
   ws-opts:
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
+  password: YTNjNDY5
+  port: 8388
+  server: 185.234.64.35
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\u4E9A"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 188.214.36.155
+  type: ss
