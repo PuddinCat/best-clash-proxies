@@ -21,6 +21,12 @@ proxies:
   port: 64759
   server: 185.189.160.98
   type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1ED\U0001F1F0HK-112.213.102.228-5943"
+  password: qwerREWQ@@
+  port: 4231
+  server: 112.213.102.228
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1E8\U0001F1F3CN-106.227.74.234-1372"
   password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
@@ -42,26 +48,19 @@ proxies:
   server: 120.232.81.50
   type: ss
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F \u7279\u522B\u884C\u653F\u533A"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.47
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-78.129.140.11:443"
   password: Y3bjXCJbTPlRdyTqFAYGDZ
   port: 443
   server: 78.129.140.11
   type: ss
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 \u6C5F\u82CF\u7701\u5F90\u5DDE\u5E02 \u79FB\u52A8"
-  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
-  port: 51075
-  server: lm.kaiqsz.com
+- name: DE_speednode_0031
+  password: '3782591447421952000'
+  port: 443
+  server: patient-ghost.treefrog761.one
   skip-cert-verify: true
-  sni: mmbiz10.redapricotcloud.com
+  sni: patient-ghost.treefrog761.one
   type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: "SS-\u5965\u5730\u5229-NF\u89E3\u9501\u5965\u5730\u5229\u81EA\u5236\u5267\
     -ChatGPT-TikTok-YouTube-95.164.36.59:8388"
