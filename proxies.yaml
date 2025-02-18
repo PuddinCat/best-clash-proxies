@@ -16,22 +16,24 @@ proxies:
   server: 194.41.59.80
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-5647"
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
-- cipher: aes-256-cfb
   name: "\U0001F1ED\U0001F1F0HK-112.213.102.228-5943"
   password: qwerREWQ@@
   port: 4231
   server: 112.213.102.228
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5715"
+  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-5647"
   password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
+  port: 64759
+  server: 185.189.160.98
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
+  port: 30003
+  server: gdgs.tarioblink.me
+  tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5697"
@@ -39,30 +41,35 @@ proxies:
   port: 15084
   server: 120.232.81.50
   type: ss
-- name: "\U0001F1E8\U0001F1F3CN-183.236.51.4-32"
-  password: 65f14831-5c67-483f-9e85-f3aa73f21187
-  port: 13019
-  server: naiu-us.05vr9nyqg5.download
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- name: "\U0001F1E8\U0001F1F3CN-183.236.51.50-1377"
-  password: 65f14831-5c67-483f-9e85-f3aa73f21187
-  port: 13019
-  server: naiu-us.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F \u7279\u522B\u884C\u653F\u533A"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.47
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-78.129.140.11:443"
+  name: "\U0001F1EC\U0001F1E7GB-78.129.140.11-69"
   password: Y3bjXCJbTPlRdyTqFAYGDZ
   port: 443
   server: 78.129.140.11
+  type: ss
+- cipher: rc4-md5
+  name: CN_speednode_0025
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40200
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 1.link-hub.blog
+  type: ssr
+  udp: true
+- name: DE_speednode_0031
+  password: '3782591447421952000'
+  port: 443
+  server: patient-ghost.treefrog761.one
+  skip-cert-verify: true
+  sni: patient-ghost.treefrog761.one
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u5965\u5730\u5229-NF\u89E3\u9501\u5965\u5730\u5229\u81EA\u5236\u5267\
+    -ChatGPT-TikTok-YouTube-95.164.36.59:8388"
+  password: OWY4ODBm
+  port: 8388
+  server: 95.164.36.59
   type: ss
