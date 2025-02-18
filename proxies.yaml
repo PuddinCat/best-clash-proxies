@@ -9,6 +9,12 @@ proxies:
   port: 45578
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5739"
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
+  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-5647"
   password: qwerREWQ@@
@@ -21,11 +27,17 @@ proxies:
   port: 51633
   server: 211.178.105.134
   type: ss
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5739"
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
+- cipher: aes-256-cfb
+  name: "\U0001F1ED\U0001F1F0HK-112.213.102.228-5943"
+  password: qwerREWQ@@
+  port: 4231
+  server: 112.213.102.228
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5697"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -35,37 +47,23 @@ proxies:
   server: gdgs.tarioblink.me
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5697"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
-- name: "\U0001F1E8\U0001F1F3CN-183.236.51.4-32"
-  password: 65f14831-5c67-483f-9e85-f3aa73f21187
-  port: 13019
-  server: naiu-us.05vr9nyqg5.download
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1ED\U0001F1F0HK-112.213.102.228-5943"
-  password: qwerREWQ@@
-  port: 4231
-  server: 112.213.102.228
-  type: ss
-- name: DE_speednode_0031
-  password: '3782591447421952000'
-  port: 443
-  server: patient-ghost.treefrog761.one
-  skip-cert-verify: true
-  sni: patient-ghost.treefrog761.one
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F \u7279\u522B\u884C\u653F\u533A"
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 103.104.247.47
+  type: ss
+- name: "\U0001F1E8\U0001F1F3CN-183.236.51.4-88"
+  password: 65f14831-5c67-483f-9e85-f3aa73f21187
+  port: 13027
+  server: naiu-sg.05vr9nyqg5.download
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-78.129.140.11:443"
+  password: Y3bjXCJbTPlRdyTqFAYGDZ
+  port: 443
+  server: 78.129.140.11
   type: ss
