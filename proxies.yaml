@@ -6,31 +6,11 @@ proxies:
   server: 194.41.59.80
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-6001"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5979"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
-  password: MDA4MjFlMjAzOTdhMzViOWI1MTFhNGY3YWRjYmVl
-  port: 995
-  server: 38.54.27.37
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD 016_2@25"
-  network: ws
-  port: 443
-  server: 104.21.21.21
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
-  ws-opts:
-    headers:
-      host: laxfree.starsea.vip
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD CloudFlare\u8282\u70B9"
@@ -45,10 +25,10 @@ proxies:
       Host: expresstv.ITN24.IR
     path: /?ed=2048
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F9PT-185.231.233.112-6007"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
+  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-6001"
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
   type: ss
 - alterId: 2
   cipher: auto
@@ -64,6 +44,32 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD 016_2@25"
+  network: ws
+  port: 443
+  server: 104.21.21.21
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
+  ws-opts:
+    headers:
+      host: laxfree.starsea.vip
+    path: /?ed=2048
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F9PT-185.231.233.112-6007"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.112
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  password: MDA4MjFlMjAzOTdhMzViOWI1MTFhNGY3YWRjYmVl
+  port: 995
+  server: 38.54.27.37
+  type: ss
 - alterId: 64
   cipher: auto
   name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
@@ -74,17 +80,18 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-13.213.40.92-1283"
-  password: amazonskr05
+- alterId: 32
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8US-77.83.141.171-6124"
+  network: ws
   port: 443
-  server: 13.213.40.92
-  type: ss
-- cipher: aes-256-cfb
-  name: "SSR-\u4E39\u9EA6-NF\u89E3\u9501\u4E39\u9EA6\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-185.186.79.53:989"
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 185.186.79.53
-  type: ssr
+  server: vc.fly.dev
+  servername: vc.fly.dev
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+  ws-opts:
+    headers:
+      Host: vc.fly.dev
+    path: /vc
