@@ -7,20 +7,6 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0011
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19003
-  server: yy1.vyunyunnode.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0020
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19014
-  server: yy1.vyunyunnode.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: CN_speednode_0016
   password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
   port: 19009
@@ -28,9 +14,23 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0022
+  name: CN_speednode_0008
   password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19027
+  port: 19088
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0007
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19013
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0011
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19003
   server: yy1.vyunyunnode.top
   type: ss
   udp: true
@@ -49,23 +49,24 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0026
+  name: CN_speednode_0020
   password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19008
+  port: 19014
   server: yy1.vyunyunnode.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0008
+  name: CN_speednode_0024
   password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19088
+  port: 19015
   server: yy1.vyunyunnode.top
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0007
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19013
-  server: yy1.vyunyunnode.top
-  type: ss
+- name: DE_speednode_0031
+  password: '3782591447421952000'
+  port: 443
+  server: patient-ghost.treefrog761.one
+  skip-cert-verify: true
+  sni: patient-ghost.treefrog761.one
+  type: trojan
   udp: true
