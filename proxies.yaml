@@ -1,4 +1,14 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-58.63.247.149-5677"
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  type: ss
 - cipher: chacha20-ietf
   name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5739"
   password: asd123456
@@ -17,16 +27,18 @@ proxies:
   port: 4231
   server: 112.213.102.228
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5715"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
+  port: 30003
+  server: gdgs.tarioblink.me
+  tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5697"
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5676"
   password: hGkQ6915tD
-  port: 15084
+  port: 16088
   server: 120.232.81.50
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -35,32 +47,21 @@ proxies:
   port: 443
   server: 78.129.140.11
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD V2CROSS.COM 3"
-  network: ws
-  port: 40109
-  server: 207.180.248.6
-  tls: false
-  type: vmess
-  uuid: c74de759-10d7-4b75-9363-7d26ed323d47
-  ws-opts:
-    path: /vmess-argo?ed=2048
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5873"
-  password: ZET59LF6DvCC8KVt
-  port: 9005
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5676"
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
-  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5927"
   password: f8npKgNzdkss2ytn
   port: 9088
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5846"
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5892"
+  password: p9z5BVADH2YFs3MN
+  port: 9040
   server: 217.30.10.18
   type: ss
