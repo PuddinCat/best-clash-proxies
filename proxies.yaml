@@ -1,29 +1,8 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0016
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19009
-  server: yy1.vyunyunnode.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: CN_speednode_0009
   password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
   port: 19006
-  server: yy1.vyunyunnode.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0014
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19019
-  server: yy1.vyunyunnode.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0007
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19013
   server: yy1.vyunyunnode.top
   type: ss
   udp: true
@@ -35,23 +14,16 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0013
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 16603
-  server: yy1.vyunyunnode.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0008
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19088
-  server: yy1.vyunyunnode.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: CN_speednode_0020
   password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
   port: 19014
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0016
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19009
   server: yy1.vyunyunnode.top
   type: ss
   udp: true
@@ -63,9 +35,37 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0014
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19019
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0013
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 16603
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: CN_speednode_0026
   password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
   port: 19008
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0008
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19088
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0007
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19013
   server: yy1.vyunyunnode.top
   type: ss
   udp: true
