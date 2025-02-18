@@ -10,83 +10,65 @@ proxies:
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.164-1070"
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.164
+  name: CN_speednode_0057
+  password: 8771d456-6779-4c33-a796-b6defc67bc75
+  port: 11412
+  server: hkg-02-zz.manatraffic.top
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-172.67.141.68-5698"
-  network: ws
-  port: 443
-  server: tasnim.ITN24.IR
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 468a9557-2855-4c53-94c1-5e97180c9790
-  ws-opts:
-    headers:
-      Host: tasnim.ITN24.IR
-    path: /24820/?ed=2048
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.166-0409"
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.166
+  name: CN_speednode_0009
+  password: 8771d456-6779-4c33-a796-b6defc67bc75
+  port: 11413
+  server: hkg-03-zz.manatraffic.top
   type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EC\U0001F1E7GB-78.129.140.11-5648"
-  password: Y3bjXCJbTPlRdyTqFAYGDZ
-  port: 443
-  server: 78.129.140.11
+  name: CN_speednode_0051
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19006
+  server: yy1.vyunyunnode.top
   type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-5650"
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0673"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
-  port: 30003
-  server: gdgs.tarioblink.me
-  tfo: false
+  name: CN_speednode_0017
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19003
+  server: yy1.vyunyunnode.top
   type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-7920"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- name: "\U0001F1E8\U0001F1F3CN-183.236.51.50-114"
-  password: 65f14831-5c67-483f-9e85-f3aa73f21187
-  port: 13035
-  server: naiu-other.05vr9nyqg5.download
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0033
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19019
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0025
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19017
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0019
+  password: 8771d456-6779-4c33-a796-b6defc67bc75
+  port: 11563
+  server: sgp-03-zz.manatraffic.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0039
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19014
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0006
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
+  type: ss
+  udp: true
