@@ -1,17 +1,10 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9"
-  network: ws
-  port: 8443
-  server: expresstv.ITN24.IR
-  tls: true
-  type: vmess
-  uuid: ccbceb9a-0b56-41d3-b175-83338d6deec9
-  ws-opts:
-    headers:
-      Host: expresstv.ITN24.IR
-    path: /?ed=2048
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-6040"
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 016_2@25"
@@ -26,20 +19,19 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8269"
+  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9"
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
+  port: 8443
+  server: expresstv.ITN24.IR
   tls: true
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: ccbceb9a-0b56-41d3-b175-83338d6deec9
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
-    path: /
+      Host: expresstv.ITN24.IR
+    path: /?ed=2048
 - alterId: 32
   cipher: auto
   client-fingerprint: chrome
@@ -58,12 +50,26 @@ proxies:
     headers:
       host: vc.fly.dev
     path: /vc
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
-  password: MDA4MjFlMjAzOTdhMzViOWI1MTFhNGY3YWRjYmVl
-  port: 995
-  server: 38.54.27.37
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-6001"
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
   type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8269"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
 - alterId: 32
   cipher: auto
   name: "\U0001F1FA\U0001F1F8US-77.83.141.171-6124"
@@ -79,6 +85,12 @@ proxies:
     headers:
       Host: vc.fly.dev
     path: /vc
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_9"
+  password: MDA4MjFlMjAzOTdhMzViOWI1MTFhNGY3YWRjYmVl
+  port: 995
+  server: 38.54.27.37
+  type: ss
 - alterId: 64
   cipher: auto
   name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
@@ -90,20 +102,8 @@ proxies:
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-6001"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
-  type: ss
-- cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5979"
   password: hGkQ6915tD
   port: 15084
   server: 120.232.81.50
-  type: ss
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-6040"
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
   type: ss
