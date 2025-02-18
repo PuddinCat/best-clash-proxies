@@ -1,27 +1,15 @@
 proxies:
-- cipher: chacha20-ietf
-  name: "\U0001F1F8\U0001F1ECSG-202.162.109.169-5961"
-  password: asd123456
-  port: 8388
-  server: 202.162.109.169
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-185.231.205.179-0694"
-  password: OTVlMzcy
-  port: 8388
-  server: fr1.opensocks.site
+- cipher: aes-256-cfb
+  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-1212"
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5936"
   password: hGkQ6915tD
   port: 16088
   server: 120.232.81.50
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-6001"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
   type: ss
 - alterId: 0
   cipher: auto
@@ -37,21 +25,6 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- alterId: 32
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8US-77.83.141.171-6124"
-  network: ws
-  port: 443
-  server: vc.fly.dev
-  servername: vc.fly.dev
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  ws-opts:
-    headers:
-      Host: vc.fly.dev
-    path: /vc
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-8269"
@@ -68,18 +41,30 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "abf2d8ed30324befb8f6468b0792ad06_@_\U0001F43B57@oneclickvpnkeys"
-  network: ws
-  port: 20321
-  server: 195.58.49.42
+  name: "\U0001F1E8\U0001F1F3 CN 185 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: false
-  uuid: 70166ce6-326f-4b67-a296-a3253d8090fb
-  ws-opts:
-    path: /
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-6001"
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
   password: YTNjNDY5
@@ -87,8 +72,22 @@ proxies:
   server: 185.234.64.35
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\u4E9A"
+  name: "\U0001F1E8\U0001F1FECY-134.255.210.49-0688"
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 188.214.36.155
+  server: 134.255.210.49
   type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.18.5.250-5967"
+  network: ws
+  port: 443
+  server: www.visa.com.tw
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 8918b792-996c-4bbd-bf1a-6121f7968636
+  ws-opts:
+    headers:
+      Host: occurred-gif-verified-cheap.trycloudflare.com
+    path: /vmess-argo?ed=2048
