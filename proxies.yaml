@@ -9,17 +9,11 @@ proxies:
   port: 45578
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5706"
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
-  type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5682"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5643"
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
   type: ss
 - alterId: 0
   cipher: auto
@@ -35,11 +29,25 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-5650"
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5643"
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
+  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5682"
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
   type: ss
 - alterId: 0
   cipher: auto
@@ -55,6 +63,20 @@ proxies:
     headers:
       Host: mizban.ITN24.IR
     path: /24820/?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.166-0428"
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
+  port: 30003
+  server: gdgs.tarioblink.me
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-5654"
@@ -69,39 +91,9 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-5650"
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
-  port: 30003
-  server: gdgs.tarioblink.me
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-172.67.141.68-5698"
-  network: ws
+  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-78.129.140.11:443"
+  password: Y3bjXCJbTPlRdyTqFAYGDZ
   port: 443
-  server: tasnim.ITN24.IR
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 468a9557-2855-4c53-94c1-5e97180c9790
-  ws-opts:
-    headers:
-      Host: tasnim.ITN24.IR
-    path: /24820/?ed=2048
+  server: 78.129.140.11
+  type: ss
