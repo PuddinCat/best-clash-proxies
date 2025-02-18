@@ -1,15 +1,5 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.63.247.149-5644"
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: CN_speednode_0016
   password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
   port: 19009
@@ -24,10 +14,17 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0006
-  password: 8771d456-6779-4c33-a796-b6defc67bc75
-  port: 11562
-  server: sgp-02-zz.manatraffic.top
+  name: CN_speednode_0014
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19019
+  server: yy1.vyunyunnode.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0007
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19013
+  server: yy1.vyunyunnode.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -38,10 +35,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0015
-  password: 8771d456-6779-4c33-a796-b6defc67bc75
-  port: 11563
-  server: sgp-03-zz.manatraffic.top
+  name: CN_speednode_0013
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 16603
+  server: yy1.vyunyunnode.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -59,16 +56,16 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0007
+  name: CN_speednode_0022
   password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19013
+  port: 19027
   server: yy1.vyunyunnode.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0012
-  password: 8771d456-6779-4c33-a796-b6defc67bc75
-  port: 14202
-  server: jpn-02-zz.manatraffic.top
+  name: CN_speednode_0026
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19008
+  server: yy1.vyunyunnode.top
   type: ss
   udp: true
