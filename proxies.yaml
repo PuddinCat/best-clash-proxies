@@ -15,24 +15,6 @@ proxies:
   port: 64759
   server: 185.189.160.98
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-45.158.171.110-0399"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.158.171.110
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5715"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5676"
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
-  type: ss
 - name: DE_speednode_0031
   password: '3782591447421952000'
   port: 443
@@ -42,6 +24,12 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-120.241.226.17-84"
+  password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
+  port: 30003
+  server: gdgs.tarioblink.me
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: "SS-\u5965\u5730\u5229-NF\u89E3\u9501\u5965\u5730\u5229\u81EA\u5236\u5267\
     -ChatGPT-TikTok-YouTube-95.164.36.59:8388"
   password: OWY4ODBm
@@ -49,20 +37,44 @@ proxies:
   server: 95.164.36.59
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5847"
-  password: TN2YqghxeFDKZfLU
-  port: 9037
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5892"
+  password: p9z5BVADH2YFs3MN
+  port: 9040
   server: 217.30.10.18
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5873"
-  password: ZET59LF6DvCC8KVt
-  port: 9005
-  server: 217.30.10.18
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
+  port: 30003
+  server: gdgs.tarioblink.me
+  tfo: false
   type: ss
+- name: "\u4F0A\u6717 V2CROSS.COM"
+  password: 3778399737045327872
+  port: 443
+  server: 188.253.22.10
+  skip-cert-verify: true
+  sni: key-pangolin.treefrog761.one
+  type: trojan
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8US-38.174.190.88-5555"
+  network: ws
+  port: 38007
+  server: 38.174.190.88
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: ''
+    path: /path/023114310920
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5850"
-  password: 9XwYyZsK8SNzQDtY
-  port: 9059
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5893"
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
   server: 217.30.10.18
   type: ss
