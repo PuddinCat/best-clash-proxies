@@ -24,17 +24,22 @@ proxies:
   port: 15084
   server: 120.232.81.50
   type: ss
+- cipher: rc4-md5
+  name: CN_speednode_0005
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40217
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 1.link-hub.blog
+  type: ssr
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1FA\U0001F1F8US-95.164.122.61-5829"
   password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
   port: 54075
   server: beta.mattenadene.org
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5780"
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 217.30.10.18
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EC\U0001F1E7GB-107.181.151.147-5819"
@@ -43,15 +48,15 @@ proxies:
   server: portal.ninemakeda.cfd
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5865"
-  password: M3t2ZEQcMGRWBjRa
-  port: 9011
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5790"
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5786"
-  password: XPtzA9sCug3SPR4c
-  port: 9025
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5866"
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
@@ -60,9 +65,9 @@ proxies:
   port: 9045
   server: 217.30.10.18
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5779"
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
-  server: 217.30.10.18
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-169.197.142.187-6554"
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 169.197.142.187
   type: ss
