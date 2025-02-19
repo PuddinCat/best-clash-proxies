@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5867"
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-056"
@@ -19,16 +13,22 @@ proxies:
     Host: 120.232.153.40
   ws-path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5837"
+  name: "\U0001F1F0\U0001F1F7KR-218.38.103.150-5773"
   password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
+  port: 28902
+  server: 218.38.103.150
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5811"
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5792"
   password: hGkQ6915tD
-  port: 15084
+  port: 16088
   server: 120.232.81.50
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1ED\U0001F1F0HK-112.213.102.228-5936"
+  password: qwerREWQ@@
+  port: 4231
+  server: 112.213.102.228
   type: ss
 - cipher: rc4-md5
   name: CN_speednode_0005
@@ -52,29 +52,27 @@ proxies:
   server: 1.link-hub.blog
   type: ssr
   udp: true
-- cipher: aes-256-cfb
-  name: "SSR-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-62.100.205.48:989"
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 62.100.205.48
-  type: ssr
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1FA\U0001F1F8US-95.164.122.61-5822"
   password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
   port: 54075
   server: beta.mattenadene.org
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EC\U0001F1E7GB-107.181.151.147-5819"
-  password: 23sUrwRcTBEAvxLS6VM6Aay57KQbws1upDAxr7Btf4hXu4gaUQW4BPbComjJjStM2JqJLDwVkteXL8V33k8eWkZR4UB8intz
-  port: 43669
-  server: portal.ninemakeda.cfd
-  type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5786"
-  password: XPtzA9sCug3SPR4c
-  port: 9025
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5842"
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
   server: 217.30.10.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E6\U0001F1F9AT-95.164.36.59-5672"
+  password: OWY4ODBm
+  port: 8388
+  server: 95.164.36.59
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EE\U0001F1F8IS-89.221.224.166-0433"
+  password: NjBlZDlk
+  port: 8388
+  server: 89.221.224.166
   type: ss
