@@ -7,18 +7,6 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8US-95.164.122.61-5829"
-  password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
-  port: 54075
-  server: beta.mattenadene.org
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-119.167.230.252-5789"
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 28164
-  server: 119.167.230.252
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: "\U0001F1E8\U0001F1F3CN-58.63.247.149-5794"
   password: 7243745919d6de49a5db
   plugin: obfs
@@ -28,11 +16,23 @@ proxies:
   port: 45578
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-119.167.230.252-5789"
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 28164
+  server: 119.167.230.252
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EC\U0001F1E7GB-107.181.151.147-5826"
   password: 23sUrwRcTBEAvxLS6VM6Aay57KQbws1upDAxr7Btf4hXu4gaUQW4BPbComjJjStM2JqJLDwVkteXL8V33k8eWkZR4UB8intz
   port: 43669
   server: portal.ninemakeda.cfd
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-78.129.140.11:443"
+  password: Y3bjXCJbTPlRdyTqFAYGDZ
+  port: 443
+  server: 78.129.140.11
   type: ss
 - alterId: 64
   cipher: auto
@@ -49,54 +49,46 @@ proxies:
     headers:
       host: www.23179753.xyz
     path: /path/181721272114
-- cipher: aes-256-gcm
-  name: "\U0001F1F7\U0001F1FARU-185.126.239.231-5815"
-  password: G2LC1BQ48SXSBKZX
-  port: 20002
-  server: 185.126.239.231
+- name: "\u4F0A\u6717 002"
+  network: tcp
+  password: '3778399737045327872'
+  port: 443
+  server: 188.253.22.10
+  skip-cert-verify: true
+  sni: key-pangolin.treefrog761.one
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8US-192.74.241.133-5809"
+  network: ws
+  port: 30003
+  server: 192.74.241.133
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.38740067.xyz
+    path: /path/1739017407418
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8US-142.4.108.140-5565"
+  network: ws
+  port: 38007
+  server: 142.4.108.140
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: ''
+    path: /path/081412110418
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5799"
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-142.4.108.131-5569"
-  network: ws
-  port: 38007
-  server: 142.4.108.131
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: ''
-    path: /path/283126261303
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-38.174.190.80-5577"
-  network: ws
-  port: 38007
-  server: 38.174.190.80
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: ''
-    path: /path/102206282005
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-142.4.108.147-5581"
-  network: ws
-  port: 38007
-  server: 142.4.108.147
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: ''
-    path: /path/181721272114
