@@ -9,18 +9,17 @@ proxies:
   port: 45578
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8US-95.164.122.61-5829"
-  password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
-  port: 54075
-  server: beta.mattenadene.org
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7FR-51.15.23.63-5788"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.23.63
-  type: ss
+- cipher: rc4-md5
+  name: CN_speednode_0006
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40217
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 1.link-hub.blog
+  type: ssr
+  udp: true
 - cipher: rc4-md5
   name: CN_speednode_0008
   obfs: plain
@@ -32,6 +31,18 @@ proxies:
   server: 1.link-hub.blog
   type: ssr
   udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7FR-51.15.23.63-5788"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.23.63
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0HK-43.249.36.70-5785"
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  port: 443
+  server: hong-kong-3.keenvpn.me
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -47,11 +58,17 @@ proxies:
     headers:
       host: ''
     path: /path/102206282005
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-43.249.36.70-5785"
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  port: 443
-  server: hong-kong-3.keenvpn.me
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5793"
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5802"
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5849"
@@ -60,25 +77,8 @@ proxies:
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5818"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
-- cipher: rc4-md5
-  name: CN_speednode_0006
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40217
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 1.link-hub.blog
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5793"
-  password: XPtzA9sCug3SPR4c
-  port: 9025
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5803"
+  password: f8npKgNzdkss2ytn
+  port: 9088
   server: 217.30.10.18
   type: ss
