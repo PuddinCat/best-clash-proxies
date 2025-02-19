@@ -1,12 +1,5 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: CN_speednode_0004
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40000
-  server: hk.fastsoonlink.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: "\U0001F1E8\U0001F1F3CN-58.63.247.149-5794"
   password: 7243745919d6de49a5db
   plugin: obfs
@@ -26,33 +19,30 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: rc4-md5
-  name: CN_speednode_0008
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40204
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 1.link-hub.blog
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: CN_speednode_0006
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40217
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 1.link-hub.blog
-  type: ssr
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F1\U0001F1F9LT-45.87.175.65-5791"
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 45.87.175.65
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EC\U0001F1E7GB-107.181.151.147-5826"
+  password: 23sUrwRcTBEAvxLS6VM6Aay57KQbws1upDAxr7Btf4hXu4gaUQW4BPbComjJjStM2JqJLDwVkteXL8V33k8eWkZR4UB8intz
+  port: 43669
+  server: portal.ninemakeda.cfd
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: TR_speednode_0054
+  password: CvKVfJ4af6RNcHzI62P3q6
+  port: 65262
+  server: h110vpntr.outlinekeys.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-0719"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
   type: ss
 - alterId: 64
   cipher: auto
@@ -70,20 +60,20 @@ proxies:
       host: ''
     path: /path/102206282005
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5799"
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EC\U0001F1E7GB-107.181.151.147-5826"
-  password: 23sUrwRcTBEAvxLS6VM6Aay57KQbws1upDAxr7Btf4hXu4gaUQW4BPbComjJjStM2JqJLDwVkteXL8V33k8eWkZR4UB8intz
-  port: 43669
-  server: portal.ninemakeda.cfd
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5873"
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-0719"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.173
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5803"
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5786"
+  password: c3NtHJ5ujV2tGDfj
+  port: 9084
+  server: 217.30.10.18
   type: ss
