@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.63.247.149-5677"
+  name: "\U0001F1E8\U0001F1F3CN-58.63.247.149-5794"
   password: 7243745919d6de49a5db
   plugin: obfs
   plugin-opts:
@@ -9,102 +9,79 @@ proxies:
   port: 45578
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5676"
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0027
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: 103.216.253.197
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD 016_2@25"
-  network: ws
-  port: 443
-  server: 104.21.21.21
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
-  ws-opts:
-    headers:
-      host: laxfree.starsea.vip
-    path: /?ed=2048
-- name: "\U0001F1E8\U0001F1F3CN-223.113.54.230-1374"
-  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
-  port: 51075
-  server: lm.kaiqsz.com
-  skip-cert-verify: false
-  sni: mmbiz10.redapricotcloud.com
-  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5715"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
+  name: "\U0001F1EC\U0001F1E7GB-62.100.205.48-0406"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 62.100.205.48
   type: ss
-- alterId: 2
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8US-95.164.122.61-5829"
+  password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
+  port: 54075
+  server: beta.mattenadene.org
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  password: LKG8G8VL60RSB59P
+  port: 17003
+  server: 23.185.248.13
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-119.167.230.252-5789"
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 28164
+  server: 119.167.230.252
+  type: ss
+- alterId: 64
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-5683"
+  name: "\U0001F1FA\U0001F1F8US-192.74.241.133-5809"
   network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
+  port: 30003
+  server: 192.74.241.133
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  password: '3782591447421952000'
+      Host: www.38740067.xyz
+    path: /path/1739017407418
+- name: "\u4F0A\u6717 002"
+  network: tcp
+  password: '3778399737045327872'
   port: 443
-  server: 52.57.173.145
+  server: 188.253.22.10
   skip-cert-verify: true
-  sni: patient-ghost.treefrog761.one
+  sni: key-pangolin.treefrog761.one
   type: trojan
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-142.4.108.131-5569"
+  name: "\U0001F1FA\U0001F1F8US-38.14.107.228-7851"
   network: ws
-  port: 38007
-  server: 142.4.108.131
+  port: 38003
+  server: 38.14.107.228
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      host: ''
-    path: /path/283126261303
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-38.174.190.80-5577"
-  network: ws
-  port: 38007
-  server: 38.174.190.80
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: ''
-    path: /path/102206282005
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-142.4.108.140-5565"
-  network: ws
-  port: 38007
-  server: 142.4.108.140
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: ''
-    path: /path/081412110418
+      host: www.23179753.xyz
+    path: /path/181721272114
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EE\U0001F1F8IS-89.221.224.166-0485"
+  password: NjBlZDlk
+  port: 8388
+  server: is3.opensocks.site
+  type: ss
