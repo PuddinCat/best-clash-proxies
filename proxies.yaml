@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5867"
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-056"
@@ -13,6 +19,12 @@ proxies:
     Host: 120.232.153.40
   ws-path: /
 - cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5811"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
+- cipher: aes-256-cfb
   name: "SSR-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-62.100.205.48:989"
   obfs: plain
   password: f8f7aCzcPKbsF8p3
@@ -20,6 +32,12 @@ proxies:
   protocol: origin
   server: 62.100.205.48
   type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E6\U0001F1F9AT-95.164.36.59-1233"
+  password: OWY4ODBm
+  port: 8388
+  server: at1.opensocks.site
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1FA\U0001F1F8US-95.164.122.61-5822"
   password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
@@ -37,6 +55,12 @@ proxies:
   server: 1.link-hub.blog
   type: ssr
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EE\U0001F1F8IS-89.221.224.166-160"
+  password: NjBlZDlk
+  port: 8388
+  server: is3.opensocks.site
+  type: ss
 - cipher: rc4-md5
   name: CN_speednode_0004
   obfs: plain
@@ -48,41 +72,9 @@ proxies:
   server: 1.link-hub.blog
   type: ssr
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E6\U0001F1F9AT-95.164.36.59-1233"
-  password: OWY4ODBm
-  port: 8388
-  server: at1.opensocks.site
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1F8IS-89.221.224.166-160"
-  password: NjBlZDlk
-  port: 8388
-  server: is3.opensocks.site
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-119.167.230.252-1246"
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 28164
-  server: 119.167.230.252
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-5799"
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5837"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5842"
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 217.30.10.18
   type: ss
