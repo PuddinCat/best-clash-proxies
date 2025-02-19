@@ -1,16 +1,4 @@
 proxies:
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5867"
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1ED\U0001F1F0HK-112.213.102.228-5936"
-  password: qwerREWQ@@
-  port: 4231
-  server: 112.213.102.228
-  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5792"
   password: hGkQ6915tD
@@ -31,10 +19,10 @@ proxies:
     Host: 120.232.153.40
   ws-path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5837"
+  name: "\U0001F1ED\U0001F1F0HK-112.213.102.228-5936"
   password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
+  port: 4231
+  server: 112.213.102.228
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5811"
@@ -43,16 +31,22 @@ proxies:
   server: 120.232.81.50
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E6\U0001F1F9AT-95.164.36.59-5672"
-  password: OWY4ODBm
-  port: 8388
-  server: 95.164.36.59
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: "\U0001F1F1\U0001F1F9LT-45.87.175.65-5784"
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 45.87.175.65
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5786"
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5865"
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5793"
@@ -61,8 +55,15 @@ proxies:
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5866"
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  password: f63gg8EruDnUrmz4
+  port: 9010
   server: 217.30.10.18
   type: ss
+- name: "\U0001F1E8\U0001F1F3CN-223.113.54.230-020"
+  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+  port: 51075
+  server: lm.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz10.redapricotcloud.com
+  type: trojan
