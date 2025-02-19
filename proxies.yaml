@@ -1,27 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8US-95.164.122.61-5829"
-  password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
-  port: 54075
-  server: beta.mattenadene.org
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: "\U0001F1EC\U0001F1E7GB-107.181.151.147-5826"
   password: 23sUrwRcTBEAvxLS6VM6Aay57KQbws1upDAxr7Btf4hXu4gaUQW4BPbComjJjStM2JqJLDwVkteXL8V33k8eWkZR4UB8intz
   port: 43669
   server: portal.ninemakeda.cfd
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5793"
-  password: XPtzA9sCug3SPR4c
-  port: 9025
-  server: 217.30.10.18
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.65-5791"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.65
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1ED\U0001F1F0HK-43.249.36.70-5785"
   password: 2afbc97400ca71c8f3306f9843a6e1c2
   port: 443
   server: hong-kong-3.keenvpn.me
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8US-95.164.122.61-5829"
+  password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
+  port: 54075
+  server: beta.mattenadene.org
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5793"
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 217.30.10.18
   type: ss
 - alterId: 0
   cipher: auto
@@ -38,27 +44,22 @@ proxies:
       host: laxfree.starsea.vip
     path: /?ed=2048
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5803"
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5873"
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
   name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5802"
   password: fG2artUmHfNT2cX7
   port: 9018
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5940"
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
+  name: US_speednode_0051
+  password: amazonskr05
+  port: 443
+  server: 54.184.126.174
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5873"
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
