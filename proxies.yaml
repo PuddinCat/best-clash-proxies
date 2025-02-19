@@ -9,42 +9,18 @@ proxies:
   port: 45578
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-142.4.108.140-5565"
-  network: ws
-  port: 38007
-  server: 142.4.108.140
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: ''
-    path: /path/081412110418
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-78.129.140.11:443"
+  password: Y3bjXCJbTPlRdyTqFAYGDZ
+  port: 443
+  server: 78.129.140.11
+  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5676"
   password: hGkQ6915tD
   port: 16088
   server: 120.232.81.50
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-38.174.190.80-5577"
-  network: ws
-  port: 38007
-  server: 38.174.190.80
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: ''
-    path: /path/102206282005
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -75,6 +51,43 @@ proxies:
     headers:
       host: ''
     path: /path/283126261303
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8US-142.4.108.140-5565"
+  network: ws
+  port: 38007
+  server: 142.4.108.140
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: ''
+    path: /path/081412110418
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8US-38.174.190.80-5577"
+  network: ws
+  port: 38007
+  server: 38.174.190.80
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: ''
+    path: /path/102206282005
+- name: "\U0001F1E8\U0001F1F3CN-223.113.54.230-1374"
+  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+  port: 51075
+  server: lm.kaiqsz.com
+  skip-cert-verify: false
+  sni: mmbiz10.redapricotcloud.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 016_2@25"
@@ -89,37 +102,10 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-45.158.171.110-0399"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.158.171.110
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-5684"
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-5683"
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
+- name: "\U0001F1E8\U0001F1F3CN-223.113.54.230-87"
+  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+  port: 51075
+  server: lm.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz10.redapricotcloud.com
+  type: trojan
