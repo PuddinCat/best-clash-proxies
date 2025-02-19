@@ -9,6 +9,22 @@ proxies:
   port: 45578
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
+- name: DE_speednode_0031
+  password: '3782591447421952000'
+  port: 443
+  server: patient-ghost.treefrog761.one
+  skip-cert-verify: true
+  sni: patient-ghost.treefrog761.one
+  type: trojan
+  udp: true
+- name: "\u5FB7\u56FD \u9ED1\u68EE\u5DDE\u6CD5\u5170\u514B\u798FAmazon\u6570\u636E\
+    \u4E2D\u5FC3"
+  password: 3782591447421952000
+  port: 443
+  server: 52.57.173.145
+  skip-cert-verify: true
+  sni: patient-ghost.treefrog761.one
+  type: trojan
 - name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   password: '3782591447421952000'
   port: 443
@@ -23,36 +39,27 @@ proxies:
   port: 8388
   server: 95.164.36.59
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5848"
-  password: KnJGad3FqTvjqbaX
-  port: 9014
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5879"
-  password: FG5ddLsMPbV5CutE
-  port: 9050
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5892"
-  password: p9z5BVADH2YFs3MN
-  port: 9040
-  server: 217.30.10.18
-  type: ss
 - name: "\U0001F1E9\U0001F1EADE-165.22.74.230-0368"
   password: 4732adfa16c6450bbef87264e41332db
   port: 443
   server: nextstepcareer.online
   skip-cert-verify: false
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5886"
-  password: rNBfNuuANFCAk7KB
-  port: 9056
-  server: 217.30.10.18
-  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8US-142.4.108.131-5569"
+  network: ws
+  port: 38007
+  server: 142.4.108.131
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: ''
+    path: /path/283126261303
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -68,9 +75,33 @@ proxies:
     headers:
       host: ''
     path: /path/102206282005
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5847"
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 217.30.10.18
-  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8US-142.4.108.147-5581"
+  network: ws
+  port: 38007
+  server: 142.4.108.147
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: ''
+    path: /path/181721272114
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8US-142.4.108.140-5565"
+  network: ws
+  port: 38007
+  server: 142.4.108.140
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: ''
+    path: /path/081412110418
