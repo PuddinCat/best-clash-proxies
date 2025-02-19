@@ -9,14 +9,12 @@ proxies:
   port: 45578
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
-- name: DE_speednode_0031
-  password: '3782591447421952000'
-  port: 443
-  server: patient-ghost.treefrog761.one
-  skip-cert-verify: true
-  sni: patient-ghost.treefrog761.one
-  type: trojan
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-45.158.171.110-0399"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.158.171.110
+  type: ss
 - name: "\u5FB7\u56FD \u9ED1\u68EE\u5DDE\u6CD5\u5170\u514B\u798FAmazon\u6570\u636E\
     \u4E2D\u5FC3"
   password: 3782591447421952000
@@ -45,63 +43,35 @@ proxies:
   server: nextstepcareer.online
   skip-cert-verify: false
   type: trojan
-- alterId: 64
+- cipher: aes-256-cfb
+  name: "\U0001F1F9\U0001F1F7TR-185.123.101.241-5928"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.123.101.241
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F9\U0001F1F7TR-185.123.101.241-5941"
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 185.123.101.241
+  type: ss
+- alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-142.4.108.131-5569"
+  name: "\u7F8E\u56FD 016_2@25"
   network: ws
-  port: 38007
-  server: 142.4.108.131
+  port: 443
+  server: 104.21.21.21
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
   ws-opts:
     headers:
-      host: ''
-    path: /path/283126261303
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-38.174.190.80-5577"
-  network: ws
-  port: 38007
-  server: 38.174.190.80
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: ''
-    path: /path/102206282005
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-142.4.108.147-5581"
-  network: ws
-  port: 38007
-  server: 142.4.108.147
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: ''
-    path: /path/181721272114
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-142.4.108.140-5565"
-  network: ws
-  port: 38007
-  server: 142.4.108.140
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: ''
-    path: /path/081412110418
+      host: laxfree.starsea.vip
+    path: /?ed=2048
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5846"
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  server: 217.30.10.18
+  type: ss
