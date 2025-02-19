@@ -13,62 +13,10 @@ proxies:
     Host: 120.232.153.40
   ws-path: /
 - cipher: aes-256-cfb
-  name: US_speednode_0051
-  password: amazonskr05
-  port: 443
-  server: 54.184.126.174
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5811"
   password: hGkQ6915tD
   port: 15084
   server: 120.232.81.50
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-152"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8US-95.164.122.61-5829"
-  password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
-  port: 54075
-  server: beta.mattenadene.org
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-0719"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.173
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: CN_speednode_0006
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5865"
-  password: M3t2ZEQcMGRWBjRa
-  port: 9011
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5786"
-  password: XPtzA9sCug3SPR4c
-  port: 9025
-  server: 217.30.10.18
   type: ss
 - cipher: rc4-md5
   name: CN_speednode_0005
@@ -81,3 +29,45 @@ proxies:
   server: 1.link-hub.blog
   type: ssr
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-152"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5779"
+  password: c3NtHJ5ujV2tGDfj
+  port: 9084
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5793"
+  password: Lp27rqyJq72bZsqX
+  port: 9045
+  server: 217.30.10.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EC\U0001F1E7GB-107.181.151.147-5819"
+  password: 23sUrwRcTBEAvxLS6VM6Aay57KQbws1upDAxr7Btf4hXu4gaUQW4BPbComjJjStM2JqJLDwVkteXL8V33k8eWkZR4UB8intz
+  port: 43669
+  server: portal.ninemakeda.cfd
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5865"
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 217.30.10.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8US-95.164.122.61-5829"
+  password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
+  port: 54075
+  server: beta.mattenadene.org
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5795"
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 217.30.10.18
+  type: ss
