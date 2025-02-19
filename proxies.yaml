@@ -6,16 +6,16 @@ proxies:
   server: 194.41.59.80
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-211.178.105.134-5837"
-  password: qwerREWQ@@
-  port: 51633
-  server: 211.178.105.134
-  type: ss
-- cipher: aes-256-cfb
   name: "\U0001F1ED\U0001F1F0HK-112.213.102.228-5936"
   password: qwerREWQ@@
   port: 4231
   server: 112.213.102.228
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5792"
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
   type: ss
 - alterId: 0
   cipher: auto
@@ -30,12 +30,6 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5792"
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
-  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5811"
   password: hGkQ6915tD
@@ -70,9 +64,23 @@ proxies:
   port: 8388
   server: 95.164.36.59
   type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F9\U0001F1FCTW-1.162.146.21-0796"
+  network: ws
+  port: 25780
+  server: tttxbmsm.fask511.cfd
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 50b3fb1b-5591-4743-8e9b-0601c5dfe86d
+  ws-opts:
+    headers:
+      Host: tttxbmsm.fask511.cfd
+    path: /?ed=1024
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5793"
-  password: Lp27rqyJq72bZsqX
-  port: 9045
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  password: f63gg8EruDnUrmz4
+  port: 9010
   server: 217.30.10.18
   type: ss
