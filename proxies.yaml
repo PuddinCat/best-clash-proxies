@@ -1,15 +1,5 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.63.247.149-5794"
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: CN_speednode_0004
   password: 3FB23A19-9424-40C7-9139-3540228283FA
   port: 40000
@@ -26,43 +16,18 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: TW_speednode_0060
-  network: ws
-  port: 25777
-  server: kkkghdragxc.fask511.cfd
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 50b3fb1b-5591-4743-8e9b-0601c5dfe86d
-  ws-opts:
-    headers:
-      Host: kkkghdragxc.fask511.cfd
-    path: /?ed=1024
 - cipher: chacha20-ietf-poly1305
-  name: TR_speednode_0054
-  password: CvKVfJ4af6RNcHzI62P3q6
-  port: 65262
-  server: h110vpntr.outlinekeys.net
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.65-5791"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.65
   type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: TW_speednode_0055
-  network: ws
-  port: 25775
-  server: tttxbmsm.fask511.cfd
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 50b3fb1b-5591-4743-8e9b-0601c5dfe86d
-  ws-opts:
-    headers:
-      Host: tttxbmsm.fask511.cfd
-    path: /?ed=1024
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8US-95.164.122.61-5829"
+  password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3
+  port: 54075
+  server: beta.mattenadene.org
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EC\U0001F1E7GB-107.181.151.147-5826"
   password: 23sUrwRcTBEAvxLS6VM6Aay57KQbws1upDAxr7Btf4hXu4gaUQW4BPbComjJjStM2JqJLDwVkteXL8V33k8eWkZR4UB8intz
@@ -102,3 +67,20 @@ proxies:
     headers:
       host: ''
     path: /path/102206282005
+- cipher: rc4-md5
+  name: CN_speednode_0008
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40204
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 1.link-hub.blog
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5799"
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
+  type: ss
