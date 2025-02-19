@@ -1,50 +1,9 @@
 proxies:
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-169.197.142.187-6563"
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 169.197.142.187
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-169.197.142.187-6578"
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 169.197.142.187
-  type: ss
-- cipher: rc4-md5
-  name: CN_speednode_0005
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40217
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 1.link-hub.blog
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5793"
-  password: XPtzA9sCug3SPR4c
-  port: 9025
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5787"
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-169.197.142.187-6568"
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 169.197.142.187
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.65-5791"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.65
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-194.41.59.80-5874"
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1FA\U0001F1F8US-95.164.122.61-5829"
@@ -52,24 +11,60 @@ proxies:
   port: 54075
   server: beta.mattenadene.org
   type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-169.197.142.187-6568"
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 169.197.142.187
+  type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5802"
-  password: fG2artUmHfNT2cX7
-  port: 9018
+  name: "\U0001F1F7\U0001F1FA RU 51 \u2192 tg@nicevpn123"
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
   server: 217.30.10.18
   type: ss
-- alterId: 2
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5793"
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 217.30.10.18
+  type: ss
+- alterId: 0
   cipher: auto
-  name: CN_speednode_0006
+  name: "\u7F8E\u56FD 016_2@25"
   network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
+  port: 443
+  server: 104.21.21.21
+  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
   ws-opts:
     headers:
-      Host: zxjp-b.tkong.cc
-    path: /
+      host: laxfree.starsea.vip
+    path: /?ed=2048
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5771"
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-169.197.142.187-6578"
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 169.197.142.187
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-169.197.142.187-6563"
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 169.197.142.187
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5871"
+  password: rNBfNuuANFCAk7KB
+  port: 9056
+  server: 217.30.10.18
+  type: ss
