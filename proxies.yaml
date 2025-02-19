@@ -9,12 +9,6 @@ proxies:
   port: 45578
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-45.158.171.110-0399"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.158.171.110
-  type: ss
 - name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   password: '3782591447421952000'
   port: 443
@@ -22,14 +16,6 @@ proxies:
   skip-cert-verify: true
   sni: patient-ghost.treefrog761.one
   type: trojan
-- name: DE_speednode_0031
-  password: '3782591447421952000'
-  port: 443
-  server: patient-ghost.treefrog761.one
-  skip-cert-verify: true
-  sni: patient-ghost.treefrog761.one
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: "SS-\u5965\u5730\u5229-NF\u89E3\u9501\u5965\u5730\u5229\u81EA\u5236\u5267\
     -ChatGPT-TikTok-YouTube-95.164.36.59:8388"
@@ -37,13 +23,23 @@ proxies:
   port: 8388
   server: 95.164.36.59
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
-  port: 30003
-  server: gdgs.tarioblink.me
-  tfo: false
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5848"
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5879"
+  password: FG5ddLsMPbV5CutE
+  port: 9050
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5892"
+  password: p9z5BVADH2YFs3MN
+  port: 9040
+  server: 217.30.10.18
   type: ss
 - name: "\U0001F1E9\U0001F1EADE-165.22.74.230-0368"
   password: 4732adfa16c6450bbef87264e41332db
@@ -52,20 +48,29 @@ proxies:
   skip-cert-verify: false
   type: trojan
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5873"
-  password: ZET59LF6DvCC8KVt
-  port: 9005
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5886"
+  password: rNBfNuuANFCAk7KB
+  port: 9056
   server: 217.30.10.18
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-106.227.74.234-1372"
-  password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
-  port: 30003
-  server: gdgs.tarioblink.me
-  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8US-38.174.190.80-5577"
+  network: ws
+  port: 38007
+  server: 38.174.190.80
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: ''
+    path: /path/102206282005
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5880"
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5847"
+  password: TN2YqghxeFDKZfLU
+  port: 9037
   server: 217.30.10.18
   type: ss
