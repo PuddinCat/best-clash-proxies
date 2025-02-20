@@ -11,38 +11,17 @@ proxies:
   port: 443
   server: 184.170.241.194
   type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5802"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "SS-\u6CD5\u56FD-NF\u89E3\u9501\u6CD5\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-185.234.64.35:8388"
   password: YTNjNDY5
   port: 8388
   server: 185.234.64.35
-  type: ss
-- cipher: aes-256-cfb
-  name: "SSR-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-62.100.205.48:989"
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 62.100.205.48
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: "SS-\u5965\u5730\u5229-NF\u89E3\u9501\u5965\u5730\u5229\u81EA\u5236\u5267\
-    -ChatGPT-TikTok-YouTube-95.164.36.59:8388"
-  password: OWY4ODBm
-  port: 8388
-  server: 95.164.36.59
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_5"
-  password: NjBlZDlk
-  port: 8388
-  server: is3.opensocks.site
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5732"
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 217.30.10.18
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -51,15 +30,44 @@ proxies:
   port: 40000
   server: hk.fastsoonlink.com
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5851"
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 217.30.10.18
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8US-192.74.239.216-5791"
+  network: ws
+  port: 31003
+  server: 192.74.239.216
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23625582.xyz
+    path: /path/1739973894418
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_5"
+  password: NjBlZDlk
+  port: 8388
+  server: is3.opensocks.site
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-181"
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 103.106.229.219
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 \u5C71\u4E1C\u7701\u9752\u5C9B\u5E02 \u8054\u901A"
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 28164
+  server: 119.167.230.252
   type: ss
