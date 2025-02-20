@@ -1,27 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5JP-194.105.89.58-5814"
+  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+  port: 40003
+  server: jp.fastsoonlink.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: "\U0001F1F9\U0001F1EDTH-103.117.148.22-5799"
   password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
   port: 40009
   server: th.fastsoonlink.com
   type: ss
-- cipher: aes-128-cfb
-  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0297"
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8US-103.219.193.17-5846"
-  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40001
-  server: us.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EF\U0001F1F5JP-194.105.89.58-5814"
-  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40003
-  server: jp.fastsoonlink.com
+  name: "\U0001F1EB\U0001F1EEFI-65.109.202.229-025"
+  password: kcHOaeQgEca5hRAF/ESLV0Dq7n7BvENRvSGYvKMjdRI=
+  port: 26992
+  server: matrix4.mobindvil.shop
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F7\U0001F1FARU-95.215.108.67-5834"
@@ -36,10 +30,10 @@ proxies:
   server: ml.fastsoonlink.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1EEFI-65.109.202.229-025"
-  password: kcHOaeQgEca5hRAF/ESLV0Dq7n7BvENRvSGYvKMjdRI=
-  port: 26992
-  server: matrix4.mobindvil.shop
+  name: "\U0001F1FA\U0001F1F8US-103.219.193.17-5846"
+  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+  port: 40001
+  server: us.fastsoonlink.com
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F5\U0001F1F1PL-5.187.51.212-5828"
@@ -48,16 +42,22 @@ proxies:
   server: pr.fastsoonlink.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1E9ID-103.28.53.21-5821"
+  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-182"
   password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40033
-  server: idn.fastsoonlink.com
+  port: 40005
+  server: sgp.fastsoonlink.com
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: "15|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
   password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40032
-  server: kr.fastsoonlink.com
+  port: 40005
+  server: sgp.fastsoonlink.com
   tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-89.213.140.30-5815"
+  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+  port: 40034
+  server: fr.fastsoonlink.com
   type: ss
