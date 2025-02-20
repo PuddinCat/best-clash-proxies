@@ -1,110 +1,74 @@
 proxies:
+- cipher: aes-256-cfb
+  name: "\U0001F1ED\U0001F1F0HK-112.213.102.228-5884"
+  password: qwerREWQ@@
+  port: 4231
+  server: 112.213.102.228
+  type: ss
+- cipher: aes-128-cfb
+  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0292"
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u6CD5\u56FD-NF\u89E3\u9501\u6CD5\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-185.234.64.35:8388"
+  password: YTNjNDY5
+  port: 8388
+  server: 185.234.64.35
+  type: ss
+- cipher: aes-256-cfb
+  name: "SSR-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-62.100.205.48:989"
+  obfs: plain
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  protocol: origin
+  server: 62.100.205.48
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u5965\u5730\u5229-NF\u89E3\u9501\u5965\u5730\u5229\u81EA\u5236\u5267\
+    -ChatGPT-TikTok-YouTube-95.164.36.59:8388"
+  password: OWY4ODBm
+  port: 8388
+  server: 95.164.36.59
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1EEFI-65.109.202.229-025"
+  password: kcHOaeQgEca5hRAF/ESLV0Dq7n7BvENRvSGYvKMjdRI=
+  port: 26992
+  server: matrix4.mobindvil.shop
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: "15|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40032
-  server: kr.fastsoonlink.com
-  tfo: false
+  name: "\u4E9A\u592A\u5730\u533A V2CROSS.COM"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
   type: ss
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8US-192.74.239.216-5791"
+  network: ws
+  port: 31003
+  server: 192.74.239.216
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23625582.xyz
+    path: /path/1739973894418
 - cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-119.167.230.252-014"
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 \u5C71\u4E1C\u7701\u9752\u5C9B\u5E02 \u8054\u901A"
   password: b637f2e47b7827b308ebf399008075d2
-  port: 22040
+  port: 28164
   server: 119.167.230.252
   type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts:
-    headers:
-      Host: slot3.raywhat.xyz
-    path: /b0c66d14-a0ab
-  name: Slot3
-  network: h2
-  port: 443
-  server: slot3.raywhat.xyz
-  tls: true
-  type: vmess
-  uuid: 64887a16-468c-4e98-b064-b82b01662727
-- alterId: 0
-  cipher: auto
-  h2-opts:
-    headers:
-      Host: slot2.raywhat.xyz
-    path: /b0c66d14-a0ab
-  name: Slot2
-  network: h2
-  port: 443
-  server: slot2.raywhat.xyz
-  tls: true
-  type: vmess
-  uuid: 64887a16-468c-4e98-b064-b82b01662727
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
-  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40005
-  server: sgp.fastsoonlink.com
-  tfo: false
-  type: ss
-- name: "\U0001F1FA\U0001F1F8US-192.200.160.35-0747"
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 192.200.160.35
-  skip-cert-verify: false
-  sni: agept.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agept.ambercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: "\u97E9\u56FD 011"
-  network: ws
-  password: Aimer
-  port: 12499
-  server: 59.4.59.224
-  skip-cert-verify: true
-  sni: agept.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agept.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-7911"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 2097
-  name: "\u52A0\u62FF\u5927 003"
-  network: ws
-  port: 2095
-  server: s1.cn-db.top
-  servername: 100-139-204-73.s1.cn-db.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-139-204-73.s1.cn-db.top
-    path: /dabai.in104.25.132.97
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F9\U0001F1EDTH-103.117.148.22-5799"
-  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40009
-  server: th.fastsoonlink.com
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_5"
+  password: NjBlZDlk
+  port: 8388
+  server: is3.opensocks.site
   type: ss
