@@ -1,22 +1,9 @@
 proxies:
-- cipher: chacha20-ietf
-  name: "\U0001F1FA\U0001F1F8US-103.36.91.32-5757"
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A V2CROSS.COM"
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 23.150.152.41
-  type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5802"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
+  name: "\U0001F1ED\U0001F1F0HK-112.213.102.228-5884"
+  password: qwerREWQ@@
+  port: 4231
+  server: 112.213.102.228
   type: ss
 - cipher: aes-128-cfb
   name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0297"
@@ -31,16 +18,35 @@ proxies:
   server: 23.150.152.41
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.65-162"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.65
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-45.158.171.132-0385"
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 45.158.171.132
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.65-162"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  client-fingerprint: chrome
+  name: "\u6B27\u76DF V2CROSS.COM"
+  password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
-  server: 45.87.175.65
+  server: 45.87.175.171
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-185.234.64.35-5677"
+  password: YTNjNDY5
+  port: 8388
+  server: 185.234.64.35
+  type: ss
+- cipher: chacha20-ietf
+  name: "\U0001F1FA\U0001F1F8US-103.36.91.32-5757"
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-5212"
@@ -48,23 +54,14 @@ proxies:
   port: 989
   server: 185.231.233.173
   type: ss
-- name: "\U0001F1F0\U0001F1F7KR-220.80.154.29-0728"
-  network: ws
-  password: Aimer
-  port: 12220
-  server: 220.80.154.29
-  skip-cert-verify: false
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: "SSR-\u52A0\u62FF\u5927-ChatGPT-TikTok-37.143.129.230:989"
+- cipher: rc4-md5
+  name: CN_speednode_0002
   obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 37.143.129.230
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40211
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
   type: ssr
+  udp: true
