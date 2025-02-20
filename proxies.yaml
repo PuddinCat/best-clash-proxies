@@ -33,10 +33,16 @@ proxies:
   server: 95.164.36.59
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1EEFI-65.109.202.229-025"
-  password: kcHOaeQgEca5hRAF/ESLV0Dq7n7BvENRvSGYvKMjdRI=
-  port: 26992
-  server: matrix4.mobindvil.shop
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_5"
+  password: NjBlZDlk
+  port: 8388
+  server: is3.opensocks.site
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5732"
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  server: 217.30.10.18
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -45,30 +51,15 @@ proxies:
   port: 40000
   server: hk.fastsoonlink.com
   type: ss
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8US-192.74.239.216-5791"
-  network: ws
-  port: 31003
-  server: 192.74.239.216
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.23625582.xyz
-    path: /path/1739973894418
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 \u5C71\u4E1C\u7701\u9752\u5C9B\u5E02 \u8054\u901A"
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 28164
-  server: 119.167.230.252
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5851"
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 217.30.10.18
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_5"
-  password: NjBlZDlk
-  port: 8388
-  server: is3.opensocks.site
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-103.106.229.219-181"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
   type: ss
