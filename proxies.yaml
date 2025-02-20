@@ -15,73 +15,6 @@ proxies:
     path: /path/1739973313415
 - alterId: 64
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8US-108.186.26.167-5669"
-  network: ws
-  port: 37004
-  server: 108.186.26.167
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.64933771.xyz
-    path: /path/1739973894418
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8US-107.167.7.2-5671"
-  network: ws
-  port: 31000
-  server: 107.167.7.2
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: bdee202c-8fae-441f-a588-7bc4d3887019
-  ws-opts:
-    headers:
-      Host: www.31878068.xyz
-    path: /path/1739973313415
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8US-64.32.1.250-5668"
-  network: ws
-  port: 30000
-  server: 64.32.1.250
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a
-  ws-opts:
-    headers:
-      Host: www.39676427.xyz
-    path: /path/1739892314173
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-7803"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- cipher: rc4-md5
-  name: CN_speednode_0015
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40210
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
-  udp: true
-- alterId: 64
-  cipher: auto
   name: "\U0001F1FA\U0001F1F8US-38.11.50.68-5672"
   network: ws
   port: 31005
@@ -96,6 +29,34 @@ proxies:
     path: /path/1739875088754
 - alterId: 64
   cipher: auto
+  name: "\U0001F1FA\U0001F1F8US-108.186.26.167-5669"
+  network: ws
+  port: 37004
+  server: 108.186.26.167
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.64933771.xyz
+    path: /path/1739973894418
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8US-64.32.1.250-5668"
+  network: ws
+  port: 30000
+  server: 64.32.1.250
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a
+  ws-opts:
+    headers:
+      Host: www.39676427.xyz
+    path: /path/1739892314173
+- alterId: 64
+  cipher: auto
   name: "\U0001F1FA\U0001F1F8US-137.175.39.195-5683"
   network: ws
   port: 38002
@@ -108,20 +69,39 @@ proxies:
     headers:
       Host: www.61974602.xyz
     path: /path/1739973313415
-- client-fingerprint: chrome
-  name: "\u97E9\u56FD 003"
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.214.197.10-7803"
   network: ws
-  password: Aimer
-  port: 12220
-  server: 220.80.154.29
-  skip-cert-verify: true
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560
+      Host: zxjp-a.tkong.cc
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\u6B27\u76DF V2CROSS.COM"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.65
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5744"
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1FA RU 51 \u2192 tg@nicevpn123"
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 217.30.10.18
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD 002"
