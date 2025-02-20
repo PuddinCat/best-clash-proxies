@@ -5,11 +5,17 @@ proxies:
   port: 443
   server: 184.170.241.194
   type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5802"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\u7F8E\u56FD Alabanza"
-  password: kcHOaeQgEca5hRAF/ESLV0Dq7n7BvENRvSGYvKMjdRI=
-  port: 26992
-  server: matrix4.mobindvil.shop
+  name: "\U0001F1EB\U0001F1F7FR-45.158.171.132-0341"
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.158.171.132
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "SS-\u6CD5\u56FD-NF\u89E3\u9501\u6CD5\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-185.234.64.35:8388"
@@ -17,20 +23,6 @@ proxies:
   port: 8388
   server: 185.234.64.35
   type: ss
-- name: "\U0001F1E8\U0001F1F3CN-223.113.54.230-178"
-  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
-  port: 51075
-  server: lm.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz10.redapricotcloud.com
-  type: trojan
-- name: "\U0001F1E8\U0001F1F3CN-223.113.54.230-1378"
-  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
-  port: 51075
-  server: lm.kaiqsz.com
-  skip-cert-verify: false
-  sni: mmbiz10.redapricotcloud.com
-  type: trojan
 - alterId: 0
   name: "\U0001F1F0\U0001F1F7KR\u97E9\u56FD"
   password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
@@ -41,24 +33,40 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-45.158.171.132-0341"
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.158.171.132
-  type: ss
+- name: "\U0001F1E8\U0001F1F3CN-223.113.54.230-1378"
+  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+  port: 51075
+  server: lm.kaiqsz.com
+  skip-cert-verify: false
+  sni: mmbiz10.redapricotcloud.com
+  type: trojan
+- name: "\U0001F1E8\U0001F1F3CN-223.113.54.230-178"
+  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+  port: 51075
+  server: lm.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz10.redapricotcloud.com
+  type: trojan
 - cipher: aes-256-cfb
   name: "\U0001F1F5\U0001F1F9PT-185.231.233.173-5212"
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.231.233.173
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1F8IS-89.221.224.166-0648"
-  password: NjBlZDlk
-  port: 8388
-  server: is3.opensocks.site
-  type: ss
+- client-fingerprint: chrome
+  name: "\u97E9\u56FD 003"
+  network: ws
+  password: Aimer
+  port: 12220
+  server: 220.80.154.29
+  skip-cert-verify: true
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepy.ambercc.filegear-sg.me
+    path: /?ed=2560
 - cipher: rc4-md5
   name: CN_speednode_0001
   obfs: plain
