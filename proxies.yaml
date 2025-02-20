@@ -12,10 +12,10 @@ proxies:
   server: 120.232.81.50
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-45.158.171.132-0341"
-  password: cvII85TrW6n0OGyfpHVS1u
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.171-0333"
+  password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
-  server: 45.158.171.132
+  server: 45.87.175.171
   type: ss
 - alterId: 0
   name: "\U0001F1F0\U0001F1F7KR\u97E9\u56FD"
@@ -27,6 +27,13 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- name: "\U0001F1E8\U0001F1F3CN-223.113.54.230-178"
+  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
+  port: 51075
+  server: lm.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz10.redapricotcloud.com
+  type: trojan
 - name: "\U0001F1E8\U0001F1F3CN-223.113.54.230-1378"
   password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
   port: 51075
@@ -62,24 +69,9 @@ proxies:
   port: 989
   server: 185.231.233.173
   type: ss
-- client-fingerprint: chrome
-  name: "\u97E9\u56FD 002"
-  network: ws
-  password: Aimer
-  port: 37722
-  server: 59.2.75.64
-  skip-cert-verify: true
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: "\U0001F1E8\U0001F1F3CN-223.113.54.230-178"
-  password: 5af7fa3a-ad9c-4346-ba7f-184e89c91758
-  port: 51075
-  server: lm.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz10.redapricotcloud.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EE\U0001F1F8IS-89.221.224.166-0648"
+  password: NjBlZDlk
+  port: 8388
+  server: is3.opensocks.site
+  type: ss
