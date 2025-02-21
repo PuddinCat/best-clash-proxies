@@ -1,65 +1,10 @@
 proxies:
-- cipher: aes-128-cfb
-  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0292"
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1F8IS-89.221.224.166-0648"
-  password: NjBlZDlk
-  port: 8388
-  server: is3.opensocks.site
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.19.48.236-5773"
-  network: ws
-  port: 8880
-  server: s2.db-link02.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-9-89-92.s2.db-link02.top
-    path: /dabai.in104.24.114.165
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-5849"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
-- cipher: rc4-md5
-  name: CN_speednode_0001
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40210
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
-  udp: true
-- name: "\U0001F1F0\U0001F1F7KR-14.41.85.118-0729"
-  network: ws
-  password: Aimer
-  port: 12465
-  server: 14.41.85.118
-  skip-cert-verify: false
-  sni: agept.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agept.ambercc.filegear-sg.me
-    path: /?ed=2560
 - client-fingerprint: chrome
-  name: "\u97E9\u56FD 003"
+  name: "\u97E9\u56FD 007"
   network: ws
   password: Aimer
-  port: 12220
-  server: 220.80.154.29
+  port: 52013
+  server: 193.122.122.87
   skip-cert-verify: true
   sni: agepy.ambercc.filegear-sg.me
   type: trojan
@@ -68,11 +13,37 @@ proxies:
     headers:
       Host: agepy.ambercc.filegear-sg.me
     path: /?ed=2560
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-13.124.66.120-5770"
+  password: amazonskr05
+  port: 443
+  server: 13.124.66.120
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
+  tfo: false
+  type: ss
+- name: "\U0001F1F0\U0001F1F7KR-59.4.59.224-0719"
+  network: ws
+  password: Aimer
+  port: 12499
+  server: 59.4.59.224
+  skip-cert-verify: false
+  sni: agept.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: agept.ambercc.filegear-sg.me
+    path: /?ed=2560
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-7911"
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5783"
   network: ws
-  port: 22641
+  port: 22642
   server: tk.hzlt.tkddns.xyz
   skip-cert-verify: false
   tls: true
@@ -80,26 +51,50 @@ proxies:
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
+      Host: zxjp-b.tkong.cc
     path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  password: QF377GGQ00RATCMK
+  port: 21004
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 13.124.66.120
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-58.63.247.149-5779"
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  type: ss
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-154.197.26.120-5803"
+  password: asd123456
+  port: 8388
+  server: 154.197.26.120
+  type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F3C1RELAY-104.17.221.248-5666"
-  network: ws
-  port: 8880
-  server: s2.db-link02.top
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-060"
+  network: tcp
+  port: 54082
+  server: 120.232.153.40
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      host: 100-9-89-92.s2.db-link02.top
-    path: /dabai.in104.24.114.165
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-119.167.230.252-5394"
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 28164
-  server: 119.167.230.252
-  type: ss
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
