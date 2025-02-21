@@ -9,12 +9,6 @@ proxies:
   port: 45578
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-154.197.26.120-5803"
-  password: asd123456
-  port: 8388
-  server: 154.197.26.120
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-065"
@@ -27,6 +21,31 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
     Host: 120.232.153.40
+  ws-path: /
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-154.197.26.120-5803"
+  password: asd123456
+  port: 8388
+  server: 154.197.26.120
+  type: ss
+- cipher: rc4-md5
+  name: "\U0001F1EC\U0001F1E7GB-146.70.61.18-0322"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.18
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-070"
+  network: tcp
+  port: 51754
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
   ws-path: /
 - alterId: 2
   cipher: auto
@@ -43,19 +62,21 @@ proxies:
     headers:
       Host: tk.hzlt.tkddns.xyz
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-070"
-  network: tcp
-  port: 51754
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5834"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-a.tkong.cc
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: tk.hzlt.tkddns.xyz
+    path: /
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5783"
@@ -70,18 +91,12 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- cipher: rc4-md5
-  name: "\U0001F1EC\U0001F1E7GB-146.70.61.18-0322"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.18
-  type: ss
 - client-fingerprint: chrome
-  name: "\u7F8E\u56FD 023"
+  name: "\u97E9\u56FD 006"
   network: ws
   password: Aimer
-  port: 8443
-  server: 104.129.166.131
+  port: 12465
+  server: 14.41.85.118
   skip-cert-verify: true
   sni: agept.ambercc.filegear-sg.me
   type: trojan
@@ -90,23 +105,17 @@ proxies:
     headers:
       Host: agept.ambercc.filegear-sg.me
     path: /?ed=2560
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-7947"
+- client-fingerprint: chrome
+  name: "\u97E9\u56FD 007"
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  password: Aimer
+  port: 52013
+  server: 193.122.122.87
+  skip-cert-verify: true
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5821"
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
-  server: 217.30.10.18
-  type: ss
+      Host: agepy.ambercc.filegear-sg.me
+    path: /?ed=2560
