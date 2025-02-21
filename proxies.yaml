@@ -1,64 +1,4 @@
 proxies:
-- name: "\U0001F1F0\U0001F1F7KR-220.80.154.29-0714"
-  network: ws
-  password: Aimer
-  port: 12220
-  server: 220.80.154.29
-  skip-cert-verify: false
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: "\u97E9\u56FD 006"
-  network: ws
-  password: Aimer
-  port: 12465
-  server: 14.41.85.118
-  skip-cert-verify: true
-  sni: agept.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agept.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: "\U0001F3C1RELAY-108.165.152.202-0725"
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 108.165.152.202
-  skip-cert-verify: false
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  password: 1H5KX5QZBUOWP2P4
-  port: 18007
-  server: 156.231.104.17
-  tfo: false
-  type: ss
-- down: 100 Mbps
-  name: HySlot3
-  obfs: 9aaeee3f-a2ec-4b2a-b98c-266fbb5da0b2
-  port: 44301
-  protocol: udp
-  server: hyslot3.raywhat.xyz
-  type: hysteria
-  up: 30 Mbps
-- cipher: aes-128-cfb
-  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0290"
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1E8\U0001F1F3CN-58.63.247.149-5779"
   password: 7243745919d6de49a5db
@@ -69,29 +9,112 @@ proxies:
   port: 45578
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
-- name: "\U0001F1F0\U0001F1F7KR-14.41.85.118-0715"
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-154.197.26.120-5803"
+  password: asd123456
+  port: 8388
+  server: 154.197.26.120
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-065"
+  network: tcp
+  port: 54082
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5783"
   network: ws
-  password: Aimer
-  port: 12465
-  server: 14.41.85.118
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
   skip-cert-verify: false
-  sni: agept.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: agept.ambercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-113.99.142.172-308"
-  password: QF377GGQ00RATCMK
-  port: 21004
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-7947"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-070"
+  network: tcp
+  port: 51754
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5791"
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: tk.hzlt.tkddns.xyz
+    path: /
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5834"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-a.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: tk.hzlt.tkddns.xyz
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5820"
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 217.30.10.18
   type: ss
-- cipher: aes-128-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-184.170.241.194:443"
-  obfs: plain
-  password: shadowsocks
-  port: 443
-  protocol: origin
-  server: 184.170.241.194
-  type: ssr
+- name: "\u4FC4\u7F57\u65AF 003"
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 92.243.74.180
+  skip-cert-verify: true
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepy.ambercc.filegear-sg.me
+    path: /?ed=2560
