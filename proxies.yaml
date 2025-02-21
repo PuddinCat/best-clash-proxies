@@ -1,93 +1,94 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-54.189.149.15:443"
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-154.197.26.120-5912"
+  password: asd123456
+  port: 8388
+  server: 154.197.26.120
+  type: ss
+- cipher: rc4-md5
+  name: CN_speednode_0009
   obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 54.189.149.15
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40202
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 1.link-hub.blog
   type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-163"
+  network: tcp
+  port: 54082
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0046
+  port: 54082
+  server: 120.232.153.40
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-185.234.64.35-173"
+  password: YTNjNDY5
+  port: 8388
+  server: 185.234.64.35
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EE\U0001F1F8IS-89.221.224.166-1273"
   password: NjBlZDlk
   port: 8388
   server: is3.opensocks.site
   type: ss
-- name: "\U0001F1F0\U0001F1F7KR-220.80.154.29-0714"
-  network: ws
-  password: Aimer
-  port: 12220
-  server: 220.80.154.29
-  skip-cert-verify: false
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560
-- down: 100 Mbps
-  name: HySlot2
-  obfs: dcee89a9-b499-43e2-a994-9a58b063edd0
-  port: 44301
-  protocol: udp
-  server: hyslot2.raywhat.xyz
-  type: hysteria
-  up: 30 Mbps
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5868"
-  password: ueLXVkvh4hckhErQ
-  port: 9060
-  server: 217.30.10.18
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.63-160"
-  network: tcp
-  port: 40172
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 3"
-  network: ws
-  port: 443
-  server: jose.ns.cloudflare.com
-  tls: true
-  type: vmess
-  uuid: 5acae513-4e9c-432f-d628-48257c8cf1b8
-  ws-opts:
-    headers:
-      Host: tunneljp.875578.xyz
-    path: /tunneljp.875578.xyz
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-47.104.186.133-081"
-  network: tcp
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 47.104.186.133
-  ws-path: /
 - cipher: aes-256-cfb
   name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5971"
   password: f8npKgNzdkss2ytn
   port: 9088
   server: 217.30.10.18
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 \u82F1\u56FD V2CROSS.COM 2"
-  password: BZeJ20F15UnvGH0oSYd3C2
-  port: 443
-  server: 78.129.140.11
+- alterId: 2
+  cipher: auto
+  name: CN_speednode_0043
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5892"
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-5941"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
   type: ss
