@@ -77,41 +77,35 @@ proxies:
     headers:
       Host: tk.hzlt.tkddns.xyz
     path: /
-- name: "\u4FC4\u7F57\u65AF 003"
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
+  password: Y2U58S90E3GST1AQ
+  port: 21001
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- name: "\U0001F3C1RELAY-92.243.74.180-0727"
   network: ws
   password: Aimer
   port: 8443
   server: 92.243.74.180
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: agepy.ambercc.filegear-sg.me
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: agepy.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: "\u7F8E\u56FD 041"
+- name: "\U0001F1F0\U0001F1F7KR-59.2.75.64-0713"
   network: ws
   password: Aimer
-  port: 443
-  server: 108.165.152.113
-  skip-cert-verify: true
-  sni: agept.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agept.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: "\U0001F3C1RELAY-108.165.152.113-0734"
-  network: ws
-  password: Aimer
-  port: 443
-  server: 108.165.152.113
+  port: 37722
+  server: 59.2.75.64
   skip-cert-verify: false
-  sni: agept.ambercc.filegear-sg.me
+  sni: agepy.ambercc.filegear-sg.me
   type: trojan
   ws-opts:
     headers:
-      Host: agept.ambercc.filegear-sg.me
+      Host: agepy.ambercc.filegear-sg.me
     path: /?ed=2560
