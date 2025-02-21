@@ -1,20 +1,4 @@
 proxies:
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-154.197.26.120-5912"
-  password: asd123456
-  port: 8388
-  server: 154.197.26.120
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0046
-  port: 54082
-  server: 120.232.153.40
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-163"
@@ -36,27 +20,28 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 \u82F1\u56FD V2CROSS.COM 2"
+  password: BZeJ20F15UnvGH0oSYd3C2
+  port: 443
+  server: 78.129.140.11
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-185.234.64.35-173"
   password: YTNjNDY5
   port: 8388
   server: 185.234.64.35
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EE\U0001F1F8IS-89.221.224.166-1273"
+  password: NjBlZDlk
+  port: 8388
+  server: is3.opensocks.site
+  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5928"
   password: QWDDvVE9npNurQfA
   port: 9026
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5329"
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5325"
-  password: p9z5BVADH2YFs3MN
-  port: 9040
   server: 217.30.10.18
   type: ss
 - alterId: 2
@@ -74,9 +59,42 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5957"
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 217.30.10.18
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5892"
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0046
+  port: 54082
+  server: 120.232.153.40
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5900"
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: tk.hzlt.tkddns.xyz
+    path: /
