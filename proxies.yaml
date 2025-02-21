@@ -1,76 +1,4 @@
 proxies:
-- name: "\U0001F1F0\U0001F1F7KR-14.41.85.118-0715"
-  network: ws
-  password: Aimer
-  port: 12465
-  server: 14.41.85.118
-  skip-cert-verify: false
-  sni: agept.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agept.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 2
-  cipher: auto
-  name: CN_speednode_0041
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- name: "\U0001F1F0\U0001F1F7KR-220.80.154.29-0714"
-  network: ws
-  password: Aimer
-  port: 12220
-  server: 220.80.154.29
-  skip-cert-verify: false
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5943"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-a.tkong.cc
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: tk.hzlt.tkddns.xyz
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8US-52.34.200.48-5885"
-  password: amazonskr05
-  port: 443
-  server: 52.34.200.48
-  type: ss
-- name: "\U0001F3C1RELAY-108.165.152.202-0722"
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 108.165.152.202
-  skip-cert-verify: false
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560
 - cipher: chacha20-ietf
   name: "\U0001F1ED\U0001F1F0HK-154.197.26.120-5912"
   password: asd123456
@@ -78,13 +6,18 @@ proxies:
   server: 154.197.26.120
   type: ss
 - cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-35.87.206.35:443"
-  obfs: plain
-  password: amazonskr05
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5901"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: GB_speednode_0081
+  password: BZeJ20F15UnvGH0oSYd3C2
   port: 443
-  protocol: origin
-  server: 35.87.206.35
-  type: ssr
+  server: 78.129.140.11
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   name: CN_speednode_0043
@@ -114,3 +47,54 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-5941"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: CN_speednode_0041
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-166"
+  network: tcp
+  port: 51754
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- cipher: rc4-md5
+  name: CN_speednode_0009
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40202
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 1.link-hub.blog
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5971"
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  server: 217.30.10.18
+  type: ss
