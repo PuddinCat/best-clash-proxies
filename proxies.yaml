@@ -15,27 +15,6 @@ proxies:
   port: 8388
   server: 154.197.26.120
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-060"
-  network: tcp
-  port: 54082
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
-- cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-54.189.149.15:443"
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 54.189.149.15
-  type: ssr
 - cipher: rc4-md5
   name: "\U0001F1EC\U0001F1E7GB-146.70.61.18-0455"
   password: 14fFPrbezE3HDZzsMOr6
@@ -71,31 +50,57 @@ proxies:
     headers:
       Host: tk.hzlt.tkddns.xyz
     path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E4|@ripaojiedian"
-  password: HQJQFA7U2Z5HGZWH
-  port: 21003
-  server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-7947"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-060"
+  network: tcp
+  port: 54082
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- name: "\U0001F1F0\U0001F1F7KR-14.41.85.118-0715"
+  network: ws
+  password: Aimer
+  port: 12465
+  server: 14.41.85.118
+  skip-cert-verify: false
+  sni: agept.ambercc.filegear-sg.me
+  type: trojan
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- cipher: aes-128-cfb
-  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0290"
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
+      Host: agept.ambercc.filegear-sg.me
+    path: /?ed=2560
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  password: 17J24GBDGLTUHDF3
+  port: 18011
+  server: 156.231.104.21
+  tfo: false
+  type: ss
+- name: "\u4FC4\u7F57\u65AF 003"
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 92.243.74.180
+  skip-cert-verify: true
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepy.ambercc.filegear-sg.me
+    path: /?ed=2560
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  password: QF377GGQ00RATCMK
+  port: 21004
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
