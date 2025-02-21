@@ -1,44 +1,82 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  h2-opts:
+    headers:
+      Host: slot3.raywhat.xyz
+    path: /b0c66d14-a0ab
+  name: Slot3
+  network: h2
+  port: 443
+  server: slot3.raywhat.xyz
+  tls: true
+  type: vmess
+  uuid: 64887a16-468c-4e98-b064-b82b01662727
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5848"
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 217.30.10.18
+  type: ss
 - client-fingerprint: chrome
-  name: "\u97E9\u56FD 007"
+  name: "\u97E9\u56FD 006"
   network: ws
   password: Aimer
-  port: 52013
-  server: 193.122.122.87
+  port: 12465
+  server: 14.41.85.118
   skip-cert-verify: true
-  sni: agepy.ambercc.filegear-sg.me
+  sni: agept.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
+      Host: agept.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: "\U0001F3C1RELAY-92.243.74.180-0727"
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 92.243.74.180
+  skip-cert-verify: false
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
       Host: agepy.ambercc.filegear-sg.me
     path: /?ed=2560
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-154.197.26.120-5803"
+  password: asd123456
+  port: 8388
+  server: 154.197.26.120
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 13.124.66.120
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F0\U0001F1F7KR-13.124.66.120-5770"
   password: amazonskr05
   port: 443
   server: 13.124.66.120
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40000
-  server: hk.fastsoonlink.com
-  tfo: false
-  type: ss
-- name: "\U0001F1F0\U0001F1F7KR-59.4.59.224-0719"
-  network: ws
-  password: Aimer
-  port: 12499
-  server: 59.4.59.224
-  skip-cert-verify: false
-  sni: agept.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
+- alterId: 0
+  cipher: auto
+  h2-opts:
     headers:
-      Host: agept.ambercc.filegear-sg.me
-    path: /?ed=2560
+      Host: slot4.raywhat.xyz
+    path: /29275bea-6373
+  name: Slot4
+  network: h2
+  port: 443
+  server: slot4.raywhat.xyz
+  tls: true
+  type: vmess
+  uuid: d20df4c7-82a9-4196-a06d-93cb35822726
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5783"
@@ -53,48 +91,9 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
-  password: QF377GGQ00RATCMK
-  port: 21004
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
+- cipher: rc4-md5
+  name: "\U0001F1E8\U0001F1F3CN-36.134.115.217-5518"
+  password: uYhVA160ZoSg3AI5
+  port: 6700
+  server: 36.134.115.217
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
-  password: amazonskr05
-  port: 443
-  server: 13.124.66.120
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.63.247.149-5779"
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  type: ss
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-154.197.26.120-5803"
-  password: asd123456
-  port: 8388
-  server: 154.197.26.120
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-060"
-  network: tcp
-  port: 54082
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
