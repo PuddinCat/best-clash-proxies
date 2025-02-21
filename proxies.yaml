@@ -36,19 +36,11 @@ proxies:
   protocol: origin
   server: 54.189.149.15
   type: ssr
-- cipher: aes-128-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-184.170.241.194:443"
-  obfs: plain
-  password: shadowsocks
-  port: 443
-  protocol: origin
-  server: 184.170.241.194
-  type: ssr
-- cipher: aes-128-cfb
-  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0290"
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
+- cipher: rc4-md5
+  name: "\U0001F1EC\U0001F1E7GB-146.70.61.18-0455"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.18
   type: ss
 - alterId: 2
   cipher: auto
@@ -64,31 +56,46 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5852"
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
-  server: 217.30.10.18
-  type: ss
-- client-fingerprint: chrome
-  name: "\u97E9\u56FD 002"
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5791"
   network: ws
-  password: Aimer
-  port: 37722
-  server: 59.2.75.64
-  skip-cert-verify: true
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560
+      Host: tk.hzlt.tkddns.xyz
+    path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
-  password: Y2U58S90E3GST1AQ
-  port: 21001
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E4|@ripaojiedian"
+  password: HQJQFA7U2Z5HGZWH
+  port: 21003
+  server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-7947"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- cipher: aes-128-cfb
+  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0290"
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
   type: ss
