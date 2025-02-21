@@ -9,30 +9,11 @@ proxies:
   port: 45578
   server: console.02.aliyun.aq.kunlunaqs.com
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-070"
-  network: tcp
-  port: 51754
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
 - cipher: chacha20-ietf
   name: "\U0001F1ED\U0001F1F0HK-154.197.26.120-5803"
   password: asd123456
   port: 8388
   server: 154.197.26.120
-  type: ss
-- cipher: rc4-md5
-  name: "\U0001F1EC\U0001F1E7GB-146.70.61.18-0455"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.18
   type: ss
 - alterId: 2
   cipher: auto
@@ -49,19 +30,20 @@ proxies:
     headers:
       Host: tk.hzlt.tkddns.xyz
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-065"
-  network: tcp
-  port: 54082
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-7947"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5791"
@@ -91,30 +73,48 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- name: "\u7F8E\u56FD 031"
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 206.238.236.31
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-065"
+  network: tcp
+  port: 54082
+  server: 120.232.153.40
   skip-cert-verify: true
-  sni: agept.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agept.ambercc.filegear-sg.me
-    path: /?ed=2560
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- cipher: rc4-md5
+  name: "\U0001F1EC\U0001F1E7GB-146.70.61.18-0455"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.18
+  type: ss
 - client-fingerprint: chrome
-  name: "\u7F8E\u56FD 023"
+  name: "\u97E9\u56FD 002"
   network: ws
   password: Aimer
-  port: 8443
-  server: 104.129.166.131
+  port: 37722
+  server: 59.2.75.64
   skip-cert-verify: true
-  sni: agept.ambercc.filegear-sg.me
+  sni: agepy.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: agept.ambercc.filegear-sg.me
+      Host: agepy.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: "\U0001F3C1RELAY-92.243.74.180-0727"
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 92.243.74.180
+  skip-cert-verify: false
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: agepy.ambercc.filegear-sg.me
     path: /?ed=2560
