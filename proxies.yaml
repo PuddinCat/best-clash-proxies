@@ -1,14 +1,17 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.63.247.149-5779"
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-154.197.26.120-5803"
+  password: asd123456
+  port: 8388
+  server: 154.197.26.120
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: GB_speednode_0081
+  password: BZeJ20F15UnvGH0oSYd3C2
+  port: 443
+  server: 78.129.140.11
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5783"
@@ -25,36 +28,6 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: CN_speednode_0043
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5791"
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: tk.hzlt.tkddns.xyz
-    path: /
-- alterId: 2
-  cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5834"
   network: ws
   port: 22641
@@ -68,12 +41,6 @@ proxies:
     headers:
       Host: tk.hzlt.tkddns.xyz
     path: /
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-154.197.26.120-5803"
-  password: asd123456
-  port: 8388
-  server: 154.197.26.120
-  type: ss
 - alterId: 2
   cipher: auto
   name: CN_speednode_0041
@@ -104,18 +71,36 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- name: "\U0001F1F0\U0001F1F7KR-220.80.154.29-0714"
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5791"
   network: ws
-  password: Aimer
-  port: 12220
-  server: 220.80.154.29
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
   skip-cert-verify: false
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560
+      Host: tk.hzlt.tkddns.xyz
+    path: /
+- alterId: 2
+  cipher: auto
+  name: CN_speednode_0043
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-7947"
@@ -130,3 +115,10 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- cipher: aes-256-cfb
+  name: US_speednode_0234
+  password: amazonskr05
+  port: 443
+  server: 52.12.191.72
+  type: ss
+  udp: true
