@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: "\u82F1\u56FD V2CROSS.COM"
-  password: BZeJ20F15UnvGH0oSYd3C2
-  port: 443
-  server: 78.129.140.11
-  type: ss
 - alterId: 0
   cipher: auto
   name: CN_speednode_0046
@@ -15,20 +9,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5892"
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
 - alterId: 2
   cipher: auto
   name: CN_speednode_0043
@@ -46,31 +26,44 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: China_None_vmess_1174
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-022"
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-headers:
+    Host: tk.hzlt.tkddns.xyz
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-5892"
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
   skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: tk.hzlt.tkddns.xyz
+      Host: zxjp-b.tkong.cc
     path: /
-- name: "\U0001F1F0\U0001F1F7KR-193.122.122.87-0716"
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-017"
   network: ws
-  password: Aimer
-  port: 52013
-  server: 193.122.122.87
-  skip-cert-verify: false
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-headers:
+    Host: tk.hzlt.tkddns.xyz
+  ws-path: /
 - alterId: 2
   cipher: auto
   name: CN_speednode_0044
@@ -86,14 +79,28 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-52.34.200.48:443"
-  obfs: plain
-  password: amazonskr05
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 \u82F1\u56FD V2CROSS.COM"
+  password: BZeJ20F15UnvGH0oSYd3C2
   port: 443
-  protocol: origin
-  server: 52.34.200.48
-  type: ssr
+  server: 78.129.140.11
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: China_None_vmess_1174
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: tk.hzlt.tkddns.xyz
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: GB_speednode_0081
   password: BZeJ20F15UnvGH0oSYd3C2
@@ -103,14 +110,15 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-022"
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-8056"
   network: ws
-  port: 22643
+  port: 22641
   server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-headers:
-    Host: tk.hzlt.tkddns.xyz
-  ws-path: /
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
