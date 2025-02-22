@@ -1,24 +1,39 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: United Kingdom_None_ss_1177
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40000
-  server: hk.fastsoonlink.com
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  password: RBN1UNGVPF1BQXPK
+  port: 15006
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-327"
-  network: tcp
-  port: 40002
-  server: 120.232.153.40
+- name: "\u97E9\u56FD 019"
+  network: ws
+  password: Aimer
+  port: 18004
+  server: 121.153.45.186
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
+  sni: agept.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agept.ambercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: "\u97E9\u56FD 002"
+  network: ws
+  password: Aimer
+  port: 37722
+  server: 59.2.75.64
+  skip-cert-verify: true
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepy.ambercc.filegear-sg.me
+    path: /?ed=2560
 - cipher: aes-256-gcm
   name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   password: TCEL1H0XD7TWAKI0
@@ -26,85 +41,56 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- name: "11,12|\u65E5\u672C|@ripaojiedian"
-  network: tcp
-  password: 65f14831-5c67-483f-9e85-f3aa73f21187
-  port: 13012
-  server: naiu-jp.05vr9nyqg5.download
+- cipher: aes-256-cfb
+  name: "11|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 43.203.240.54
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: GB_speednode_0036
+  password: BZeJ20F15UnvGH0oSYd3C2
+  port: 443
+  server: 78.129.140.11
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  h2-opts:
+    headers:
+      Host: slot2.raywhat.xyz
+    path: /b0c66d14-a0ab
+  name: Slot2
+  network: h2
+  port: 443
+  server: slot2.raywhat.xyz
+  tls: true
+  type: vmess
+  uuid: 64887a16-468c-4e98-b064-b82b01662727
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 5"
+  network: ws
+  port: 80
+  server: cloudflare.182682.xyz
+  tls: false
+  type: vmess
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+  ws-opts:
+    headers:
+      Host: kr.cfyyds.filegear-sg.me
+    path: /rongseven?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-185.234.64.35-0683"
+  password: YTNjNDY5
+  port: 8388
+  server: 185.234.64.35
+  type: ss
+- name: "\U0001F1F2\U0001F1FDMX-216.238.77.127-027"
+  password: 3747000103274291200
+  port: 443
+  server: 216.238.77.127
   skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  sni: grateful-glowworm.treefrog761.one
   type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  password: TCEL1H0XD7TWAKI0
-  port: 15011
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: CN_speednode_0009
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: CN_speednode_0008
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-8149"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- cipher: aes-256-gcm
-  name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  password: RBN1UNGVPF1BQXPK
-  port: 15006
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: CN_speednode_0007
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
