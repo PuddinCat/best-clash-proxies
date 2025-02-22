@@ -21,27 +21,6 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.198.71.216-334"
-  network: tcp
-  port: 41259
-  server: 120.198.71.216
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.216
-  ws-path: /
-- cipher: aes-256-cfb
-  delay: 969
-  name: United States_Boardman_ss_112
-  password: amazonskr05
-  port: 443
-  server: 34.219.121.181
-  type: ss
-  udp: true
-- alterId: 0
   cipher: chacha20-ietf-poly1305
   name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
@@ -59,26 +38,41 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-362"
+  password: FCEUOASRQJC0LN0K
+  port: 15009
+  server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: China_None_ss_1114
+  password: FCEUOASRQJC0LN0K
+  port: 15009
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  password: 2H98UZT9LT1TE3X9
-  port: 15008
-  server: w72tapyb.slashdevslashnetslashtun.net
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  password: FCEUOASRQJC0LN0K
+  port: 15009
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-183.61.177.234-025"
-  password: 2H98UZT9LT1TE3X9
-  port: 15008
-  server: w72tapyb.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-gcm
-  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  password: LZQ0R9BL69GCC6FS
-  port: 15005
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: CN_speednode_0008
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
 - alterId: 2
   cipher: auto
   name: CN_speednode_0007
@@ -93,4 +87,18 @@ proxies:
   ws-opts:
     headers:
       Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-8149"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
     path: /
