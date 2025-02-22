@@ -5,27 +5,6 @@ proxies:
   port: 443
   server: 149.34.244.82
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E6\U0001F1FAAU-160.187.111.61-2513"
-  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40011
-  server: frk.fastsoonlink.com
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: CN_speednode_0007
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
 - delay: 2579
   name: Romania_None_trojan_1133
   password: '3747000103274291200'
@@ -34,32 +13,12 @@ proxies:
   sni: artistic-flounder.treefrog761.one
   type: trojan
   udp: true
-- name: "\U0001F1FA\U0001F1F8US-154.9.249.242-0821"
-  network: ws
-  password: Aimer
-  port: 443
-  server: 154.9.249.242
-  skip-cert-verify: false
-  sni: agepu.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepu.ambercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: "\u97E9\u56FD 007"
-  network: ws
-  password: Aimer
-  port: 52013
-  server: 193.122.122.87
-  skip-cert-verify: true
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E6\U0001F1FAAU-160.187.111.61-2513"
+  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+  port: 40011
+  server: frk.fastsoonlink.com
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
@@ -68,24 +27,50 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- name: "\u7F8E\u56FD 041"
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  password: LZQ0R9BL69GCC6FS
+  port: 15005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: CN_speednode_0009
   network: ws
-  password: Aimer
-  port: 443
-  server: 108.165.152.113
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
   skip-cert-verify: true
-  sni: agept.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: agept.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: "\U0001F1F0\U0001F1F7KR-59.4.59.224-0758"
+      Host: zxjp-a.tkong.cc
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  password: TCEL1H0XD7TWAKI0
+  port: 15011
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- name: "\U0001F1F0\U0001F1F7KR-175.199.169.221-0806"
   network: ws
   password: Aimer
-  port: 12499
-  server: 59.4.59.224
+  port: 50003
+  server: 175.199.169.221
   skip-cert-verify: false
   sni: agept.ambercc.filegear-sg.me
   type: trojan
@@ -93,11 +78,11 @@ proxies:
     headers:
       Host: agept.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: "\u7F8E\u56FD 123"
+- name: "\u7F8E\u56FD 119"
   network: ws
   password: Aimer
-  port: 41396
-  server: 108.165.40.180
+  port: 443
+  server: 154.9.249.242
   skip-cert-verify: true
   sni: agepu.ambercc.filegear-sg.me
   type: trojan
