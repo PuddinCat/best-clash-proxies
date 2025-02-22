@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EC\U0001F1E7GB-78.129.140.11-0686"
-  password: BZeJ20F15UnvGH0oSYd3C2
-  port: 443
-  server: 78.129.140.11
-  type: ss
 - name: "11,12|\u65E5\u672C|@ripaojiedian"
   network: tcp
   password: 65f14831-5c67-483f-9e85-f3aa73f21187
@@ -13,30 +7,16 @@ proxies:
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: "\u571F\u8033\u5176 V2CROSS.COM"
-  password: 3747000103274291200
-  port: 443
-  server: 185.67.127.69
-  sni: ultimate-civet.adder289.quest
+- name: "\U0001F1E8\U0001F1F3CN-183.236.51.4-0882"
+  password: 65f14831-5c67-483f-9e85-f3aa73f21187
+  port: 13012
+  server: naiu-jp.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  password: TCEL1H0XD7TWAKI0
-  port: 15011
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  password: FCEUOASRQJC0LN0K
-  port: 15009
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   password: TCEL1H0XD7TWAKI0
   port: 15011
   server: qh62onjn.slashdevslashnetslashtun.net
@@ -49,9 +29,32 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   type: ss
 - cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  password: FCEUOASRQJC0LN0K
+  port: 15009
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
   name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   password: FCEUOASRQJC0LN0K
   port: 15009
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  password: LZQ0R9BL69GCC6FS
+  port: 15005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  password: TCEL1H0XD7TWAKI0
+  port: 15011
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
@@ -70,11 +73,9 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  password: LZQ0R9BL69GCC6FS
-  port: 15005
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+- name: "\u571F\u8033\u5176 V2CROSS.COM"
+  password: 3747000103274291200
+  port: 443
+  server: 185.67.127.69
+  sni: ultimate-civet.adder289.quest
+  type: trojan
