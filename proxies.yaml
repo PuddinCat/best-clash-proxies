@@ -1,88 +1,83 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-3.39.248.156-0488"
-  password: amazonskr05
-  port: 443
-  server: 3.39.248.156
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: CN_speednode_0007
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD 016_2@25"
-  network: ws
-  port: 443
-  server: 104.21.21.21
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
-  ws-opts:
-    headers:
-      host: laxfree.starsea.vip
-    path: /?ed=2048
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-120.233.171.89-2508"
-  password: 7b218398-f93d-41aa-907e-97c6e45f6d4c
-  port: 12033
-  server: mdss-tw.04z3susick.download
-  type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  password: TCEL1H0XD7TWAKI0
-  port: 15011
-  server: qh62onjn.slashdevslashnetslashtun.net
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts:
-    headers:
-      Host: slot2.raywhat.xyz
-    path: /b0c66d14-a0ab
-  name: Slot2
-  network: h2
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8US-107.155.57.11-0355"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.11
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 2"
+  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+  port: 40033
+  server: idn.fastsoonlink.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E6\U0001F1FAAU-160.187.111.61-2513"
+  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+  port: 40011
+  server: frk.fastsoonlink.com
+  type: ss
+- delay: 2579
+  name: Romania_None_trojan_1133
+  password: '3747000103274291200'
   port: 443
-  server: slot2.raywhat.xyz
-  tls: true
-  type: vmess
-  uuid: 64887a16-468c-4e98-b064-b82b01662727
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "0a7b5f7e9b2a4ab3a13e177dc7f7f6bd_@_\U0001F35386@oneclickvpnkeys"
-  network: ws
-  port: 8443
-  server: icook.hk
-  servername: argo.lamkan.eu.org
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-  ws-opts:
-    headers:
-      host: argo.lamkan.eu.org
-    path: /862e90e1-2f26-4506-b8b9-0adf20da05fc-vm
-- name: "\U0001F3C1RELAY-108.165.152.113-0772"
+  server: artistic-flounder.treefrog761.one
+  sni: artistic-flounder.treefrog761.one
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: "\U0001F1F3\U0001F1F1NL-149.34.244.82-0409"
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.82
+  type: ss
+- name: "\u7F8E\u56FD 119"
   network: ws
   password: Aimer
   port: 443
-  server: 108.165.152.113
+  server: 154.9.249.242
+  skip-cert-verify: true
+  sni: agepu.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepu.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: "\u4FC4\u7F57\u65AF 003"
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 92.243.74.180
+  skip-cert-verify: true
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepy.ambercc.filegear-sg.me
+    path: /?ed=2560
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  password: LZQ0R9BL69GCC6FS
+  port: 15005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- name: "\U0001F1F8\U0001F1ECSG-206.238.236.31-0767"
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 206.238.236.31
   skip-cert-verify: false
   sni: agept.ambercc.filegear-sg.me
   type: trojan
@@ -90,24 +85,3 @@ proxies:
     headers:
       Host: agept.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: "\u97E9\u56FD 017"
-  network: ws
-  password: Aimer
-  port: 12523
-  server: 115.23.163.214
-  skip-cert-verify: true
-  sni: agept.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agept.ambercc.filegear-sg.me
-    path: /?ed=2560
-- down: 100 Mbps
-  name: HySlot3
-  obfs: 9aaeee3f-a2ec-4b2a-b98c-266fbb5da0b2
-  port: 44301
-  protocol: udp
-  server: hyslot3.raywhat.xyz
-  type: hysteria
-  up: 30 Mbps
