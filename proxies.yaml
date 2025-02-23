@@ -14,6 +14,12 @@ proxies:
     headers:
       Host: hk2.x-net.vip
     path: /index
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-103.149.182.191-5590"
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  type: ss
 - cipher: aes-128-gcm
   name: NL_speednode_0108
   password: shadowsocks
@@ -27,43 +33,30 @@ proxies:
   port: 443
   server: 149.34.244.82
   type: ss
-- cipher: rc4-md5
-  name: US_speednode_0247
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.11
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-107.155.57.11:8080"
-  obfs: plain
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  protocol: origin
-  server: 107.155.57.11
-  type: ssr
-- name: US_speednode_0207
+- name: US_speednode_0243
   password: '3747000103274291200'
   port: 443
-  server: polished-ox.treefrog761.one
+  server: fluent-bat.treefrog761.one
   skip-cert-verify: false
-  sni: polished-ox.treefrog761.one
+  sni: fluent-bat.treefrog761.one
   type: trojan
   udp: true
-- name: "12,13|\u7F8E\u56FD|@ripaojiedian"
-  network: tcp
+- name: DE_speednode_0028
+  password: '3782591447421952000'
+  port: 443
+  server: composed-mustang.treefrog761.one
+  skip-cert-verify: true
+  sni: composed-mustang.treefrog761.one
+  type: trojan
+  udp: true
+- name: GB_speednode_0049
   password: '3747000103274291200'
   port: 443
-  server: polished-ox.treefrog761.one
+  server: fond-moth.treefrog761.one
   skip-cert-verify: false
-  sni: polished-ox.treefrog761.one
+  sni: fond-moth.treefrog761.one
   type: trojan
-- cipher: rc4-md5
-  name: United States_San Jose_ss_112
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.11
-  type: ss
+  udp: true
 - name: "12,13|\u7F8E\u56FD2|@ripaojiedian"
   network: tcp
   password: '3747000103274291200'
@@ -72,6 +65,14 @@ proxies:
   skip-cert-verify: false
   sni: fluent-bat.treefrog761.one
   type: trojan
+- name: IE_speednode_0063
+  password: '3747000103274291200'
+  port: 443
+  server: rich-sturgeon.treefrog761.one
+  skip-cert-verify: false
+  sni: rich-sturgeon.treefrog761.one
+  type: trojan
+  udp: true
 - name: GB_speednode_0050
   password: '3747000103274291200'
   port: 443
