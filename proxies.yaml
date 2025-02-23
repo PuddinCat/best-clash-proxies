@@ -1,28 +1,4 @@
 proxies:
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-103.149.182.191-5590"
-  password: asd123456
-  port: 8388
-  server: 103.149.182.191
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.143.66.20-7727"
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 38.143.66.20
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.143.66.20-7446"
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 38.143.66.20
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.143.66.20-6422"
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 38.143.66.20
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: TR_speednode_0135
   password: LytryZ13mUEWLx2hKFJvM8
@@ -30,44 +6,40 @@ proxies:
   server: h110vpntr.outlinekeys.net
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: HK_speednode_0040
-  network: http
-  port: 30704
-  server: 43.247.135.63
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
-- name: "\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\u4E9A_1"
-  password: '3747000103274291200'
+- cipher: rc4-md5
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-107.155.57.11:8080"
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 107.155.57.11
+  type: ssr
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8US-107.155.57.11-0355"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.11
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: GB_speednode_0035
+  password: vcUpZCJzOuaVoN8OL2cYvK
   port: 443
-  server: alive-polecat.treefrog761.one
-  skip-cert-verify: false
-  sni: alive-polecat.treefrog761.one
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: CN_speednode_0010
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+  server: 78.129.140.11
+  type: ss
   udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: SI_speednode_0134
+  password: PPXb8J2ciDybokWl7kxKab
+  port: 51587
+  server: free2.okkserver.tech
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u7F8E\u56FD V2CROSS.COM 3"
+  password: PPXb8J2ciDybokWl7kxKab
+  port: 51587
+  server: free2.okkserver.tech
+  type: ss
 - name: "\u7F57\u9A6C\u5C3C\u4E9A V2CROSS.COM"
   password: 3747000103274291200
   port: 443
@@ -76,10 +48,32 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: CN_speednode_0012
+  name: CN_speednode_0008
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\u9999\u6E2F \u7279\u522B\u884C\u653F\u533A"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.49
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: CN_speednode_0010
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
   skip-cert-verify: false
   tls: true
   type: vmess
