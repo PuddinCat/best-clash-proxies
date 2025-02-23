@@ -1,39 +1,6 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-0364"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.49
-  type: ss
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8US-107.155.57.11-0355"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.11
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1F3\U0001F1F1NL-149.34.244.82-0392"
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.82
-  type: ss
-- name: "\u7F57\u9A6C\u5C3C\u4E9A V2CROSS.COM"
-  password: 3747000103274291200
-  port: 443
-  server: 93.114.98.252
-  skip-cert-verify: false
-  sni: alive-polecat.treefrog761.one
-  type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  password: TCEL1H0XD7TWAKI0
-  port: 15011
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1ED\U0001F1F0HK-150.107.46.21-6088"
+  name: "\U0001F1ED\U0001F1F0HK-150.107.46.21-5737"
   obfs: tls1.2_ticket_auth
   obfs-param: ''
   password: iFqnzSscN
@@ -42,30 +9,74 @@ proxies:
   protocol-param: ''
   server: 150.107.46.21
   type: ssr
+- name: "\U0001F1E8\U0001F1F3CN-120.198.71.173-2481"
+  password: fc66e1cb-1fa3-412a-81f5-900e59e3837c
+  port: 28713
+  server: wb.kaiqsz.com
+  skip-cert-verify: false
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
+- name: "11,12|\u65E5\u672C4|@ripaojiedian"
+  network: tcp
+  password: fc66e1cb-1fa3-412a-81f5-900e59e3837c
+  port: 28713
+  server: wb.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: The Netherlands_None_ss_114
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.49
+  type: ss
+- cipher: aes-128-gcm
+  name: "\U0001F1F3\U0001F1F1NL-149.34.244.82-0409"
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.82
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  password: '3747000103274291200'
+  port: 443
+  server: fluent-bat.treefrog761.one
+  skip-cert-verify: false
+  sni: fluent-bat.treefrog761.one
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
+- name: "11,12|\u7F8E\u56FD2|@ripaojiedian"
+  network: tcp
+  password: '3747000103274291200'
+  port: 443
+  server: fluent-bat.treefrog761.one
+  skip-cert-verify: false
+  sni: fluent-bat.treefrog761.one
+  type: trojan
+- name: "\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\u4E9A_1"
+  password: '3747000103274291200'
+  port: 443
+  server: alive-polecat.treefrog761.one
+  skip-cert-verify: false
+  sni: alive-polecat.treefrog761.one
+  type: trojan
 - cipher: aes-256-gcm
-  name: China_None_ss_1114
-  password: TCEL1H0XD7TWAKI0
-  port: 15011
-  server: qh62onjn.slashdevslashnetslashtun.net
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  password: 84HMRAWILKB49QUZ
+  port: 18002
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  password: 2H98UZT9LT1TE3X9
-  port: 15008
-  server: w72tapyb.slashdevslashnetslashtun.net
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  password: YMB3QL85L7F1KJR7
+  port: 18013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\u82F1\u56FD V2CROSS.COM"
-  password: 6edTuN9WSufTkYhvfJD0js
-  port: 2239
-  server: 77.239.122.39
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6104"
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 217.30.10.18
   type: ss
