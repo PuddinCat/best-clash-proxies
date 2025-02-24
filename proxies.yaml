@@ -5,32 +5,42 @@ proxies:
   port: 443
   server: 212.102.53.197
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F5\U0001F1F1PL-77.83.246.74-0941"
-  password: khRaVpqrxCiJlvySn9J3eE
-  port: 443
-  server: 77.83.246.74
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: CN_speednode_0003
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: CN_speednode_0007
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: "\u6B27\u76DF V2CROSS.COM"
   password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 8080
   server: 45.87.175.192
-  type: ss
-- cipher: aes-256-gcm
-  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
-  password: 0407WKIEIXMTLGC6
-  port: 16007
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
-  password: 0407WKIEIXMTLGC6
-  port: 16007
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
   type: ss
 - alterId: 2
   cipher: auto
@@ -48,43 +58,45 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: CN_speednode_0005
+  name: CN_speednode_0006
   network: ws
-  port: 22642
+  port: 22643
   server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-b.tkong.cc
+      Host: tk.hzlt.tkddns.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: HK_speednode_0016
-  network: http
-  port: 30704
-  server: 43.247.135.63
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1EDCH-94.131.3.203-0947"
-  password: oPVoeAO4MB54L7MLs2skdX
-  port: 45230
-  server: 94.131.3.203
+- cipher: aes-256-gcm
+  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
+  password: 0407WKIEIXMTLGC6
+  port: 16007
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.192-5936"
-  password: 4a2rfixophdjffa8KVA4Aa
+- cipher: rc4-md5
+  name: "\U0001F1E9\U0001F1EADE-193.108.119.230-0455"
+  password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 45.87.175.192
+  server: 193.108.119.230
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
+  password: 0407WKIEIXMTLGC6
+  port: 16007
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  password: BFYCOKHTC8HIWWRB
+  port: 16006
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
