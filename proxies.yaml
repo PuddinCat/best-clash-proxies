@@ -1,22 +1,10 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: China_Wuhan_ss_1145
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-246"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: China_Wuhan_ss_1151
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  password: IHWLYZSSSX4GSKLA
+  port: 16013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -28,28 +16,12 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-090"
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-0943"
-  password: 0407WKIEIXMTLGC6
-  port: 16007
-  server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-080"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1EC\U0001F1E7GB-212.102.53.197-0403"
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.197
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
@@ -60,9 +32,43 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: China_None_ss_1164
+  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
   password: 0407WKIEIXMTLGC6
   port: 16007
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3CN-113.99.142.172-217"
+  password: LZQ0R9BL69GCC6FS
+  port: 15005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: China_Guangzhou_ss_1147
+  password: LZQ0R9BL69GCC6FS
+  port: 15005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  password: 2H98UZT9LT1TE3X9
+  port: 15008
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 V2CROSS.COM"
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.197
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EC\U0001F1E7GB-78.129.140.11-019"
+  password: mK0sLDKCjPFm4XpjBRONyX
+  port: 443
+  server: 78.129.140.11
   type: ss
