@@ -1,12 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F2"
@@ -23,11 +15,13 @@ proxies:
   server: hk01.x.quickcht3.club
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.107.226.159-7434"
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.107.226.159
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: GB_speednode_0015
@@ -37,16 +31,17 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.107.226.159-7434"
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.107.226.159
+  type: ss
+- cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8US-38.107.226.159-7738"
   password: faBAoD54k87UJG7
   port: 2376
   server: 38.107.226.159
   type: ss
-- name: "\u7F57\u9A6C\u5C3C\u4E9A V2CROSS.COM"
-  password: 3747000103274291200
-  port: 443
-  server: alive-polecat.treefrog761.one
-  type: trojan
 - name: "\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\u5C3C\u4E9A_1"
   password: '3747000103274291200'
   port: 443
@@ -54,33 +49,20 @@ proxies:
   skip-cert-verify: false
   sni: alive-polecat.treefrog761.one
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: CN_speednode_0003
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: HK_speednode_0019
-  network: http
-  port: 30704
-  server: 43.247.135.63
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
+- name: "\u7F57\u9A6C\u5C3C\u4E9A V2CROSS.COM"
+  password: 3747000103274291200
+  port: 443
+  server: alive-polecat.treefrog761.one
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5632"
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 217.30.10.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8US-77.239.122.39-0718"
+  password: 6edTuN9WSufTkYhvfJD0js
+  port: 2239
+  server: 77.239.122.39
+  type: ss
