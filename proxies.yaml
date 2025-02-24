@@ -1,6 +1,25 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-020"
+  network: tcp
+  port: 40002
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- cipher: aes-128-gcm
+  name: "\U0001F1EC\U0001F1E7GB-212.102.53.197-0432"
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.197
+  type: ss
+- alterId: 0
+  cipher: auto
   http-opts:
     method: GET
     path:
@@ -24,31 +43,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 00dedc77-59b9-42f1-a9ce-3f33af694f5e
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-020"
-  network: tcp
-  port: 40002
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5633"
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6149"
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
-  server: 217.30.10.18
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
@@ -56,6 +50,18 @@ proxies:
   port: 16007
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_1"
+  password: QWDDvVE9npNurQfA
+  port: 9026
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6223"
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 217.30.10.18
   type: ss
 - alterId: 2
   cipher: auto
@@ -71,6 +77,12 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1EESI-45.144.54.156-0960"
+  password: PPXb8J2ciDybokWl7kxKab
+  port: 51587
+  server: 45.144.54.156
+  type: ss
 - alterId: 2
   cipher: auto
   name: CN_speednode_0005
@@ -86,16 +98,3 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- cipher: aes-256-gcm
-  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
-  password: 0407WKIEIXMTLGC6
-  port: 16007
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6113"
-  password: Lp27rqyJq72bZsqX
-  port: 9045
-  server: 217.30.10.18
-  type: ss
