@@ -7,25 +7,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1EE\U0001F1F7 \u4F0A\u6717 V2CROSS.COM"
-  port: 39119
-  server: 31.58.137.67
-  tls: false
-  type: vmess
-  uuid: 00dedc77-59b9-42f1-a9ce-3f33af694f5e
-- alterId: 0
-  cipher: auto
-  delay: 1153
-  name: "\u4F0A\u6717 006"
-  network: tcp
-  port: 39119
-  server: 31.58.137.67
-  skip-cert-verify: true
-  type: vmess
-  uuid: 00dedc77-59b9-42f1-a9ce-3f33af694f5e
-- alterId: 0
-  cipher: auto
   http-opts:
     method: GET
     path:
@@ -39,26 +20,49 @@ proxies:
   type: vmess
   udp: true
   uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F9PT-185.231.233.112-6275"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
+- cipher: rc4-md5
+  name: "\U0001F1E9\U0001F1EADE-193.108.119.230-0455"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
   type: ss
 - alterId: 2
   cipher: auto
-  name: CN_speednode_0005
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-6241"
   network: ws
   port: 22642
   server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
+  password: 0407WKIEIXMTLGC6
+  port: 16007
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: CN_speednode_0007
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-b.tkong.cc
+      Host: zxjp-c.tkong.cc
     path: /
 - alterId: 2
   cipher: auto
@@ -76,13 +80,20 @@ proxies:
     headers:
       Host: tk.hzlt.tkddns.xyz
     path: /
-- cipher: aes-256-gcm
-  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
-  password: 0407WKIEIXMTLGC6
-  port: 16007
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-8342"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
 - alterId: 2
   cipher: auto
   name: CN_speednode_0003
@@ -98,17 +109,12 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-6241"
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
+  client-fingerprint: chrome
+  name: "\U0001F1EE\U0001F1F7 \u4F0A\u6717 V2CROSS.COM"
+  port: 39119
+  server: 31.58.137.67
+  tls: false
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
+  uuid: 00dedc77-59b9-42f1-a9ce-3f33af694f5e
