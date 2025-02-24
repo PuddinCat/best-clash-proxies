@@ -1,4 +1,18 @@
 proxies:
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6249"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-54.213.120.25:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 54.213.120.25
+  type: ssr
 - alterId: 0
   cipher: auto
   name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
@@ -22,6 +36,42 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-268"
+  network: tcp
+  port: 40002
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-78.129.140.11:443"
+  password: vcUpZCJzOuaVoN8OL2cYvK
+  port: 443
+  server: 78.129.140.11
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: GB_speednode_0014
+  password: vcUpZCJzOuaVoN8OL2cYvK
+  port: 443
+  server: 78.129.140.11
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 1153
+  name: "\u4F0A\u6717 006"
+  network: tcp
+  port: 39119
+  server: 31.58.137.67
+  skip-cert-verify: true
+  type: vmess
+  uuid: 00dedc77-59b9-42f1-a9ce-3f33af694f5e
+- alterId: 0
+  cipher: auto
   http-opts:
     method: GET
     path:
@@ -35,28 +85,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1EDCH-94.131.3.203-0947"
-  password: oPVoeAO4MB54L7MLs2skdX
-  port: 45230
-  server: 94.131.3.203
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u4F0A\u6717 V2CROSS.COM"
-  port: 39119
-  server: 31.58.137.67
-  tls: false
-  type: vmess
-  uuid: 00dedc77-59b9-42f1-a9ce-3f33af694f5e
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
-  password: IHWLYZSSSX4GSKLA
-  port: 16013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
@@ -64,22 +92,4 @@ proxies:
   port: 16006
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.107.226.159-0700"
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.107.226.159
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6249"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.107.226.159-022"
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.107.226.159
   type: ss
