@@ -14,17 +14,19 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-276"
-  network: tcp
-  port: 54082
-  server: 120.232.153.40
-  skip-cert-verify: true
+  name: "\u4F0A\u6717 V2CROSS.COM"
+  port: 39119
+  server: 31.58.137.67
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
+  uuid: 00dedc77-59b9-42f1-a9ce-3f33af694f5e
+- cipher: chacha20-ietf-poly1305
+  name: GB_speednode_0014
+  password: vcUpZCJzOuaVoN8OL2cYvK
+  port: 443
+  server: 78.129.140.11
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   http-opts:
@@ -42,20 +44,17 @@ proxies:
   uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
 - alterId: 0
   cipher: auto
-  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-276"
+  network: tcp
   port: 54082
   server: 120.232.153.40
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: "\u4F0A\u6717 V2CROSS.COM"
-  port: 39119
-  server: 31.58.137.67
-  tls: false
-  type: vmess
-  uuid: 00dedc77-59b9-42f1-a9ce-3f33af694f5e
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
@@ -63,12 +62,6 @@ proxies:
   port: 16007
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1EDCH-94.131.3.203-0947"
-  password: oPVoeAO4MB54L7MLs2skdX
-  port: 45230
-  server: 94.131.3.203
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
@@ -78,15 +71,23 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6149"
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
-  server: 217.30.10.18
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  password: BFYCOKHTC8HIWWRB
+  port: 16006
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F8\U0001F1EESI-45.144.54.156-5981"
   password: PPXb8J2ciDybokWl7kxKab
   port: 51587
   server: free2.okkserver.tech
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6149"
+  password: c3NtHJ5ujV2tGDfj
+  port: 9084
+  server: 217.30.10.18
   type: ss
