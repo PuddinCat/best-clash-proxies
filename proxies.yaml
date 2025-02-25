@@ -1,39 +1,22 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 175
-  name: China_Guangzhou_ss_1139
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EF\U0001F1F5JP-35.77.96.173-278"
-  password: amazonskr05
-  port: 443
-  server: 35.77.96.173
-  type: ss
 - alterId: 64
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-140"
+  name: "\U0001F1E8\U0001F1F3CN-120.198.71.214-160"
   network: tcp
-  port: 53902
-  server: 183.236.51.38
+  port: 30565
+  server: 120.198.71.214
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.38
+    Host: 120.198.71.214
   ws-path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
-  port: 36002
-  server: 120.232.153.40
+  name: "\u5E7F\u4E1C\u7701\u6E5B\u6C5F\u5E02 \u79FB\u52A8"
+  port: 30565
+  server: 120.198.71.214
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -50,6 +33,14 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
+  port: 36002
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
@@ -59,31 +50,46 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: China_Guangzhou_ss_1145
-  password: RBN1UNGVPF1BQXPK
-  port: 15006
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
+  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-289"
+  password: TCEL1H0XD7TWAKI0
+  port: 15011
+  server: qh62onjn.slashdevslashnetslashtun.net
   type: ss
-- cipher: aes-256-gcm
-  name: China_Guangzhou_ss_1152
-  password: 84HMRAWILKB49QUZ
-  port: 18002
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-154"
+  network: tcp
+  port: 42120
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  password: LZQ0R9BL69GCC6FS
-  port: 15005
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  password: IHWLYZSSSX4GSKLA
+  port: 16013
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 175
+  name: China_Guangzhou_ss_1139
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  type: ss
 - cipher: aes-256-gcm
-  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
-  password: 0407WKIEIXMTLGC6
-  port: 16007
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
+  name: "\U0001F1E8\U0001F1F3CN-183.61.177.234-293"
+  password: HQJQFA7U2Z5HGZWH
+  port: 21003
+  server: w72tapyb.slashdevslashnetslashtun.net
   type: ss
