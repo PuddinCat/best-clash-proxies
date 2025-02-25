@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FARU-95.215.108.67-1473"
-  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40031
-  server: ru.fastsoonlink.com
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-163"
@@ -18,6 +12,26 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F7\U0001F1FARU-95.215.108.67-1473"
+  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
+  port: 40031
+  server: ru.fastsoonlink.com
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-8347"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
 - alterId: 2
   cipher: auto
   name: CN_speednode_0003
@@ -71,35 +85,24 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-8347"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
 - cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-0903"
-  password: 0407WKIEIXMTLGC6
-  port: 16007
-  server: qh62onjn.slashdevslashnetslashtun.net
+  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  password: 2H98UZT9LT1TE3X9
+  port: 15008
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5693"
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  server: 217.30.10.18
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  password: IHWLYZSSSX4GSKLA
+  port: 16013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-119.167.230.252-5889"
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 28164
-  server: 119.167.230.252
+- cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3CN-113.99.142.172-0901"
+  password: IHWLYZSSSX4GSKLA
+  port: 16013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
   type: ss
