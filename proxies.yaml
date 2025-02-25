@@ -1,4 +1,22 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  delay: 175
+  name: China_Guangzhou_ss_1139
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "2,12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   name: CN_speednode_0003
@@ -15,52 +33,54 @@ proxies:
       Host: zxjp-b.tkong.cc
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FARU-95.215.108.67-1473"
-  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40031
-  server: ru.fastsoonlink.com
+  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-221"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
   type: ss
-- alterId: 0
+- cipher: rc4-md5
+  name: "\U0001F1E9\U0001F1EADE-193.108.119.230-5950"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
+  type: ss
+- alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-163"
+  name: CN_speednode_0005
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-54.184.126.174:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 54.184.126.174
+  type: ssr
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-140"
   network: tcp
-  port: 36002
-  server: 120.232.153.40
+  port: 53902
+  server: 183.236.51.38
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.232.153.40
+    Host: 183.236.51.38
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\u5B89\u5FBD\u7701\u6EC1\u5DDE\u5E02 \u7535\u4FE1"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: China_Wuhan_ss_1151
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 \u5B89\u5FBD\u7701\u6EC1\u5DDE\u5E02 \u7535\u4FE1"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
-  type: ss
 - alterId: 2
   cipher: auto
   name: CN_speednode_0004
@@ -77,15 +97,9 @@ proxies:
     headers:
       Host: tk.hzlt.tkddns.xyz
     path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-113.99.142.172-0901"
-  password: IHWLYZSSSX4GSKLA
-  port: 16013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  type: ss
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-8347"
+  name: "\U0001F1E8\U0001F1F3CN-36.151.194.31-8129"
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
