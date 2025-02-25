@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-160"
-  network: tcp
-  port: 40002
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-162"
   network: tcp
   port: 54082
@@ -25,25 +12,35 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-163"
-  network: tcp
-  port: 36002
-  server: 120.232.153.40
+  name: CN_speednode_0005
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F5\U0001F1F1PL-77.83.246.74-0651"
-  password: khRaVpqrxCiJlvySn9J3eE
-  port: 443
-  server: 77.83.246.74
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- cipher: rc4-md5
+  name: "\U0001F1E9\U0001F1EADE-193.108.119.230-1236"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
   type: ss
+- cipher: rc4-md5
+  name: "SSR-\u5FB7\u56FD-NF\u89E3\u9501\u5FB7\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-193.108.119.230:8080"
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 193.108.119.230
+  type: ssr
 - alterId: 2
   cipher: auto
   name: CN_speednode_0003
@@ -59,38 +56,55 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-183.61.177.234-0888"
-  password: 2H98UZT9LT1TE3X9
-  port: 15008
-  server: w72tapyb.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-gcm
-  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
-  password: IHWLYZSSSX4GSKLA
-  port: 16013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  password: 2H98UZT9LT1TE3X9
-  port: 15008
-  server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - alterId: 0
-  cipher: aes-256-gcm
-  name: "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761"
-  password: IHWLYZSSSX4GSKLA
-  port: 16013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-163"
+  network: tcp
+  port: 36002
+  server: 120.232.153.40
   skip-cert-verify: true
-  tls: true
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-160"
+  network: tcp
+  port: 40002
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-168"
+  network: tcp
+  port: 42120
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  password: IHWLYZSSSX4GSKLA
+  port: 16013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
   password: IHWLYZSSSX4GSKLA
   port: 16013
   server: 8tv68qhq.slashdevslashnetslashtun.net
