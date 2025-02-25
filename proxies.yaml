@@ -1,23 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-184"
-  password: FCEUOASRQJC0LN0K
-  port: 15009
-  server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-172"
-  network: tcp
-  port: 54082
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-173"
@@ -31,24 +12,24 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-216.250.97.118-0466"
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  port: 443
-  server: hong-kong.keenvpn.me
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-172"
+  network: tcp
+  port: 54082
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
 - cipher: aes-256-gcm
-  name: China_Guangzhou_ss_1153
-  password: IHWLYZSSSX4GSKLA
-  port: 16013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  name: "\U0001F1FA\U0001F1F8US-103.36.91.32-5963"
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
+  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-184"
+  password: FCEUOASRQJC0LN0K
+  port: 15009
+  server: qh62onjn.slashdevslashnetslashtun.net
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-096"
@@ -71,6 +52,19 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-185.234.64.35-0664"
+  password: YTNjNDY5
+  port: 8388
+  server: 185.234.64.35
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 V2CROSS.COM"
+  password: YTNjNDY5
+  port: 8388
+  server: 185.234.64.35
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
@@ -78,4 +72,10 @@ proxies:
   port: 16013
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\u4E9A\u592A\u5730\u533A V2CROSS.COM 2"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
   type: ss
