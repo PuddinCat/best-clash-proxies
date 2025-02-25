@@ -17,25 +17,11 @@ proxies:
   port: 21245
   server: 581610.eveline.lol
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "2,12|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: China_Wuhan_ss_1145
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-381"
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-370"
   network: tcp
-  port: 40002
+  port: 54082
   server: 120.232.153.40
   skip-cert-verify: true
   tls: false
@@ -45,18 +31,18 @@ proxies:
     Host: 120.232.153.40
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  name: China_Wuhan_ss_1145
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52612
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-78.129.140.11:443"
-  password: mK0sLDKCjPFm4XpjBRONyX
-  port: 443
-  server: 78.129.140.11
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 \u5B89\u5FBD\u7701\u6EC1\u5DDE\u5E02 \u7535\u4FE1"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -64,6 +50,18 @@ proxies:
   password: mK0sLDKCjPFm4XpjBRONyX
   port: 443
   server: 78.129.140.11
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-78.129.140.11:443"
+  password: mK0sLDKCjPFm4XpjBRONyX
+  port: 443
+  server: 78.129.140.11
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F9PT-185.231.233.112-6160"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.112
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
