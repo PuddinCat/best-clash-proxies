@@ -1,9 +1,10 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "11|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
-  password: amazonskr05
-  port: 443
-  server: 13.125.218.26
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -12,12 +13,6 @@ proxies:
   port: 15005
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5844"
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 217.30.10.18
   type: ss
 - alterId: 64
   cipher: auto
@@ -34,27 +29,12 @@ proxies:
     headers:
       host: www.23179753.xyz
     path: /path/181721272114
-- cipher: chacha20-ietf-poly1305
-  name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F4CO-154.223.16.212-6003"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.16.212
   type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-119.167.230.43-8028"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
 - cipher: aes-256-gcm
   name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   password: 2H98UZT9LT1TE3X9
@@ -62,29 +42,60 @@ proxies:
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-34.220.174.155:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 34.220.174.155
+  type: ssr
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9"
+  delay: 2889
+  name: "\u7F8E\u56FD 030"
   network: ws
-  port: 80
-  server: faedff.57de-78fc4c715615.cfd
-  tls: false
+  port: 443
+  server: 104.18.149.76
+  servername: us.kkp.me.eu.org
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 0ba4a240-1586-4a54-929c-26389c8a4111
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
   ws-opts:
     headers:
-      Host: sg01s.57de-78fc4c715615.cfd
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F4CO-154.223.16.212-6003"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.16.212
-  type: ss
+      Host: us.kkp.me.eu.org
+    path: /aa
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.18.149.76-0711"
+  network: ws
+  port: 443
+  server: 104.18.149.76
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: cae97b1c-35e8-4cf2-dc1b-52032c3d3fa7
+  ws-opts:
+    headers:
+      Host: jp.kkp.me.eu.org
+    path: /aa
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD 016_2@25"
+  network: ws
+  port: 443
+  server: 104.21.21.21
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 73dfe5b1-9ced-4be7-949b-e731d54ba801
+  ws-opts:
+    headers:
+      host: laxfree.starsea.vip
+    path: /?ed=2048
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52612
   server: hk02.x.quickcht3.club
