@@ -1,4 +1,23 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.198.71.214-047"
+  network: tcp
+  port: 30565
+  server: 120.198.71.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
+- cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-1268"
+  password: FCEUOASRQJC0LN0K
+  port: 15009
+  server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-048"
@@ -13,33 +32,24 @@ proxies:
     Host: 120.232.153.40
   ws-path: /
 - cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-1268"
-  password: FCEUOASRQJC0LN0K
-  port: 15009
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
+  password: 0407WKIEIXMTLGC6
+  port: 16007
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-085"
+  password: 0407WKIEIXMTLGC6
+  port: 16007
   server: qh62onjn.slashdevslashnetslashtun.net
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
-  password: IHWLYZSSSX4GSKLA
-  port: 16013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  password: RBN1UNGVPF1BQXPK
-  port: 15006
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
-  password: IHWLYZSSSX4GSKLA
-  port: 16013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
+- cipher: chacha20-ietf-poly1305
+  name: "\u6C5F\u82CF\u7701 \u79FB\u52A8"
+  password: a81dd416-d6dc-4268-b088-57ca0447b448
+  port: 51183
+  server: qq.miaolianyunapp.com
   type: ss
 - cipher: aes-256-gcm
   name: "\U0001F1E8\U0001F1F3CN-113.99.142.172-083"
@@ -48,30 +58,24 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   type: ss
 - cipher: aes-256-gcm
+  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
+  password: 0407WKIEIXMTLGC6
+  port: 16007
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E4|@ripaojiedian"
-  password: HQJQFA7U2Z5HGZWH
-  port: 21003
-  server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  password: RBN1UNGVPF1BQXPK
-  port: 15006
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: China_Guangzhou_ss_1112
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   password: LZQ0R9BL69GCC6FS
   port: 15005
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-085"
-  password: 0407WKIEIXMTLGC6
-  port: 16007
-  server: qh62onjn.slashdevslashnetslashtun.net
+  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  password: IHWLYZSSSX4GSKLA
+  port: 16013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
