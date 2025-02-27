@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8US-34.211.97.239-136"
+  password: amazonskr05
+  port: 443
+  server: 34.211.97.239
+  type: ss
 - cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8US-167.88.61.213-7395"
   password: PCnnH6SQSnfoS27
@@ -6,9 +12,21 @@ proxies:
   server: 167.88.61.213
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-169.197.142.99-065_1@65"
-  password: Y6R9pAtvxxzmGC
-  port: 5001
+  name: "\U0001F1FA\U0001F1F8US-169.197.142.99-2200"
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 169.197.142.99
+  type: ss
+- cipher: aes-256-gcm
+  name: "SS-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-38.91.107.66:8090"
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.91.107.66
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-169.197.142.99-2204"
+  password: e4FCWrgpkji3QY
+  port: 9101
   server: 169.197.142.99
   type: ss
 - cipher: aes-256-gcm
@@ -17,47 +35,47 @@ proxies:
   port: 7002
   server: 169.197.142.99
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8US-34.211.97.239-136"
-  password: amazonskr05
-  port: 443
-  server: 34.211.97.239
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-169.197.142.99-2202"
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 169.197.142.99
-  type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  name: "\U0001F1EE\U0001F1F3IN-159.65.149.67-2144"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 159.65.149.67
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-113.99.142.172-1234"
-  password: WNW5MZJX57ZJUNQU
-  port: 16009
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-gcm
-  name: "SS-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-38.91.107.66:8090"
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.91.107.66
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
+  name: "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 3"
+  port: 48919
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 3"
+  port: 48919
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5765"
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-073"
+  network: tcp
+  port: 48919
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
