@@ -1,10 +1,17 @@
 proxies:
-- cipher: rc4-md5
-  name: "\U0001F1EE\U0001F1F3IN-159.65.149.67-5785"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 159.65.149.67
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-069"
+  network: tcp
+  port: 48919
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-7924"
@@ -33,21 +40,6 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-38.14.107.226-5696"
-  network: ws
-  port: 38003
-  server: 38.14.107.226
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: ''
-    path: /path/340434130032
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5761"
@@ -75,25 +67,6 @@ proxies:
   ws-headers:
     Host: 120.198.71.219
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-069"
-  network: tcp
-  port: 48919
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-43.249.36.70-066"
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  port: 443
-  server: 43.249.36.70
-  type: ss
 - alterId: 64
   cipher: auto
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_10"
@@ -102,9 +75,45 @@ proxies:
   server: 107.148.207.249
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8US-38.14.107.225-7925"
+  network: ws
+  port: 38003
+  server: 38.14.107.225
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.23179753.xyz
+    path: /path/181721272114
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8US-38.14.107.226-5696"
+  network: ws
+  port: 38003
+  server: 38.14.107.226
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: ''
+    path: /path/340434130032
 - cipher: aes-256-gcm
   name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-193"
   password: 0407WKIEIXMTLGC6
   port: 16007
   server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-5763"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
   type: ss
