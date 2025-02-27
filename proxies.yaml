@@ -5,12 +5,6 @@ proxies:
   port: 989
   server: 185.108.129.51
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-38.91.107.66-7516"
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.91.107.66
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
@@ -18,19 +12,6 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.198.71.219-081"
-  network: tcp
-  port: 44014
-  server: 120.198.71.219
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.219
-  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -47,15 +28,6 @@ proxies:
     path: /dabai.in104.25.66.1
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 2"
-  port: 48919
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   name: "\u7F8E\u56FD 016_2@25"
   network: ws
   port: 443
@@ -68,22 +40,35 @@ proxies:
     headers:
       host: laxfree.starsea.vip
     path: /?ed=2048
-- alterId: 0
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-38.91.107.66-7516"
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.91.107.66
+  type: ss
+- alterId: 2
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: "VMESS-\u672A\u77E5>\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-141.101.114.104:80"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5759"
   network: ws
-  port: 80
-  server: 141.101.114.104
-  servername: us01s.5b61a7f6-0d90.cfd
-  skip-cert-verify: true
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: 0ba4a240-1586-4a54-929c-26389c8a4111
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      HOST: us01s.5b61a7f6-0d90.cfd
+      Host: zxjp-b.tkong.cc
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 2"
+  port: 48919
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-072"
@@ -97,11 +82,30 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  password: b7e92acc-70e2-4945-9625-c909251ca5ee
-  port: 30001
-  server: gdgs.tarioblink.me
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.198.71.219-081"
+  network: tcp
+  port: 44014
+  server: 120.198.71.219
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.219
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-7924"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
