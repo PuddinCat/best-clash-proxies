@@ -1,18 +1,10 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5761"
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7415"
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 167.88.63.59
+  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-7924"
@@ -42,21 +34,48 @@ proxies:
       Host: zxjp-b.tkong.cc
     path: /
 - cipher: aes-256-gcm
-  name: "SS-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-167.88.63.59:6679"
-  password: TEzjfAYq2IjtuoS
-  port: 6679
+  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7642"
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 167.88.63.59
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5761"
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-069"
+  network: tcp
+  port: 48919
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7426"
+  password: FoOiGlkAA9yPEGP
+  port: 7307
   server: 167.88.63.59
   type: ss
 - cipher: aes-256-gcm
-  name: "SS-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-167.88.63.59:5500"
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 167.88.63.59
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7019"
-  password: KixLvKzwjekG00rm
-  port: 8000
+  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7182"
+  password: Y6R9pAtvxxzmGC
+  port: 5000
   server: 167.88.63.59
   type: ss
 - cipher: aes-256-gcm
@@ -66,20 +85,8 @@ proxies:
   server: 167.88.63.59
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7052"
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 167.88.63.59
-  type: ss
-- cipher: aes-256-gcm
-  name: "SS-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-167.88.63.59:5601"
+  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7399"
   password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 167.88.63.59
-  type: ss
-- cipher: aes-256-gcm
-  name: "SS-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-167.88.63.59:443"
-  password: pKEW8JPByTVTLtM
-  port: 443
+  port: 3306
   server: 167.88.63.59
   type: ss
