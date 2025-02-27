@@ -1,4 +1,30 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-114"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  type: ss
+- cipher: rc4-md5
+  name: "\U0001F1EE\U0001F1F3IN-159.65.149.67-2144"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 159.65.149.67
+  type: ss
+- cipher: chacha20-ietf
+  name: "\U0001F1FA\U0001F1F8US-137.175.97.159-5822"
+  password: asd123456
+  port: 8388
+  server: 137.175.97.159
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5765"
@@ -13,19 +39,17 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-114"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-167.88.61.213-7395"
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 167.88.61.213
   type: ss
 - cipher: aes-256-gcm
   name: "SS-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-38.91.107.66:8090"
@@ -34,57 +58,14 @@ proxies:
   server: 38.91.107.66
   type: ss
 - cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-169.197.142.99-064_1@64"
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 169.197.142.99
+  type: ss
+- cipher: aes-256-gcm
   name: "\U0001F1E8\U0001F1F3CN-113.99.142.172-1234"
   password: WNW5MZJX57ZJUNQU
   port: 16009
   server: 8tv68qhq.slashdevslashnetslashtun.net
   type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5766"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5767"
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\u5170"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
-- cipher: rc4-md5
-  name: "\U0001F1EE\U0001F1F3IN-159.65.149.67-2144"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 159.65.149.67
-  type: ss
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: United States_Boardman_ss_1113
-  password: amazonskr05
-  port: 443
-  server: 34.220.174.155
-  tls: false
-  type: ss
-  udp: true
