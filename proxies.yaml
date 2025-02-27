@@ -1,33 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-069"
-  network: tcp
-  port: 48919
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7415"
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 167.88.63.59
+- cipher: chacha20-ietf
+  name: "\U0001F1FA\U0001F1F8US-137.175.97.159-5816"
+  password: asd123456
+  port: 8388
+  server: 137.175.97.159
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7295"
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 167.88.63.59
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7623"
-  password: kDWvXYZoTBcGkC4
-  port: 8882
+  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7182"
+  password: Y6R9pAtvxxzmGC
+  port: 5000
   server: 167.88.63.59
   type: ss
 - alterId: 2
@@ -46,6 +27,20 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-7924"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5761"
   network: ws
   port: 22643
@@ -58,27 +53,33 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- cipher: chacha20-ietf
-  name: "\U0001F1FA\U0001F1F8US-137.175.97.159-5816"
-  password: asd123456
-  port: 8388
-  server: 137.175.97.159
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7426"
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 167.88.63.59
-  type: ss
 - cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7322"
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 167.88.63.59
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F5\U0001F1F1PL-77.83.246.74-0744"
+  password: ajeK4uJTPKgdb97gcLSNXJ
+  port: 443
+  server: 77.83.246.74
+  type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-6769"
-  password: kDWvXYZoTBcGkC4
-  port: 8881
+  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-6209"
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 167.88.63.59
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7543"
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 167.88.63.59
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-167.88.63.59-7423"
+  password: KixLvKzwjekG00rm
+  port: 5500
   server: 167.88.63.59
   type: ss
