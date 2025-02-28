@@ -1,25 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  name: China_Guangzhou_ss_1136
-  password: f4cd0a554e9d0558c581
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45917
-  server: console.03.aliyun.aq.kunlunaqs.com
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-58.63.247.116-5414"
-  password: f4cd0a554e9d0558c581
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45917
-  server: console.03.aliyun.aq.kunlunaqs.com
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-114"
@@ -33,11 +12,26 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-089"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40000
-  server: hk.fastsoonlink.com
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-58.63.247.116-5414"
+  password: f4cd0a554e9d0558c581
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45917
+  server: console.03.aliyun.aq.kunlunaqs.com
+  type: ss
+- cipher: aes-128-gcm
+  name: China_Guangzhou_ss_1136
+  password: f4cd0a554e9d0558c581
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45917
+  server: console.03.aliyun.aq.kunlunaqs.com
+  tfo: false
   type: ss
 - alterId: 2
   cipher: auto
@@ -55,9 +49,9 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5424"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5419"
   network: ws
-  port: 22641
+  port: 22642
   server: tk.hzlt.tkddns.xyz
   skip-cert-verify: false
   tls: true
@@ -65,8 +59,15 @@ proxies:
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
+      Host: zxjp-b.tkong.cc
     path: /
+- name: "\U0001F1F8\U0001F1ECSG-13.250.43.6-5466"
+  password: 7d9c7804-1f7d-43f7-b19a-fa7c2fff4569
+  port: 20230
+  server: sg008.421421.xyz
+  skip-cert-verify: false
+  sni: 421421.xyz
+  type: trojan
 - cipher: aes-256-cfb
   name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5492"
   password: FG5ddLsMPbV5CutE
@@ -80,18 +81,14 @@ proxies:
   server: 184.170.241.194
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-089"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: "\U0001F1E8\U0001F1F3CN-103.216.253.197-098"
   password: 3FB23A19-9424-40C7-9139-3540228283FA
   port: 40005
   server: 103.216.253.197
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-58.63.247.116-5413"
-  password: 777bc05be0dd624959fb
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45905
-  server: console.03.aliyun.aq.kunlunaqs.com
   type: ss
