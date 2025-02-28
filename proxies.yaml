@@ -1,35 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-58.63.247.116-5414"
-  password: f4cd0a554e9d0558c581
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45917
-  server: console.03.aliyun.aq.kunlunaqs.com
-  type: ss
-- cipher: aes-128-gcm
-  name: China_Guangzhou_ss_1136
-  password: f4cd0a554e9d0558c581
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45917
-  server: console.03.aliyun.aq.kunlunaqs.com
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-58.63.247.116-5413"
-  password: 777bc05be0dd624959fb
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45905
-  server: console.03.aliyun.aq.kunlunaqs.com
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-114"
@@ -86,23 +55,46 @@ proxies:
       Host: zxjp-a.tkong.cc
     path: /
 - cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-089"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-103.216.253.197-098"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: 103.216.253.197
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5495"
+  password: f63gg8EruDnUrmz4
+  port: 9010
+  server: 217.30.10.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52612
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
+- cipher: aes-128-cfb
+  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0306"
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5452"
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 217.30.10.18
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.241.40.37-205"
+  network: tcp
+  port: 15707
+  server: sz-sg-07.grabgo.pro
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f837b510-7050-4dec-b182-a777dc358469
+  ws-headers:
+    Host: sz-sg-07.grabgo.pro
+  ws-path: /
