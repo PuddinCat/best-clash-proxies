@@ -14,9 +14,9 @@ proxies:
   ws-path: /
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5420"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5424"
   network: ws
-  port: 22643
+  port: 22641
   server: tk.hzlt.tkddns.xyz
   skip-cert-verify: false
   tls: true
@@ -24,7 +24,7 @@ proxies:
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-c.tkong.cc
+      Host: zxjp-a.tkong.cc
     path: /
 - alterId: 2
   cipher: auto
@@ -42,9 +42,9 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5424"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5420"
   network: ws
-  port: 22641
+  port: 22643
   server: tk.hzlt.tkddns.xyz
   skip-cert-verify: false
   tls: true
@@ -52,25 +52,13 @@ proxies:
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
+      Host: zxjp-c.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-089"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40000
-  server: hk.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-103.216.253.197-098"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: 103.216.253.197
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5495"
-  password: f63gg8EruDnUrmz4
-  port: 9010
-  server: 217.30.10.18
+- cipher: aes-128-cfb
+  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0306"
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
@@ -79,22 +67,36 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- cipher: aes-128-cfb
-  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0306"
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
+- cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-1235"
+  password: FCEUOASRQJC0LN0K
+  port: 15009
+  server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-089"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.241.40.37-205"
+  name: "\U0001F1E8\U0001F1F3CN-120.241.40.37-013"
   network: tcp
-  port: 15707
-  server: sz-sg-07.grabgo.pro
+  port: 15113
+  server: hkt-detour-13.grabgo.pro
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: f837b510-7050-4dec-b182-a777dc358469
   ws-headers:
-    Host: sz-sg-07.grabgo.pro
+    Host: hkt-detour-13.grabgo.pro
   ws-path: /
