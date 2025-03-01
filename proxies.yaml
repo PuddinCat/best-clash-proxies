@@ -13,11 +13,31 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- cipher: rc4-md5
-  name: "\U0001F1EC\U0001F1E7GB-146.70.61.18-0349"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.18
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5993"
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5989"
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6063"
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 217.30.10.18
   type: ss
 - alterId: 2
   cipher: auto
@@ -33,28 +53,24 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5993"
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5305"
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 217.30.10.18
+  type: ss
 - cipher: rc4-md5
-  name: "SSR-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-146.70.61.18:8080"
-  obfs: plain
+  name: "\U0001F1EC\U0001F1E7GB-146.70.61.18-0349"
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  protocol: origin
   server: 146.70.61.18
-  type: ssr
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5847"
+  password: c3NtHJ5ujV2tGDfj
+  port: 9084
+  server: 217.30.10.18
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
@@ -64,26 +80,8 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_6"
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6063"
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5847"
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-0676"
-  password: U6qnYRhfyDmn8sgn
-  port: 9041
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_3"
+  password: f63gg8EruDnUrmz4
+  port: 9010
   server: 217.30.10.18
   type: ss
