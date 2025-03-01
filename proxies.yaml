@@ -13,26 +13,18 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_2"
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  server: 217.30.10.18
-  type: ss
 - cipher: rc4-md5
   name: "\U0001F1EC\U0001F1E7GB-146.70.61.18-0349"
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.61.18
   type: ss
-- cipher: rc4-md5
-  name: "SSR-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-146.70.61.18:8080"
-  obfs: plain
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  protocol: origin
-  server: 146.70.61.18
-  type: ssr
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5989"
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  server: 217.30.10.18
+  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5993"
@@ -47,6 +39,14 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
+- cipher: rc4-md5
+  name: "SSR-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-146.70.61.18:8080"
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 146.70.61.18
+  type: ssr
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5994"
@@ -75,18 +75,14 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5306"
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_2"
+  password: fG2artUmHfNT2cX7
+  port: 9018
   server: 217.30.10.18
   type: ss
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-47.129.7.198-5957"
+  password: amazonskr05
+  port: 443
+  server: 47.129.7.198
+  type: ss
