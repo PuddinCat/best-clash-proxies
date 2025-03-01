@@ -1,28 +1,22 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6013"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-189"
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-213"
   network: tcp
-  port: 48919
-  server: 183.236.51.38
+  port: 54012
+  server: 120.232.153.40
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.38
+    Host: 120.232.153.40
   ws-path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5969"
-  password: wfLC2y7rzZyCmuyt
-  port: 9093
-  server: 217.30.10.18
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6013"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
   type: ss
 - name: "\U0001F1E8\U0001F1F3CN-36.163.4.178-5977"
   password: 415b770f-20de-4be4-a3c1-8376da50a1b7
@@ -31,29 +25,11 @@ proxies:
   skip-cert-verify: false
   sni: mmbiz13.redapricotcloud.com
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5967"
-  password: 9XwYyZsK8SNzQDtY
-  port: 9059
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-0684"
-  password: M3t2ZEQcMGRWBjRa
-  port: 9011
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-154.90.62.168-6034"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.62.168
-  type: ss
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-8157"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5975"
   network: ws
-  port: 22641
+  port: 22642
   server: tk.hzlt.tkddns.xyz
   skip-cert-verify: false
   tls: true
@@ -61,21 +37,43 @@ proxies:
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
+      Host: zxjp-b.tkong.cc
     path: /
-- alterId: 0
-  cipher: auto
-  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F9|@ripaojiedian"
-  port: 42120
-  server: 183.236.51.38
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-154.90.62.168-6034"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.62.168
+  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5298"
   password: TN2YqghxeFDKZfLU
   port: 9037
   server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5969"
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5291"
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3CN-113.99.142.172-243"
+  password: YMB3QL85L7F1KJR7
+  port: 18013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  password: YMB3QL85L7F1KJR7
+  port: 18013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
