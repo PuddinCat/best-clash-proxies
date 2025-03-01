@@ -25,12 +25,6 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6013"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
 - name: "\U0001F1E8\U0001F1F3CN-36.163.4.178-5977"
   password: 415b770f-20de-4be4-a3c1-8376da50a1b7
   port: 33243
@@ -38,6 +32,20 @@ proxies:
   skip-cert-verify: false
   sni: mmbiz13.redapricotcloud.com
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5975"
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
 - cipher: aes-256-cfb
   name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5827"
   password: c3NtHJ5ujV2tGDfj
@@ -45,15 +53,9 @@ proxies:
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6043"
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5818"
-  password: ZET59LF6DvCC8KVt
-  port: 9005
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6046"
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-cfb
@@ -68,10 +70,15 @@ proxies:
   port: 9093
   server: 217.30.10.18
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: China_Wuhan_ss_1184
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5818"
+  password: ZET59LF6DvCC8KVt
+  port: 9005
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_2"
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 217.30.10.18
   type: ss
