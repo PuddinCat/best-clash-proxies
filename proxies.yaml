@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-ChatGPT-TikTok-YouTube-35.160.134.223:443"
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 35.160.134.223
-  type: ssr
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-213"
@@ -41,6 +33,12 @@ proxies:
       Host: zxjp-b.tkong.cc
     path: /
 - cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6043"
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
   name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5967"
   password: 9XwYyZsK8SNzQDtY
   port: 9059
@@ -53,16 +51,22 @@ proxies:
   server: hk02.x.quickcht3.club
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6043"
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 217.30.10.18
+  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-5293"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-18.140.3.253-5963"
+  password: amazonskr05
+  port: 443
+  server: 18.140.3.253
   type: ss
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-8157"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5973"
   network: ws
-  port: 22641
+  port: 22643
   server: tk.hzlt.tkddns.xyz
   skip-cert-verify: false
   tls: true
@@ -70,17 +74,13 @@ proxies:
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
+      Host: zxjp-c.tkong.cc
     path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-18.140.3.253-5963"
+  name: "SSR-\u7F8E\u56FD-ChatGPT-TikTok-YouTube-35.160.134.223:443"
+  obfs: plain
   password: amazonskr05
   port: 443
-  server: 18.140.3.253
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-0680"
-  password: f63gg8EruDnUrmz4
-  port: 9010
-  server: 217.30.10.18
-  type: ss
+  protocol: origin
+  server: 35.160.134.223
+  type: ssr
