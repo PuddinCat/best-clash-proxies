@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-138"
+  network: tcp
+  port: 36602
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-213"
   network: tcp
   port: 54012
@@ -12,12 +25,6 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6013"
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
 - name: "\U0001F1E8\U0001F1F3CN-36.163.4.178-5977"
   password: 415b770f-20de-4be4-a3c1-8376da50a1b7
   port: 33243
@@ -25,37 +32,6 @@ proxies:
   skip-cert-verify: false
   sni: mmbiz13.redapricotcloud.com
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1FA RU 51 \u2192 tg@nicevpn123"
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5967"
-  password: 9XwYyZsK8SNzQDtY
-  port: 9059
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5828"
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_4"
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5830"
-  password: FAdUvMJUq5vDgKEq
-  port: 9006
-  server: 217.30.10.18
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: China_Wuhan_ss_1184
   password: 2be0c954-4291-45ea-b47d-ca713180550b
@@ -70,4 +46,37 @@ proxies:
   port: 52612
   server: hk02.x.quickcht3.club
   tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
+  port: 42120
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5818"
+  password: ZET59LF6DvCC8KVt
+  port: 9005
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5969"
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_2"
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5828"
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  server: 217.30.10.18
   type: ss
