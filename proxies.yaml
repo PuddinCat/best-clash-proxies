@@ -5,11 +5,11 @@ proxies:
   port: 443
   server: 149.34.244.82
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0626"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-210"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
   type: ss
 - alterId: 2
   cipher: auto
@@ -26,21 +26,6 @@ proxies:
     headers:
       Host: tk.hzlt.tkddns.xyz
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  tfo: false
-  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5645"
@@ -57,12 +42,6 @@ proxies:
       Host: tk.hzlt.tkddns.xyz
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-210"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  type: ss
-- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: "\U0001F1E8\U0001F1F3 \u5B89\u5FBD\u7701\u6EC1\u5DDE\u5E02 \u7535\u4FE1"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
@@ -78,8 +57,36 @@ proxies:
   server: w72tapyb.slashdevslashnetslashtun.net
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-54.255.230.67-145"
-  password: amazonskr05
-  port: 443
-  server: 54.255.230.67
+  name: "\U0001F1FA\U0001F1E6UA-176.103.53.105-0626"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 176.103.53.105
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u5E7F\u4E1C\u7701\u6E5B\u6C5F\u5E02 \u79FB\u52A8"
+  port: 35565
+  server: 120.198.71.214
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.198.71.214-178"
+  network: tcp
+  port: 35565
+  server: 120.198.71.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  tfo: false
   type: ss
