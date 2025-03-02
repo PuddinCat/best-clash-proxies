@@ -5,6 +5,18 @@ proxies:
   port: 64013
   server: 128.199.220.82
   type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1F4RO-194.14.217.38-5667"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 194.14.217.38
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-133"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
+  type: ss
 - alterId: 64
   cipher: auto
   name: "\U0001F1FA\U0001F1F8US-142.0.136.1-5635"
@@ -19,25 +31,21 @@ proxies:
     headers:
       Host: www.27732502.xyz
     path: /path/1739973894418
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-133"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40000
-  server: hk.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-217"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  type: ss
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-34.220.174.155:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 34.220.174.155
+  type: ssr
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5645"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5646"
   network: ws
-  port: 22641
+  port: 22643
   server: tk.hzlt.tkddns.xyz
-  servername: zxjp-a.tkong.cc
+  servername: zxjp-c.tkong.cc
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -46,14 +54,17 @@ proxies:
     headers:
       Host: tk.hzlt.tkddns.xyz
     path: /
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F14"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  skip-cert-verify: true
-  tls: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E6\U0001F1F9AT-95.164.36.59-5686"
+  password: ODA2MGZh
+  port: 8388
+  server: at1.opensocks.site
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3CN-183.61.177.172-214"
+  password: YMB3QL85L7F1KJR7
+  port: 18013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
   type: ss
 - alterId: 2
   cipher: auto
@@ -70,29 +81,10 @@ proxies:
       Host: zxjp-a.tkong.cc
     path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1F4RO-194.14.217.38-5667"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 194.14.217.38
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 13.229.213.8
+  tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-183.61.177.172-214"
-  password: YMB3QL85L7F1KJR7
-  port: 18013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-5646"
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: tk.hzlt.tkddns.xyz
-    path: /
