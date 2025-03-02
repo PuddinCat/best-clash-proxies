@@ -1,17 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-249"
-  network: tcp
-  port: 36602
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1ED\U0001F1F0HK-150.107.46.21-5480"
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  protocol-param: ''
+  server: 150.107.46.21
+  type: ssr
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -34,6 +31,26 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-249"
+  network: tcp
+  port: 36602
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-223"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
@@ -45,13 +62,6 @@ proxies:
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52611
   server: hk01.x.quickcht3.club
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
   tfo: false
   type: ss
 - alterId: 0
@@ -67,18 +77,6 @@ proxies:
   ws-headers:
     Host: 31.58.137.67
   ws-path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5603"
-  password: 9XwYyZsK8SNzQDtY
-  port: 9059
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_6"
-  password: M3t2ZEQcMGRWBjRa
-  port: 9011
-  server: 217.30.10.18
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\u4F0A\u6717 V2CROSS.COM"
@@ -87,3 +85,9 @@ proxies:
   tls: false
   type: vmess
   uuid: 724fb93e-ace8-4733-b04a-72fcc9b80b1f
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5604"
+  password: p9z5BVADH2YFs3MN
+  port: 9040
+  server: 217.30.10.18
+  type: ss
