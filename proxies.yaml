@@ -1,23 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1ED\U0001F1F0HK-150.107.46.21-5480"
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: iFqnzSscN
-  port: 8083
-  protocol: origin
-  protocol-param: ''
-  server: 150.107.46.21
-  type: ssr
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
-  port: 54012
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-307"
@@ -33,24 +14,13 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-249"
-  network: tcp
-  port: 36602
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
+  port: 54012
   server: 120.232.153.40
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-223"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
@@ -58,10 +28,10 @@ proxies:
   server: hk02.x.quickcht3.club
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
+  port: 52612
+  server: hk02.x.quickcht3.club
   tfo: false
   type: ss
 - alterId: 0
@@ -85,9 +55,31 @@ proxies:
   tls: false
   type: vmess
   uuid: 724fb93e-ace8-4733-b04a-72fcc9b80b1f
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5604"
-  password: p9z5BVADH2YFs3MN
-  port: 9040
-  server: 217.30.10.18
+- cipher: chacha20-ietf-poly1305
+  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: "\u4FDD\u52A0\u5229\u4E9A V2CROSS.COM"
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.71
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u8282\u70B9\u65E5\u671F\uFF1A03-01"
+  port: 51754
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  password: RBN1UNGVPF1BQXPK
+  port: 15006
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
