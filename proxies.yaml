@@ -1,69 +1,89 @@
 proxies:
 - alterId: 0
   cipher: auto
-  h2-opts:
-    headers:
-      Host: slot3.raywhat.xyz
-    path: /b0c66d14-a0ab
-  name: Slot3
-  network: h2
-  port: 443
-  server: slot3.raywhat.xyz
-  tls: true
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-249"
+  network: tcp
+  port: 36602
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 64887a16-468c-4e98-b064-b82b01662727
-- down: 100 Mbps
-  name: HySlot3
-  obfs: 9aaeee3f-a2ec-4b2a-b98c-266fbb5da0b2
-  port: 44301
-  protocol: udp
-  server: hyslot3.raywhat.xyz
-  type: hysteria
-  up: 30 Mbps
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
 - alterId: 0
   cipher: auto
-  h2-opts:
-    headers:
-      Host: slot4.raywhat.xyz
-    path: /29275bea-6373
-  name: Slot4
-  network: h2
-  port: 443
-  server: slot4.raywhat.xyz
-  tls: true
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
+  port: 54012
+  server: 120.232.153.40
+  tls: false
   type: vmess
-  uuid: d20df4c7-82a9-4196-a06d-93cb35822726
-- down: 100 Mbps
-  name: HySlot2
-  obfs: dcee89a9-b499-43e2-a994-9a58b063edd0
-  port: 44301
-  protocol: udp
-  server: hyslot2.raywhat.xyz
-  type: hysteria
-  up: 30 Mbps
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  h2-opts:
-    headers:
-      Host: slot2.raywhat.xyz
-    path: /b0c66d14-a0ab
-  name: Slot2
-  network: h2
-  port: 443
-  server: slot2.raywhat.xyz
-  tls: true
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-307"
+  network: tcp
+  port: 54012
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 64887a16-468c-4e98-b064-b82b01662727
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-223"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  h2-opts:
-    headers:
-      Host: slot5.raywhat.xyz
-    path: /57e71947-7827
-  name: Slot5
-  network: h2
-  port: 443
-  server: slot5.raywhat.xyz
-  tls: true
+  name: "\U0001F1EB\U0001F1EEFI-31.58.137.67-018"
+  network: tcp
+  port: 39447
+  server: 31.58.137.67
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 4d3b4011-7363-4a64-9cb4-51ca301cab87
+  uuid: 724fb93e-ace8-4733-b04a-72fcc9b80b1f
+  ws-headers:
+    Host: 31.58.137.67
+  ws-path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5603"
+  password: 9XwYyZsK8SNzQDtY
+  port: 9059
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_6"
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 217.30.10.18
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u4F0A\u6717 V2CROSS.COM"
+  port: 39447
+  server: 31.58.137.67
+  tls: false
+  type: vmess
+  uuid: 724fb93e-ace8-4733-b04a-72fcc9b80b1f
