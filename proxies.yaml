@@ -1,23 +1,15 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-6276"
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1FFKZ-213.156.137.67-0417"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 213.156.137.67
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-103.149.182.61-6164"
+  password: asd123456
+  port: 8388
+  server: 103.149.182.61
+  type: ss
+- cipher: aes-128-gcm
+  name: "\U0001F1EC\U0001F1E7GB-212.102.53.196-0335"
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.196
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F7\U0001F1FA RU 54 \u2192 tg@nicevpn123"
@@ -26,23 +18,15 @@ proxies:
   server: 213.156.137.67
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u6D59\u6C5F\u7701\u53F0\u5DDE\u5E02 \u53F0\u5DDE\u4E16\u901A\u7F51\u7EDC"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
+  type: ss
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-6274"
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-8517"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-6151"
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
@@ -54,35 +38,49 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-1270"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40000
-  server: hk.fastsoonlink.com
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6143"
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 217.30.10.18
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-6150"
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
-  name: "\u5E7F\u4E1C\u7701\u6E5B\u6C5F\u5E02 \u79FB\u52A8 2"
-  port: 35565
-  server: 120.198.71.214
+  name: "\U0001F3C1RELAY-198.41.209.70-6148"
+  network: ws
+  port: 8080
+  server: s3.cn-db.top
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-119-215-158.s3.cn-db.top
+    path: /dabai.in104.20.173.23
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-23.154.136.162-6138"
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 23.154.136.162
+  type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6079"
-  password: 9XwYyZsK8SNzQDtY
-  port: 9059
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-6141"
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
   server: 217.30.10.18
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3CN-183.61.177.235-6282"
-  password: FCEUOASRQJC0LN0K
-  port: 15009
-  server: qh62onjn.slashdevslashnetslashtun.net
+  name: "\u5317\u7F8E\u5730\u533A V2CROSS.COM"
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 23.154.136.162
   type: ss
