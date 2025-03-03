@@ -1,18 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 7"
-  network: ws
-  port: 8880
-  server: 104.19.48.236
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-128-12-180.s4.db-link02.top
-    path: /dabai.in104.25.239.131
+- cipher: aes-256-cfb
+  name: "\U0001F1ED\U0001F1F0HK-150.107.46.21-5480"
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  protocol-param: ''
+  server: 150.107.46.21
+  type: ssr
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -27,60 +23,11 @@ proxies:
     headers:
       Host: 100-217-184-172.s4.db-link02.top
     path: /dabai.in104.25.238.226
-- cipher: rc4-md5
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-107.155.57.11:8080"
-  obfs: plain
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  protocol: origin
-  server: 107.155.57.11
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 8"
-  network: ws
-  port: 8080
-  server: freedomisnear.onetwothree123.ir
-  tls: false
-  type: vmess
-  uuid: ecf8bf4d-51c0-4f69-8fe1-ddc62a5574b3
-  ws-opts:
-    headers:
-      Host: Freedomisnear.onetwothree123.ir
-    path: /mehdi
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EB\U0001F1EEFI-31.58.137.67-018"
-  network: tcp
-  port: 39447
-  server: 31.58.137.67
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 724fb93e-ace8-4733-b04a-72fcc9b80b1f
-  ws-headers:
-    Host: 31.58.137.67
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\
-    \u65AF_3"
-  network: ws
-  port: 8080
-  server: 172.67.202.155
-  sni: ''
-  type: vmess
-  uuid: e322b371-9fb0-49b4-dd38-887e92a8a987
-  ws-opts:
-    headers:
-      host: Freedomisnear.onetwothree123.ir
-    path: /mehdi
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5570"
-  password: wfLC2y7rzZyCmuyt
-  port: 9093
-  server: 217.30.10.18
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 38.86.135.223
   type: ss
 - alterId: 0
   cipher: auto
@@ -97,6 +44,34 @@ proxies:
   uuid: deda728b-aa46-402f-c7f2-1c500dd6c387
   ws-opts:
     path: /mehdi
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-119.167.163.224-2351"
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: tk.hzlt.tkddns.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 8"
+  network: ws
+  port: 8080
+  server: freedomisnear.onetwothree123.ir
+  tls: false
+  type: vmess
+  uuid: ecf8bf4d-51c0-4f69-8fe1-ddc62a5574b3
+  ws-opts:
+    headers:
+      Host: Freedomisnear.onetwothree123.ir
+    path: /mehdi
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -112,9 +87,24 @@ proxies:
   uuid: e322b371-9fb0-49b4-dd38-887e92a8a987
   ws-opts:
     path: /mehdi
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0269"
-  password: 14fFPrbezE3HDZzsMOr6
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 194.5.215.59
+  server: 103.104.247.49
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1EE\U0001F1F7 \u4F0A\u6717 V2CROSS.COM"
+  port: 39447
+  server: 31.58.137.67
+  tls: false
+  type: vmess
+  uuid: 724fb93e-ace8-4733-b04a-72fcc9b80b1f
+- cipher: aes-256-cfb
+  name: "\U0001F1F5\U0001F1F1PL-217.30.10.18-5417"
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 217.30.10.18
   type: ss
