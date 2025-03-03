@@ -1,89 +1,54 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-52.77.216.36-125"
-  password: amazonskr05
+- cipher: aes-128-gcm
+  name: "\U0001F1EC\U0001F1E7GB-212.102.53.196-031"
+  password: shadowsocks
   port: 443
-  server: 52.77.216.36
+  server: 212.102.53.196
   type: ss
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\
-    \u65AF_3"
-  network: ws
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-1464"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\u9999\u6E2F \u7279\u522B\u884C\u653F\u533A"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 172.67.202.155
-  sni: ''
+  server: 103.104.247.49
+  type: ss
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0269"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-6274"
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: e322b371-9fb0-49b4-dd38-887e92a8a987
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      host: Freedomisnear.onetwothree123.ir
-    path: /mehdi
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "d681823484d841ef9b92236e9049c741_@_\U0001F380\U0001D440\U0001D438\U0001D43B\
-    \U0001D49F\U0001D43C\U0001F380_Cloudflare"
-  network: ws
-  port: 2052
-  server: freedomisnear.onetwothree123.ir
-  tls: false
-  type: vmess
-  udp: false
-  uuid: 4c2c39bd-6658-4c2d-c2da-762fef958d32
-  ws-opts:
-    path: /mehdi
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "ccf73ee47c6c411f9037494d48310a35_@_\U0001F380\U0001D440\U0001D438\U0001D43B\
-    \U0001D49F\U0001D43C\U0001F380_Cloudflare"
-  network: ws
-  port: 2086
-  server: freedomisnear.onetwothree123.ir
-  tls: false
-  type: vmess
-  udp: false
-  uuid: c5b93358-5820-43a3-a391-798c6cefe76a
-  ws-opts:
-    path: /mehdi
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "9c3d982fba294d18bcb7b99d3db2fec9_@_\U0001F380\U0001D440\U0001D438\U0001D43B\
-    \U0001D49F\U0001D43C\U0001F380_Cloudflare"
-  network: ws
-  port: 8080
-  server: freedomisnear.onetwothree123.ir
-  tls: false
-  type: vmess
-  udp: false
-  uuid: e322b371-9fb0-49b4-dd38-887e92a8a987
-  ws-opts:
-    path: /mehdi
+      Host: zxjp-c.tkong.cc
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-135"
+  name: "\U0001F1EE\U0001F1F1IL-188.191.147.127-236"
+  password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
+  port: 31348
+  server: 188.191.147.127
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-223"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52612
   server: hk02.x.quickcht3.club
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 8"
-  network: ws
-  port: 8080
-  server: freedomisnear.onetwothree123.ir
-  tls: false
-  type: vmess
-  uuid: ecf8bf4d-51c0-4f69-8fe1-ddc62a5574b3
-  ws-opts:
-    headers:
-      Host: Freedomisnear.onetwothree123.ir
-    path: /mehdi
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
@@ -92,24 +57,16 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "6aa123fc36874f96a00461dc8f89661f_@_\U0001F380\U0001D440\U0001D438\U0001D43B\
-    \U0001D49F\U0001D43C\U0001F380_Cloudflare"
-  network: ws
-  port: 8080
-  server: freedomisnear.onetwothree123.ir
-  tls: false
-  type: vmess
-  udp: false
-  uuid: deda728b-aa46-402f-c7f2-1c500dd6c387
-  ws-opts:
-    path: /mehdi
+- cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3CN-183.61.177.172-1441"
+  password: WNW5MZJX57ZJUNQU
+  port: 16009
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.49
+  name: China_Wuhan_ss_1189
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
   type: ss
