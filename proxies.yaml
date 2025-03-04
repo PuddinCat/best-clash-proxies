@@ -33,21 +33,27 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 \u5B89\u5FBD\u7701\u6EC1\u5DDE\u5E02 \u7535\u4FE1 2"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.94.30.238-209"
+  network: tcp
+  port: 63018
+  server: in06.xxxoooxxxooo.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 26a934b4-d088-3cd6-88c2-11180ed1e53b
+  ws-headers:
+    Host: in06.xxxoooxxxooo.net
+  ws-path: /
+- cipher: aes-256-cfb
+  name: "SSR-\u4E39\u9EA6-NF\u89E3\u9501\u4E39\u9EA6\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-185.186.79.53:989"
+  obfs: plain
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  protocol: origin
+  server: 185.186.79.53
+  type: ssr
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-6150"
@@ -62,33 +68,43 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  tfo: false
+- alterId: 0
+  cipher: auto
+  name: "\u4E39\u9EA6 V2CROSS.COM"
+  network: ws
+  port: 443
+  server: www.csgo.com
+  tls: true
+  type: vmess
+  uuid: 85890618-6020-4ebc-feb4-1381534f68e8
+  ws-opts:
+    headers:
+      Host: 11m.china-sg.filegear-sg.me
+    path: /?ed=2048
+- cipher: aes-256-cfb
+  name: Japan_Tokyo_ss_1176
+  password: amazonskr05
+  port: 443
+  server: 13.231.193.189
   type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.198.71.214-232"
+  network: tcp
+  port: 35565
+  server: 120.198.71.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: China_Wuhan_ss_1185
+  name: "\U0001F1E8\U0001F1F3 \u5B89\u5FBD\u7701\u6EC1\u5DDE\u5E02 \u7535\u4FE1 2"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52612
   server: hk02.x.quickcht3.club
-  tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: "SSR-\u4E39\u9EA6-NF\u89E3\u9501\u4E39\u9EA6\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-185.186.79.53:989"
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 185.186.79.53
-  type: ssr
