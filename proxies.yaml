@@ -23,12 +23,11 @@ proxies:
   port: 443
   server: 13.115.246.98
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
-  password: amazonskr05
-  port: 443
-  server: 18.143.186.182
+- cipher: chacha20-ietf-poly1305
+  name: China_Wuhan_ss_1165
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -37,11 +36,12 @@ proxies:
   port: 52612
   server: hk02.x.quickcht3.club
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: China_Wuhan_ss_1165
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 18.143.186.182
   tfo: false
   type: ss
 - name: "\U0001F3C1RELAY-162.159.152.2-6185"
@@ -56,6 +56,15 @@ proxies:
     headers:
       Host: zamim340.ggff.net
     path: /tr?ed=2560
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: "\u672A\u77E545 65.8KB/s"
+  password: '1234'
+  port: 1234
+  server: 54.248.54.190
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - down: 100 Mbps
   name: HySlot3
   obfs: 9aaeee3f-a2ec-4b2a-b98c-266fbb5da0b2
@@ -64,20 +73,6 @@ proxies:
   server: hyslot3.raywhat.xyz
   type: hysteria
   up: 30 Mbps
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-195.85.59.95-0796"
-  network: ws
-  port: 443
-  server: www.csgo.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 85890618-6020-4ebc-feb4-1381534f68e8
-  ws-opts:
-    headers:
-      Host: 11m.china-sg.filegear-sg.me
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   h2-opts:
