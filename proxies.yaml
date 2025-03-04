@@ -5,18 +5,6 @@ proxies:
   port: 443
   server: uk-dc1.yangon.club
   type: ss
-- name: "\U0001F3C1RELAY-104.17.148.22-6085"
-  network: ws
-  password: Pooria
-  port: 443
-  server: 104.17.148.22
-  skip-cert-verify: false
-  sni: 301.pOORiAm.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 301.pOORiAm.ir
-    path: /trPyOrWMfkHd15oxiI?ed=1520
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-6011"
@@ -31,17 +19,25 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1F7\U0001F1FARU-5.35.83.23-6049"
-  password: one8dJe/0KKar5Aylc/kJICRrwqLiHP5v7N66VEa0ZU=
-  port: 516
-  server: 5.35.83.23
-  type: ss
+- name: "\U0001F3C1RELAY-104.17.148.22-6085"
+  network: ws
+  password: Pooria
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: 301.pOORiAm.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 301.pOORiAm.ir
+    path: /trPyOrWMfkHd15oxiI?ed=1520
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1E6CA-146.19.106.5-0795"
+  client-fingerprint: chrome
+  name: "15|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927|@ripaojiedian"
   password: M2EzY
   port: 8388
   server: ca1.ssocks.wiki
+  tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -59,12 +55,10 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927|@ripaojiedian"
+  name: "\U0001F1E8\U0001F1E6CA-146.19.106.5-0795"
   password: M2EzY
   port: 8388
   server: ca1.ssocks.wiki
-  tfo: false
   type: ss
 - alterId: 2
   cipher: auto
@@ -80,6 +74,12 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- cipher: aes-256-gcm
+  name: "\U0001F1F7\U0001F1FARU-5.35.83.23-6049"
+  password: one8dJe/0KKar5Aylc/kJICRrwqLiHP5v7N66VEa0ZU=
+  port: 516
+  server: 5.35.83.23
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-195.85.59.95-0796"
