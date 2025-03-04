@@ -1,0 +1,100 @@
+proxies:
+- down: 100 Mbps
+  name: HySlot2
+  obfs: dcee89a9-b499-43e2-a994-9a58b063edd0
+  port: 44301
+  protocol: udp
+  server: hyslot2.raywhat.xyz
+  type: hysteria
+  up: 30 Mbps
+- alterId: 0
+  cipher: auto
+  h2-opts:
+    headers:
+      Host: slot2.raywhat.xyz
+    path: /b0c66d14-a0ab
+  name: Slot2
+  network: h2
+  port: 443
+  server: slot2.raywhat.xyz
+  tls: true
+  type: vmess
+  uuid: 64887a16-468c-4e98-b064-b82b01662727
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  h2-opts:
+    headers:
+      Host: slot3.raywhat.xyz
+    path: /b0c66d14-a0ab
+  name: Slot3
+  network: h2
+  port: 443
+  server: slot3.raywhat.xyz
+  tls: true
+  type: vmess
+  uuid: 64887a16-468c-4e98-b064-b82b01662727
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.41-249"
+  network: tcp
+  port: 32077
+  server: 120.232.153.41
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.41
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-5760"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 13.250.31.115
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
+  type: ss
+- down: 100 Mbps
+  name: HySlot3
+  obfs: 9aaeee3f-a2ec-4b2a-b98c-266fbb5da0b2
+  port: 44301
+  protocol: udp
+  server: hyslot3.raywhat.xyz
+  type: hysteria
+  up: 30 Mbps
+- alterId: 0
+  cipher: auto
+  h2-opts:
+    headers:
+      Host: slot5.raywhat.xyz
+    path: /57e71947-7827
+  name: Slot5
+  network: h2
+  port: 443
+  server: slot5.raywhat.xyz
+  tls: true
+  type: vmess
+  uuid: 4d3b4011-7363-4a64-9cb4-51ca301cab87
