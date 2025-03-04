@@ -5,13 +5,6 @@ proxies:
   port: 443
   server: 212.102.53.197
   type: ss
-- cipher: aes-256-cfb
-  name: Japan_Tokyo_ss_1176
-  password: amazonskr05
-  port: 443
-  server: 13.231.193.189
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-6152"
@@ -26,13 +19,20 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: China_Wuhan_ss_1185
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-6151"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
@@ -48,6 +48,20 @@ proxies:
   port: 52612
   server: hk02.x.quickcht3.club
   type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-6150"
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
@@ -63,31 +77,18 @@ proxies:
   server: hk01.x.quickcht3.club
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-6151"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-6150"
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: China_Wuhan_ss_1185
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: "SSR-\u4E39\u9EA6-NF\u89E3\u9501\u4E39\u9EA6\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-185.186.79.53:989"
+  obfs: plain
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  protocol: origin
+  server: 185.186.79.53
+  type: ssr
