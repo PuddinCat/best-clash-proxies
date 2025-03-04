@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: "\U0001F1EF\U0001F1F5JP-13.115.246.98-6098"
+  password: amazonskr05
+  port: 443
+  server: 13.115.246.98
+  type: ss
 - name: "\U0001F3C1RELAY-104.17.148.22-6085"
   network: ws
   password: Pooria
@@ -25,24 +31,18 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1EF\U0001F1F5JP-13.115.246.98-6098"
-  password: amazonskr05
-  port: 443
-  server: 13.115.246.98
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-165"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  type: ss
-- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: "15|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
   server: 18.143.186.182
   tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-165"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
   type: ss
 - name: "\U0001F3C1RELAY-162.159.152.2-6185"
   network: ws
@@ -58,19 +58,6 @@ proxies:
     path: /tr?ed=2560
 - alterId: 0
   cipher: auto
-  h2-opts:
-    headers:
-      Host: slot2.raywhat.xyz
-    path: /b0c66d14-a0ab
-  name: Slot2
-  network: h2
-  port: 443
-  server: slot2.raywhat.xyz
-  tls: true
-  type: vmess
-  uuid: 64887a16-468c-4e98-b064-b82b01662727
-- alterId: 0
-  cipher: auto
   name: "\U0001F3C1RELAY-195.85.59.95-0796"
   network: ws
   port: 443
@@ -83,6 +70,19 @@ proxies:
     headers:
       Host: 11m.china-sg.filegear-sg.me
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  h2-opts:
+    headers:
+      Host: slot3.raywhat.xyz
+    path: /b0c66d14-a0ab
+  name: Slot3
+  network: h2
+  port: 443
+  server: slot3.raywhat.xyz
+  tls: true
+  type: vmess
+  uuid: 64887a16-468c-4e98-b064-b82b01662727
 - alterId: 0
   cipher: auto
   h2-opts:
