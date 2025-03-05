@@ -1,12 +1,10 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-34.222.143.94:443"
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 34.222.143.94
-  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1ECSG-188.166.177.201-6206"
+  password: EDEIso0hfMvZhdgWxqgZ2q
+  port: 9758
+  server: 188.166.177.201
+  type: ss
 - client-fingerprint: chrome
   name: "\u7F8E\u56FD 039"
   network: ws
@@ -20,35 +18,6 @@ proxies:
     headers:
       Host: 301.pOORiAm.ir
     path: /trPyOrWMfkHd15oxiI?ed=1520
-- cipher: chacha20-ietf-poly1305
-  name: "12|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: d6cb3d6.dl.microsoft.lt:47299
-    mode: tls
-  port: 2377
-  server: 221.215.48.118
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: d6cb3d6.dl.microsoft.lt:47299
-    mode: tls
-  port: 2377
-  server: 221.215.48.118
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1EASE-188.126.67.227-6204"
-  password: PI3ncxF2GPuPiB1l5gitcO
-  port: 63418
-  server: sto4.g.edgeservers.org
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-104.17.213.241-6172"
@@ -79,20 +48,32 @@ proxies:
     headers:
       Host: 100-150-171-114.s4.cn-db.top
     path: /dabai.in104.20.244.251
+- cipher: chacha20-ietf-poly1305
+  name: "12|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: d6cb3d6.dl.microsoft.lt:47299
+    mode: tls
+  port: 2377
+  server: 221.215.48.118
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F3C1RELAY-198.41.209.70-6165"
+  name: "\U0001F3C1RELAY-104.18.22.19-0739"
   network: ws
-  port: 80
-  server: s2.cn-db.top
+  port: 443
+  server: us19.998998.best
+  servername: server2-2.998877.best
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
   ws-opts:
     headers:
-      Host: 100-154-87-93.s2.cn-db.top
-    path: /dabai.in104.20.88.75
+      Host: server2-2.998877.best
+    path: /er5khymbnriysb?ed=2560
 - alterId: 0
   cipher: auto
   delay: 1351
@@ -111,17 +92,37 @@ proxies:
     path: /er5khymbnriysb?ed=2560
 - alterId: 0
   cipher: auto
-  delay: 1319
-  name: "\u7F8E\u56FD 037"
+  name: "\U0001F3C1RELAY-104.17.221.248-6173"
   network: ws
-  port: 443
-  server: us19.998998.best
-  servername: server2-2.998877.best
-  skip-cert-verify: true
-  tls: true
+  port: 8880
+  server: s4.cn-db.top
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: server2-2.998877.best
-    path: /er5khymbnriysb?ed=2560
+      Host: 100-74-148-152.s4.cn-db.top
+    path: /dabai.in104.21.239.139
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 13.229.110.23
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-198.41.209.70-6165"
+  network: ws
+  port: 80
+  server: s2.cn-db.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-154-87-93.s2.cn-db.top
+    path: /dabai.in104.20.88.75
