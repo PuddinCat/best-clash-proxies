@@ -1,6 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: "12|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  client-fingerprint: chrome
+  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -11,8 +12,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  name: "12|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -34,20 +34,39 @@ proxies:
     headers:
       Host: 301.pOORiAm.ir
     path: /trPyOrWMfkHd15oxiI?ed=1520
-- cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-34.222.143.94:443"
-  obfs: plain
-  password: amazonskr05
+- client-fingerprint: chrome
+  name: "\u7F8E\u56FD 039"
+  network: ws
+  password: Pooria
   port: 443
-  protocol: origin
-  server: 34.222.143.94
-  type: ssr
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: 301.pOORiAm.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 301.pOORiAm.ir
+    path: /trPyOrWMfkHd15oxiI?ed=1520
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F8\U0001F1EASE-188.126.67.227-6204"
   password: PI3ncxF2GPuPiB1l5gitcO
   port: 63418
   server: sto4.g.edgeservers.org
   type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-8198"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-104.19.48.236-6168"
@@ -63,50 +82,32 @@ proxies:
     headers:
       Host: 100-150-171-114.s4.cn-db.top
     path: /dabai.in104.20.244.251
-- client-fingerprint: chrome
-  name: "\u7F8E\u56FD 039"
-  network: ws
-  password: Pooria
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-34.222.143.94:443"
+  obfs: plain
+  password: amazonskr05
   port: 443
-  server: 104.17.148.22
-  skip-cert-verify: false
-  sni: 301.pOORiAm.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 301.pOORiAm.ir
-    path: /trPyOrWMfkHd15oxiI?ed=1520
+  protocol: origin
+  server: 34.222.143.94
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-0789"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F3C1RELAY-104.17.221.248-6173"
+  name: "\U0001F3C1RELAY-104.17.213.241-6172"
   network: ws
   port: 8880
-  server: s4.cn-db.top
+  server: 104.17.213.241
+  servername: 100-44-229-26.s4.db-link01.top
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-74-148-152.s4.cn-db.top
-    path: /dabai.in104.21.239.139
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1E6CA-51.79.103.76-5504"
-  network: ws
-  port: 80
-  server: 51.79.103.76
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  tfo: false
-  type: ss
+      Host: 100-44-229-26.s4.db-link01.top
+    path: /dabai.in172.67.5.70
