@@ -1,30 +1,99 @@
 proxies:
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: "\u672A\u77E5119"
+  password: '1234'
+  port: 1234
+  server: 54.248.54.190
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- client-fingerprint: chrome
+  name: "\u7F8E\u56FD 039"
+  network: ws
+  password: Pooria
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: 301.pOORiAm.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 301.pOORiAm.ir
+    path: /trPyOrWMfkHd15oxiI?ed=1520
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-6001"
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1319
+  name: "\u7F8E\u56FD 037"
+  network: ws
+  port: 443
+  server: us19.998998.best
+  servername: server2-2.998877.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
+  ws-opts:
+    headers:
+      Host: server2-2.998877.best
+    path: /er5khymbnriysb?ed=2560
+- alterId: 0
+  cipher: auto
+  delay: 1351
+  name: "\u7F8E\u56FD 035"
+  network: ws
+  port: 443
+  server: 104.18.23.19
+  servername: server2-2.998877.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
+  ws-opts:
+    headers:
+      Host: server2-2.998877.best
+    path: /er5khymbnriysb?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-5760"
   password: 3FB23A19-9424-40C7-9139-3540228283FA
   port: 40000
   server: hk.fastsoonlink.com
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
+- cipher: aes-256-cfb
+  name: United States_Boardman_ss_1166
+  password: amazonskr05
+  port: 443
+  server: 34.219.164.232
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.41-249"
-  network: tcp
-  port: 32077
-  server: 120.232.153.41
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.41
-  ws-path: /
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-5680"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-34.222.143.94:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 34.222.143.94
+  type: ssr
 - cipher: aes-256-cfb
   name: "12|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
@@ -32,56 +101,3 @@ proxies:
   server: 18.143.186.182
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EF\U0001F1F5JP-18.179.10.10-6102"
-  password: amazonskr05
-  port: 443
-  server: 18.179.10.10
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 185 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-103.149.182.191-6013"
-  password: asd123456
-  port: 8388
-  server: 103.149.182.191
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
-  password: amazonskr05
-  port: 443
-  server: 13.250.31.115
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts:
-    headers:
-      Host: slot2.raywhat.xyz
-    path: /b0c66d14-a0ab
-  name: Slot2
-  network: h2
-  port: 443
-  server: slot2.raywhat.xyz
-  tls: true
-  type: vmess
-  uuid: 64887a16-468c-4e98-b064-b82b01662727
