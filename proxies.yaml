@@ -26,12 +26,6 @@ proxies:
     headers:
       Host: 301.pOORiAm.ir
     path: /trPyOrWMfkHd15oxiI?ed=1520
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1EASE-188.126.67.227-6204"
-  password: PI3ncxF2GPuPiB1l5gitcO
-  port: 63418
-  server: sto4.g.edgeservers.org
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-104.17.221.248-6173"
@@ -61,6 +55,12 @@ proxies:
     headers:
       Host: 100-44-229-26.s4.db-link01.top
     path: /dabai.in172.67.5.70
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1EASE-188.126.67.227-6204"
+  password: PI3ncxF2GPuPiB1l5gitcO
+  port: 63418
+  server: sto4.g.edgeservers.org
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-104.19.48.236-6168"
@@ -77,23 +77,22 @@ proxies:
       Host: 100-150-171-114.s4.cn-db.top
     path: /dabai.in104.20.244.251
 - cipher: chacha20-ietf-poly1305
-  name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52611
   server: hk01.x.quickcht3.club
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
+- cipher: aes-256-cfb
+  name: "11|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 54.255.179.37
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52611
   server: hk01.x.quickcht3.club
