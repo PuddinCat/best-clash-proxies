@@ -67,18 +67,6 @@ proxies:
     headers:
       Host: server2-2.998877.best
     path: /er5khymbnriysb?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-5760"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40000
-  server: hk.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-5680"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
-  type: ss
 - cipher: aes-256-cfb
   name: United States_Boardman_ss_1166
   password: amazonskr05
@@ -86,6 +74,18 @@ proxies:
   server: 34.219.164.232
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-5680"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-5760"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
