@@ -12,6 +12,35 @@ proxies:
     headers:
       Host: 301.pOORiAm.ir
     path: /trPyOrWMfkHd15oxiI?ed=1520
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.17.213.241-6172"
+  network: ws
+  port: 8880
+  server: 104.17.213.241
+  servername: 100-44-229-26.s4.db-link01.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-44-229-26.s4.db-link01.top
+    path: /dabai.in172.67.5.70
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.17.221.248-6173"
+  network: ws
+  port: 8880
+  server: s4.cn-db.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-74-148-152.s4.cn-db.top
+    path: /dabai.in104.21.239.139
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.59.89-8198"
@@ -41,53 +70,11 @@ proxies:
     headers:
       Host: 100-150-171-114.s4.cn-db.top
     path: /dabai.in104.20.244.251
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.17.221.248-6173"
-  network: ws
-  port: 8880
-  server: s4.cn-db.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-74-148-152.s4.cn-db.top
-    path: /dabai.in104.21.239.139
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F8\U0001F1EASE-188.126.67.227-6204"
   password: PI3ncxF2GPuPiB1l5gitcO
   port: 63418
   server: sto4.g.edgeservers.org
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1ECSG-188.166.177.201-6206"
-  password: EDEIso0hfMvZhdgWxqgZ2q
-  port: 9758
-  server: 188.166.177.201
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.17.213.241-6172"
-  network: ws
-  port: 8880
-  server: 104.17.213.241
-  servername: 100-44-229-26.s4.db-link01.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-44-229-26.s4.db-link01.top
-    path: /dabai.in172.67.5.70
-- cipher: chacha20-ietf-poly1305
-  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: China_Wuhan_ss_1170
@@ -97,10 +84,22 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-159"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
+  port: 52611
+  server: hk01.x.quickcht3.club
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
   tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: Japan_Tokyo_ss_1132
+  password: amazonskr05
+  port: 443
+  server: 18.183.221.195
   type: ss
