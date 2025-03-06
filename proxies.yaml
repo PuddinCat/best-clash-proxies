@@ -1,14 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
-  password: amazonskr05
-  port: 443
-  server: 13.250.31.57
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1F0SK-156.146.40.194-0395"
+  name: "\U0001F1F8\U0001F1F0SK-156.146.40.194-0401"
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 156.146.40.194
@@ -26,42 +18,18 @@ proxies:
     headers:
       Host: 301.pOORiAm.ir
     path: /trPyOrWMfkHd15oxiI?ed=1520
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-38.54.94.122-5948"
-  network: ws
-  port: 2053
-  server: 38.54.94.122
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1
-  ws-opts:
-    headers:
-      host: ''
-    path: /L0229-16
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-43.249.36.70-0437"
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  port: 443
-  server: hong-kong-3.keenvpn.me
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6146"
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 69.50.93.80
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-38.14.107.226-5953"
-  network: ws
-  port: 38003
-  server: 38.14.107.226
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: ''
-    path: /path/340434130032
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6177"
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 69.50.93.80
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -77,21 +45,52 @@ proxies:
     headers:
       host: 100-150-171-114.s4.cn-db.top
     path: /dabai.in104.20.244.251
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6135"
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 69.50.93.80
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6166"
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 69.50.93.80
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8US-38.14.107.226-5953"
+  network: ws
+  port: 38003
+  server: 38.14.107.226
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: ''
+    path: /path/340434130032
+- name: "\U0001F3C1RELAY-104.17.148.22-0750"
+  network: ws
+  password: Pooria
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: 301.pOORiAm.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 301.pOORiAm.ir
+    path: /trPyOrWMfkHd15oxiI?ed=1520
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-ChatGPT-TikTok-YouTube-54.244.204.173:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 54.244.204.173
+  type: ssr
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 13.250.31.57
+  tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-5829"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40000
-  server: hk.fastsoonlink.com
+  name: "\U0001F1ED\U0001F1F0HK-43.249.36.70-0457"
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  port: 443
+  server: 43.249.36.70
   type: ss
