@@ -6,10 +6,10 @@ proxies:
   server: hk02.x.quickcht3.club
   type: ss
 - cipher: aes-256-gcm
-  name: "\u5E7F\u4E1C\u7701\u4E1C\u839E\u5E02 \u7535\u4FE1IDC\u4E1A\u52A1\u6BB5 3"
-  password: IHWLYZSSSX4GSKLA
-  port: 16013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+  name: "\u7F8E\u56FD V2CROSS.COM"
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 69.50.93.80
   type: ss
 - cipher: aes-256-gcm
   name: "\u5E7F\u4E1C\u7701\u4E1C\u839E\u5E02 \u7535\u4FE1IDC\u4E1A\u52A1\u6BB5 2"
@@ -18,10 +18,10 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   type: ss
 - cipher: aes-256-gcm
-  name: "\u7F8E\u56FD V2CROSS.COM"
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 69.50.93.80
+  name: "\u5E7F\u4E1C\u7701\u4E1C\u839E\u5E02 \u7535\u4FE1IDC\u4E1A\u52A1\u6BB5 3"
+  password: IHWLYZSSSX4GSKLA
+  port: 16013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
   type: ss
 - alterId: 0
   cipher: auto
@@ -31,40 +31,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- down: 100 Mbps
-  name: HySlot3
-  obfs: 9aaeee3f-a2ec-4b2a-b98c-266fbb5da0b2
-  port: 44301
-  protocol: udp
-  server: hyslot3.raywhat.xyz
-  type: hysteria
-  up: 30 Mbps
-- alterId: 0
-  cipher: auto
-  h2-opts:
-    headers:
-      Host: slot3.raywhat.xyz
-    path: /b0c66d14-a0ab
-  name: Slot3
-  network: h2
-  port: 443
-  server: slot3.raywhat.xyz
-  tls: true
-  type: vmess
-  uuid: 64887a16-468c-4e98-b064-b82b01662727
-- alterId: 0
-  cipher: auto
-  h2-opts:
-    headers:
-      Host: slot2.raywhat.xyz
-    path: /b0c66d14-a0ab
-  name: Slot2
-  network: h2
-  port: 443
-  server: slot2.raywhat.xyz
-  tls: true
-  type: vmess
-  uuid: 64887a16-468c-4e98-b064-b82b01662727
 - alterId: 0
   cipher: auto
   h2-opts:
@@ -91,3 +57,32 @@ proxies:
   tls: true
   type: vmess
   uuid: d20df4c7-82a9-4196-a06d-93cb35822726
+- down: 100 Mbps
+  name: HySlot3
+  obfs: 9aaeee3f-a2ec-4b2a-b98c-266fbb5da0b2
+  port: 44301
+  protocol: udp
+  server: hyslot3.raywhat.xyz
+  type: hysteria
+  up: 30 Mbps
+- down: 100 Mbps
+  name: HySlot2
+  obfs: dcee89a9-b499-43e2-a994-9a58b063edd0
+  port: 44301
+  protocol: udp
+  server: hyslot2.raywhat.xyz
+  type: hysteria
+  up: 30 Mbps
+- alterId: 0
+  cipher: auto
+  h2-opts:
+    headers:
+      Host: slot2.raywhat.xyz
+    path: /b0c66d14-a0ab
+  name: Slot2
+  network: h2
+  port: 443
+  server: slot2.raywhat.xyz
+  tls: true
+  type: vmess
+  uuid: 64887a16-468c-4e98-b064-b82b01662727
