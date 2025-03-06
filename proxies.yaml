@@ -18,12 +18,6 @@ proxies:
     headers:
       Host: 301.pOORiAm.ir
     path: /trPyOrWMfkHd15oxiI?ed=1520
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6135"
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 69.50.93.80
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\u4E9A\u592A\u5730\u533A V2CROSS.COM"
   password: ZGY1N
@@ -36,43 +30,12 @@ proxies:
   port: 5498
   server: 69.50.93.80
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 734 \u2192 tg@nicevpn123"
-  network: ws
-  port: 443
-  server: hms04.xmivideo.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-  ws-opts:
-    headers:
-      Host: xmivideo.cfd
-    path: /linkws
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-0872"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6135"
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 69.50.93.80
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-5833"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40000
-  server: hk.fastsoonlink.com
-  type: ss
-- cipher: rc4-md5
-  name: China_None_ssr_1168
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40219
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
 - alterId: 0
   cipher: auto
   name: "\u52A0\u62FF\u5927 008_2@29"
@@ -87,3 +50,44 @@ proxies:
     headers:
       Host: xmivideo.cfd
     path: /linkws
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-5833"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8US(AzadNet.t.me)_453"
+  network: ws
+  port: 443
+  server: 104.21.44.106
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  ws-opts:
+    headers:
+      host: xmivideo.cfd
+    path: /linkws
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-0872"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F3C1RELAY-104.19.48.236-6186"
+  network: ws
+  port: 8080
+  server: 104.19.48.236
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      host: 100-150-171-114.s4.cn-db.top
+    path: /dabai.in104.20.244.251
