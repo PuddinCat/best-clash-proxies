@@ -1,18 +1,25 @@
 proxies:
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
-  password: amazonskr05
-  port: 443
-  server: 13.250.31.57
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
   name: "\U0001F1F8\U0001F1F0SK-156.146.40.194-0395"
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 156.146.40.194
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8US-38.54.94.122-5948"
+  network: ws
+  port: 2053
+  server: 38.54.94.122
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1
+  ws-opts:
+    headers:
+      host: ''
+    path: /L0229-16
 - client-fingerprint: chrome
   name: "\u7F8E\u56FD 039"
   network: ws
@@ -26,11 +33,11 @@ proxies:
     headers:
       Host: 301.pOORiAm.ir
     path: /trPyOrWMfkHd15oxiI?ed=1520
-- cipher: chacha20-ietf-poly1305
-  name: "\u4E9A\u592A\u5730\u533A V2CROSS.COM"
-  password: ZGY1N
-  port: 8388
-  server: us2.ssocks.wiki
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6135"
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 69.50.93.80
   type: ss
 - cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6166"
@@ -38,34 +45,59 @@ proxies:
   port: 5498
   server: 69.50.93.80
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6135"
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 69.50.93.80
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
-  password: amazonskr05
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8US-38.14.107.226-5953"
+  network: ws
+  port: 38003
+  server: 38.14.107.226
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: ''
+    path: /path/340434130032
+- alterId: 0
+  cipher: auto
+  name: "\u52A0\u62FF\u5927 008_2@29"
+  network: ws
   port: 443
-  server: 54.244.204.173
+  server: 104.21.44.106
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  ws-opts:
+    headers:
+      Host: xmivideo.cfd
+    path: /linkws
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0HK-43.249.36.70-0449"
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  port: 443
+  server: 43.249.36.70
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-0872"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
-  type: ss
-- cipher: aes-256-cfb
-  name: Japan_Tokyo_ss_1162
-  password: amazonskr05
-  port: 443
-  server: 43.206.231.214
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-5833"
+  name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-5829"
   password: 3FB23A19-9424-40C7-9139-3540228283FA
   port: 40000
   server: hk.fastsoonlink.com
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F3C1RELAY-104.19.48.236-6186"
+  network: ws
+  port: 8080
+  server: 104.19.48.236
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      host: 100-150-171-114.s4.cn-db.top
+    path: /dabai.in104.20.244.251
