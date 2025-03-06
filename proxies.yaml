@@ -1,36 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 86e8c33.dl.microsoft.eu:61496
-    mode: tls
-  port: 2377
-  server: 125.227.86.44
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1EASE-188.126.83.62-6156"
-  password: WVU27LquAMOeXmYeStI897
-  port: 32448
-  server: sto3.g.edgeservers.org
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6135"
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 69.50.93.80
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6166"
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 69.50.93.80
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
@@ -52,33 +22,18 @@ proxies:
   server: 125.227.86.44
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: "\U0001F3C1RELAY-104.19.48.236-6186"
-  network: ws
-  port: 8080
-  server: 104.19.48.236
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      host: 100-150-171-114.s4.cn-db.top
-    path: /dabai.in104.20.244.251
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8US-141.148.158.99-5552"
-  network: ws
-  port: 42634
-  server: 141.148.158.99
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3c5350be-a97a-4ee6-9c50-7155f88aba01
-  ws-opts:
-    path: /https://t.me/fqzw9
+  name: "15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 86e8c33.dl.microsoft.eu:61496
+    mode: tls
+  port: 2377
+  server: 125.227.86.44
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: "\u7F8E\u56FD 039"
   network: ws
@@ -104,3 +59,48 @@ proxies:
     headers:
       Host: 301.pOORiAm.ir
     path: /trPyOrWMfkHd15oxiI?ed=1520
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6135"
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 69.50.93.80
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6166"
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 69.50.93.80
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8US-141.148.158.99-5552"
+  network: ws
+  port: 42634
+  server: 141.148.158.99
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 3c5350be-a97a-4ee6-9c50-7155f88aba01
+  ws-opts:
+    path: /https://t.me/fqzw9
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F3C1RELAY-104.19.48.236-6186"
+  network: ws
+  port: 8080
+  server: 104.19.48.236
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      host: 100-150-171-114.s4.cn-db.top
+    path: /dabai.in104.20.244.251
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1EASE-188.126.83.62-6156"
+  password: WVU27LquAMOeXmYeStI897
+  port: 32448
+  server: sto3.g.edgeservers.org
+  type: ss
