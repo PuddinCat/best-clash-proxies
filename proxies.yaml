@@ -24,6 +24,12 @@ proxies:
   port: 3306
   server: 69.50.93.80
   type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6166"
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 69.50.93.80
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -39,26 +45,6 @@ proxies:
     headers:
       host: 100-150-171-114.s4.cn-db.top
     path: /dabai.in104.20.244.251
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6166"
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 69.50.93.80
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EB\U0001F1F7FR-193.160.130.245-8187"
-  network: ws
-  port: 443
-  server: beyonddsz.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-5829"
   password: 3FB23A19-9424-40C7-9139-3540228283FA
@@ -66,22 +52,14 @@ proxies:
   server: hk.fastsoonlink.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-0872"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-165"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52612
   server: hk02.x.quickcht3.club
-  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8US(AzadNet.t.me)_453"
+  name: "\u52A0\u62FF\u5927 008_2@29"
   network: ws
   port: 443
   server: 104.21.44.106
@@ -91,5 +69,19 @@ proxies:
   uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
   ws-opts:
     headers:
-      host: xmivideo.cfd
+      Host: xmivideo.cfd
     path: /linkws
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3CN-120.232.81.50-6143"
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
