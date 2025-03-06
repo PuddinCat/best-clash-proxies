@@ -18,26 +18,13 @@ proxies:
     headers:
       Host: 301.pOORiAm.ir
     path: /trPyOrWMfkHd15oxiI?ed=1520
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8US-38.54.94.122-5948"
-  network: ws
-  port: 2053
-  server: 38.54.94.122
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1
-  ws-opts:
-    headers:
-      host: ''
-    path: /L0229-16
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6135"
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 69.50.93.80
+  name: "15|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 13.250.31.57
+  tfo: false
   type: ss
 - cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6166"
@@ -45,21 +32,18 @@ proxies:
   port: 5498
   server: 69.50.93.80
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F3C1RELAY-104.19.48.236-6186"
-  network: ws
-  port: 8080
-  server: 104.19.48.236
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      host: 100-150-171-114.s4.cn-db.top
-    path: /dabai.in104.20.244.251
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0HK-43.249.36.70-0437"
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  port: 443
+  server: hong-kong-3.keenvpn.me
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-69.50.93.80-6135"
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 69.50.93.80
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -75,21 +59,27 @@ proxies:
     headers:
       host: ''
     path: /path/340434130032
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0HK-43.249.36.70-0437"
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  port: 443
-  server: hong-kong-3.keenvpn.me
-  type: ss
 - alterId: 0
-  name: "\u672A\u77E559"
-  password: 6e001f20-f93b-11ef-babd-1239d0255272
-  port: 443
-  server: 51.38.65.155
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F3C1RELAY-104.19.48.236-6186"
+  network: ws
+  port: 8080
+  server: 104.19.48.236
   skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      host: 100-150-171-114.s4.cn-db.top
+    path: /dabai.in104.20.244.251
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1ECSG-188.253.5.31-0872"
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1ED\U0001F1F0HK-89.213.150.45-5829"
   password: 3FB23A19-9424-40C7-9139-3540228283FA
