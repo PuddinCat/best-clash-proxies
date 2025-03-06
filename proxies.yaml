@@ -31,27 +31,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- down: 100 Mbps
-  name: HySlot2
-  obfs: dcee89a9-b499-43e2-a994-9a58b063edd0
-  port: 44301
-  protocol: udp
-  server: hyslot2.raywhat.xyz
-  type: hysteria
-  up: 30 Mbps
-- alterId: 0
-  cipher: auto
-  h2-opts:
-    headers:
-      Host: slot5.raywhat.xyz
-    path: /57e71947-7827
-  name: Slot5
-  network: h2
-  port: 443
-  server: slot5.raywhat.xyz
-  tls: true
-  type: vmess
-  uuid: 4d3b4011-7363-4a64-9cb4-51ca301cab87
 - alterId: 0
   cipher: auto
   h2-opts:
@@ -65,6 +44,14 @@ proxies:
   tls: true
   type: vmess
   uuid: 64887a16-468c-4e98-b064-b82b01662727
+- down: 100 Mbps
+  name: HySlot2
+  obfs: dcee89a9-b499-43e2-a994-9a58b063edd0
+  port: 44301
+  protocol: udp
+  server: hyslot2.raywhat.xyz
+  type: hysteria
+  up: 30 Mbps
 - alterId: 0
   cipher: auto
   h2-opts:
@@ -78,6 +65,19 @@ proxies:
   tls: true
   type: vmess
   uuid: d20df4c7-82a9-4196-a06d-93cb35822726
+- alterId: 0
+  cipher: auto
+  h2-opts:
+    headers:
+      Host: slot5.raywhat.xyz
+    path: /57e71947-7827
+  name: Slot5
+  network: h2
+  port: 443
+  server: slot5.raywhat.xyz
+  tls: true
+  type: vmess
+  uuid: 4d3b4011-7363-4a64-9cb4-51ca301cab87
 - alterId: 0
   cipher: auto
   h2-opts:
