@@ -11,12 +11,6 @@ proxies:
   port: 8080
   server: 139.64.165.123
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-139.64.165.123-6063"
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 139.64.165.123
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F5\U0001F1F1PL-77.83.246.74-6096"
   password: QiedihFikxn4kCWygMXmFb
@@ -24,10 +18,10 @@ proxies:
   server: 77.83.246.74
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-69.50.93.47-6116"
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 69.50.93.47
+  name: "\U0001F1FA\U0001F1F8US-139.64.165.123-6063"
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 139.64.165.123
   type: ss
 - cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8US-69.50.93.47-6056"
@@ -42,9 +36,9 @@ proxies:
   server: 69.50.93.47
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-69.50.93.47-6061"
-  password: zDNVedRFPQexG9v
-  port: 6379
+  name: "\U0001F1FA\U0001F1F8US-69.50.93.47-6116"
+  password: cdBIDV42DCwnfIN
+  port: 8119
   server: 69.50.93.47
   type: ss
 - cipher: aes-256-gcm
@@ -65,3 +59,9 @@ proxies:
     headers:
       Host: 301.pOORiAm.ir
     path: /trPyOrWMfkHd15oxiI?ed=1520
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-69.50.93.47-6061"
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 69.50.93.47
+  type: ss
