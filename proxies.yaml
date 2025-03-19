@@ -1,0 +1,94 @@
+proxies:
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1F0SK-156.146.40.194-0401"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 156.146.40.194
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-139.64.165.123-6063"
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 139.64.165.123
+  type: ss
+- client-fingerprint: chrome
+  name: "\u7F8E\u56FD 039"
+  network: ws
+  password: Pooria
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: 301.pOORiAm.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 301.pOORiAm.ir
+    path: /trPyOrWMfkHd15oxiI?ed=1520
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-69.50.93.47-6056"
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 69.50.93.47
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.21.31.62-8522"
+  network: ws
+  port: 443
+  server: 104.21.31.62
+  servername: obdii.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 12 \u2192 tg@nicevpn123"
+  network: ws
+  port: 443
+  server: 104.26.0.95
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-69.50.93.47-6061"
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 69.50.93.47
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-69.50.93.47-6116"
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 69.50.93.47
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8US-69.50.93.47-6062"
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 69.50.93.47
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8US(AzadNet.t.me)_239"
+  network: ws
+  port: 443
+  server: 104.21.4.6
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      host: glweidf.cfd
+    path: /linkws
