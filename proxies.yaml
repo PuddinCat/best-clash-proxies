@@ -6,18 +6,21 @@ proxies:
   port: 8080
   server: 103.104.247.49
   type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3\u5E7F\u4E1C"
+  password: VMhGp5wEIyCDf90T
+  port: 13483
+  server: agaungzhou01.bumbleshrimp.com
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\u6CD5\u56FD \u56FD\u9645\u822A\u7A7A\u7535\u8BAF\u96C6\u56E2\u516C\u53F8\
     (SITA)"
   password: e014f8ab71735926
   port: 20568
   server: 57.128.190.245
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-123.88.148.42-101"
-  password: VMhGp5wEIyCDf90T
-  port: 64050
-  server: csuzhou01.1cooldns.com
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -34,6 +37,12 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: China_None_ss_1125
+  password: VMhGp5wEIyCDf90T
+  port: 18755
+  server: csuzhou01.1cooldns.com
+  type: ss
 - alterId: 0
   cipher: aes-128-gcm
   name: "\u672A\u77E52"
@@ -44,46 +53,28 @@ proxies:
   tls: true
   type: ss
 - cipher: aes-128-gcm
-  name: China_None_ss_1125
-  password: VMhGp5wEIyCDf90T
-  port: 18755
-  server: csuzhou01.1cooldns.com
-  type: ss
-- alterId: 0
-  cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3\u5E7F\u4E1C"
+  name: "\U0001F1E8\U0001F1F3CN-120.233.87.139-350"
   password: VMhGp5wEIyCDf90T
   port: 13483
   server: agaungzhou01.bumbleshrimp.com
-  skip-cert-verify: true
-  tls: true
   type: ss
-- alterId: 0
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-123.88.148.42-101"
+  password: VMhGp5wEIyCDf90T
+  port: 64050
+  server: csuzhou01.1cooldns.com
+  type: ss
+- alterId: 2
   cipher: auto
-  name: "\U0001F3C1RELAY-104.21.29.194-0852"
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8251"
   network: ws
-  port: 443
-  server: la03.890614.FiLEgEAr-SG.ME
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: la03.890614.filegear-sg.me
-    path: /gyCVORfjoXYyHHcJBuLd
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.21.77.44-6072"
-  network: ws
-  port: 443
-  server: La03.890603.xYZ
-  servername: la03.890603.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: La03.890603.xYZ
-    path: /gyCVORfjoXYyHHcJBuLd
+      Host: zxjp-a.tkong.cc
+    path: /
