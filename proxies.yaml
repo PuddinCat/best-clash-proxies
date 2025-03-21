@@ -6,11 +6,38 @@ proxies:
   server: 52.78.98.141
   tfo: false
   type: ss
+- name: "\U0001F1ED\U0001F1F0HK-45.146.232.171-2157"
+  password: 0979046d-90cc-4f58-9595-75ba19550d1c
+  port: 42881
+  server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: "12|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  port: 50002
+  server: 112.132.215.12
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: China_None_vmess_1190
+  network: tcp
+  port: '50002'
+  server: 112.132.215.12
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-019"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-033"
   network: tcp
-  port: 59554
+  port: 51039
   server: 183.236.51.38
   skip-cert-verify: true
   tls: false
@@ -21,9 +48,9 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-033"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-019"
   network: tcp
-  port: 51039
+  port: 59554
   server: 183.236.51.38
   skip-cert-verify: true
   tls: false
@@ -45,29 +72,6 @@ proxies:
   ws-headers:
     Host: 112.132.215.12
   ws-path: /
-- name: "\U0001F1ED\U0001F1F0HK-45.146.232.171-2157"
-  password: 0979046d-90cc-4f58-9595-75ba19550d1c
-  port: 42881
-  server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-154.197.26.237-5746"
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: "12|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  port: 50002
-  server: 112.132.215.12
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: "\U0001F1ED\U0001F1F0HK-45.146.232.173-361"
   password: 0979046d-90cc-4f58-9595-75ba19550d1c
   port: 42881
@@ -75,21 +79,15 @@ proxies:
   skip-cert-verify: true
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- alterId: 64
-  cipher: auto
-  name: China_None_vmess_1190
-  network: tcp
-  port: '50002'
-  server: 112.132.215.12
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
-  password: amazonskr05
-  port: 443
-  server: 43.203.196.43
-  tfo: false
+  name: "\U0001F1EB\U0001F1F7FR-51.15.23.63-5778"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.23.63
+  type: ss
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-154.197.26.237-5746"
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
   type: ss
