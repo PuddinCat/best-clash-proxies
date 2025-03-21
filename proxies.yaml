@@ -1,10 +1,9 @@
 proxies:
 - cipher: aes-256-cfb
-  name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  name: "\U0001F1E8\U0001F1EDCH-84.17.53.160-0666"
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 154.223.16.212
-  tfo: false
+  server: 84.17.53.160
   type: ss
 - alterId: 0
   cipher: aes-128-gcm
@@ -12,6 +11,15 @@ proxies:
   password: VMhGp5wEIyCDf90T
   port: 18755
   server: csuzhou01.1cooldns.com
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3\u5E7F\u4E1C"
+  password: VMhGp5wEIyCDf90T
+  port: 13483
+  server: agaungzhou01.bumbleshrimp.com
   skip-cert-verify: true
   tls: true
   type: ss
@@ -32,37 +40,23 @@ proxies:
       HOST: www.bing.com
     path: 7e84b5b9-e9fe-4dbe-906d-4abd67c09376-vm
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1EDCH-84.17.53.160-0666"
+  name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 84.17.53.160
+  server: 154.223.16.212
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-120.233.87.139-093"
+  password: VMhGp5wEIyCDf90T
+  port: 13483
+  server: agaungzhou01.bumbleshrimp.com
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-57.128.190.245-0363"
   password: e014f8ab71735926
   port: 20568
   server: 57.128.190.245
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: "\u672A\u77E516"
-  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
-  port: 19240
-  server: ss.miloli.cc
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- name: Unknown_trojan_1161
-  password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
-  port: 443
-  server: stodewrn.homeofbrave.net
-  sni: stodewrn.homeofbrave.net
-  type: trojan
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-123.88.148.42-101"
-  password: VMhGp5wEIyCDf90T
-  port: 64050
-  server: csuzhou01.1cooldns.com
   type: ss
 - cipher: aes-256-cfb
   name: "11|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
@@ -71,9 +65,17 @@ proxies:
   server: 52.78.98.141
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-120.233.87.139-093"
-  password: VMhGp5wEIyCDf90T
-  port: 13483
-  server: agaungzhou01.bumbleshrimp.com
+- name: Unknown_trojan_1161
+  password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
+  port: 443
+  server: stodewrn.homeofbrave.net
+  sni: stodewrn.homeofbrave.net
+  type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 3.34.253.95
+  tfo: false
   type: ss
