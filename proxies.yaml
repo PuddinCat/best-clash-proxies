@@ -1,4 +1,32 @@
 proxies:
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-120.233.87.139-093"
+  password: VMhGp5wEIyCDf90T
+  port: 13483
+  server: agaungzhou01.bumbleshrimp.com
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u8087\u5E86\u5E02 \u4E2D\u79FB\u94C1\
+    \u901A"
+  password: VMhGp5wEIyCDf90T
+  port: 18755
+  server: csuzhou01.1cooldns.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F3F3\uFE0F_unKnow_\u672A\u77E5"
+  network: ws
+  port: 80
+  server: 104.16.0.178
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
+  ws-opts:
+    headers:
+      host: 886207003891252025032010340550358.dblxc.chibaba.filegear-sg.me
+    path: /dubai.html?ed=2048
 - alterId: 0
   cipher: aes-128-gcm
   name: "\U0001F1E8\U0001F1F3\u5E7F\u4E1C"
@@ -8,24 +36,54 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1EDCH-84.17.53.160-0666"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 84.17.53.160
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-120.233.87.139-093"
-  password: VMhGp5wEIyCDf90T
-  port: 13483
-  server: agaungzhou01.bumbleshrimp.com
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-57.128.190.245-0363"
+  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-57.128.190.245:20568"
   password: e014f8ab71735926
   port: 20568
   server: 57.128.190.245
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 \u6CB3\u5317\u7701 \u79FB\u52A8(\u5168\u7701\u901A\u7528\
+    )"
+  password: VMhGp5wEIyCDf90T
+  port: 15375
+  server: bsuqian01.dynu.net
+  type: ss
+- cipher: aes-256-cfb
+  name: TW_speednode_0055
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.20.79
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8US-185.184.70.90-5382"
+  network: ws
+  port: 2082
+  server: 185.184.70.90
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 7e84b5b9-e9fe-4dbe-906d-4abd67c09376
+  ws-opts:
+    path: 7e84b5b9-e9fe-4dbe-906d-4abd67c09376-vm
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F3F3\uFE0F_unKnow_\u672A\u77E5\
+    _1"
+  network: ws
+  port: 80
+  server: 104.26.5.60
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
+  ws-opts:
+    headers:
+      host: 321211028415662025032010340518402.dblxc.chibaba.filegear-sg.me
+    path: /dubai.html?ed=2048
 - alterId: 0
   cipher: aes-128-gcm
   name: "\u672A\u77E52"
@@ -35,64 +93,3 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: ss
-- name: Unknown_trojan_1161
-  password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
-  port: 443
-  server: stodewrn.homeofbrave.net
-  sni: stodewrn.homeofbrave.net
-  type: trojan
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: "VMESS-\u7F8E\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-185.184.70.90:2082"
-  network: ws
-  port: 2082
-  server: 185.184.70.90
-  servername: www.bing.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7e84b5b9-e9fe-4dbe-906d-4abd67c09376
-  ws-opts:
-    headers:
-      HOST: www.bing.com
-    path: 7e84b5b9-e9fe-4dbe-906d-4abd67c09376-vm
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-172.67.149.172-6087"
-  network: ws
-  port: 443
-  server: la03.890614.FiLEgEAr-SG.ME
-  servername: la03.890614.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: la03.890614.FiLEgEAr-SG.ME
-    path: /gyCVORfjoXYyHHcJBuLd
-- cipher: aes-256-cfb
-  name: "\U0001F1EF\U0001F1F5JP-54.199.239.230-2296"
-  password: amazonskr05
-  port: 443
-  server: 54.199.239.230
-  type: ss
-- alterId: 2
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: China_None_vmess_1165
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
