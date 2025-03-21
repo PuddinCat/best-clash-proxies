@@ -1,9 +1,68 @@
 proxies:
 - cipher: aes-256-cfb
-  name: France_None_ss_1162
+  name: "\U0001F1E8\U0001F1EDCH-84.17.53.160-0666"
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 51.15.15.82
+  server: 84.17.53.160
+  type: ss
+- cipher: aes-256-cfb
+  name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.16.212
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: "11|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 52.78.98.141
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: "\u672A\u77E516"
+  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+  port: 19240
+  server: ss.miloli.cc
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3\u5E7F\u4E1C"
+  password: VMhGp5wEIyCDf90T
+  port: 13483
+  server: agaungzhou01.bumbleshrimp.com
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-120.233.87.139-093"
+  password: VMhGp5wEIyCDf90T
+  port: 13483
+  server: agaungzhou01.bumbleshrimp.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-57.128.190.245-0363"
+  password: e014f8ab71735926
+  port: 20568
+  server: 57.128.190.245
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: "\u672A\u77E52"
+  password: VMhGp5wEIyCDf90T
+  port: 18755
+  server: csuzhou01.1cooldns.com
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1EF\U0001F1F5JP-54.199.239.230-2296"
+  password: amazonskr05
+  port: 443
+  server: 54.199.239.230
   type: ss
 - name: Unknown_trojan_1161
   password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
@@ -11,80 +70,3 @@ proxies:
   server: stodewrn.homeofbrave.net
   sni: stodewrn.homeofbrave.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-172.67.204.120-6043"
-  network: ws
-  port: 443
-  server: LA03.890603.XyZ
-  servername: la03.890603.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: LA03.890603.XyZ
-    path: /gyCVORfjoXYyHHcJBuLd
-- cipher: aes-256-cfb
-  name: South Korea_Incheon_ss_11118
-  password: amazonskr05
-  port: 443
-  server: 52.78.98.141
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-123.88.148.42-2299"
-  password: VMhGp5wEIyCDf90T
-  port: 18755
-  server: csuzhou01.1cooldns.com
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: "11,16|\u53F0\u6E7E|@ripaojiedian"
-  network: tcp
-  port: '50002'
-  server: 112.132.215.12
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: "12|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  port: 50002
-  server: 112.132.215.12
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-111.62.241.200-2286"
-  password: VMhGp5wEIyCDf90T
-  port: 15375
-  server: bsuqian01.dynu.net
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-112.132.215.12-292"
-  network: tcp
-  port: 50002
-  server: 112.132.215.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 112.132.215.12
-  ws-path: /
