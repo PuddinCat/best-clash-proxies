@@ -1,94 +1,93 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-019"
+  network: tcp
+  port: 59554
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1F0SK-156.146.40.194-0401"
+  name: South Korea_Incheon_ss_1186
+  password: amazonskr05
+  port: 443
+  server: 52.78.98.141
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-033"
+  network: tcp
+  port: 51039
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- name: "\U0001F1ED\U0001F1F0HK-45.146.232.171-2157"
+  password: 0979046d-90cc-4f58-9595-75ba19550d1c
+  port: 42881
+  server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-172.67.210.210-5715"
+  network: ws
+  port: 443
+  server: lA02.852224.GgFf.NET
+  servername: la02.852224.ggff.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: lA02.852224.GgFf.NET
+    path: /gyCVORfjoXYyHHcJBuLd
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-154.197.26.237-5746"
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
+  type: ss
+- name: "\U0001F1ED\U0001F1F0HK-45.146.232.173-361"
+  password: 0979046d-90cc-4f58-9595-75ba19550d1c
+  port: 42881
+  server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: China_None_vmess_1190
+  network: tcp
+  port: '50002'
+  server: 112.132.215.12
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7FR-51.15.23.63-5778"
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 156.146.40.194
+  server: 51.15.23.63
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-139.64.165.123-6063"
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 139.64.165.123
-  type: ss
-- client-fingerprint: chrome
-  name: "\u7F8E\u56FD 039"
-  network: ws
-  password: Pooria
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
   port: 443
-  server: 104.17.148.22
-  skip-cert-verify: false
-  sni: 301.pOORiAm.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 301.pOORiAm.ir
-    path: /trPyOrWMfkHd15oxiI?ed=1520
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-69.50.93.47-6056"
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 69.50.93.47
+  server: 43.203.196.43
+  tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.21.31.62-8522"
-  network: ws
-  port: 443
-  server: 104.21.31.62
-  servername: obdii.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 12 \u2192 tg@nicevpn123"
-  network: ws
-  port: 443
-  server: 104.26.0.95
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-69.50.93.47-6061"
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 69.50.93.47
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-69.50.93.47-6116"
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 69.50.93.47
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8US-69.50.93.47-6062"
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 69.50.93.47
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8US(AzadNet.t.me)_239"
-  network: ws
-  port: 443
-  server: 104.21.4.6
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      host: glweidf.cfd
-    path: /linkws
