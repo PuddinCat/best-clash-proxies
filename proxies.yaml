@@ -1,4 +1,33 @@
 proxies:
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-120.236.196.143-1100"
+  password: VMhGp5wEIyCDf90T
+  port: 56277
+  server: gy01.hunheiydd.xyz
+  type: ss
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E6\U0001F1FA_AU_\u6FB3\u5927\
+    \u5229\u4E9A"
+  password: VMhGp5wEIyCDf90T
+  port: 18755
+  server: csuzhou01.1cooldns.com
+  type: ss
+- cipher: chacha20-ietf
+  name: "\U0001F1FA\U0001F1F8US-103.36.90.195-0820"
+  password: asd123456
+  port: 8388
+  server: 103.36.90.195
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   name: TW_speednode_0055
   password: f8f7aCzcPKbsF8p3
@@ -6,18 +35,25 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-57.128.190.245-021"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-111.62.241.200-0820"
+  password: VMhGp5wEIyCDf90T
+  port: 56226
+  server: bsuqian01.dynu.net
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-202"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.49
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-031"
+  network: tcp
+  port: 51039
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: "\u9999\u6E2F \u7279\u522B\u884C\u653F\u533A"
   password: UP3JN98C6EOR
@@ -32,51 +68,9 @@ proxies:
   protocol: origin
   server: 34.209.89.4
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-031"
-  network: tcp
-  port: 51039
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-226"
-  network: tcp
-  port: 59554
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-120.236.196.143-1100"
-  password: VMhGp5wEIyCDf90T
-  port: 56277
-  server: gy01.hunheiydd.xyz
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-123.88.148.42-019"
-  password: VMhGp5wEIyCDf90T
-  port: 64050
-  server: csuzhou01.1cooldns.com
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-57.128.190.245-021"
+  password: e014f8ab71735926
+  port: 20568
+  server: 57.128.190.245
   type: ss
