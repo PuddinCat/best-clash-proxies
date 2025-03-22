@@ -45,13 +45,26 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
-- name: "12|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8US-44.242.208.211-331"
+  password: amazonskr05
   port: 443
-  server: stodewrn.homeofbrave.net
+  server: 44.242.208.211
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8382"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
   skip-cert-verify: false
-  sni: stodewrn.homeofbrave.net
-  type: trojan
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.198.71.216-259"
@@ -65,19 +78,16 @@ proxies:
   ws-headers:
     Host: 120.198.71.216
   ws-path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-237"
-  network: tcp
-  port: 51039
-  server: 183.236.51.38
+  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
 - name: "\U0001F1FA\U0001F1F8US-69.5.54.47-163"
   password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
   port: 443
@@ -85,11 +95,3 @@ proxies:
   skip-cert-verify: true
   sni: stodewrn.homeofbrave.net
   type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
-  password: amazonskr05
-  port: 443
-  server: 18.183.126.95
-  tfo: false
-  type: ss
