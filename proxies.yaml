@@ -11,29 +11,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: "11,16|\u9999\u6E2F7|@ripaojiedian"
-  network: tcp
-  port: '51182'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-368"
-  network: tcp
-  port: 51182
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-230"
   network: tcp
   port: 41002
@@ -70,23 +47,14 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-226"
+  name: "11,16|\u9999\u6E2F7|@ripaojiedian"
   network: tcp
-  port: 59554
-  server: 183.236.51.38
-  skip-cert-verify: true
+  port: '51182'
+  server: 120.232.153.40
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1ED_CH_\u745E\u58EB"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 84.17.53.160
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1E7\U0001F1EA_BE_\u6BD4\u5229\u65F6"
   password: e014f8ab71735926
@@ -100,3 +68,35 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-368"
+  network: tcp
+  port: 51182
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-111.62.241.200-0820"
+  password: VMhGp5wEIyCDf90T
+  port: 56226
+  server: bsuqian01.dynu.net
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-031"
+  network: tcp
+  port: 51039
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
