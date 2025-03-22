@@ -25,6 +25,13 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
+- name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-0831"
+  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
+  port: 443
+  server: visual.superpokemon.com
+  skip-cert-verify: false
+  sni: visual.superpokemon.com
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1E7\U0001F1EA_BE_\u6BD4\u5229\u65F6"
   password: e014f8ab71735926
@@ -38,13 +45,20 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
-- name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-0831"
-  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
-  port: 443
-  server: visual.superpokemon.com
-  skip-cert-verify: false
-  sni: visual.superpokemon.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F3F3\uFE0F_unKnow_\u672A\u77E5"
+  network: ws
+  port: 80
+  server: 172.67.152.71
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
+  ws-opts:
+    headers:
+      host: 462583301568512025032010340527704.dblxc.chibaba.filegear-sg.me
+    path: /dubai.html?ed=2048
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.198.71.216-259"
@@ -58,6 +72,27 @@ proxies:
   ws-headers:
     Host: 120.198.71.216
   ws-path: /
+- alterId: 32
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8US-77.83.141.171-0810"
+  network: ws
+  port: 443
+  server: 77.83.141.171
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+  ws-opts:
+    headers:
+      host: vc.fly.dev
+    path: /vc
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-120.233.87.139-1099"
+  password: VMhGp5wEIyCDf90T
+  port: 13483
+  server: agaungzhou01.bumbleshrimp.com
+  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8382"
@@ -72,28 +107,3 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1F0SK-156.146.40.194-0635"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-231"
-  network: tcp
-  port: 59554
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- name: "13|\u7F8E\u56FD3|@ripaojiedian"
-  network: tcp
-  password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
-  port: 443
-  server: stodewrn.homeofbrave.net
-  type: trojan
