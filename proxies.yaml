@@ -13,13 +13,7 @@ proxies:
     Host: 120.232.153.40
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-338"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.49
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-57.128.190.245-287"
+  name: "\U0001F1E7\U0001F1EA_BE_\u6BD4\u5229\u65F6"
   password: e014f8ab71735926
   port: 20568
   server: 57.128.190.245
@@ -31,55 +25,17 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
-- name: "\u7F8E\u56FD CloudFlare\u8282\u70B9"
-  network: ws
-  password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
-  port: 443
-  server: 104.21.49.59
-  sni: Fgh9JkR5.890617.xYz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Fgh9JkR5.890617.xYz
-    path: /lWljHWvIMOj85lz42MdhsCLV
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-238"
-  network: tcp
-  port: 51182
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
-- alterId: 32
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8US-77.83.141.171-0810"
-  network: ws
-  port: 443
-  server: 77.83.141.171
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  ws-opts:
-    headers:
-      Host: vc.fly.dev
-    path: /vc
-- cipher: aes-256-cfb
-  name: Japan_Tokyo_ss_117
-  password: amazonskr05
-  port: 443
-  server: 13.231.248.227
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.49
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-351"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-349"
   network: tcp
-  port: 51039
+  port: 59554
   server: 183.236.51.38
   skip-cert-verify: true
   tls: false
@@ -89,10 +45,53 @@ proxies:
     Host: 183.236.51.38
   ws-path: /
 - cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-TikTok-34.216.142.212:443"
-  obfs: plain
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD\
+    _1"
   password: amazonskr05
   port: 443
-  protocol: origin
-  server: 34.216.142.212
-  type: ssr
+  server: 35.87.29.54
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-47.104.186.133-180"
+  network: tcp
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 47.104.186.133
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 185 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.36-179"
+  network: tcp
+  port: 59003
+  server: 183.236.51.36
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.36
+  ws-path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 43.203.196.43
+  tfo: false
+  type: ss
