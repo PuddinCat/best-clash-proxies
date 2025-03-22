@@ -12,11 +12,25 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1F0SK-156.146.40.194-0635"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 156.146.40.194
+  type: ss
 - name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-373"
   password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
   port: 443
   server: visual.superpokemon.com
   skip-cert-verify: true
+  sni: visual.superpokemon.com
+  type: trojan
+- name: Japan_Tokyo_trojan_1199
+  network: tcp
+  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
+  port: 443
+  server: visual.superpokemon.com
+  skip-cert-verify: false
   sni: visual.superpokemon.com
   type: trojan
 - cipher: aes-256-cfb
@@ -33,14 +47,6 @@ proxies:
   port: 56277
   server: gy01.hunheiydd.xyz
   type: ss
-- name: Japan_Tokyo_trojan_1199
-  network: tcp
-  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
-  port: 443
-  server: visual.superpokemon.com
-  skip-cert-verify: false
-  sni: visual.superpokemon.com
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: "\U0001F1EB\U0001F1F7 \u6CD5\u56FD \u56FD\u9645\u822A\u7A7A\u7535\u8BAF\u96C6\
@@ -49,36 +55,28 @@ proxies:
   port: 20568
   server: 57.128.190.245
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-0647"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.49
+  type: ss
+- cipher: aes-256-cfb
+  name: Japan_Tokyo_ss_1185
+  password: amazonskr05
+  port: 443
+  server: 54.248.66.29
+  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-327"
+  name: "\U0001F1E8\U0001F1F3CN-120.26.55.225-181"
   network: tcp
-  port: 51039
-  server: 183.236.51.38
+  port: 50002
+  server: 120.26.55.225
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.38
+    Host: 120.26.55.225
   ws-path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1F0SK-156.146.40.194-0635"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
-  type: ss
-- cipher: aes-256-cfb
-  name: "12|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
-  password: amazonskr05
-  port: 443
-  server: 18.183.126.95
-  tfo: false
-  type: ss
-- name: "12|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
-  port: 443
-  server: stodewrn.homeofbrave.net
-  skip-cert-verify: false
-  sni: stodewrn.homeofbrave.net
-  type: trojan
