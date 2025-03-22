@@ -14,39 +14,38 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-57.128.190.245:20568"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
-  type: ss
 - cipher: aes-128-gcm
   name: "\U0001F1E8\U0001F1F3CN-111.62.241.200-122"
   password: VMhGp5wEIyCDf90T
   port: 56226
   server: bsuqian01.dynu.net
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  password: Q3PP7TUVTV756YSB
-  port: 15008
-  server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-57.128.190.245:20568"
+  password: e014f8ab71735926
+  port: 20568
+  server: 57.128.190.245
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+- name: "\U0001F1FA\U0001F1F8US-69.5.54.47-328"
   password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
   port: 443
   server: stodewrn.homeofbrave.net
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: stodewrn.homeofbrave.net
-  tfo: false
-  tls: false
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-47.92.152.169-178"
+  network: tcp
+  port: 50002
+  server: 47.92.152.169
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 47.92.152.169
+  ws-path: /
 - name: "\U0001F1FA\U0001F1F8US-142.214.159.3-2382"
   password: 8cO87DFa34aCpD3CxlZ3uTxSSXnAlj6jYRCwl8FApRaFeAzX3D06CACRZESOyYYcyO3ON
   port: 443
@@ -66,18 +65,16 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- name: "\U0001F1FA\U0001F1F8US-69.5.54.47-328"
-  password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
-  port: 443
-  server: stodewrn.homeofbrave.net
-  skip-cert-verify: true
-  sni: stodewrn.homeofbrave.net
-  type: trojan
 - cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-18.236.187.71:443"
-  obfs: plain
+  name: Taiwan_Taipei_ss_1177
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
+  type: ss
+- cipher: aes-256-cfb
+  name: South Korea_Incheon_ss_11108
   password: amazonskr05
   port: 443
-  protocol: origin
-  server: 18.236.187.71
-  type: ssr
+  server: 52.78.98.141
+  tfo: false
+  type: ss
