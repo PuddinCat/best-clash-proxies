@@ -1,26 +1,42 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-238"
+  network: tcp
+  port: 51182
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F \u7279\u522B\u884C\u653F\u533A"
+  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-338"
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 103.104.247.49
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\u6CD5\u56FD \u56FD\u9645\u822A\u7A7A\u7535\u8BAF\u96C6\u56E2\u516C\u53F8\
-    (SITA)"
+  name: "\U0001F1EB\U0001F1F7FR-57.128.190.245-287"
   password: e014f8ab71735926
   port: 20568
   server: 57.128.190.245
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EB\U0001F1F7 \u6CD5\u56FD \u56FD\u9645\u822A\u7A7A\u7535\u8BAF\u96C6\
-    \u56E2\u516C\u53F8(SITA)"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
-  type: ss
+- name: "\U0001F1EF\U0001F1F5JP-154.31.114.44-376"
+  password: CCwEYCy3g3SzejBn3lDpRAeC83ap7TaR7a0A4Dxg6IelDZFFuaXNFOSSFYpKaSwyeN8qX
+  port: 28331
+  server: affairs.meijireform.com
+  skip-cert-verify: true
+  sni: affairs.meijireform.com
+  type: trojan
+- name: "\U0001F1EF\U0001F1F5JP-154.31.114.44-019"
+  password: CCwEYCy3g3SzejBn3lDpRAeC83ap7TaR7a0A4Dxg6IelDZFFuaXNFOSSFYpKaSwyeN8qX
+  port: 28331
+  server: affairs.meijireform.com
+  skip-cert-verify: true
+  type: trojan
 - cipher: aes-256-cfb
   name: TW_speednode_0055
   password: f8f7aCzcPKbsF8p3
@@ -30,66 +46,40 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F3F3\uFE0F_unKnow_\u672A\u77E5\
-    _2"
-  network: ws
-  port: 80
-  server: 172.64.229.30
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-369"
+  network: tcp
+  port: 34042
+  server: 120.232.153.40
   skip-cert-verify: true
-  sni: ''
+  tls: false
   type: vmess
-  uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- name: "\u7F8E\u56FD CloudFlare\u8282\u70B9"
+  network: ws
+  password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
+  port: 443
+  server: 104.21.49.59
+  sni: Fgh9JkR5.890617.xYz
+  type: trojan
   ws-opts:
     headers:
-      host: 95859375104672025032010340528767.dblxc.chibaba.filegear-sg.me
-    path: /dubai.html?ed=2048
-- cipher: aes-128-gcm
-  name: China_None_ss_1125
-  password: VMhGp5wEIyCDf90T
-  port: 18755
-  server: csuzhou01.1cooldns.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F3F3\uFE0F_unKnow_\u672A\u77E5\
-    _1"
-  network: ws
-  port: 80
-  server: 104.26.5.60
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
-  ws-opts:
-    headers:
-      host: 321211028415662025032010340518402.dblxc.chibaba.filegear-sg.me
-    path: /dubai.html?ed=2048
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F3F3\uFE0F_unKnow_\u672A\u77E5"
-  network: ws
-  port: 80
-  server: 104.16.0.178
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
-  ws-opts:
-    headers:
-      host: 886207003891252025032010340550358.dblxc.chibaba.filegear-sg.me
-    path: /dubai.html?ed=2048
-- alterId: 0
-  cipher: aes-128-gcm
-  name: "\u672A\u77E52"
-  password: VMhGp5wEIyCDf90T
-  port: 18755
-  server: csuzhou01.1cooldns.com
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-120.233.87.139-350"
-  password: VMhGp5wEIyCDf90T
-  port: 13483
-  server: agaungzhou01.bumbleshrimp.com
+      Host: Fgh9JkR5.890617.xYz
+    path: /lWljHWvIMOj85lz42MdhsCLV
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-TikTok-34.216.142.212:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 34.216.142.212
+  type: ssr
+- cipher: aes-256-cfb
+  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.16.212
+  tfo: false
   type: ss
