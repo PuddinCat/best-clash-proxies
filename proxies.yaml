@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-54.251.193.0-0826"
-  password: amazonskr05
-  port: 443
-  server: 54.251.193.0
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-230"
@@ -18,6 +12,26 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "12|\u9999\u6E2F7|@ripaojiedian"
+  network: tcp
+  port: 51182
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  port: 51182
+  server: 120.232.153.40
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-368"
@@ -56,36 +70,32 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  port: 51182
-  server: 120.232.153.40
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  name: None_None_vmess_1139
+  network: ws
+  port: 80
+  server: 104.16.0.178
+  skip-cert-verify: true
+  sni: ''
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
+  ws-opts:
+    headers:
+      host: 886207003891252025032010340550358.dblxc.chibaba.filegear-sg.me
+    path: /dubai.html?ed=2048
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E6\U0001F1FA_AU_\u6FB3\u5927\
+    \u5229\u4E9A"
+  password: VMhGp5wEIyCDf90T
+  port: 18755
+  server: csuzhou01.1cooldns.com
+  type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1ED_CH_\u745E\u58EB"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 84.17.53.160
+  name: Singapore_Singapore_ss_1174
+  password: amazonskr05
+  port: 443
+  server: 13.213.69.248
+  tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E7\U0001F1EA_BE_\u6BD4\u5229\u65F6"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "12|\u9999\u6E2F7|@ripaojiedian"
-  network: tcp
-  port: 51182
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   name: "\U0001F1E8\U0001F1F3CN-111.62.241.200-0820"
   password: VMhGp5wEIyCDf90T
