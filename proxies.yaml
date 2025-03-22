@@ -1,9 +1,41 @@
 proxies:
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-54.251.193.0-0826"
+  password: amazonskr05
+  port: 443
+  server: 54.251.193.0
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-230"
   network: tcp
   port: 41002
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-368"
+  network: tcp
+  port: 51182
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-213"
+  network: tcp
+  port: 34042
   server: 120.232.153.40
   skip-cert-verify: true
   tls: false
@@ -24,19 +56,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-213"
-  network: tcp
-  port: 34042
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   port: 51182
   server: 120.232.153.40
@@ -45,6 +64,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1ED_CH_\u745E\u58EB"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 84.17.53.160
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E7\U0001F1EA_BE_\u6BD4\u5229\u65F6"
+  password: e014f8ab71735926
+  port: 20568
+  server: 57.128.190.245
+  type: ss
 - alterId: 0
   cipher: auto
   name: "12|\u9999\u6E2F7|@ripaojiedian"
@@ -56,41 +87,8 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E6\U0001F1FA_AU_\u6FB3\u5927\
-    \u5229\u4E9A"
-  password: VMhGp5wEIyCDf90T
-  port: 18755
-  server: csuzhou01.1cooldns.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-368"
-  network: tcp
-  port: 51182
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
-- cipher: aes-128-gcm
   name: "\U0001F1E8\U0001F1F3CN-111.62.241.200-0820"
   password: VMhGp5wEIyCDf90T
   port: 56226
   server: bsuqian01.dynu.net
-  type: ss
-- cipher: aes-256-cfb
-  name: TW_speednode_0055
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.20.79
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1ED_CH_\u745E\u58EB"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 84.17.53.160
   type: ss
