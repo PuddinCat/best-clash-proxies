@@ -9,6 +9,26 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-255"
+  network: tcp
+  port: 41002
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- cipher: aes-256-cfb
+  name: TW_speednode_0055
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.20.79
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-238"
   network: tcp
   port: 34042
@@ -34,12 +54,17 @@ proxies:
     Host: 183.236.51.38
   ws-path: /
 - cipher: aes-256-cfb
-  name: TW_speednode_0055
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.20.79
+  name: "\U0001F1FA\U0001F1F8US-35.93.21.189-0643"
+  password: amazonskr05
+  port: 443
+  server: 35.93.21.189
   type: ss
-  udp: true
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-111.62.241.200-0811"
+  password: VMhGp5wEIyCDf90T
+  port: 56226
+  server: bsuqian01.dynu.net
+  type: ss
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8382"
@@ -54,47 +79,13 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-255"
-  network: tcp
-  port: 41002
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-231"
-  network: tcp
-  port: 59554
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-111.62.241.200-0811"
-  password: VMhGp5wEIyCDf90T
-  port: 56226
-  server: bsuqian01.dynu.net
-  type: ss
 - alterId: 2
   cipher: auto
-  name: China_None_vmess_1153
+  name: "\u6E56\u5357\u7701 \u79FB\u52A8"
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
   servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
@@ -103,8 +94,8 @@ proxies:
       Host: zxjp-c.tkong.cc
     path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8US-35.93.21.189-0643"
-  password: amazonskr05
-  port: 443
-  server: 35.93.21.189
+  name: "\U0001F1E8\U0001F1EDCH-84.17.53.160-0337"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 84.17.53.160
   type: ss
