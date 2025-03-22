@@ -32,12 +32,6 @@ proxies:
   skip-cert-verify: false
   sni: visual.superpokemon.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E7\U0001F1EA_BE_\u6BD4\u5229\u65F6"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
-  type: ss
 - cipher: aes-256-cfb
   name: TW_speednode_0055
   password: f8f7aCzcPKbsF8p3
@@ -45,26 +39,6 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8US-44.242.208.211-331"
-  password: amazonskr05
-  port: 443
-  server: 44.242.208.211
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8382"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.198.71.216-259"
@@ -78,20 +52,47 @@ proxies:
   ws-headers:
     Host: 120.198.71.216
   ws-path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-237"
+  network: tcp
+  port: 51039
+  server: 183.236.51.38
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: "\U0001F1FA\U0001F1F8US-69.5.54.47-163"
-  password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1F0SK-156.146.40.194-0635"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 156.146.40.194
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8US-44.242.208.211-331"
+  password: amazonskr05
   port: 443
-  server: stodewrn.homeofbrave.net
+  server: 44.242.208.211
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E7\U0001F1EA_BE_\u6BD4\u5229\u65F6"
+  password: e014f8ab71735926
+  port: 20568
+  server: 57.128.190.245
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-231"
+  network: tcp
+  port: 59554
+  server: 183.236.51.38
   skip-cert-verify: true
-  sni: stodewrn.homeofbrave.net
-  type: trojan
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
