@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-57.128.190.245-0405"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
-  type: ss
 - cipher: aes-256-cfb
   name: TW_speednode_0055
   password: f8f7aCzcPKbsF8p3
@@ -12,22 +6,69 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\u9999\u6E2F \u7279\u522B\u884C\u653F\u533A"
+  password: UP3JN98C6EOR
+  port: 443
+  server: 62.60.233.21
+  type: ss
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-TikTok-YouTube-34.209.89.4:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 34.209.89.4
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-57.128.190.245-021"
+  password: e014f8ab71735926
+  port: 20568
+  server: 57.128.190.245
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-202"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.49
+  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-255"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-226"
   network: tcp
-  port: 41002
-  server: 120.232.153.40
+  port: 59554
+  server: 183.236.51.38
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.232.153.40
+    Host: 183.236.51.38
   ws-path: /
+- name: "\U0001F1EE\U0001F1EAIE-34.255.21.85-1112"
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 34.255.21.85
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 3.34.253.95
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-120.236.196.143-1100"
+  password: VMhGp5wEIyCDf90T
+  port: 56277
+  server: gy01.hunheiydd.xyz
+  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-230"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-031"
   network: tcp
   port: 51039
   server: 183.236.51.38
@@ -38,51 +79,3 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-154.197.26.237-6016"
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1EF\U0001F1F5JP-3.113.11.192-6025"
-  password: amazonskr05
-  port: 443
-  server: 3.113.11.192
-  type: ss
-- cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-TikTok-YouTube-34.219.111.188:443"
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 34.219.111.188
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-029"
-  network: tcp
-  port: 59554
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
-  port: 59554
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-111.62.241.200-339"
-  password: VMhGp5wEIyCDf90T
-  port: 56226
-  server: bsuqian01.dynu.net
-  type: ss
