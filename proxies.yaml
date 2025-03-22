@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: Taiwan_Taipei_ss_1177
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 2"
@@ -14,49 +20,30 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3CN-111.62.241.200-122"
-  password: VMhGp5wEIyCDf90T
-  port: 56226
-  server: bsuqian01.dynu.net
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-57.128.190.245:20568"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
-  type: ss
-- name: "\U0001F1FA\U0001F1F8US-69.5.54.47-328"
-  password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
-  port: 443
-  server: stodewrn.homeofbrave.net
-  skip-cert-verify: true
-  sni: stodewrn.homeofbrave.net
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-47.92.152.169-178"
-  network: tcp
-  port: 50002
-  server: 47.92.152.169
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 47.92.152.169
-  ws-path: /
 - name: "\U0001F1FA\U0001F1F8US-142.214.159.3-2382"
   password: 8cO87DFa34aCpD3CxlZ3uTxSSXnAlj6jYRCwl8FApRaFeAzX3D06CACRZESOyYYcyO3ON
   port: 443
   server: kitchen.taiwanesefood.link
   skip-cert-verify: false
   type: trojan
+- cipher: aes-256-cfb
+  name: South Korea_Incheon_ss_11108
+  password: amazonskr05
+  port: 443
+  server: 52.78.98.141
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-154.197.26.237-6016"
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
+  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-351"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-341"
   network: tcp
-  port: 51039
+  port: 59554
   server: 183.236.51.38
   skip-cert-verify: true
   tls: false
@@ -65,16 +52,35 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- cipher: aes-256-cfb
-  name: Taiwan_Taipei_ss_1177
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
-- cipher: aes-256-cfb
-  name: South Korea_Incheon_ss_11108
-  password: amazonskr05
-  port: 443
-  server: 52.78.98.141
-  tfo: false
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.36-179"
+  network: tcp
+  port: 59003
+  server: 183.236.51.36
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.36
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-47.104.186.133-177"
+  network: tcp
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 47.104.186.133
+  ws-path: /
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-111.62.241.200-122"
+  password: VMhGp5wEIyCDf90T
+  port: 56226
+  server: bsuqian01.dynu.net
   type: ss
