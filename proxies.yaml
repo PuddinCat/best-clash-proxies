@@ -1,15 +1,9 @@
 proxies:
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-154.197.26.237-5893"
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-233"
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-230"
   network: tcp
-  port: 51182
+  port: 41002
   server: 120.232.153.40
   skip-cert-verify: true
   tls: false
@@ -20,7 +14,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: "12|\u9999\u6E2F7|@ripaojiedian"
+  name: "11,16|\u9999\u6E2F7|@ripaojiedian"
   network: tcp
   port: '51182'
   server: 120.232.153.40
@@ -30,9 +24,49 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-216"
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-213"
   network: tcp
   port: 34042
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "11|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  port: 51182
+  server: 120.232.153.40
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "12|\u9999\u6E2F7|@ripaojiedian"
+  network: tcp
+  port: 51182
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E6\U0001F1FA_AU_\u6FB3\u5927\
+    \u5229\u4E9A"
+  password: VMhGp5wEIyCDf90T
+  port: 18755
+  server: csuzhou01.1cooldns.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-368"
+  network: tcp
+  port: 51182
   server: 120.232.153.40
   skip-cert-verify: true
   tls: false
@@ -60,36 +94,3 @@ proxies:
   port: 989
   server: 84.17.53.160
   type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8259"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E7\U0001F1EA_BE_\u6BD4\u5229\u65F6"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-210"
-  network: tcp
-  port: 51039
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
