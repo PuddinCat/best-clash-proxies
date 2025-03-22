@@ -1,4 +1,17 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-57.128.190.245-0405"
+  password: e014f8ab71735926
+  port: 20568
+  server: 57.128.190.245
+  type: ss
+- cipher: aes-256-cfb
+  name: TW_speednode_0055
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.20.79
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-255"
@@ -12,19 +25,6 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
-- cipher: aes-256-cfb
-  name: TW_speednode_0055
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.20.79
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-57.128.190.245-0405"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-230"
@@ -38,12 +38,26 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-154.197.26.237-6016"
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
+  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1EF\U0001F1F5JP-3.113.11.192-6025"
   password: amazonskr05
   port: 443
   server: 3.113.11.192
   type: ss
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-TikTok-YouTube-34.219.111.188:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 34.219.111.188
+  type: ssr
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-029"
@@ -59,39 +73,16 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F3F3\uFE0F_unKnow_\u672A\u77E5"
-  network: ws
-  port: 80
-  server: 172.67.152.71
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
-  ws-opts:
-    headers:
-      host: 462583301568512025032010340527704.dblxc.chibaba.filegear-sg.me
-    path: /dubai.html?ed=2048
-- cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-TikTok-YouTube-34.219.111.188:443"
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 34.219.111.188
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.49
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
+  port: 59554
+  server: 183.236.51.38
   tls: false
   type: vmess
-  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-111.62.241.200-339"
+  password: VMhGp5wEIyCDf90T
+  port: 56226
+  server: bsuqian01.dynu.net
+  type: ss
