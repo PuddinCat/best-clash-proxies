@@ -9,17 +9,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0HK-154.197.26.237-5893"
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-233"
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-216"
   network: tcp
-  port: 51182
+  port: 34042
   server: 120.232.153.40
   skip-cert-verify: true
   tls: false
@@ -28,11 +22,31 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-154.197.26.237-5893"
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
+  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-216"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
+  network: ws
+  port: 80
+  server: 104.16.0.178
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
+  ws-opts:
+    headers:
+      host: 886207003891252025032010340550358.dblxc.chibaba.filegear-sg.me
+    path: /dubai.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-233"
   network: tcp
-  port: 34042
+  port: 51182
   server: 120.232.153.40
   skip-cert-verify: true
   tls: false
@@ -48,17 +62,17 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-111.62.241.200-0820"
+  password: VMhGp5wEIyCDf90T
+  port: 56226
+  server: bsuqian01.dynu.net
+  type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1ED_CH_\u745E\u58EB"
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 84.17.53.160
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E7\U0001F1EA_BE_\u6BD4\u5229\u65F6"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
   type: ss
 - alterId: 0
   cipher: auto
@@ -73,12 +87,6 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-203"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.49
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
