@@ -1,4 +1,22 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-57.128.190.245-0351"
+  password: e014f8ab71735926
+  port: 20568
+  server: 57.128.190.245
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-57.128.190.214:48977"
+  password: 99eedf8e9170c8a4
+  port: 48977
+  server: 57.128.190.214
+  type: ss
+- cipher: chacha20-ietf
+  name: "\U0001F1ED\U0001F1F0HK-103.149.182.191-5915"
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  type: ss
 - cipher: aes-256-cfb
   name: TW_speednode_0055
   password: f8f7aCzcPKbsF8p3
@@ -6,6 +24,41 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
+- name: "12,13|\u65E5\u672C5|@ripaojiedian #1"
+  network: tcp
+  password: 05819241-c538-4a25-9c1b-7dc5d7646e22
+  port: 10105
+  server: 45.196.233.64
+  skip-cert-verify: true
+  type: trojan
+- allowInsecure: ''
+  name: United States_None_trojan_1171
+  network: ws
+  password: 4PbOjiMDLh
+  port: 2096
+  server: 172.67.202.155
+  skip-cert-verify: false
+  sni: support.onetwothree123.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: support.onetwothree123.ir
+    path: "/\U0001F194@M3HDIO1"
+- allowInsecure: ''
+  name: United States_None_trojan_1198
+  network: ws
+  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+  port: 443
+  server: 172.67.200.238
+  skip-cert-verify: false
+  sni: 1P.890689.xyZ
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 1p.890689.xyz
+    path: /lXENb74xF4ylXngZ
 - alterId: 0
   cipher: auto
   name: "1,13|\u65E5\u672C5|@ripaojiedian"
@@ -16,82 +69,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 6A5C1155-BC24-F312-5E67-9E735E36E19A
-- alterId: '0'
-  cipher: auto
-  name: United States_None_vmess_1176
-  network: ws
-  port: '443'
-  server: ny05.890603.xyz
-  tls: true
-  type: vmess
-  uuid: a1925233-669e-4068-b740-d77f41986c43
-  ws-opts:
-    headers:
-      host: ny05.890603.xyz
-    path: /K5rR8fBY26DxDtOnU
 - cipher: chacha20-ietf-poly1305
-  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-57.128.190.214:48977"
-  password: 99eedf8e9170c8a4
-  port: 48977
-  server: 57.128.190.214
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "1,12|\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
-  port: 10703
-  server: 120.198.71.184
-  skip-cert-verify: false
+  client-fingerprint: chrome
+  name: "15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 11002
+  server: 183.232.229.164
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 6A5C1155-BC24-F312-5E67-9E735E36E19A
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-289"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.49
   type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: "VMESS-\u672A\u77E5>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-520dc7.c142-946b-a8a5.cfd:80"
-  network: ws
-  port: 80
-  server: 520dc7.c142-946b-a8a5.cfd
-  servername: hk03s.c142-946b-a8a5.cfd
-  skip-cert-verify: true
-  type: vmess
-  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
-  ws-opts:
-    headers:
-      HOST: hk03s.c142-946b-a8a5.cfd
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR-57.128.190.245-0351"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
+- cipher: aes-256-cfb
+  name: South Korea_Incheon_ss_11101
+  password: amazonskr05
+  port: 443
+  server: 43.203.206.73
   type: ss
-- name: "12,13|\u65E5\u672C5|@ripaojiedian #1"
-  network: tcp
-  password: 05819241-c538-4a25-9c1b-7dc5d7646e22
-  port: 10105
-  server: 45.196.233.64
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-172.67.202.155-2334"
-  network: ws
-  port: 8443
-  server: Support.onetwothree123.ir
-  servername: support.onetwothree123.ir
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 001ad3c0-18b2-4f2d-ab44-194066e345f8
-  ws-opts:
-    headers:
-      Host: Support.onetwothree123.ir
-    path: "/\U0001F194@M3HDIO1"
