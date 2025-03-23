@@ -1,47 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-5980"
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-0627"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.49
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.21.96.1-1309"
-  network: ws
-  port: 80
-  server: us2vmess.rnmcnm.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 7f8a1bb9-bee0-40a8-f908-21a65da0f3cc
-  ws-opts:
-    headers:
-      Host: us2vmess.rnmcnm.com
-    path: /123qwe
-- cipher: aes-256-cfb
-  name: TW_speednode_0055
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.20.79
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "13|\u9999\u6E2F7|@ripaojiedian"
-  network: tcp
-  port: '51182'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: "11,16|\u65E5\u672C5|@ripaojiedian"
@@ -54,6 +11,71 @@ proxies:
   uuid: 6A5C1155-BC24-F312-5E67-9E735E36E19A
 - alterId: 0
   cipher: auto
+  name: "13|\u9999\u6E2F7|@ripaojiedian"
+  network: tcp
+  port: '51182'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EB\U0001F1F7FR-57.128.190.214-0327"
+  password: 99eedf8e9170c8a4
+  port: 48977
+  server: 57.128.190.214
+  type: ss
+- cipher: aes-256-cfb
+  name: TW_speednode_0055
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.20.79
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.21.32.1-1307"
+  network: ws
+  port: 80
+  server: usvmess.rnmcnm.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e936e1fa-ed0c-4e20-b2d8-880f02a8fb35
+  ws-opts:
+    headers:
+      Host: usvmess.rnmcnm.com
+    path: /qwertyuiop
+- name: "12,13|\u65E5\u672C5|@ripaojiedian #1"
+  network: tcp
+  password: 05819241-c538-4a25-9c1b-7dc5d7646e22
+  port: 10105
+  server: 45.196.233.64
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.21.44.185-2330"
+  network: ws
+  port: 2083
+  server: Support.onetwothree123.ir
+  servername: support.onetwothree123.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 2ca1bdb5-41aa-4ecb-a779-de43825dda5a
+  ws-opts:
+    headers:
+      Host: Support.onetwothree123.ir
+    path: "/\U0001F194@M3HDIO1"
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F3\U0001F1F1NL-103.104.247.49-0627"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.49
+  type: ss
+- alterId: 0
+  cipher: auto
   name: "12|\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
   port: 10703
   server: 120.198.71.184
@@ -62,15 +84,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 6A5C1155-BC24-F312-5E67-9E735E36E19A
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7FR\u6CD5\u56FD"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
-  skip-cert-verify: true
-  tls: true
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-172.67.202.155-2334"
@@ -86,17 +99,3 @@ proxies:
     headers:
       Host: Support.onetwothree123.ir
     path: "/\U0001F194@M3HDIO1"
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-104.21.32.1-1307"
-  network: ws
-  port: 80
-  server: usvmess.rnmcnm.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e936e1fa-ed0c-4e20-b2d8-880f02a8fb35
-  ws-opts:
-    headers:
-      Host: usvmess.rnmcnm.com
-    path: /qwertyuiop
