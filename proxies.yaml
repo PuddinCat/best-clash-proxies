@@ -13,18 +13,26 @@ proxies:
   server: visual.superpokemon.com
   sni: visual.superpokemon.com
   type: trojan
-- cipher: aes-128-gcm
-  name: "\u6CB3\u5317\u7701 \u79FB\u52A8(\u5168\u7701\u901A\u7528)"
-  password: VMhGp5wEIyCDf90T
-  port: 56226
-  server: bsuqian01.dynu.net
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\u632A\u5A01 V2CROSS.COM"
   password: SkEdWLA8gjmHRUAnKqhm39
   port: 63083
   server: 138.124.54.120
   type: ss
+- cipher: aes-128-gcm
+  name: "\u6CB3\u5317\u7701 \u79FB\u52A8(\u5168\u7701\u901A\u7528)"
+  password: VMhGp5wEIyCDf90T
+  port: 56226
+  server: bsuqian01.dynu.net
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
+  port: 59554
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 5"
   network: ws
   password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
@@ -38,28 +46,19 @@ proxies:
     path: /lXENb74xF4ylXngZ
 - alterId: 0
   cipher: auto
-  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
-  port: 59554
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   name: "\u5E7F\u4E1C\u7701\u6C5F\u95E8\u5E02 \u79FB\u52A8"
   port: 31998
   server: 120.234.102.229
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- down: 100 Mbps
-  name: HySlot3
-  obfs: 9aaeee3f-a2ec-4b2a-b98c-266fbb5da0b2
-  port: 44301
-  protocol: udp
-  server: hyslot3.raywhat.xyz
-  type: hysteria
-  up: 30 Mbps
+- cipher: chacha20-ietf-poly1305
+  name: "\u6BD4\u5229\u65F6\u3010\u673A\u573A\u63A8\u8350\uFF1Ahttps://socks.news\u3011\
+    16"
+  password: e014f8ab71735926
+  port: 20568
+  server: 57.128.190.245
+  type: ss
 - alterId: 0
   cipher: auto
   h2-opts:
