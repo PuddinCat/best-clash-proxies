@@ -1,9 +1,9 @@
 proxies:
-- cipher: chacha20-ietf
-  name: "\U0001F1F8\U0001F1ECSG-202.162.109.169-5973"
-  password: asd123456
-  port: 8388
-  server: 202.162.109.169
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-57.128.190.245:20568"
+  password: e014f8ab71735926
+  port: 20568
+  server: 57.128.190.245
   type: ss
 - cipher: aes-256-cfb
   name: TW_speednode_0055
@@ -12,6 +12,54 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1EB\U0001F1F7 \u6CD5\u56FD \u56FD\u9645\u822A\u7A7A\u7535\u8BAF\u96C6\
+    \u56E2\u516C\u53F8(SITA)"
+  password: e014f8ab71735926
+  port: 20568
+  server: 57.128.190.245
+  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: United States_None_vmess_1144
+  network: ws
+  port: 2083
+  server: Support.onetwothree123.ir
+  servername: support.onetwothree123.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2ca1bdb5-41aa-4ecb-a779-de43825dda5a
+  ws-opts:
+    headers:
+      HOST: support.onetwothree123.ir
+    path: "/\U0001F194@M3HDIO1"
+- name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 2"
+  network: ws
+  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+  port: 443
+  server: 1p.890689.xyz
+  skip-cert-verify: false
+  type: trojan
+  ws-opts:
+    path: /lXENb74xF4ylXngZ
+- alpn:
+  - http%2F1.1
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
+  network: ws
+  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+  port: 443
+  server: 104.21.32.1
+  sni: 1kM.HUaNgSHang.pP.UA
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 1kM.HUaNgSHang.pP.UA
+    path: /lXENb74xF4ylXngZ
 - alpn:
   - http%2F1.1
   client-fingerprint: chrome
@@ -26,68 +74,28 @@ proxies:
     headers:
       Host: 3y.2032.pp.ua
     path: /XjTi1NYwi9A2bckpqdDoAgkondVWl
-- alpn:
-  - http%2F1.1
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 4"
-  network: ws
-  password: 2fec7227-9abe-46f2-af18-78302b836c45
-  port: 443
-  server: 172.67.208.155
-  sni: 3r.2030.pp.ua
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3r.2030.pp.ua
-    path: /XjTi1NYwi9A2bckpqdDoAgkondVWl
+- cipher: aes-256-cfb
+  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-5980"
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EB\U0001F1F7FR-57.128.190.214-0366"
   password: 99eedf8e9170c8a4
   port: 48977
   server: 57.128.190.214
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EB\U0001F1F7 \u6CD5\u56FD \u56FD\u9645\u822A\u7A7A\u7535\u8BAF\u96C6\
-    \u56E2\u516C\u53F8(SITA)"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11002
-  server: 183.232.229.164
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 5"
-  network: ws
-  port: 2083
-  server: Support.onetwothree123.ir
-  tls: true
-  type: vmess
-  uuid: 2ca1bdb5-41aa-4ecb-a779-de43825dda5a
-  ws-opts:
-    headers:
-      Host: support.onetwothree123.ir
-    path: "/\U0001F194@M3HDIO1"
-- cipher: chacha20-ietf-poly1305
-  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-57.128.190.245:20568"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 185 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-206"
+  network: tcp
+  port: 51039
+  server: 183.236.51.38
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
