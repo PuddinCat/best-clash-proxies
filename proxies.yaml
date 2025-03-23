@@ -1,18 +1,24 @@
 proxies:
+- cipher: aes-256-cfb
+  name: TW_speednode_0055
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.20.79
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F3C1RELAY-104.21.96.1-1309"
-  network: ws
-  port: 80
-  server: us2vmess.rnmcnm.com
-  skip-cert-verify: false
+  name: China_None_vmess_1172
+  network: tcp
+  port: 55754
+  server: 183.236.51.38
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 7f8a1bb9-bee0-40a8-f908-21a65da0f3cc
-  ws-opts:
-    headers:
-      Host: us2vmess.rnmcnm.com
-    path: /123qwe
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1E6CA(AzadNet.t.me)_013"
@@ -29,27 +35,17 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: "VMESS-\u672A\u77E5>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-520dc7.c142-946b-a8a5.cfd:80"
-  network: ws
-  port: 80
-  server: 520dc7.c142-946b-a8a5.cfd
-  servername: hk03s.c142-946b-a8a5.cfd
+  name: "\U0001F1E8\U0001F1F3CN-120.198.71.214-208"
+  network: tcp
+  port: 34093
+  server: 120.198.71.214
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
-  ws-opts:
-    headers:
-      HOST: hk03s.c142-946b-a8a5.cfd
-    path: /
-- cipher: aes-256-cfb
-  name: TW_speednode_0055
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.20.79
-  type: ss
-  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -72,20 +68,24 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: "VMESS-\u672A\u77E5>\u7F8E\u56FD-NF\u89E3\u9501\u745E\u5178\u81EA\u5236\u5267\
-    -ChatGPT-TikTok-YouTube-Support.onetwothree123.ir:8443"
+  name: "VMESS-\u672A\u77E5>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-520dc7.c142-946b-a8a5.cfd:80"
   network: ws
-  port: 8443
-  server: Support.onetwothree123.ir
-  servername: support.onetwothree123.ir
+  port: 80
+  server: 520dc7.c142-946b-a8a5.cfd
+  servername: hk03s.c142-946b-a8a5.cfd
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 001ad3c0-18b2-4f2d-ab44-194066e345f8
+  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
   ws-opts:
     headers:
-      HOST: support.onetwothree123.ir
-    path: "/\U0001F194@M3HDIO1"
+      HOST: hk03s.c142-946b-a8a5.cfd
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1EF\U0001F1F5JP-54.248.66.29-295"
+  password: amazonskr05
+  port: 443
+  server: 54.248.66.29
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-104.21.44.185-2330"
@@ -101,32 +101,34 @@ proxies:
     headers:
       Host: Support.onetwothree123.ir
     path: "/\U0001F194@M3HDIO1"
-- cipher: chacha20-ietf-poly1305
-  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-57.128.190.245:20568"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
-  type: ss
-- name: "\U0001F3C1RELAY-104.21.64.1-1096"
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-206"
+  network: tcp
+  port: 51039
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: "VMESS-\u672A\u77E5>\u7F8E\u56FD-NF\u89E3\u9501\u745E\u5178\u81EA\u5236\u5267\
+    -ChatGPT-TikTok-YouTube-Support.onetwothree123.ir:2083"
   network: ws
-  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
-  port: 443
-  server: 104.21.64.1
-  skip-cert-verify: false
-  sni: 1kM.HUaNgSHang.pP.UA
-  type: trojan
+  port: 2083
+  server: Support.onetwothree123.ir
+  servername: support.onetwothree123.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2ca1bdb5-41aa-4ecb-a779-de43825dda5a
   ws-opts:
     headers:
-      Host: 1kM.HUaNgSHang.pP.UA
-    path: '%2FlXENb74xF4ylXngZ'
-- name: "\u7F8E\u56FD CloudFlare\u8282\u70B9"
-  network: ws
-  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
-  port: 443
-  server: 104.21.96.1
-  sni: 1kM.HUaNgSHang.pP.UA
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1kM.HUaNgSHang.pP.UA
-    path: /lXENb74xF4ylXngZ
+      HOST: support.onetwothree123.ir
+    path: "/\U0001F194@M3HDIO1"
