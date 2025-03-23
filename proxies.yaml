@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-57.128.190.214:48977"
-  password: 99eedf8e9170c8a4
-  port: 48977
-  server: 57.128.190.214
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-201"
@@ -18,12 +12,63 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-57.128.190.245:20568"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
+- alterId: 0
+  cipher: auto
+  name: "\U0001F3C1RELAY-104.21.32.1-1307"
+  network: ws
+  port: 80
+  server: usvmess.rnmcnm.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e936e1fa-ed0c-4e20-b2d8-880f02a8fb35
+  ws-opts:
+    headers:
+      Host: usvmess.rnmcnm.com
+    path: /qwertyuiop
+- cipher: aes-256-cfb
+  name: TW_speednode_0055
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.20.79
   type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.198.71.214-208"
+  network: tcp
+  port: 34093
+  server: 120.198.71.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: "SS-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-57.128.190.214:48977"
+  password: 99eedf8e9170c8a4
+  port: 48977
+  server: 57.128.190.214
+  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: United States_None_vmess_1144
+  network: ws
+  port: 2083
+  server: Support.onetwothree123.ir
+  servername: support.onetwothree123.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2ca1bdb5-41aa-4ecb-a779-de43825dda5a
+  ws-opts:
+    headers:
+      HOST: support.onetwothree123.ir
+    path: "/\U0001F194@M3HDIO1"
 - alterId: 0
   cipher: auto
   name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 9"
@@ -37,56 +82,22 @@ proxies:
     headers:
       Host: us2vmess.rnmcnm.com
     path: /123qwe
-- cipher: aes-256-cfb
-  name: TW_speednode_0055
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.20.79
-  type: ss
-  udp: true
-- allowInsecure: ''
-  name: None_None_trojan_1134
-  network: ws
-  password: 2fec7227-9abe-46f2-af18-78302b836c45
-  port: 443
-  server: 104.21.30.167
-  skip-cert-verify: false
-  sni: 3y.2032.pp.ua
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3y.2032.pp.ua
-    path: /XjTi1NYwi9A2bckpqdDoAgkondVWl
 - alterId: 0
   cipher: auto
-  name: "\U0001F3C1RELAY-104.21.96.1-1309"
+  h2-opts: {}
+  http-opts: {}
+  name: "VMESS-\u672A\u77E5>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-520dc7.c142-946b-a8a5.cfd:80"
   network: ws
   port: 80
-  server: us2vmess.rnmcnm.com
-  skip-cert-verify: false
-  tls: false
+  server: 520dc7.c142-946b-a8a5.cfd
+  servername: hk03s.c142-946b-a8a5.cfd
+  skip-cert-verify: true
   type: vmess
-  uuid: 7f8a1bb9-bee0-40a8-f908-21a65da0f3cc
+  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
   ws-opts:
     headers:
-      Host: us2vmess.rnmcnm.com
-    path: /123qwe
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-172.67.202.155-2334"
-  network: ws
-  port: 8443
-  server: Support.onetwothree123.ir
-  servername: support.onetwothree123.ir
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 001ad3c0-18b2-4f2d-ab44-194066e345f8
-  ws-opts:
-    headers:
-      Host: Support.onetwothree123.ir
-    path: "/\U0001F194@M3HDIO1"
+      HOST: hk03s.c142-946b-a8a5.cfd
+    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-200"
@@ -102,10 +113,12 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 14"
+  name: "\U0001F3C1RELAY-172.67.202.155-2334"
   network: ws
   port: 8443
   server: Support.onetwothree123.ir
+  servername: support.onetwothree123.ir
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 001ad3c0-18b2-4f2d-ab44-194066e345f8
