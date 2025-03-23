@@ -60,17 +60,23 @@ proxies:
   server: hyslot3.raywhat.xyz
   type: hysteria
   up: 30 Mbps
+- alterId: 0
+  cipher: auto
+  h2-opts:
+    headers:
+      Host: slot5.raywhat.xyz
+    path: /57e71947-7827
+  name: Slot5
+  network: h2
+  port: 443
+  server: slot5.raywhat.xyz
+  tls: true
+  type: vmess
+  uuid: 4d3b4011-7363-4a64-9cb4-51ca301cab87
 - cipher: aes-128-gcm
   name: "\u4E2D\u56FD\u3010\u673A\u573A\u63A8\u8350\uFF1Ahttps://socks.news\u3011\
     22"
   password: VMhGp5wEIyCDf90T
   port: 13483
   server: agaungzhou01.bumbleshrimp.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\u6BD4\u5229\u65F6\u3010\u673A\u573A\u63A8\u8350\uFF1Ahttps://socks.news\u3011\
-    16"
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
   type: ss
