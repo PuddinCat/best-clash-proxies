@@ -1,15 +1,4 @@
 proxies:
-- name: "\u7F8E\u56FD CloudFlare\u8282\u70B9"
-  network: ws
-  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
-  port: 443
-  server: 104.21.48.1
-  sni: 1kM.HUaNgSHang.pP.UA
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1kM.HUaNgSHang.pP.UA
-    path: /lXENb74xF4ylXngZ
 - client-fingerprint: chrome
   name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 Amazon\u6570\u636E\u4E2D\u5FC3"
   password: 86920f59-7e5e-4272-abec-271bb931121c
@@ -19,10 +8,10 @@ proxies:
   sni: sg.lyyyds.club
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-1484"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
+  name: "\U0001F1E8\U0001F1F3CN-120.241.116.224-1417"
+  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+  port: 19240
+  server: ss.miloli.cc
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-5837"
@@ -31,21 +20,24 @@ proxies:
   server: 185.189.160.98
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "12|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11001
-  server: 61.172.235.22
-  tfo: false
+  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-1484"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
   type: ss
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-1490"
+  h2-opts: {}
+  http-opts: {}
+  name: China_None_vmess_1173
   network: ws
   port: 22642
   server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
   tls: true
   type: vmess
+  udp: true
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
@@ -56,20 +48,6 @@ proxies:
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52611
   server: hk01.x.quickcht3.club
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-61.172.235.22-355"
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11001
-  server: 61.172.235.22
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11001
-  server: 61.172.235.22
-  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
@@ -84,3 +62,34 @@ proxies:
   ws-headers:
     Host: 120.198.71.214
   ws-path: /
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-1490"
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: "\U0001F1EE\U0001F1EA \u7231\u5C14\u5170 \u90FD\u67CF\u6797Amazon\u6570\u636E\
+    \u4E2D\u5FC3"
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 54.75.236.223
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: China_None_ss_11101
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 11002
+  server: 183.232.229.164
+  tfo: false
+  type: ss
