@@ -1,38 +1,51 @@
 proxies:
-- client-fingerprint: chrome
-  name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 Amazon\u6570\u636E\u4E2D\u5FC3"
-  password: 86920f59-7e5e-4272-abec-271bb931121c
-  port: 443
-  server: 52.220.175.112
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 185 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
   skip-cert-verify: true
-  sni: sg.lyyyds.club
-  type: trojan
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-5837"
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
-- name: "\u7F8E\u56FD CloudFlare\u8282\u70B9"
-  network: ws
-  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+  name: "\U0001F1FA\U0001F1F8US-54.185.253.219-128"
+  password: amazonskr05
   port: 443
-  server: 104.21.48.1
-  sni: 1kM.HUaNgSHang.pP.UA
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1kM.HUaNgSHang.pP.UA
-    path: /lXENb74xF4ylXngZ
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-0857"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
+  server: 54.185.253.219
   type: ss
+- name: "\U0001F1EB\U0001F1F7FR-13.39.228.64-0358"
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.228.64
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- cipher: aes-128-gcm
+  name: "\u8282\u70B9\u65E5\u671F\uFF1A03-24"
+  password: VMhGp5wEIyCDf90T
+  port: 56277
+  server: gy01.hunheiydd.xyz
+  type: ss
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-52.27.128.220:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 52.27.128.220
+  type: ssr
+- name: "\U0001F1EE\U0001F1EAIE-3.248.77.16-017"
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.248.77.16
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-1490"
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-0838"
   network: ws
   port: 22642
   server: tk.hzlt.tkddns.xyz
@@ -46,51 +59,36 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: China_None_vmess_1173
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-0792"
   network: ws
-  port: 22642
+  port: 22643
   server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
   tls: true
   type: vmess
-  udp: true
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-b.tkong.cc
+      Host: zxjp-c.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-1484"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-123.88.148.42-0618"
+  password: VMhGp5wEIyCDf90T
+  port: 18755
+  server: csuzhou01.1cooldns.com
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-013"
-  network: tcp
-  port: 59554
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
+  name: "\U0001F1EF\U0001F1F5JP-54.92.67.201-0692"
+  network: ws
+  port: 42360
+  server: 0000000000000000000000000080.cgroup-node-for-bigairport.sbs
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11008
-  server: 120.232.150.248
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-120.241.116.224-1417"
-  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
-  port: 19240
-  server: ss.miloli.cc
-  type: ss
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: 0000000000000000000000000080.cgroup-node-for-bigairport.sbs
+    path: /
