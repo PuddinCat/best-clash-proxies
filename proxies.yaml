@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf
+  name: "\U0001F1EF\U0001F1F5JP-107.148.6.121-1507"
+  password: asd123456
+  port: 8388
+  server: 107.148.6.121
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-172.67.225.114-0845"
@@ -14,62 +20,30 @@ proxies:
       Host: hk03s.c142-946b-a8a5.cfd
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: "\u5B89\u5FBD\u7701\u6EC1\u5DDE\u5E02 \u7535\u4FE1"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0422"
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
-- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: "\U0001F1E8\U0001F1F3 \u5B89\u5FBD\u7701\u6EC1\u5DDE\u5E02 \u7535\u4FE1"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52612
   server: hk02.x.quickcht3.club
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\u5B89\u5FBD\u7701\u6EC1\u5DDE\u5E02 \u7535\u4FE1"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  type: ss
 - cipher: aes-256-cfb
-  name: Portugal_Lisbon_ss_1188
+  name: TW_speednode_0055
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 185.231.233.112
+  server: 154.223.20.79
   type: ss
-- name: "\U0001F3C1RELAY-104.21.15.232-1476"
-  network: ws
-  password: 2fec7227-9abe-46f2-af18-78302b836c45
-  port: 443
-  server: 104.21.15.232
-  skip-cert-verify: false
-  sni: 3r.2030.pp.ua
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3r.2030.pp.ua
-    path: '%2FXjTi1NYwi9A2bckpqdDoAgkondVWl'
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-318"
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-headers:
-    Host: zxjp-b.tkong.cc
-  ws-path: /
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  name: "\U0001F1E8\U0001F1F3CN-61.172.235.22-163"
   password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11008
-  server: 120.232.150.248
-  tfo: false
+  port: 11001
+  server: 61.172.235.22
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -79,6 +53,19 @@ proxies:
   server: 61.172.235.22
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-0857"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  type: ss
+- name: "2,13|\u65E5\u672C6|@ripaojiedian"
+  network: tcp
+  password: '74260705449889500'
+  port: 443
+  server: grown-doberman.shiner427.skin
+  skip-cert-verify: true
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
   password: ee19fceb-cedc-4832-b460-fccf24fdc8be
