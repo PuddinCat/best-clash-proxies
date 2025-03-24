@@ -1,21 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-172.67.225.114-0845"
-  network: ws
-  port: 80
-  server: 520dc7.c142-946b-a8a5.cfd
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
-  ws-opts:
-    headers:
-      Host: hk03s.c142-946b-a8a5.cfd
-    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0422"
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 \u5B89\u5FBD\u7701\u6EC1\u5DDE\u5E02 \u7535\u4FE1"
+  name: "\u5B89\u5FBD\u7701\u6EC1\u5DDE\u5E02 \u7535\u4FE1"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52612
   server: hk02.x.quickcht3.club
@@ -31,6 +22,57 @@ proxies:
     headers:
       Host: 1kM.HUaNgSHang.pP.UA
     path: /lXENb74xF4ylXngZ
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-1490"
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- client-fingerprint: chrome
+  name: "15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  network: ws
+  password: f2s539
+  port: 443
+  server: aws-us-dallas-1.f1cflined.com
+  skip-cert-verify: false
+  sni: aws-us-dallas-1.f1cflined.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aws-us-dallas-1.f1cflined.com
+    path: /f1rocket
+- name: "\U0001F3C1RELAY-172.67.216.95-1437"
+  network: ws
+  password: f2s539
+  port: 443
+  server: aws-us-dallas-1.f1cflined.com
+  skip-cert-verify: false
+  sni: aws-us-dallas-1.f1cflined.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aws-us-dallas-1.f1cflined.com
+    path: '%2Ff1rocket'
+- name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 3"
+  network: ws
+  password: f2s539
+  port: 443
+  server: aws-us-dallas-1.f1cflined.com
+  skip-cert-verify: true
+  sni: aws-us-dallas-1.f1cflined.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aws-us-dallas-1.f1cflined.com
+    path: /f1rocket
 - name: "13|\u7F8E\u56FD3|@ripaojiedian"
   network: ws
   password: f2s539
@@ -43,44 +85,23 @@ proxies:
     headers:
       Host: aws-us-dallas-1.f1cflined.com
     path: '%2Ff1rocket'
-- name: "\U0001F1EF\U0001F1F5JP-85.234.83.67-358"
-  password: 74260705449889500
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 3"
+  network: ws
+  password: f2s539
   port: 443
-  server: grown-doberman.shiner427.skin
+  server: aws-us-dallas-1.f1cflined.com
   skip-cert-verify: true
-  sni: grown-doberman.shiner427.skin
+  sni: aws-us-dallas-1.f1cflined.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11008
-  server: 120.232.150.248
-  tfo: false
-  type: ss
-- name: "12|\U0001F1EF\U0001F1F5 \u65E5\u672C6|@ripaojiedian"
+  ws-opts:
+    headers:
+      Host: aws-us-dallas-1.f1cflined.com
+    path: /f1rocket
+- name: "2,13|\u65E5\u672C6|@ripaojiedian"
+  network: tcp
   password: '74260705449889500'
   port: 443
   server: grown-doberman.shiner427.skin
-  skip-cert-verify: false
-  sni: grown-doberman.shiner427.skin
+  skip-cert-verify: true
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: "\u5B89\u5FBD\u7701\u6EC1\u5DDE\u5E02 \u7535\u4FE1"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11008
-  server: 120.232.150.248
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: Portugal_Lisbon_ss_1188
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
-  type: ss
