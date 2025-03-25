@@ -1,6 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: China_None_vmess_1194
+  port: 55754
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: "\U0001F1ED\U0001F1F0HK-43.198.184.179-024"
+  password: c017fb27-a4b4-48f9-80f6-2bdb504adf75
+  port: 42168
+  server: 35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz
+  skip-cert-verify: true
+  sni: data.bilibili.com
+  type: trojan
+- alterId: 0
+  cipher: auto
   h2-opts: {}
   http-opts: {}
   name: "VMESS-\u672A\u77E5>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-520dc7.c142-946b-a8a5.cfd:80"
@@ -15,14 +30,6 @@ proxies:
     headers:
       HOST: hk03s.c142-946b-a8a5.cfd
     path: /
-- cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-54.191.187.21:443"
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 54.191.187.21
-  type: ssr
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-104.21.96.1-5785"
@@ -38,26 +45,6 @@ proxies:
     headers:
       Host: usvmess.rnmcnm.com
     path: /qwertyuiop
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1NL-85.239.151.31-015"
-  password: 2hQK08e2CefwEOKIOnLS0O
-  port: 24596
-  server: 85.239.151.31
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: China_None_vmess_1194
-  port: 55754
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-0845"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  type: ss
 - alterId: 2
   cipher: auto
   h2-opts: {}
@@ -76,6 +63,12 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-0845"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  type: ss
 - alterId: 2
   cipher: auto
   name: China_None_vmess_1190
@@ -108,10 +101,21 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- name: "\U0001F1ED\U0001F1F0HK-43.198.184.179-024"
-  password: c017fb27-a4b4-48f9-80f6-2bdb504adf75
-  port: 42168
-  server: 35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz
+- cipher: aes-256-cfb
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-54.191.187.21:443"
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 54.191.187.21
+  type: ssr
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 425 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
   skip-cert-verify: true
-  sni: data.bilibili.com
-  type: trojan
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
