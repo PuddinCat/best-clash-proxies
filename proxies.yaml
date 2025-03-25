@@ -1,15 +1,45 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_17"
-  password: amazonskr05
-  port: 443
-  server: 54.244.128.249
-  type: ss
+- name: "\U0001F1ED\U0001F1F0HK-43.198.184.179-024"
+  password: c017fb27-a4b4-48f9-80f6-2bdb504adf75
+  port: 42168
+  server: 35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz
+  skip-cert-verify: true
+  sni: data.bilibili.com
+  type: trojan
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 \u6E56\u5317\u7701 \u79FB\u52A8(\u5168\u7701\u901A\u7528\
+    )"
+  password: c017fb27-a4b4-48f9-80f6-2bdb504adf75
+  port: 42168
+  server: 35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz
+  skip-cert-verify: true
+  sni: data.bilibili.com
+  type: trojan
 - cipher: aes-256-cfb
   name: "\U0001F1F5\U0001F1F9PT-185.231.233.112-347"
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.231.233.112
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-7892"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_17"
+  password: amazonskr05
+  port: 443
+  server: 54.244.128.249
   type: ss
 - alterId: 0
   cipher: auto
@@ -27,55 +57,33 @@ proxies:
     headers:
       HOST: hk03s.c142-946b-a8a5.cfd
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-262"
-  network: tcp
-  port: 51182
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.40
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\u8282\u70B9\u65E5\u671F\uFF1A03-25"
-  password: 2hQK08e2CefwEOKIOnLS0O
-  port: 24596
-  server: 85.239.151.31
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11008
-  server: 120.232.150.248
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-0845"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52612
   server: hk02.x.quickcht3.club
   type: ss
-- name: "\U0001F1ED\U0001F1F0HK-43.198.184.179-024"
-  password: c017fb27-a4b4-48f9-80f6-2bdb504adf75
-  port: 42168
-  server: 35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz
-  skip-cert-verify: true
-  sni: data.bilibili.com
-  type: trojan
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 \u6E56\u5317\u7701 \u79FB\u52A8(\u5168\u7701\u901A\u7528\
-    )"
-  password: c017fb27-a4b4-48f9-80f6-2bdb504adf75
-  port: 42168
-  server: 35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz
-  skip-cert-verify: true
-  sni: data.bilibili.com
-  type: trojan
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-0769"
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\u8282\u70B9\u65E5\u671F\uFF1A03-25"
+  password: 2hQK08e2CefwEOKIOnLS0O
+  port: 24596
+  server: 85.239.151.31
+  type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: "\U0001F1E8\U0001F1F3\u6D77\u5357"
