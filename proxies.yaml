@@ -1,0 +1,83 @@
+proxies:
+- cipher: aes-256-gcm
+  name: "\u5C71\u4E1C\u7701\u9752\u5C9B\u5E02 \u8054\u901A"
+  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
+  port: 41705
+  server: zf1.10101251.xyz
+  type: ss
+- name: "\u82F1\u56FD V2CROSS.COM"
+  password: 74260704627805900
+  port: 443
+  server: 85.234.83.214
+  skip-cert-verify: true
+  sni: many-macaque.shiner427.skin
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\u8282\u70B9\u65E5\u671F\uFF1A03-26"
+  port: 51039
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "\u5E7F\u4E1C\u7701\u6E5B\u6C5F\u5E02 \u79FB\u52A8"
+  port: 40059
+  server: 120.198.71.216
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 4"
+  port: 40105
+  server: 120.232.153.63
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "\u4E2D\u56FD\u3010\u673A\u573A\u63A8\u8350\uFF1Ahttps://socks.news\u3011\
+    33"
+  port: 51052
+  server: 120.232.153.123
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "\u4E2D\u56FD\u3010\u673A\u573A\u63A8\u8350\uFF1Ahttps://socks.news\u30117"
+  port: 34042
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- down: 100 Mbps
+  name: HySlot2
+  obfs: dcee89a9-b499-43e2-a994-9a58b063edd0
+  port: 44301
+  protocol: udp
+  server: hyslot2.raywhat.xyz
+  type: hysteria
+  up: 30 Mbps
+- alterId: 0
+  cipher: auto
+  h2-opts:
+    headers:
+      Host: slot3.raywhat.xyz
+    path: /b0c66d14-a0ab
+  name: Slot3
+  network: h2
+  port: 443
+  server: slot3.raywhat.xyz
+  tls: true
+  type: vmess
+  uuid: 64887a16-468c-4e98-b064-b82b01662727
+- cipher: chacha20-ietf-poly1305
+  name: "\u4E2D\u56FD\u3010\u673A\u573A\u63A8\u8350\uFF1Ahttps://socks.news\u3011\
+    38"
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 11002
+  server: 183.232.229.164
+  type: ss
