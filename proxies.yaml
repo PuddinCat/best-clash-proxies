@@ -1,4 +1,11 @@
 proxies:
+- name: "13|\u65E5\u672C8|@ripaojiedian"
+  network: tcp
+  password: '74260704627805900'
+  port: 443
+  server: gorgeous-gopher.shiner427.skin
+  skip-cert-verify: true
+  type: trojan
 - name: United Kingdom_Epping_trojan_1191
   password: '74260704627805900'
   port: 443
@@ -8,71 +15,17 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 2"
-  port: 34042
-  server: 120.232.153.40
+  name: "\U0001F1E8\U0001F1F3CN-120.198.71.214-264"
+  network: tcp
+  port: 34093
+  server: 120.198.71.214
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: "13|\u65E5\u672C8|@ripaojiedian"
-  network: tcp
-  password: '74260704627805900'
-  port: 443
-  server: gorgeous-gopher.shiner427.skin
-  skip-cert-verify: true
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-017"
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-headers:
-    Host: zxjp-b.tkong.cc
+    Host: 120.198.71.214
   ws-path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8011"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: China_None_vmess_1165
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- name: "\U0001F1EF\U0001F1F5JP-85.234.83.55-167"
-  password: 74260704627805900
-  port: 443
-  server: gorgeous-gopher.shiner427.skin
-  skip-cert-verify: true
-  sni: gorgeous-gopher.shiner427.skin
-  type: trojan
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-260"
@@ -88,14 +41,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: "\u8282\u70B9\u65E5\u671F\uFF1A03-26"
-  port: 51039
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-269"
   network: tcp
   port: 56901
@@ -107,3 +52,42 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
+- name: "\U0001F1EF\U0001F1F5JP-85.234.83.55-167"
+  password: 74260704627805900
+  port: 443
+  server: gorgeous-gopher.shiner427.skin
+  skip-cert-verify: true
+  sni: gorgeous-gopher.shiner427.skin
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 2"
+  port: 34042
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 US 357 \u2192 tg@nicevpn123"
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.110.1.197
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 185 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: "\U0001F1ED\U0001F1F0HK-16.163.99.113-053"
+  password: c017fb27-a4b4-48f9-80f6-2bdb504adf75
+  port: 42168
+  server: 35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz
+  skip-cert-verify: true
+  sni: data.bilibili.com
+  type: trojan
