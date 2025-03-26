@@ -1,26 +1,10 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 2"
-  port: 34042
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: "13|\u65E5\u672C8|@ripaojiedian"
-  network: tcp
-  password: '74260704627805900'
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-43.203.249.105-2312"
+  password: amazonskr05
   port: 443
-  server: gorgeous-gopher.shiner427.skin
-  skip-cert-verify: true
-  type: trojan
-- name: "\U0001F1EF\U0001F1F5JP-85.234.83.55-167"
-  password: 74260704627805900
-  port: 443
-  server: gorgeous-gopher.shiner427.skin
-  skip-cert-verify: true
-  sni: gorgeous-gopher.shiner427.skin
-  type: trojan
+  server: 43.203.249.105
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-269"
@@ -34,13 +18,22 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- name: United Kingdom_Epping_trojan_1191
-  password: '74260704627805900'
-  port: 443
-  server: gorgeous-gopher.shiner427.skin
-  skip-cert-verify: false
-  sni: gorgeous-gopher.shiner427.skin
-  type: trojan
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: "VMESS-\u672A\u77E5>\u65B0\u52A0\u5761-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-172.64.69.230:80"
+  network: ws
+  port: 80
+  server: 172.64.69.230
+  servername: sg04s.c32d-15b2-f027.sbs
+  skip-cert-verify: true
+  type: vmess
+  uuid: dfc6433f-48b2-4226-8c51-3e0c6cf1b0f6
+  ws-opts:
+    headers:
+      HOST: sg04s.c32d-15b2-f027.sbs
+    path: /
 - cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8 US 357 \u2192 tg@nicevpn123"
   password: g5MeD6Ft3CWlJId
@@ -48,26 +41,21 @@ proxies:
   server: 38.110.1.197
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-0889"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8011"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
+  name: China_None_vmess_1174
+  port: 55754
+  server: 183.236.51.38
+  tls: false
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: "\U0001F1ED\U0001F1F0HK-16.163.99.113-060"
+  password: c017fb27-a4b4-48f9-80f6-2bdb504adf75
+  port: 42168
+  server: 35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz
+  skip-cert-verify: true
+  sni: data.bilibili.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.198.71.214-264"
@@ -81,10 +69,29 @@ proxies:
   ws-headers:
     Host: 120.198.71.214
   ws-path: /
-- name: "\U0001F1ED\U0001F1F0HK-16.163.99.113-053"
-  password: c017fb27-a4b4-48f9-80f6-2bdb504adf75
-  port: 42168
-  server: 35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.178-0320"
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 45.87.175.178
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-260"
+  network: tcp
+  port: 55754
+  server: 183.236.51.38
   skip-cert-verify: true
-  sni: data.bilibili.com
-  type: trojan
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1EE\U0001F1F8 IS 1 \u2192 tg@nicevpn123"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.235.49.152
+  type: ss
+  udp: true
