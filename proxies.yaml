@@ -1,24 +1,4 @@
 proxies:
-- name: "12|\U0001F1EF\U0001F1F5 \u65E5\u672C8|@ripaojiedian"
-  password: '74260704627805900'
-  port: 443
-  server: gorgeous-gopher.shiner427.skin
-  skip-cert-verify: false
-  sni: gorgeous-gopher.shiner427.skin
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 3"
-  network: ws
-  port: 8443
-  server: Support.onetwothree123.ir
-  tls: true
-  type: vmess
-  uuid: 001ad3c0-18b2-4f2d-ab44-194066e345f8
-  ws-opts:
-    headers:
-      Host: support.onetwothree123.ir
-    path: "/\U0001F194@M3HDIO1"
 - alterId: 0
   cipher: auto
   name: United States_None_vmess_1129
@@ -49,6 +29,35 @@ proxies:
     headers:
       Host: sg04s.c32d-15b2-f027.sbs
     path: /
+- name: "12|\U0001F1EF\U0001F1F5 \u65E5\u672C8|@ripaojiedian"
+  password: '74260704627805900'
+  port: 443
+  server: gorgeous-gopher.shiner427.skin
+  skip-cert-verify: false
+  sni: gorgeous-gopher.shiner427.skin
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 3"
+  network: ws
+  port: 8443
+  server: Support.onetwothree123.ir
+  tls: true
+  type: vmess
+  uuid: 001ad3c0-18b2-4f2d-ab44-194066e345f8
+  ws-opts:
+    headers:
+      Host: support.onetwothree123.ir
+    path: "/\U0001F194@M3HDIO1"
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3\u5B89\u5FBD"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - alterId: '0'
   cipher: auto
   name: China_None_vmess_1127
@@ -57,30 +66,6 @@ proxies:
   server: 183.236.51.38
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "f4f04d85d66f475b8e1c95279c8dbf1e_@_\U0001F47E32@oneclickvpnkeys"
-  network: ws
-  port: 2053
-  server: ny1dash.890601.pp.ua
-  servername: ny1.890601.pp.ua
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 05965003-8632-43b2-c9c0-12c1f2abff57
-  ws-opts:
-    headers:
-      host: ny1.890601.pp.ua
-    path: /ny1lj
-- name: "\U0001F1ED\U0001F1F0HK-43.198.248.59-059"
-  password: c017fb27-a4b4-48f9-80f6-2bdb504adf75
-  port: 42168
-  server: 35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz
-  skip-cert-verify: true
-  sni: data.bilibili.com
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -98,29 +83,38 @@ proxies:
     headers:
       host: ny1.890601.pp.ua
     path: /sdfg
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "5611d884dead4d7aa8b74929c8e27455_@_\U0001F47E30@oneclickvpnkeys"
-  network: ws
-  port: 2083
-  server: ny1dash.890601.pp.ua
-  servername: ny1.890601.pp.ua
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 05965003-8632-43b2-c9c0-12c1f2abff57
-  ws-opts:
-    headers:
-      host: ny1.890601.pp.ua
-    path: /ny1sublj
 - cipher: chacha20-ietf-poly1305
   name: "\u5B89\u5FBD\u7701\u6EC1\u5DDE\u5E02 \u7535\u4FE1"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52611
   server: hk01.x.quickcht3.club
   type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: China_Wuhan_ss_1119
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: United States_None_vmess_1123
+  network: ws
+  port: 2087
+  server: 172.67.212.59
+  servername: ny1.890601.pp.ua
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 05965003-8632-43b2-c9c0-12c1f2abff57
+  ws-opts:
+    headers:
+      Host: ny1.890601.pp.ua
+    path: /sdf
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
