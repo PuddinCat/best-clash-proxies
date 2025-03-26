@@ -1,63 +1,33 @@
 proxies:
-- cipher: aes-128-gcm
-  name: China_Guangzhou_ss_1169
-  password: VMhGp5wEIyCDf90T
-  port: 56277
-  server: gy01.hunheiydd.xyz
-  type: ss
-- client-fingerprint: chrome
-  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C\u4E1C\u4EAC\u90FD cogentco.com 2"
-  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
-  port: 443
-  server: visual.superpokemon.com
-  sni: visual.superpokemon.com
-  type: trojan
 - cipher: aes-256-cfb
   name: "\U0001F1FA\U0001F1F8US-54.244.128.249-0679"
   password: amazonskr05
   port: 443
   server: 54.244.128.249
   type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: "VMESS-\u672A\u77E5>\u65B0\u52A0\u5761-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-172.64.69.230:80"
-  network: ws
-  port: 80
-  server: 172.64.69.230
-  servername: sg04s.c32d-15b2-f027.sbs
-  skip-cert-verify: true
-  type: vmess
-  uuid: dfc6433f-48b2-4226-8c51-3e0c6cf1b0f6
-  ws-opts:
-    headers:
-      HOST: sg04s.c32d-15b2-f027.sbs
-    path: /
-- name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-0878"
-  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
-  port: 443
-  server: visual.superpokemon.com
-  skip-cert-verify: false
-  sni: visual.superpokemon.com
-  type: trojan
+- cipher: aes-128-gcm
+  name: China_Guangzhou_ss_1169
+  password: VMhGp5wEIyCDf90T
+  port: 56277
+  server: gy01.hunheiydd.xyz
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "d42334a600884b30a5759f21d30b1323_@_\U0001F380\U0001D440\U0001D438\U0001D43B\
+  name: "2c09c497a9ba4bc8a87156ef50d173fa_@_\U0001F380\U0001D440\U0001D438\U0001D43B\
     \U0001D49F\U0001D43C\U0001F380"
   network: ws
-  port: 2087
+  port: 443
   server: tasnim.itn24.ir
-  servername: TASNIM.iTn24.ir
+  servername: taSNIm.iTN24.Ir
   tls: true
   type: vmess
   udp: false
   uuid: 28886c09-721a-447d-a82e-72c5500858f3
   ws-opts:
     headers:
-      host: TASNIM.iTn24.ir
+      host: taSNIm.iTN24.Ir
     path: /YfZn2pf0gcLzI5m8ZghCC5
 - alterId: 0
   cipher: auto
@@ -77,12 +47,47 @@ proxies:
     headers:
       host: TAsNIM.ITn24.IR
     path: /YfZn2pf0gcLzI5m8ZghCC5
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.171-0342"
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.171
-  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: "VMESS-\u672A\u77E5>\u65B0\u52A0\u5761-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-172.64.69.230:80"
+  network: ws
+  port: 80
+  server: 172.64.69.230
+  servername: sg04s.c32d-15b2-f027.sbs
+  skip-cert-verify: true
+  type: vmess
+  uuid: dfc6433f-48b2-4226-8c51-3e0c6cf1b0f6
+  ws-opts:
+    headers:
+      HOST: sg04s.c32d-15b2-f027.sbs
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C\u4E1C\u4EAC\u90FD cogentco.com 2"
+  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
+  port: 443
+  server: visual.superpokemon.com
+  sni: visual.superpokemon.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "7315a3f93c57431e8429ca5b8ee52f41_@_\U0001F380\U0001D440\U0001D438\U0001D43B\
+    \U0001D49F\U0001D43C\U0001F380"
+  network: ws
+  port: 2053
+  server: tasnim.itn24.ir
+  servername: TasNIm.ITN24.IR
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 28886c09-721a-447d-a82e-72c5500858f3
+  ws-opts:
+    headers:
+      host: TasNIm.ITN24.IR
+    path: /YfZn2pf0gcLzI5m8ZghCC5
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -105,17 +110,23 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "7315a3f93c57431e8429ca5b8ee52f41_@_\U0001F380\U0001D440\U0001D438\U0001D43B\
+  name: "d42334a600884b30a5759f21d30b1323_@_\U0001F380\U0001D440\U0001D438\U0001D43B\
     \U0001D49F\U0001D43C\U0001F380"
   network: ws
-  port: 2053
+  port: 2087
   server: tasnim.itn24.ir
-  servername: TasNIm.ITN24.IR
+  servername: TASNIM.iTn24.ir
   tls: true
   type: vmess
   udp: false
   uuid: 28886c09-721a-447d-a82e-72c5500858f3
   ws-opts:
     headers:
-      host: TasNIm.ITN24.IR
+      host: TASNIM.iTn24.ir
     path: /YfZn2pf0gcLzI5m8ZghCC5
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.171-0342"
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.171
+  type: ss
