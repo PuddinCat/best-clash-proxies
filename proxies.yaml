@@ -25,67 +25,6 @@ proxies:
   tls: false
   type: vmess
   uuid: dd9a594a-0572-4365-84da-e6dc8022c05a
-- cipher: aes-256-gcm
-  name: "12|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  password: dfc78593808d4f68
-  port: 19111
-  server: 45.130.147.138
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_1129
-  network: ws
-  port: 80
-  raw:
-    add: 172.64.69.230
-    aid: 0
-    alpn: ''
-    fp: ''
-    host: sg04s.c32d-15b2-f027.sbs
-    id: dfc6433f-48b2-4226-8c51-3e0c6cf1b0f6
-    net: ws
-    path: /
-    port: 80
-    ps: "\U0001F525Join+Telegram:@FarahVPN\U0001F7E3"
-    scy: ''
-    sni: ''
-    tls: ''
-    type: auto
-    v: null
-  server: 172.64.69.230
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dfc6433f-48b2-4226-8c51-3e0c6cf1b0f6
-  ws-opts:
-    headers:
-      Host: sg04s.c32d-15b2-f027.sbs
-    path: /
-- name: "13|\u65E5\u672C7|@ripaojiedian"
-  network: tcp
-  password: '74260704627805900'
-  port: 443
-  server: driven-tiger.shiner427.skin
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_1123
-  network: ws
-  port: 2087
-  server: 172.67.212.59
-  servername: ny1.890601.pp.ua
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 05965003-8632-43b2-c9c0-12c1f2abff57
-  ws-opts:
-    headers:
-      Host: ny1.890601.pp.ua
-    path: /sdf
 - name: "12|\U0001F1EF\U0001F1F5 \u65E5\u672C8|@ripaojiedian"
   password: '74260704627805900'
   port: 443
@@ -94,53 +33,58 @@ proxies:
   sni: gorgeous-gopher.shiner427.skin
   type: trojan
 - cipher: aes-256-gcm
-  name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  password: 3b9dde2a07a65bb0
+  name: "12|\U0001F1EF\U0001F1F5 \u65E5\u672C6|@ripaojiedian"
+  password: b6a2f7dde84e7a12
   port: 19111
-  server: 212.192.15.98
+  server: 45.130.146.37
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8080"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
+- cipher: aes-256-cfb
+  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0483"
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
+  type: ss
+- cipher: aes-256-gcm
+  name: "12|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  password: dfc78593808d4f68
+  port: 19111
+  server: 45.130.147.138
+  tfo: false
+  type: ss
+- name: "12|\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  password: '74260704627805900'
+  port: 443
+  server: capital-hyena.shiner427.skin
   skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
+  sni: capital-hyena.shiner427.skin
+  type: trojan
+- name: "12|\U0001F1EF\U0001F1F5 \u65E5\u672C7|@ripaojiedian"
+  password: '74260704627805900'
+  port: 443
+  server: driven-tiger.shiner427.skin
+  skip-cert-verify: false
+  sni: driven-tiger.shiner427.skin
+  type: trojan
+- name: "13|\u65E5\u672C7|@ripaojiedian"
+  network: tcp
+  password: '74260704627805900'
+  port: 443
+  server: driven-tiger.shiner427.skin
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "5611d884dead4d7aa8b74929c8e27455_@_\U0001F47E30@oneclickvpnkeys"
-  network: ws
-  port: 2083
-  server: ny1dash.890601.pp.ua
-  servername: ny1.890601.pp.ua
+  cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3\u5B89\u5FBD"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  skip-cert-verify: true
   tls: true
-  type: vmess
-  udp: false
-  uuid: 05965003-8632-43b2-c9c0-12c1f2abff57
-  ws-opts:
-    headers:
-      host: ny1.890601.pp.ua
-    path: /ny1sublj
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 3"
-  network: ws
-  port: 8443
-  server: Support.onetwothree123.ir
-  tls: true
-  type: vmess
-  uuid: 001ad3c0-18b2-4f2d-ab44-194066e345f8
-  ws-opts:
-    headers:
-      Host: support.onetwothree123.ir
-    path: "/\U0001F194@M3HDIO1"
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\u5B89\u5FBD\u7701\u6EC1\u5DDE\u5E02 \u7535\u4FE1"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  type: ss
