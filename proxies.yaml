@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-gcm
+  name: "\u5C71\u4E1C\u7701\u9752\u5C9B\u5E02 \u8054\u901A"
+  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
+  port: 41705
+  server: zf1.10101251.xyz
+  type: ss
 - name: "\u82F1\u56FD V2CROSS.COM"
   password: 74260704627805900
   port: 443
@@ -6,25 +12,19 @@ proxies:
   skip-cert-verify: true
   sni: many-macaque.shiner427.skin
   type: trojan
-- cipher: aes-256-gcm
-  name: "\u5C71\u4E1C\u7701\u9752\u5C9B\u5E02 \u8054\u901A"
-  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
-  port: 41705
-  server: zf1.10101251.xyz
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 4"
-  port: 40105
-  server: 120.232.153.63
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: "\u5E7F\u4E1C\u7701\u6E5B\u6C5F\u5E02 \u79FB\u52A8"
   port: 40059
   server: 120.198.71.216
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 4"
+  port: 40105
+  server: 120.232.153.63
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -36,19 +36,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: "\u4E2D\u56FD\u3010\u673A\u573A\u63A8\u8350\uFF1Ahttps://socks.news\u3011\
-    37"
-  password: VMhGp5wEIyCDf90T
-  port: 56226
-  server: bsuqian01.dynu.net
-  type: ss
+- down: 100 Mbps
+  name: HySlot3
+  obfs: 9aaeee3f-a2ec-4b2a-b98c-266fbb5da0b2
+  port: 44301
+  protocol: udp
+  server: hyslot3.raywhat.xyz
+  type: hysteria
+  up: 30 Mbps
 - alterId: 0
   cipher: auto
   name: "\u4E2D\u56FD\u3010\u673A\u573A\u63A8\u8350\uFF1Ahttps://socks.news\u3011\
-    21"
-  port: 56901
-  server: 183.236.51.38
+    33"
+  port: 51052
+  server: 120.232.153.123
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -65,25 +66,21 @@ proxies:
   cipher: auto
   h2-opts:
     headers:
-      Host: slot2.raywhat.xyz
-    path: /b0c66d14-a0ab
-  name: Slot2
+      Host: slot5.raywhat.xyz
+    path: /57e71947-7827
+  name: Slot5
   network: h2
   port: 443
-  server: slot2.raywhat.xyz
+  server: slot5.raywhat.xyz
   tls: true
   type: vmess
-  uuid: 64887a16-468c-4e98-b064-b82b01662727
+  uuid: 4d3b4011-7363-4a64-9cb4-51ca301cab87
 - alterId: 0
   cipher: auto
-  h2-opts:
-    headers:
-      Host: slot4.raywhat.xyz
-    path: /29275bea-6373
-  name: Slot4
-  network: h2
-  port: 443
-  server: slot4.raywhat.xyz
-  tls: true
+  name: "\u4E2D\u56FD\u3010\u673A\u573A\u63A8\u8350\uFF1Ahttps://socks.news\u3011\
+    29"
+  port: 55754
+  server: 183.236.51.38
+  tls: false
   type: vmess
-  uuid: d20df4c7-82a9-4196-a06d-93cb35822726
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
