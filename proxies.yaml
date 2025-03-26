@@ -12,6 +12,27 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
+- name: United Kingdom_Epping_trojan_1191
+  password: '74260704627805900'
+  port: 443
+  server: gorgeous-gopher.shiner427.skin
+  skip-cert-verify: false
+  sni: gorgeous-gopher.shiner427.skin
+  type: trojan
+- name: United Kingdom_Epping_trojan_1199
+  network: tcp
+  password: '74260704627805900'
+  port: 443
+  server: gorgeous-gopher.shiner427.skin
+  skip-cert-verify: true
+  type: trojan
+- name: "\U0001F1ED\U0001F1F0HK-16.163.99.113-069"
+  password: c017fb27-a4b4-48f9-80f6-2bdb504adf75
+  port: 42168
+  server: 35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz
+  skip-cert-verify: true
+  sni: data.bilibili.com
+  type: trojan
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -35,13 +56,6 @@ proxies:
   server: 38.110.1.197
   type: ss
   udp: true
-- name: United Kingdom_Epping_trojan_1199
-  network: tcp
-  password: '74260704627805900'
-  port: 443
-  server: gorgeous-gopher.shiner427.skin
-  skip-cert-verify: true
-  type: trojan
 - name: "\U0001F1EF\U0001F1F5JP-85.234.83.55-252"
   password: 74260704627805900
   port: 443
@@ -49,61 +63,23 @@ proxies:
   skip-cert-verify: true
   sni: gorgeous-gopher.shiner427.skin
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-0889"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F9\U0001F1FCTW-185.189.160.98-0434"
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
+  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F3C1RELAY-172.67.202.155-5883"
-  network: ws
-  port: 443
-  server: Support.onetwothree123.ir
-  servername: support.onetwothree123.ir
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: d6d1a647-36ab-4bf4-c392-3da17a2b99ba
-  ws-opts:
-    headers:
-      Host: Support.onetwothree123.ir
-    path: /57664/@M3HDIO1
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-172.67.202.155-5881"
-  network: ws
-  port: 8443
-  server: Support.onetwothree123.ir
-  servername: support.onetwothree123.ir
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 001ad3c0-18b2-4f2d-ab44-194066e345f8
-  ws-opts:
-    headers:
-      Host: Support.onetwothree123.ir
-    path: "/\U0001F194@M3HDIO1"
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-141"
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-headers:
-    Host: zxjp-b.tkong.cc
-  ws-path: /
-- name: United Kingdom_Epping_trojan_1191
-  password: '74260704627805900'
-  port: 443
-  server: gorgeous-gopher.shiner427.skin
-  skip-cert-verify: false
-  sni: gorgeous-gopher.shiner427.skin
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-255"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-269"
   network: tcp
-  port: 51039
+  port: 56901
   server: 183.236.51.38
   skip-cert-verify: true
   tls: false
