@@ -1,6 +1,97 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: Germany_Frankfurt am Main_vmess_1111
+  network: tcp
+  port: 56635
+  raw:
+    add: 185.231.59.202
+    aid: null
+    alpn: ''
+    fp: ''
+    host: ''
+    id: dd9a594a-0572-4365-84da-e6dc8022c05a
+    net: tcp
+    path: ''
+    port: 56635
+    ps: "\U0001F525Join+Telegram:@FarahVPN\U0001F7E3"
+    scy: auto
+    sni: ''
+    tls: none
+    type: none
+    v: '2'
+  server: 185.231.59.202
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dd9a594a-0572-4365-84da-e6dc8022c05a
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8080"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "5611d884dead4d7aa8b74929c8e27455_@_\U0001F47E30@oneclickvpnkeys"
+  network: ws
+  port: 2083
+  server: ny1dash.890601.pp.ua
+  servername: ny1.890601.pp.ua
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 05965003-8632-43b2-c9c0-12c1f2abff57
+  ws-opts:
+    headers:
+      host: ny1.890601.pp.ua
+    path: /ny1sublj
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "4e223aee02974690b2e6c26344bde82f_@_\U0001F47E28@oneclickvpnkeys"
+  network: ws
+  port: 2096
+  server: ny1dash.890601.pp.ua
+  servername: ny1.890601.pp.ua
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 05965003-8632-43b2-c9c0-12c1f2abff57
+  ws-opts:
+    headers:
+      host: ny1.890601.pp.ua
+    path: /sdfg
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "f4f04d85d66f475b8e1c95279c8dbf1e_@_\U0001F47E32@oneclickvpnkeys"
+  network: ws
+  port: 2053
+  server: ny1dash.890601.pp.ua
+  servername: ny1.890601.pp.ua
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 05965003-8632-43b2-c9c0-12c1f2abff57
+  ws-opts:
+    headers:
+      host: ny1.890601.pp.ua
+    path: /ny1lj
+- alterId: 0
+  cipher: auto
   name: United States_None_vmess_1129
   network: ws
   port: 80
@@ -31,30 +122,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: Germany_Frankfurt am Main_vmess_1111
-  network: tcp
-  port: 56635
-  raw:
-    add: 185.231.59.202
-    aid: null
-    alpn: ''
-    fp: ''
-    host: ''
-    id: dd9a594a-0572-4365-84da-e6dc8022c05a
-    net: tcp
-    path: ''
-    port: 56635
-    ps: "\U0001F525Join+Telegram:@FarahVPN\U0001F7E3"
-    scy: auto
-    sni: ''
-    tls: none
-    type: none
-    v: '2'
-  server: 185.231.59.202
-  servername: ''
-  tls: false
+  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 4"
+  network: ws
+  port: 2083
+  server: 172.67.175.40
+  servername: support.farsonline24.ir
+  tls: true
   type: vmess
-  uuid: dd9a594a-0572-4365-84da-e6dc8022c05a
+  uuid: 1f00d4fc-1013-4950-e4c9-1f23946801a7
+  ws-opts:
+    headers:
+      Host: support.farsonline24.ir
+    path: "/\U0001F194@M3HDIO1"
 - cipher: aes-256-gcm
   name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   password: 2a117bd4077d9a53
@@ -62,41 +141,6 @@ proxies:
   server: 45.8.158.238
   tfo: false
   type: ss
-- name: "13|\u65E5\u672C7|@ripaojiedian"
-  network: tcp
-  password: '74260704627805900'
-  port: 443
-  server: driven-tiger.shiner427.skin
-  skip-cert-verify: true
-  type: trojan
-- name: "12|\U0001F1EF\U0001F1F5 \u65E5\u672C7|@ripaojiedian"
-  password: '74260704627805900'
-  port: 443
-  server: driven-tiger.shiner427.skin
-  skip-cert-verify: false
-  sni: driven-tiger.shiner427.skin
-  type: trojan
-- cipher: aes-256-gcm
-  name: "12|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  password: dfc78593808d4f68
-  port: 19111
-  server: 45.130.147.138
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 7"
-  network: ws
-  port: 2053
-  server: 172.67.159.56
-  servername: fk2-bash.890617.xyz
-  tls: true
-  type: vmess
-  uuid: feddc326-da70-4fab-95a9-8f98be6da633
-  ws-opts:
-    headers:
-      Host: fk2-1.890617.xyz
-    path: /fk2-1
 - cipher: aes-256-gcm
   name: "12|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   password: 3b9dde2a07a65bb0
@@ -104,24 +148,10 @@ proxies:
   server: 212.192.15.98
   tfo: false
   type: ss
-- name: "12|\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+- name: "12|\U0001F1EF\U0001F1F5 \u65E5\u672C7|@ripaojiedian"
   password: '74260704627805900'
   port: 443
-  server: capital-hyena.shiner427.skin
+  server: driven-tiger.shiner427.skin
   skip-cert-verify: false
-  sni: capital-hyena.shiner427.skin
+  sni: driven-tiger.shiner427.skin
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8080"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
