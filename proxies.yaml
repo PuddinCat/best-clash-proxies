@@ -12,32 +12,36 @@ proxies:
   ws-headers:
     Host: 120.232.153.40
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-269"
-  network: tcp
-  port: 56901
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- name: "13|\u65E5\u672C8|@ripaojiedian"
-  network: tcp
-  password: '74260704627805900'
-  port: 443
-  server: gorgeous-gopher.shiner427.skin
-  skip-cert-verify: true
-  type: trojan
 - name: "\U0001F1EF\U0001F1F5JP-85.234.83.55-182"
   password: 74260704627805900
   port: 443
   server: gorgeous-gopher.shiner427.skin
   skip-cert-verify: true
   type: trojan
+- name: "12|\U0001F1EF\U0001F1F5 \u65E5\u672C8|@ripaojiedian"
+  password: '74260704627805900'
+  port: 443
+  server: gorgeous-gopher.shiner427.skin
+  skip-cert-verify: false
+  sni: gorgeous-gopher.shiner427.skin
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "f4f04d85d66f475b8e1c95279c8dbf1e_@_\U0001F47E32@oneclickvpnkeys"
+  network: ws
+  port: 2053
+  server: ny1dash.890601.pp.ua
+  servername: ny1.890601.pp.ua
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 05965003-8632-43b2-c9c0-12c1f2abff57
+  ws-opts:
+    headers:
+      host: ny1.890601.pp.ua
+    path: /ny1lj
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-172.67.202.155-5883"
@@ -83,29 +87,37 @@ proxies:
       Host: support.onetwothree123.ir
     path: "/\U0001F194@M3HDIO1"
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-0889"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
+  name: China_None_ss_1142
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 11001
+  server: 61.172.235.22
+  tfo: false
   type: ss
-- name: "\U0001F1EF\U0001F1F5JP-85.234.83.55-252"
-  password: 74260704627805900
-  port: 443
-  server: gorgeous-gopher.shiner427.skin
-  skip-cert-verify: true
-  sni: gorgeous-gopher.shiner427.skin
-  type: trojan
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8011"
+  name: "\U0001F3C1RELAY-172.67.212.59-0898"
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
+  port: 2087
+  server: 172.67.212.59
+  servername: ny1.890601.pp.ua
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 05965003-8632-43b2-c9c0-12c1f2abff57
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
-    path: /
+      Host: ny1.890601.pp.ua
+    path: /sdf
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-260"
+  network: tcp
+  port: 55754
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
