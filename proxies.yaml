@@ -1,23 +1,46 @@
 proxies:
+- name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 3"
+  network: ws
+  password: 6040a753-e35b-4384-8713-96f3c639b621
+  port: 443
+  server: 172.67.204.22
+  sni: kju84.890602.XYZ
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kju84.890602.XYZ
+    path: /WxWOWO1YA9bs2HOmaeWimvT3
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E9\U0001F1EADE-185.231.59.202-014"
-  network: tcp
-  port: 56635
-  server: 185.231.59.202
-  skip-cert-verify: true
-  tls: false
+  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 2"
+  network: ws
+  port: 2083
+  server: 172.67.175.40
+  servername: support.farsonline24.ir
+  tls: true
   type: vmess
-  uuid: dd9a594a-0572-4365-84da-e6dc8022c05a
-  ws-headers:
-    Host: 185.231.59.202
-  ws-path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F5\U0001F1F9PT-185.231.233.112-0848"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
-  type: ss
+  uuid: 1f00d4fc-1013-4950-e4c9-1f23946801a7
+  ws-opts:
+    headers:
+      Host: support.farsonline24.ir
+    path: "/\U0001F194@M3HDIO1"
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "dcc805c6d7de4dc7ae902425aad3bae6_@_\U0001F47E40@oneclickvpnkeys"
+  network: ws
+  port: 2087
+  server: fk2-bash.890617.xyz
+  servername: fk2-1.890617.xyz
+  tls: true
+  type: vmess
+  udp: false
+  uuid: feddc326-da70-4fab-95a9-8f98be6da633
+  ws-opts:
+    headers:
+      host: fk2-1.890617.xyz
+    path: /fk2-1
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8080"
@@ -33,38 +56,42 @@ proxies:
       Host: zxjp-a.tkong.cc
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-0881"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.198.71.214-203"
-  network: tcp
-  port: 34093
-  server: 120.198.71.214
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_1186
+  name: China_None_ss_1183
   password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11008
-  server: 120.232.150.248
+  port: 11001
+  server: 61.172.235.22
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: "15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  name: "15|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11008
-  server: 120.232.150.248
+  port: 11001
+  server: 61.172.235.22
   tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "31e6ee9bb58d478a9751577452f93a4a_@_\U0001F47E39@oneclickvpnkeys"
+  network: ws
+  port: 2083
+  server: fk2-bash.890617.xyz
+  servername: fk2-1.890617.xyz
+  tls: true
+  type: vmess
+  udp: false
+  uuid: feddc326-da70-4fab-95a9-8f98be6da633
+  ws-opts:
+    headers:
+      host: fk2-1.890617.xyz
+    path: /fj2-1
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-0881"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
   type: ss
 - alterId: 0
   cipher: auto
@@ -87,10 +114,4 @@ proxies:
   server: hk01.x.quickcht3.club
   skip-cert-verify: true
   tls: true
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-61.172.235.22-392"
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11001
-  server: 61.172.235.22
   type: ss
