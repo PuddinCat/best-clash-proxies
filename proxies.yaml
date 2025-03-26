@@ -1,85 +1,23 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-260"
-  network: tcp
-  port: 55754
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-269"
-  network: tcp
-  port: 56901
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
 - cipher: aes-128-gcm
-  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
+  name: China_Guangzhou_ss_1169
   password: VMhGp5wEIyCDf90T
   port: 56277
   server: gy01.hunheiydd.xyz
   type: ss
+- client-fingerprint: chrome
+  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C\u4E1C\u4EAC\u90FD cogentco.com 2"
+  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
+  port: 443
+  server: visual.superpokemon.com
+  sni: visual.superpokemon.com
+  type: trojan
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-43.203.249.105-2312"
+  name: "\U0001F1FA\U0001F1F8US-54.244.128.249-0679"
   password: amazonskr05
   port: 443
-  server: 43.203.249.105
+  server: 54.244.128.249
   type: ss
-- alterId: 0
-  cipher: auto
-  name: China_None_vmess_1174
-  port: 55754
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: "\U0001F1ED\U0001F1F0HK-16.163.99.113-060"
-  password: c017fb27-a4b4-48f9-80f6-2bdb504adf75
-  port: 42168
-  server: 35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz
-  skip-cert-verify: true
-  sni: data.bilibili.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.198.71.214-264"
-  network: tcp
-  port: 34093
-  server: 120.198.71.214
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-172.67.159.56-0897"
-  network: ws
-  port: 2053
-  server: 172.67.159.56
-  servername: fk2-bash.890617.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: feddc326-da70-4fab-95a9-8f98be6da633
-  ws-opts:
-    headers:
-      Host: fk2-1.890617.xyz
-    path: /fk2-1
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -96,10 +34,88 @@ proxies:
     headers:
       HOST: sg04s.c32d-15b2-f027.sbs
     path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 US 357 \u2192 tg@nicevpn123"
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.110.1.197
+- name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-0878"
+  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
+  port: 443
+  server: visual.superpokemon.com
+  skip-cert-verify: false
+  sni: visual.superpokemon.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "d42334a600884b30a5759f21d30b1323_@_\U0001F380\U0001D440\U0001D438\U0001D43B\
+    \U0001D49F\U0001D43C\U0001F380"
+  network: ws
+  port: 2087
+  server: tasnim.itn24.ir
+  servername: TASNIM.iTn24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 28886c09-721a-447d-a82e-72c5500858f3
+  ws-opts:
+    headers:
+      host: TASNIM.iTn24.ir
+    path: /YfZn2pf0gcLzI5m8ZghCC5
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "72a21df9eac04a569e87349cab0f33fd_@_\U0001F380\U0001D440\U0001D438\U0001D43B\
+    \U0001D49F\U0001D43C\U0001F380"
+  network: ws
+  port: 2087
+  server: tasnim.itn24.ir
+  servername: TAsNIM.ITn24.IR
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 28886c09-721a-447d-a82e-72c5500858f3
+  ws-opts:
+    headers:
+      host: TAsNIM.ITn24.IR
+    path: /YfZn2pf0gcLzI5m8ZghCC5
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.171-0342"
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.171
   type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "b11b49fa927c4825959bbb79b8045412_@_\U0001F380\U0001D440\U0001D438\U0001D43B\
+    \U0001D49F\U0001D43C\U0001F380"
+  network: ws
+  port: 2087
+  server: mehrnews.itn24.ir
+  servername: MeHRNEWs.ItN24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 28886c09-721a-447d-a82e-72c5500858f3
+  ws-opts:
+    headers:
+      host: MeHRNEWs.ItN24.ir
+    path: /YfZn2pf0gcLzI5m8ZghCC5
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "7315a3f93c57431e8429ca5b8ee52f41_@_\U0001F380\U0001D440\U0001D438\U0001D43B\
+    \U0001D49F\U0001D43C\U0001F380"
+  network: ws
+  port: 2053
+  server: tasnim.itn24.ir
+  servername: TasNIm.ITN24.IR
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 28886c09-721a-447d-a82e-72c5500858f3
+  ws-opts:
+    headers:
+      host: TasNIm.ITN24.IR
+    path: /YfZn2pf0gcLzI5m8ZghCC5
