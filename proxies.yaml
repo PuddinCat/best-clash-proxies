@@ -1,46 +1,4 @@
 proxies:
-- name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 3"
-  network: ws
-  password: vs6f8hvt
-  port: 443
-  server: 104.16.237.15
-  sni: trojan.cchappy.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: trojan.cchappy.eu.org
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8US-54.244.128.249-0358"
-  password: amazonskr05
-  port: 443
-  server: 54.244.128.249
-  type: ss
-- alterId: 2
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: China_None_vmess_118
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-294"
-  password: 86920f59-7e5e-4272-abec-271bb931121c
-  port: 443
-  server: sg.lyyyds.club
-  skip-cert-verify: true
-  sni: sg.lyyyds.club
-  type: trojan
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -57,6 +15,24 @@ proxies:
     headers:
       HOST: sg04s.c32d-15b2-f027.sbs
     path: /
+- name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 3"
+  network: ws
+  password: vs6f8hvt
+  port: 443
+  server: 104.16.237.15
+  sni: trojan.cchappy.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.cchappy.eu.org
+    path: /?ed=2560
+- name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-294"
+  password: 86920f59-7e5e-4272-abec-271bb931121c
+  port: 443
+  server: sg.lyyyds.club
+  skip-cert-verify: true
+  sni: sg.lyyyds.club
+  type: trojan
 - name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-1389"
   password: 86920f59-7e5e-4272-abec-271bb931121c
   port: 443
@@ -78,14 +54,44 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- alterId: '0'
+- alterId: 2
   cipher: auto
-  name: China_None_vmess_1124
-  network: tcp
-  port: '56901'
-  server: 183.236.51.38
+  h2-opts: {}
+  http-opts: {}
+  name: China_None_vmess_118
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-1390"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-0907"
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-327"
@@ -99,9 +105,9 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-1390"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8US-54.244.128.249-0358"
+  password: amazonskr05
+  port: 443
+  server: 54.244.128.249
   type: ss
