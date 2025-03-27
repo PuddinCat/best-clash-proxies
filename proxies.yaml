@@ -1,30 +1,72 @@
 proxies:
+- name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 3"
+  network: ws
+  password: vs6f8hvt
+  port: 443
+  server: 104.16.237.15
+  sni: trojan.cchappy.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.cchappy.eu.org
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8US-54.244.128.249-0358"
+  password: amazonskr05
+  port: 443
+  server: 54.244.128.249
+  type: ss
+- alterId: 2
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: China_None_vmess_118
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-294"
+  password: 86920f59-7e5e-4272-abec-271bb931121c
+  port: 443
+  server: sg.lyyyds.club
+  skip-cert-verify: true
+  sni: sg.lyyyds.club
+  type: trojan
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: "VMESS-\u672A\u77E5>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-520dc7.c142-946b-a8a5.cfd:80"
+  name: "VMESS-\u672A\u77E5>\u65B0\u52A0\u5761-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-172.64.69.230:80"
   network: ws
   port: 80
-  server: 520dc7.c142-946b-a8a5.cfd
-  servername: hk03s.c142-946b-a8a5.cfd
+  server: 172.64.69.230
+  servername: sg04s.c32d-15b2-f027.sbs
   skip-cert-verify: true
   type: vmess
-  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
+  uuid: dfc6433f-48b2-4226-8c51-3e0c6cf1b0f6
   ws-opts:
     headers:
-      HOST: hk03s.c142-946b-a8a5.cfd
+      HOST: sg04s.c32d-15b2-f027.sbs
     path: /
-- name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-0878"
-  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
+- name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-1389"
+  password: 86920f59-7e5e-4272-abec-271bb931121c
   port: 443
-  server: visual.superpokemon.com
+  server: sg.lyyyds.club
   skip-cert-verify: false
-  sni: visual.superpokemon.com
+  sni: sg.lyyyds.club
   type: trojan
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-7963"
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8085"
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
@@ -36,19 +78,6 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-297"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  type: ss
-- name: "\U0001F1F8\U0001F1ECSG-3.1.136.62-1323"
-  password: 86920f59-7e5e-4272-abec-271bb931121c
-  port: 443
-  server: sg.lyyyds.club
-  skip-cert-verify: false
-  sni: sg.lyyyds.club
-  type: trojan
 - alterId: '0'
   cipher: auto
   name: China_None_vmess_1124
@@ -59,42 +88,20 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 3"
-  network: ws
-  port: 2096
-  server: esna.farsonline24.ir
-  tls: true
-  type: vmess
-  uuid: d2638b15-7c54-4a83-b217-de0928070e2d
-  ws-opts:
-    headers:
-      Host: esna.farsonline24.ir
-    path: /upP4vTyFfJM8mo7U3sS
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 3"
-  network: ws
-  port: 443
-  server: esna.farsonline24.ir
-  tls: true
-  type: vmess
-  uuid: d2638b15-7c54-4a83-b217-de0928070e2d
-  ws-opts:
-    headers:
-      Host: esna.farsonline24.ir
-    path: /upP4vTyFfJM8mo7U3sS
-- cipher: chacha20-ietf-poly1305
-  name: "\u6D77\u5357\u7701 \u79FB\u52A8(\u5168\u7701\u901A\u7528)"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 4"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-327"
+  network: tcp
   port: 56901
   server: 183.236.51.38
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-1390"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  type: ss
