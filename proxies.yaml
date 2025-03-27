@@ -14,20 +14,6 @@ proxies:
     headers:
       host: sg04s.c32d-15b2-f027.sbs
     path: /
-- name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-1389"
-  password: 86920f59-7e5e-4272-abec-271bb931121c
-  port: 443
-  server: sg.lyyyds.club
-  skip-cert-verify: false
-  sni: sg.lyyyds.club
-  type: trojan
-- name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-241"
-  password: 86920f59-7e5e-4272-abec-271bb931121c
-  port: 443
-  server: sg.lyyyds.club
-  skip-cert-verify: true
-  sni: sg.lyyyds.club
-  type: trojan
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -44,6 +30,20 @@ proxies:
     headers:
       HOST: hk03s.c142-946b-a8a5.cfd
     path: /
+- name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-1389"
+  password: 86920f59-7e5e-4272-abec-271bb931121c
+  port: 443
+  server: sg.lyyyds.club
+  skip-cert-verify: false
+  sni: sg.lyyyds.club
+  type: trojan
+- name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-241"
+  password: 86920f59-7e5e-4272-abec-271bb931121c
+  port: 443
+  server: sg.lyyyds.club
+  skip-cert-verify: true
+  sni: sg.lyyyds.club
+  type: trojan
 - name: "\u5370\u5EA6 V2CROSS.COM"
   password: 74260704627805900
   port: 443
@@ -51,6 +51,19 @@ proxies:
   skip-cert-verify: true
   sni: native-eft.shiner427.skin
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-274"
+  network: tcp
+  port: 56901
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-273"
@@ -72,9 +85,9 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-274"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-252"
   network: tcp
-  port: 56901
+  port: 55754
   server: 183.236.51.38
   skip-cert-verify: true
   tls: false
@@ -83,27 +96,10 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3 CN 185 \u2192 tg@nicevpn123"
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-0907"
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
+- cipher: aes-256-cfb
+  delay: 897
+  name: Japan_Tokyo_ss_1173
+  password: amazonskr05
+  port: 443
+  server: 43.207.150.238
+  type: ss
