@@ -1,32 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-274"
-  network: tcp
-  port: 56901
-  server: 183.236.51.38
+  client-fingerprint: chrome
+  name: "\U0001F3C1RELAY-172.67.145.26-0874"
+  network: ws
+  port: 80
+  server: f8494f.c32d-15b2-f027.sbs
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: "VMESS-\u672A\u77E5>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-520dc7.c142-946b-a8a5.cfd:80"
-  network: ws
-  port: 80
-  server: 520dc7.c142-946b-a8a5.cfd
-  servername: hk03s.c142-946b-a8a5.cfd
-  skip-cert-verify: true
-  type: vmess
-  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
+  uuid: dfc6433f-48b2-4226-8c51-3e0c6cf1b0f6
   ws-opts:
     headers:
-      HOST: hk03s.c142-946b-a8a5.cfd
+      host: sg04s.c32d-15b2-f027.sbs
     path: /
 - name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-1389"
   password: 86920f59-7e5e-4272-abec-271bb931121c
@@ -50,9 +36,25 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-273"
+  h2-opts: {}
+  http-opts: {}
+  name: "VMESS-\u672A\u77E5>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-520dc7.c142-946b-a8a5.cfd:80"
+  network: ws
+  port: 80
+  server: 520dc7.c142-946b-a8a5.cfd
+  servername: hk03s.c142-946b-a8a5.cfd
+  skip-cert-verify: true
+  type: vmess
+  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
+  ws-opts:
+    headers:
+      HOST: hk03s.c142-946b-a8a5.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-274"
   network: tcp
-  port: 31919
+  port: 56901
   server: 183.236.51.38
   skip-cert-verify: true
   tls: false
@@ -71,6 +73,25 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-273"
+  network: tcp
+  port: 31919
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-54.169.103.201-398"
+  password: amazonskr05
+  port: 443
+  server: 54.169.103.201
+  type: ss
+- alterId: 0
+  cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-252"
   network: tcp
   port: 55754
@@ -82,23 +103,3 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-0907"
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-54.169.103.201-398"
-  password: amazonskr05
-  port: 443
-  server: 54.169.103.201
-  type: ss
