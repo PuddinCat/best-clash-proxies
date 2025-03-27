@@ -1,81 +1,76 @@
 proxies:
-- name: "\u82F1\u56FD V2CROSS.COM"
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.40-312"
+  network: tcp
+  port: 34042
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.40
+  ws-path: /
+- name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-0878"
+  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
+  port: 443
+  server: visual.superpokemon.com
+  skip-cert-verify: false
+  sni: visual.superpokemon.com
+  type: trojan
+- name: United Kingdom_Epping_trojan_1167
+  password: '74260704627805900'
+  port: 443
+  server: gorgeous-gopher.shiner427.skin
+  skip-cert-verify: false
+  sni: gorgeous-gopher.shiner427.skin
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 2"
+  port: 56901
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: "\U0001F1F8\U0001F1ECSG-3.1.136.62-1323"
+  password: 86920f59-7e5e-4272-abec-271bb931121c
+  port: 443
+  server: sg.lyyyds.club
+  skip-cert-verify: false
+  sni: sg.lyyyds.club
+  type: trojan
+- name: "12|\u65E5\u672C8|@ripaojiedian"
+  network: tcp
+  password: '74260704627805900'
+  port: 443
+  server: gorgeous-gopher.shiner427.skin
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-323"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  type: ss
+- name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-294"
+  password: 86920f59-7e5e-4272-abec-271bb931121c
+  port: 443
+  server: sg.lyyyds.club
+  skip-cert-verify: true
+  sni: sg.lyyyds.club
+  type: trojan
+- name: "\U0001F1EF\U0001F1F5JP-85.234.83.55-460"
   password: 74260704627805900
   port: 443
-  server: 85.234.83.214
+  server: gorgeous-gopher.shiner427.skin
   skip-cert-verify: true
-  sni: many-macaque.shiner427.skin
+  sni: gorgeous-gopher.shiner427.skin
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\u8282\u70B9\u65E5\u671F\uFF1A03-26"
-  port: 51039
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: "\u5E7F\u4E1C\u7701\u6E5B\u6C5F\u5E02 \u79FB\u52A8"
-  port: 40059
-  server: 120.198.71.216
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 4"
-  port: 40105
-  server: 120.232.153.63
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: "\u5C71\u4E1C\u7701\u9752\u5C9B\u5E02 \u8054\u901A"
-  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
-  port: 41705
-  server: zf1.10101251.xyz
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-297"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
   type: ss
-- name: "\u4E2D\u56FD\u3010\u673A\u573A\u63A8\u8350\uFF1Ahttps://socks.news\u3011\
-    20"
-  password: VMhGp5wEIyCDf90T
-  port: 42303
-  server: csuzhou01.1cooldns.com
-  sni: hk06.run.place
-  type: trojan
-- cipher: aes-128-gcm
-  name: "\u4E2D\u56FD\u3010\u673A\u573A\u63A8\u8350\uFF1Ahttps://socks.news\u3011\
-    37"
-  password: VMhGp5wEIyCDf90T
-  port: 56226
-  server: bsuqian01.dynu.net
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u4E2D\u56FD\u3010\u673A\u573A\u63A8\u8350\uFF1Ahttps://socks.news\u3011\
-    29"
-  port: 55754
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: "\u4E2D\u56FD\u3010\u673A\u573A\u63A8\u8350\uFF1Ahttps://socks.news\u3011\
-    31"
-  password: VMhGp5wEIyCDf90T
-  port: 56277
-  server: gy01.hunheiydd.xyz
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts:
-    headers:
-      Host: slot3.raywhat.xyz
-    path: /b0c66d14-a0ab
-  name: Slot3
-  network: h2
-  port: 443
-  server: slot3.raywhat.xyz
-  tls: true
-  type: vmess
-  uuid: 64887a16-468c-4e98-b064-b82b01662727
