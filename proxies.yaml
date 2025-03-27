@@ -1,19 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F3C1RELAY-172.67.145.26-0874"
-  network: ws
-  port: 80
-  server: f8494f.c32d-15b2-f027.sbs
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-274"
+  network: tcp
+  port: 56901
+  server: 183.236.51.38
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: dfc6433f-48b2-4226-8c51-3e0c6cf1b0f6
-  ws-opts:
-    headers:
-      host: sg04s.c32d-15b2-f027.sbs
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -44,26 +42,12 @@ proxies:
   skip-cert-verify: true
   sni: sg.lyyyds.club
   type: trojan
-- name: "\u5370\u5EA6 V2CROSS.COM"
-  password: 74260704627805900
-  port: 443
-  server: 202.78.163.175
-  skip-cert-verify: true
-  sni: native-eft.shiner427.skin
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-274"
-  network: tcp
-  port: 56901
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-1390"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-273"
@@ -77,12 +61,14 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-1390"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u8282\u70B9\u65E5\u671F\uFF1A03-27"
+  port: 51039
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-252"
@@ -96,10 +82,23 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-0907"
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
 - cipher: aes-256-cfb
-  delay: 897
-  name: Japan_Tokyo_ss_1173
+  name: "\U0001F1F8\U0001F1ECSG-54.169.103.201-398"
   password: amazonskr05
   port: 443
-  server: 43.207.150.238
+  server: 54.169.103.201
   type: ss
