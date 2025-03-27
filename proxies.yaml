@@ -1,4 +1,19 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F3C1RELAY-172.67.145.26-0874"
+  network: ws
+  port: 80
+  server: f8494f.c32d-15b2-f027.sbs
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: dfc6433f-48b2-4226-8c51-3e0c6cf1b0f6
+  ws-opts:
+    headers:
+      host: sg04s.c32d-15b2-f027.sbs
+    path: /
 - name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-1389"
   password: 86920f59-7e5e-4272-abec-271bb931121c
   port: 443
@@ -15,19 +30,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-273"
-  network: tcp
-  port: 31919
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- alterId: 0
-  cipher: auto
   h2-opts: {}
   http-opts: {}
   name: "VMESS-\u672A\u77E5>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-520dc7.c142-946b-a8a5.cfd:80"
@@ -42,6 +44,32 @@ proxies:
     headers:
       HOST: hk03s.c142-946b-a8a5.cfd
     path: /
+- name: "\u5370\u5EA6 V2CROSS.COM"
+  password: 74260704627805900
+  port: 443
+  server: 202.78.163.175
+  skip-cert-verify: true
+  sni: native-eft.shiner427.skin
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-273"
+  network: tcp
+  port: 31919
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-1390"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  type: ss
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-274"
@@ -55,35 +83,16 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- name: "\u5370\u5EA6 V2CROSS.COM"
-  password: 74260704627805900
-  port: 443
-  server: 202.78.163.175
-  skip-cert-verify: true
-  sni: native-eft.shiner427.skin
-  type: trojan
-- name: "\u5370\u5EA6 V2CROSS.COM 3"
-  password: 74260704627805900
-  port: 443
-  server: 202.78.163.127
-  skip-cert-verify: true
-  sni: on-roughy.shiner427.skin
-  type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F3C1RELAY-172.67.145.26-0874"
-  network: ws
-  port: 80
-  server: f8494f.c32d-15b2-f027.sbs
+  name: "\U0001F1E8\U0001F1F3 CN 185 \u2192 tg@nicevpn123"
+  port: 50002
+  server: 47.104.186.133
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: dfc6433f-48b2-4226-8c51-3e0c6cf1b0f6
-  ws-opts:
-    headers:
-      host: sg04s.c32d-15b2-f027.sbs
-    path: /
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-0907"
@@ -98,11 +107,3 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- alterId: 0
-  cipher: auto
-  name: "\u8282\u70B9\u65E5\u671F\uFF1A03-27"
-  port: 51039
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
