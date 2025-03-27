@@ -1,11 +1,4 @@
 proxies:
-- name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-0878"
-  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
-  port: 443
-  server: visual.superpokemon.com
-  skip-cert-verify: false
-  sni: visual.superpokemon.com
-  type: trojan
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -22,65 +15,13 @@ proxies:
     headers:
       HOST: hk03s.c142-946b-a8a5.cfd
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.164-0343"
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.164
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-327"
-  network: tcp
-  port: 56901
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-294"
-  password: 86920f59-7e5e-4272-abec-271bb931121c
+- name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-0878"
+  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
   port: 443
-  server: sg.lyyyds.club
-  skip-cert-verify: true
-  sni: sg.lyyyds.club
-  type: trojan
-- name: "\U0001F1F8\U0001F1ECSG-3.1.136.62-1323"
-  password: 86920f59-7e5e-4272-abec-271bb931121c
-  port: 443
-  server: sg.lyyyds.club
+  server: visual.superpokemon.com
   skip-cert-verify: false
-  sni: sg.lyyyds.club
+  sni: visual.superpokemon.com
   type: trojan
-- cipher: aes-256-cfb
-  name: "\U0001F1EE\U0001F1F8 IS 1 \u2192 tg@nicevpn123"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 37.235.49.152
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-297"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 3"
-  network: ws
-  port: 443
-  server: esna.farsonline24.ir
-  tls: true
-  type: vmess
-  uuid: d2638b15-7c54-4a83-b217-de0928070e2d
-  ws-opts:
-    headers:
-      Host: esna.farsonline24.ir
-    path: /upP4vTyFfJM8mo7U3sS
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-7963"
@@ -95,3 +36,65 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-297"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  type: ss
+- name: "\U0001F1F8\U0001F1ECSG-3.1.136.62-1323"
+  password: 86920f59-7e5e-4272-abec-271bb931121c
+  port: 443
+  server: sg.lyyyds.club
+  skip-cert-verify: false
+  sni: sg.lyyyds.club
+  type: trojan
+- alterId: '0'
+  cipher: auto
+  name: China_None_vmess_1124
+  network: tcp
+  port: '56901'
+  server: 183.236.51.38
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 3"
+  network: ws
+  port: 2096
+  server: esna.farsonline24.ir
+  tls: true
+  type: vmess
+  uuid: d2638b15-7c54-4a83-b217-de0928070e2d
+  ws-opts:
+    headers:
+      Host: esna.farsonline24.ir
+    path: /upP4vTyFfJM8mo7U3sS
+- alterId: 0
+  cipher: auto
+  name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 3"
+  network: ws
+  port: 443
+  server: esna.farsonline24.ir
+  tls: true
+  type: vmess
+  uuid: d2638b15-7c54-4a83-b217-de0928070e2d
+  ws-opts:
+    headers:
+      Host: esna.farsonline24.ir
+    path: /upP4vTyFfJM8mo7U3sS
+- cipher: chacha20-ietf-poly1305
+  name: "\u6D77\u5357\u7701 \u79FB\u52A8(\u5168\u7701\u901A\u7528)"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8 4"
+  port: 56901
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
