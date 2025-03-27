@@ -15,29 +15,20 @@ proxies:
     headers:
       HOST: sg04s.c32d-15b2-f027.sbs
     path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8085"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.164-0343"
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.164
+  type: ss
 - alterId: 2
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: China_None_vmess_118
+  name: China_None_vmess_1121
   network: ws
-  port: 22641
+  port: 22642
   server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -45,26 +36,24 @@ proxies:
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
+      Host: zxjp-b.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-1390"
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.164-5746"
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.164
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8US-54.244.128.249-0358"
-  password: amazonskr05
-  port: 443
-  server: 54.244.128.249
-  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: "VMESS-\u672A\u77E5>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-520dc7.c142-946b-a8a5.cfd:80"
+  network: ws
+  port: 80
+  server: 520dc7.c142-946b-a8a5.cfd
+  servername: hk03s.c142-946b-a8a5.cfd
+  skip-cert-verify: true
+  type: vmess
+  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
+  ws-opts:
+    headers:
+      HOST: hk03s.c142-946b-a8a5.cfd
+    path: /
 - name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-294"
   password: 86920f59-7e5e-4272-abec-271bb931121c
   port: 443
@@ -72,6 +61,18 @@ proxies:
   skip-cert-verify: true
   sni: sg.lyyyds.club
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.164-5746"
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.164
+  type: ss
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3CN-120.233.87.139-1392"
+  password: VMhGp5wEIyCDf90T
+  port: 13483
+  server: agaungzhou01.bumbleshrimp.com
+  type: ss
 - name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-1389"
   password: 86920f59-7e5e-4272-abec-271bb931121c
   port: 443
@@ -79,23 +80,23 @@ proxies:
   skip-cert-verify: false
   sni: sg.lyyyds.club
   type: trojan
-- alterId: 0
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3CN-119.36.154.74-297"
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  type: ss
+- alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-327"
-  network: tcp
-  port: 56901
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-0907"
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- name: "12|\u65E5\u672C6|@ripaojiedian"
-  network: tcp
-  password: '74260704627805900'
-  port: 443
-  server: gorgeous-gopher.shiner427.skin
-  skip-cert-verify: true
-  type: trojan
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
