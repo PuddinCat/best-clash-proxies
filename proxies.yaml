@@ -13,6 +13,19 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8US-54.244.128.249-0358"
+  password: amazonskr05
+  port: 443
+  server: 54.244.128.249
+  type: ss
+- name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-294"
+  password: 86920f59-7e5e-4272-abec-271bb931121c
+  port: 443
+  server: sg.lyyyds.club
+  skip-cert-verify: true
+  sni: sg.lyyyds.club
+  type: trojan
 - alterId: 2
   cipher: auto
   h2-opts: {}
@@ -31,12 +44,6 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.164-5746"
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.164
-  type: ss
 - name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-1389"
   password: 86920f59-7e5e-4272-abec-271bb931121c
   port: 443
@@ -44,12 +51,19 @@ proxies:
   skip-cert-verify: false
   sni: sg.lyyyds.club
   type: trojan
-- name: "\U0001F1F8\U0001F1ECSG-18.136.56.117-294"
-  password: 86920f59-7e5e-4272-abec-271bb931121c
+- name: "12|\u65E5\u672C6|@ripaojiedian"
+  network: tcp
+  password: '74260704627805900'
   port: 443
-  server: sg.lyyyds.club
+  server: gorgeous-gopher.shiner427.skin
   skip-cert-verify: true
-  sni: sg.lyyyds.club
+  type: trojan
+- name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-0915"
+  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
+  port: 443
+  server: visual.superpokemon.com
+  skip-cert-verify: false
+  sni: visual.superpokemon.com
   type: trojan
 - alterId: 2
   cipher: auto
@@ -65,40 +79,12 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- name: "\u7F8E\u56FD CloudFlare\u8282\u70B9 3"
-  network: ws
-  password: vs6f8hvt
-  port: 443
-  server: 104.16.237.15
-  sni: trojan.cchappy.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: trojan.cchappy.eu.org
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: "VMESS-\u672A\u77E5>\u65B0\u52A0\u5761-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-172.64.69.230:80"
-  network: ws
-  port: 80
-  server: 172.64.69.230
-  servername: sg04s.c32d-15b2-f027.sbs
-  skip-cert-verify: true
-  type: vmess
-  uuid: dfc6433f-48b2-4226-8c51-3e0c6cf1b0f6
-  ws-opts:
-    headers:
-      HOST: sg04s.c32d-15b2-f027.sbs
-    path: /
-- name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-0915"
-  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
-  port: 443
-  server: visual.superpokemon.com
-  skip-cert-verify: false
-  sni: visual.superpokemon.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9LT-45.87.175.164-5746"
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.164
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1E8\U0001F1F3CN-58.19.16.228-1390"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
