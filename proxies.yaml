@@ -38,75 +38,25 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: "VMESS-\u672A\u77E5>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-520dc7.c142-946b-a8a5.cfd:80"
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "248c49f1257440dca51a50137b2af3b9_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
   network: ws
-  port: 80
-  server: 520dc7.c142-946b-a8a5.cfd
-  servername: hk03s.c142-946b-a8a5.cfd
-  skip-cert-verify: true
+  port: 2053
+  server: live.onetwothree123.ir
+  tls: true
   type: vmess
-  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
+  udp: false
+  uuid: 03175624-a7fa-4e1c-8ee2-34f5c5bf50c6
   ws-opts:
-    headers:
-      HOST: hk03s.c142-946b-a8a5.cfd
-    path: /
-- name: "\U0001F3C1RELAY-104.21.112.1-1110"
-  network: ws
-  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+    path: /dJcxUoyK
+- cipher: aes-256-cfb
+  name: "\U0001F1EF\U0001F1F5JP-52.195.209.247-5799"
+  password: amazonskr05
   port: 443
-  server: 104.21.112.1
-  skip-cert-verify: false
-  sni: 1kM.HUaNgSHang.pP.UA
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1kM.HUaNgSHang.pP.UA
-    path: '%2FlXENb74xF4ylXngZ'
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-36.156.184.108-362"
-  network: tcp
-  port: 14601
-  server: stan.pythoncdn.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
-  ws-headers:
-    Host: stan.pythoncdn.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "8448abd132d3494e9393addbc70e29b3_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 2053
-  server: live.onetwothree123.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: f5cadb89-a065-4497-bee9-a488e265edcd
-  ws-opts:
-    path: /dJcxUoyK
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "b6e88b2a8eab492a8b96a6b4ea06437c_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 2053
-  server: live.onetwothree123.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: eef3592a-6631-493c-b2b6-a36e18920137
-  ws-opts:
-    path: /dJcxUoyK
+  server: 52.195.209.247
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -120,5 +70,47 @@ proxies:
   type: vmess
   udp: false
   uuid: 192c26eb-a291-4913-9834-77dd8d51f0c6
+  ws-opts:
+    path: /dJcxUoyK
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-36.156.184.108-362"
+  network: tcp
+  port: 14601
+  server: stan.pythoncdn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
+  ws-headers:
+    Host: stan.pythoncdn.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-7947"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "3e540f87cb3d4b399540375f56dc7229_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 2053
+  server: live.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 7b400bf0-58e9-4f78-8e71-8e13b9ce1f69
   ws-opts:
     path: /dJcxUoyK
