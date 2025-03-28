@@ -1,14 +1,10 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 2,13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
-  obfs: tls1.2_ticket_auth
-  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
+- cipher: aes-128-cfb
+  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-145"
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
 - cipher: aes-256-cfb
   name: "2,12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   obfs: tls1.2_ticket_auth
@@ -29,12 +25,16 @@ proxies:
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
-- cipher: aes-128-cfb
-  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-145"
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
+- cipher: aes-256-cfb
+  name: 2,13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
+  obfs: tls1.2_ticket_auth
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
 - cipher: aes-256-cfb
   group: SSRProvider
   name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-409"
@@ -46,23 +46,11 @@ proxies:
   protoparam: null
   server: cm2.xcone.xyz
   type: ssr
-- name: "\U0001F3C1RELAY-104.21.112.1-1110"
-  network: ws
-  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
-  port: 443
-  server: 104.21.112.1
-  skip-cert-verify: false
-  sni: 1kM.HUaNgSHang.pP.UA
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1kM.HUaNgSHang.pP.UA
-    path: '%2FlXENb74xF4ylXngZ'
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "55a2d4b6410e4332a38dd977b19c731e_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "d99d1157dfe2474eb12e6af869006064_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 8443
@@ -71,7 +59,7 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: 6ed41d81-3249-4aa1-b013-5eb9e55dda14
+  uuid: 6d638d48-0737-4b44-b164-503d18b2fbe7
   ws-opts:
     headers:
       host: esna.twn24.ir
@@ -80,7 +68,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "0e3f6758a0ca4395a0170d477834f27a_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "78ed77a94ddb4f8b8477a67e2346cf42_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 8443
@@ -89,7 +77,7 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: adada63b-8b01-4e85-b6bb-4f8821eacfac
+  uuid: 31630e8e-07f8-49b9-b0d0-c9a90744e927
   ws-opts:
     headers:
       host: esna.twn24.ir
@@ -98,7 +86,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "bd7a284b60a349918945f7943b32b036_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "587fc4331c044b69a008be1db7508412_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 8443
@@ -107,7 +95,7 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: 61836f02-5761-41c5-ae0a-1b7b923346bc
+  uuid: fd754c65-5503-44b3-a2a4-e4e81ebfb7c9
   ws-opts:
     headers:
       host: esna.twn24.ir
@@ -126,6 +114,24 @@ proxies:
   type: vmess
   udp: false
   uuid: cb22ef69-a1b7-416e-999e-cb178bc0a0be
+  ws-opts:
+    headers:
+      host: esna.twn24.ir
+    path: /4sMTyjcd
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "4cf5e172b612484da67e4820ed8b57b7_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: esna.twn24.ir
+  servername: esna.twn24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 256fe9cc-12cb-4a98-ac5a-012e3798f0d4
   ws-opts:
     headers:
       host: esna.twn24.ir
