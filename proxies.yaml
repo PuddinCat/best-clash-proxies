@@ -1,23 +1,60 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
+  obfs: tls1.2_ticket_auth
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: '56138'
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- name: "2,12,13|\u53F0\u6E7E2|@ripaojiedian"
+  network: tcp
+  password: 6e8b9913-5277-4627-95b0-86766ae65ad6
+  port: 42765
+  server: wb.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
 - cipher: aes-128-cfb
-  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0309"
+  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0312"
   password: shadowsocks
   port: 443
   server: 184.170.241.194
   type: ss
+- name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-248"
+  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
+  port: 443
+  server: visual.superpokemon.com
+  skip-cert-verify: true
+  sni: visual.superpokemon.com
+  type: trojan
+- cipher: aes-256-cfb
+  name: "2,12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  obfs: tls1.2_ticket_auth
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
-  port: 34042
-  server: 120.232.153.40
+  name: "2,12|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  port: 14601
+  server: stan.pythoncdn.com
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "2b20ea7237c94470b322fcd512b0d130_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "a761fbcb1a7747bab344624c6caef46a_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 2053
@@ -25,14 +62,14 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: a63288c5-74b2-4ea7-b85f-666c824e89d8
+  uuid: 0e82a38f-0a53-4a96-85f2-422d22527ac9
   ws-opts:
     path: /dJcxUoyK
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "0b868f8f53db4f4ab05ebb0f924e260e_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "257fac9435f743659245b0ada8b1b363_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 2053
@@ -40,69 +77,22 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: 03175624-a7fa-4e1c-8ee2-34f5c5bf50c6
+  uuid: eef3592a-6631-493c-b2b6-a36e18920137
   ws-opts:
     path: /dJcxUoyK
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "9c3c5d99afc246b5acfa500d30993a40_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 2053
-  server: live.onetwothree123.ir
-  tls: true
+  name: "13|\u9999\u6E2F4|@ripaojiedian"
+  network: tcp
+  port: '14601'
+  server: stan.pythoncdn.com
+  servername: ''
+  tls: false
   type: vmess
-  udp: false
-  uuid: 49956004-7710-4193-bdbb-937397d195c4
-  ws-opts:
-    path: /dJcxUoyK
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8017"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.192-0352"
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.192
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "f5019dfa3cdc4cd6baf203089cd5ada4_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: windows.onetwothree123.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: f001544a-63ad-45ad-bc18-aec8c67390e1
-  ws-opts:
-    path: /Xot8ex8r
-- name: "\U0001F1EC\U0001F1E7GB-161.35.34.48-021"
-  password: 2cba4104747d49d18319e5ade1b93ab5
+  uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
+- name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-030"
+  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
   port: 443
-  server: yourjobnavigator.online
+  server: 154.31.114.12
   skip-cert-verify: true
-  type: trojan
-- name: "\U0001F1EC\U0001F1E7GB-161.35.34.48-010"
-  password: 2cba4104747d49d18319e5ade1b93ab5
-  port: 443
-  server: 161.35.34.48
-  skip-cert-verify: true
-  sni: yourjobnavigator.online
   type: trojan
