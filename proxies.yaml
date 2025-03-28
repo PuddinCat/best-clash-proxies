@@ -1,0 +1,129 @@
+proxies:
+- cipher: aes-256-cfb
+  name: China_None_ssr_1186
+  obfs: tls1.2_ticket_auth
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: '56138'
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  name: "1,11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  obfs: tls1.2_ticket_auth
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  group: SSRProvider
+  name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-409"
+  obfs: tls1.2_ticket_auth
+  obfsparam: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protoparam: null
+  server: cm2.xcone.xyz
+  type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: "VMESS-\u672A\u77E5>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-520dc7.c142-946b-a8a5.cfd:80"
+  network: ws
+  port: 80
+  server: 520dc7.c142-946b-a8a5.cfd
+  servername: hk03s.c142-946b-a8a5.cfd
+  skip-cert-verify: true
+  type: vmess
+  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
+  ws-opts:
+    headers:
+      HOST: hk03s.c142-946b-a8a5.cfd
+    path: /
+- cipher: aes-128-cfb
+  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0309"
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "4e970bf75b634b04a86e88e47f621a75_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 2053
+  server: live.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 606782fe-a00e-47f2-8464-0957bf4a5ee3
+  ws-opts:
+    path: /dJcxUoyK
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "b6e88b2a8eab492a8b96a6b4ea06437c_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 2053
+  server: live.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: eef3592a-6631-493c-b2b6-a36e18920137
+  ws-opts:
+    path: /dJcxUoyK
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "2ae8faf5dccc47efa58639b31c7466bc_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 2053
+  server: live.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 52f7f4f2-ba96-4d7c-b048-bcfb9ee109dc
+  ws-opts:
+    path: /dJcxUoyK
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "7b7fe0b61bcc4aa79b9780816b9909ab_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 2053
+  server: live.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 5dca9e3a-6d62-4e01-8e4b-c0cba4b75e45
+  ws-opts:
+    path: /dJcxUoyK
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "248c49f1257440dca51a50137b2af3b9_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 2053
+  server: live.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 03175624-a7fa-4e1c-8ee2-34f5c5bf50c6
+  ws-opts:
+    path: /dJcxUoyK
