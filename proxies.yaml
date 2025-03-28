@@ -9,12 +9,6 @@ proxies:
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
-- cipher: aes-128-cfb
-  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0312"
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
 - cipher: aes-256-cfb
   name: 13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
   obfs: tls1.2_ticket_auth
@@ -25,6 +19,93 @@ proxies:
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
+- cipher: aes-128-cfb
+  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0312"
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "2d3a3251eb5942f483f1f8ba7b95d590_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 2053
+  server: live.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: fe60492b-e019-4848-a6a0-d4f1e7a09cac
+  ws-opts:
+    path: /dJcxUoyK
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "2b20ea7237c94470b322fcd512b0d130_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 2053
+  server: live.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: a63288c5-74b2-4ea7-b85f-666c824e89d8
+  ws-opts:
+    path: /dJcxUoyK
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "a761fbcb1a7747bab344624c6caef46a_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 2053
+  server: live.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 0e82a38f-0a53-4a96-85f2-422d22527ac9
+  ws-opts:
+    path: /dJcxUoyK
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "6b0aff0fc2f24acea6fd9ab3aebd9f57_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 2053
+  server: live.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: af199cc5-8890-4824-9f2a-e10b36515229
+  ws-opts:
+    path: /dJcxUoyK
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "a14e38edc4d24d7b88853f7948e0d029_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 2053
+  server: live.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 2cb86384-6699-4e32-ade4-bd353b2426d2
+  ws-opts:
+    path: /dJcxUoyK
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0305"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
+  type: ss
 - alterId: 0
   cipher: auto
   name: "2,12|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
@@ -35,83 +116,3 @@ proxies:
   tls: false
   type: vmess
   uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "fee97ded46114ea4a4a59609dc07e6e5_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 2053
-  server: live.onetwothree123.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 2fc0c202-2218-413a-8397-abc5aa1ce75c
-  ws-opts:
-    path: /dJcxUoyK
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "9f5efa6f08464a94bd2edaaa0cf9b61c_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 2053
-  server: live.onetwothree123.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 08a17967-42f6-451a-b043-639331e1e6c1
-  ws-opts:
-    path: /dJcxUoyK
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8017"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0305"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 194.5.215.59
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "33e21665400f4c75ab1d91f870bb63ec_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.twn24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 4c3b16db-8197-4f09-a29b-5d9ad5e5c803
-  ws-opts:
-    path: /mehdi
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "07634c975fa3420fb61aec10a3115c0e_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.twn24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 54242a2e-c18b-4ca0-dd6d-bf20194587b3
-  ws-opts:
-    path: /mehdi
