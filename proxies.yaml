@@ -1,6 +1,81 @@
 proxies:
+- cipher: rc4-md5
+  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-194.5.215.59:8080"
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 194.5.215.59
+  type: ssr
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-150"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: "\u7F8E\u56FD \u52A0\u5229\u798F\u5C3C\u4E9A\u5DDE\u6D1B\u6749\u77F6PetaExpress"
+  port: 48712
+  server: 107.148.207.249
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-019"
+  network: tcp
+  port: 56901
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "\u5DF4\u62FF\u9A6C V2CROSS.COM"
+  port: 22324
+  server: 186.190.215.93
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1EDCH-186.190.215.93-366"
+  network: tcp
+  port: 22324
+  server: 186.190.215.93
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  ws-headers:
+    Host: 186.190.215.93
+  ws-path: /
 - cipher: aes-256-cfb
-  name: "2,12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  group: SSRProvider
+  name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-409"
+  obfs: tls1.2_ticket_auth
+  obfsparam: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protoparam: null
+  server: cm2.xcone.xyz
+  type: ssr
+- alterId: '0'
+  cipher: auto
+  name: United States_None_vmess_1042
+  network: tcp
+  port: 22324
+  server: 186.190.215.93
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-cfb
+  name: China_None_ssr_1175
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
@@ -9,156 +84,9 @@ proxies:
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "63edbe2bbfc240feb4462f73d90a8952_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.twn24.ir
-  servername: esna.twn24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: c4d7b749-12b9-47d6-a99b-46e8397c0ff8
-  ws-opts:
-    headers:
-      host: esna.twn24.ir
-    path: /4sMTyjcd
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "9d06739832244724b4a420c621c8ea35_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.twn24.ir
-  servername: esna.twn24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: af8732c5-81da-4226-afb3-847c165e6279
-  ws-opts:
-    headers:
-      host: esna.twn24.ir
-    path: /4sMTyjcd
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "75c0182bc3f84faca8d1a002116c70ac_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.twn24.ir
-  servername: esna.twn24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 6fa82c8d-96a3-4d5e-8123-311bf6bcc655
-  ws-opts:
-    headers:
-      host: esna.twn24.ir
-    path: /4sMTyjcd
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "5717e645afd6447bb2bac53ee98d9578_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.twn24.ir
-  servername: esna.twn24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: af7516c2-dbef-47c9-b8a3-de6ff9e6a606
-  ws-opts:
-    headers:
-      host: esna.twn24.ir
-    path: /4sMTyjcd
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "4144802784134d45877f85366da84ea3_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.twn24.ir
-  servername: esna.twn24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: e92d315b-4c63-446e-85f1-6c6346f32bec
-  ws-opts:
-    headers:
-      host: esna.twn24.ir
-    path: /4sMTyjcd
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "6c6127b1b5214188a8e1c1e34c738fcc_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.twn24.ir
-  servername: esna.twn24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 82aae378-b03f-4ff5-ab22-d80cd6ba596e
-  ws-opts:
-    headers:
-      host: esna.twn24.ir
-    path: /4sMTyjcd
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "9fe5e75cbb724b3eb6174e293fd9879b_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.twn24.ir
-  servername: esna.twn24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 1fa5a7db-8f82-4ce3-adf7-2c8abcb46ef7
-  ws-opts:
-    headers:
-      host: esna.twn24.ir
-    path: /4sMTyjcd
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "7446e559b1dc4db88707f8dc72ba253c_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.twn24.ir
-  servername: esna.twn24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 622b9a89-48a4-4efe-95cb-f1220fe85a3a
-  ws-opts:
-    headers:
-      host: esna.twn24.ir
-    path: /4sMTyjcd
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1F5\U0001F1E6 \u5DF4\u62FF\u9A6C V2CROSS.COM"
-  port: 22324
-  server: 186.190.215.93
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-43.203.206.73-2293"
+  password: amazonskr05
+  port: 443
+  server: 43.203.206.73
+  type: ss
