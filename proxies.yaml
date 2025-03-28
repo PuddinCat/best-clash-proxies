@@ -14,27 +14,6 @@ proxies:
       Host: hk03s.c142-946b-a8a5.cfd
     path: /
 - cipher: aes-256-cfb
-  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  obfs: tls1.2_ticket_auth
-  obfs-param: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  group: SSRProvider
-  name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-365"
-  obfs: tls1.2_ticket_auth
-  obfsparam: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protoparam: null
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: aes-256-cfb
   name: 13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
   obfs: tls1.2_ticket_auth
   obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
@@ -55,6 +34,40 @@ proxies:
   protoparam: null
   server: cm2.xcone.xyz
   type: ssr
+- cipher: aes-256-cfb
+  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  obfs: tls1.2_ticket_auth
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  name: South Korea_None_ss_1196
+  password: amazonskr05
+  port: 443
+  server: 13.125.21.61
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  group: SSRProvider
+  name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-365"
+  obfs: tls1.2_ticket_auth
+  obfsparam: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protoparam: null
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  name: South Korea_Incheon_ss_1033
+  password: amazonskr05
+  port: 443
+  server: 43.203.206.73
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -64,29 +77,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: South Korea_Incheon_ss_1033
-  password: amazonskr05
-  port: 443
-  server: 43.203.206.73
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.123-171"
+  network: tcp
+  port: 51052
+  server: 120.232.153.123
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.123
+  ws-path: /
 - cipher: aes-128-gcm
   name: China_None_ss_1184
   password: e935efa8-ede3-4fc5-8e2a-7d63b1090452
   port: 23987
   server: xg1.gywanglug.xyz
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: South Korea_None_ss_1196
-  password: amazonskr05
-  port: 443
-  server: 13.125.21.61
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.178-150"
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.178
   type: ss
