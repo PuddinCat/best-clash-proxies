@@ -1,12 +1,4 @@
 proxies:
-- name: "2,12,13|\u53F0\u6E7E2|@ripaojiedian"
-  network: tcp
-  password: 6e8b9913-5277-4627-95b0-86766ae65ad6
-  port: 42765
-  server: wb.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
-  type: trojan
 - cipher: aes-256-cfb
   name: "2,12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   obfs: tls1.2_ticket_auth
@@ -35,69 +27,91 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "8021fa1d03c34340a7eb8acf2b3bba5f_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 2053
-  server: live.onetwothree123.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 3006d0ec-0ce8-491a-bc17-47d25f4d13de
-  ws-opts:
-    path: /dJcxUoyK
-- name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-030"
-  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
-  port: 443
-  server: 154.31.114.12
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "0b868f8f53db4f4ab05ebb0f924e260e_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 2053
-  server: live.onetwothree123.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 03175624-a7fa-4e1c-8ee2-34f5c5bf50c6
-  ws-opts:
-    path: /dJcxUoyK
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "2d3a3251eb5942f483f1f8ba7b95d590_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 2053
-  server: live.onetwothree123.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: fe60492b-e019-4848-a6a0-d4f1e7a09cac
-  ws-opts:
-    path: /dJcxUoyK
-- alterId: 0
-  cipher: auto
-  name: "13|\u9999\u6E2F4|@ripaojiedian"
-  network: tcp
-  port: '14601'
+  name: "2,12|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  port: 14601
   server: stan.pythoncdn.com
-  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
-- name: "\U0001F1EF\U0001F1F5JP-154.31.114.12-248"
-  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
-  port: 443
-  server: visual.superpokemon.com
-  skip-cert-verify: true
-  sni: visual.superpokemon.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "fee97ded46114ea4a4a59609dc07e6e5_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 2053
+  server: live.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 2fc0c202-2218-413a-8397-abc5aa1ce75c
+  ws-opts:
+    path: /dJcxUoyK
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "9f5efa6f08464a94bd2edaaa0cf9b61c_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 2053
+  server: live.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 08a17967-42f6-451a-b043-639331e1e6c1
+  ws-opts:
+    path: /dJcxUoyK
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8017"
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0305"
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "33e21665400f4c75ab1d91f870bb63ec_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: esna.twn24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 4c3b16db-8197-4f09-a29b-5d9ad5e5c803
+  ws-opts:
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "07634c975fa3420fb61aec10a3115c0e_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: esna.twn24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 54242a2e-c18b-4ca0-dd6d-bf20194587b3
+  ws-opts:
+    path: /mehdi
