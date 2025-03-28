@@ -1,5 +1,15 @@
 proxies:
 - cipher: aes-256-cfb
+  name: China_None_ssr_1032
+  obfs: tls1.2_ticket_auth
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: '56138'
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
   group: SSRProvider
   name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-365"
   obfs: tls1.2_ticket_auth
@@ -10,30 +20,6 @@ proxies:
   protoparam: null
   server: cm2.xcone.xyz
   type: ssr
-- cipher: aes-256-cfb
-  name: China_None_ssr_1032
-  obfs: tls1.2_ticket_auth
-  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
-  password: uiACqrIr
-  port: '56138'
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: "\U0001F3C1RELAY-172.67.132.202-1115"
-  network: ws
-  port: 80
-  server: 520dc7.c142-946b-a8a5.cfd
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
-  ws-opts:
-    headers:
-      Host: hk03s.c142-946b-a8a5.cfd
-    path: /
 - cipher: aes-256-cfb
   name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   obfs: tls1.2_ticket_auth
@@ -57,6 +43,26 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
+  name: "\U0001F3C1RELAY-172.67.132.202-1115"
+  network: ws
+  port: 80
+  server: 520dc7.c142-946b-a8a5.cfd
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
+  ws-opts:
+    headers:
+      Host: hk03s.c142-946b-a8a5.cfd
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1F0\U0001F1F7KR-43.201.54.89-131"
+  password: amazonskr05
+  port: 443
+  server: 43.201.54.89
+  type: ss
+- alterId: 0
+  cipher: auto
   name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-353"
   network: tcp
   port: 55754
@@ -68,12 +74,6 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7KR-43.201.54.89-131"
-  password: amazonskr05
-  port: 443
-  server: 43.201.54.89
-  type: ss
 - alterId: 0
   cipher: auto
   name: "\u8282\u70B9\u65E5\u671F\uFF1A03-28"
