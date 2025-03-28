@@ -1,15 +1,12 @@
 proxies:
-- cipher: aes-256-cfb
-  group: SSRProvider
-  name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-366"
-  obfs: tls1.2_ticket_auth
-  obfsparam: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protoparam: null
-  server: cm2.xcone.xyz
-  type: ssr
+- alterId: 0
+  cipher: auto
+  name: "\u8282\u70B9\u65E5\u671F\uFF1A03-28"
+  port: 51039
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   group: SSRProvider
   name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-365"
@@ -19,6 +16,16 @@ proxies:
   port: 56138
   protocol: origin
   protoparam: null
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  name: China_None_ssr_1032
+  obfs: tls1.2_ticket_auth
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: '56138'
+  protocol: origin
+  protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
 - cipher: aes-256-cfb
@@ -32,15 +39,24 @@ proxies:
   server: cm2.xcone.xyz
   type: ssr
 - cipher: aes-256-cfb
-  name: China_None_ssr_1032
+  group: SSRProvider
+  name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-366"
   obfs: tls1.2_ticket_auth
-  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  obfsparam: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
-  port: '56138'
+  port: 56138
   protocol: origin
-  protocol-param: ''
+  protoparam: null
   server: cm2.xcone.xyz
   type: ssr
+- cipher: chacha20-ietf
+  country: "\U0001F1ED\U0001F1F0HK"
+  delay: 978
+  name: Singapore_None_ss_1039
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -57,26 +73,12 @@ proxies:
     headers:
       HOST: hk03s.c142-946b-a8a5.cfd
     path: /
-- cipher: chacha20-ietf
-  country: "\U0001F1ED\U0001F1F0HK"
-  delay: 978
-  name: Singapore_None_ss_1039
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
 - cipher: aes-256-cfb
   name: South Korea_None_ss_1196
   password: amazonskr05
   port: 443
   server: 13.125.21.61
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-54.169.134.156-5993"
-  password: amazonskr05
-  port: 443
-  server: 54.169.134.156
   type: ss
 - cipher: aes-256-cfb
   name: "SSR-\u7F8E\u56FD-TikTok-YouTube-54.187.221.114:443"
@@ -86,9 +88,9 @@ proxies:
   protocol: origin
   server: 54.187.221.114
   type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-0365"
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.188
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-54.169.134.156-5993"
+  password: amazonskr05
+  port: 443
+  server: 54.169.134.156
   type: ss
