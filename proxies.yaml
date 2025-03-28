@@ -1,39 +1,18 @@
 proxies:
 - cipher: aes-256-cfb
-  group: SSRProvider
-  name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-365"
+  name: 11|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
   obfs: tls1.2_ticket_auth
-  obfsparam: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
   password: uiACqrIr
   port: 56138
   protocol: origin
-  protoparam: null
+  protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
 - cipher: aes-256-cfb
   name: China_None_ssr_1048
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  name: 13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
-  obfs: tls1.2_ticket_auth
-  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
-  password: uiACqrIr
-  port: '56138'
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  name: 11|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
-  obfs: tls1.2_ticket_auth
-  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
   password: uiACqrIr
   port: 56138
   protocol: origin
@@ -51,11 +30,39 @@ proxies:
   protoparam: null
   server: cm2.xcone.xyz
   type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-0365"
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.188
+- cipher: aes-256-cfb
+  name: 13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
+  obfs: tls1.2_ticket_auth
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: '56138'
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  group: SSRProvider
+  name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-365"
+  obfs: tls1.2_ticket_auth
+  obfsparam: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protoparam: null
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  name: "12|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
+  password: amazonskr05
+  port: 443
+  server: 13.125.21.61
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1ECSG-18.140.70.168-5474"
+  password: amazonskr05
+  port: 443
+  server: 18.140.70.168
   type: ss
 - cipher: rc4-md5
   country: "\U0001F1F0\U0001F1FCKW"
@@ -65,17 +72,11 @@ proxies:
   port: 29951
   server: 163.171.181.49
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\u6B27\u76DF V2CROSS.COM"
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.188
-  type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-012"
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-353"
   network: tcp
-  port: 59554
+  port: 55754
   server: 183.236.51.38
   skip-cert-verify: true
   tls: false
@@ -86,10 +87,14 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
-  port: 51052
-  server: 120.232.153.123
+  name: "\U0001F1E8\U0001F1F3CN-120.198.71.214-352"
+  network: tcp
+  port: 34093
+  server: 120.198.71.214
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
