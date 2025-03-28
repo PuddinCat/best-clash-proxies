@@ -1,10 +1,4 @@
 proxies:
-- name: "\U0001F1FA\U0001F1F8US-44.247.234.16-022"
-  password: 47072f01-8e77-4136-8e85-b0f0d9d08f1d
-  port: 20230
-  server: us003.421421.xyz
-  skip-cert-verify: true
-  type: trojan
 - cipher: aes-256-cfb
   name: China_None_ssr_1175
   obfs: tls1.2_ticket_auth
@@ -44,12 +38,48 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-150"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 194.5.215.59
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\u5DF4\u62FF\u9A6C V2CROSS.COM"
+  port: 22324
+  server: 186.190.215.93
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: '0'
+  cipher: auto
+  name: United States_None_vmess_1042
+  network: tcp
+  port: 22324
+  server: 186.190.215.93
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-019"
+  network: tcp
+  port: 56901
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.232.153.123-360"
+  network: tcp
+  port: 41402
+  server: 120.232.153.123
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.123
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1E8\U0001F1EDCH-186.190.215.93-366"
@@ -63,27 +93,9 @@ proxies:
   ws-headers:
     Host: 186.190.215.93
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: "\u5DF4\u62FF\u9A6C V2CROSS.COM"
-  port: 22324
-  server: 186.190.215.93
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- cipher: rc4-md5
-  name: "SSR-\u7F8E\u56FD-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-194.5.215.59:8080"
-  obfs: plain
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  protocol: origin
-  server: 194.5.215.59
-  type: ssr
-- alterId: '0'
-  cipher: auto
-  name: United States_None_vmess_1042
-  network: tcp
-  port: 22324
-  server: 186.190.215.93
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- name: "\U0001F1FA\U0001F1F8US-44.247.234.16-022"
+  password: 47072f01-8e77-4136-8e85-b0f0d9d08f1d
+  port: 20230
+  server: us003.421421.xyz
+  skip-cert-verify: true
+  type: trojan
