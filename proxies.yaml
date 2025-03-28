@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  name: "2,12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  name: "1,12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
@@ -9,28 +9,8 @@ proxies:
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
-- cipher: aes-128-cfb
-  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0312"
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-8017"
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
 - cipher: aes-256-cfb
-  name: 13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
+  name: 1,13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
   obfs: tls1.2_ticket_auth
   obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
   password: uiACqrIr
@@ -39,17 +19,17 @@ proxies:
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8US-194.5.215.59-0305"
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 194.5.215.59
+- cipher: aes-128-cfb
+  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0319"
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "fee97ded46114ea4a4a59609dc07e6e5_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "7154b9b6b0e5480a8c080e0497ae4bbf_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 2053
@@ -57,44 +37,14 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: 2fc0c202-2218-413a-8397-abc5aa1ce75c
+  uuid: 49956004-7710-4193-bdbb-937397d195c4
   ws-opts:
     path: /dJcxUoyK
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "f5019dfa3cdc4cd6baf203089cd5ada4_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: windows.onetwothree123.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: f001544a-63ad-45ad-bc18-aec8c67390e1
-  ws-opts:
-    path: /Xot8ex8r
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "9f5efa6f08464a94bd2edaaa0cf9b61c_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 2053
-  server: live.onetwothree123.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 08a17967-42f6-451a-b043-639331e1e6c1
-  ws-opts:
-    path: /dJcxUoyK
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "56e98dff7027452d84e3f7655be06309_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "10df1143f38f4064aa0f1ca15eaaf29b_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 2053
@@ -109,7 +59,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "0b868f8f53db4f4ab05ebb0f924e260e_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "dd4c1b4c5bbe49c8ae64eb85b6196cf2_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 2053
@@ -117,6 +67,57 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: 03175624-a7fa-4e1c-8ee2-34f5c5bf50c6
+  uuid: 5dca9e3a-6d62-4e01-8e4b-c0cba4b75e45
   ws-opts:
     path: /dJcxUoyK
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "ace38597a92f476885b63879479bd64f_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: windows.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 8b958bd6-79b9-4fac-8695-d6560e2dc8fa
+  ws-opts:
+    path: /Xot8ex8r
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "89d4fae5f3864debbc4306b89d1f488f_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: windows.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: a9140df3-6ad7-484a-ac72-1a174226ada2
+  ws-opts:
+    path: /Xot8ex8r
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "318f1284d096421fb9b2228fd0f018b9_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: windows.onetwothree123.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 4344d5f0-0dad-4b5a-a2b6-a8908c3639c2
+  ws-opts:
+    path: /Xot8ex8r
+- name: "\U0001F1EC\U0001F1E7GB-161.35.34.48-021"
+  password: 2cba4104747d49d18319e5ade1b93ab5
+  port: 443
+  server: yourjobnavigator.online
+  skip-cert-verify: true
+  type: trojan
