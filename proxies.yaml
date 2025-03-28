@@ -1,36 +1,87 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1ECSG-54.169.134.156-5993"
-  password: amazonskr05
-  port: 443
-  server: 54.169.134.156
+- cipher: rc4-md5
+  country: "\U0001F1F0\U0001F1FCKW"
+  delay: 2849
+  name: United States_None_ss_1033
+  password: b17902c35beb3c11
+  port: 29951
+  server: 163.171.181.49
   type: ss
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: "VMESS-\u672A\u77E5>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-520dc7.c142-946b-a8a5.cfd:80"
-  network: ws
-  port: 80
-  server: 520dc7.c142-946b-a8a5.cfd
-  servername: hk03s.c142-946b-a8a5.cfd
-  skip-cert-verify: true
+  name: "\u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
+  port: 51039
+  server: 183.236.51.38
+  tls: false
   type: vmess
-  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
-  ws-opts:
-    headers:
-      HOST: hk03s.c142-946b-a8a5.cfd
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-012"
+  network: tcp
+  port: 59554
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - cipher: aes-256-cfb
-  name: China_None_ssr_1173
+  name: 13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
   obfs: tls1.2_ticket_auth
-  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: '56138'
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  name: 11|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
+  obfs: tls1.2_ticket_auth
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
   password: uiACqrIr
   port: 56138
   protocol: origin
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
+- cipher: aes-256-cfb
+  country: "\U0001F1FA\U0001F1F8US"
+  delay: 1222
+  name: Singapore_Singapore_ss_1034
+  password: amazonskr05
+  port: 443
+  server: 47.129.38.96
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-120.198.71.214-352"
+  network: tcp
+  port: 34093
+  server: 120.198.71.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-349"
+  network: tcp
+  port: 51039
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - cipher: aes-256-cfb
   group: SSRProvider
   name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-365"
@@ -43,51 +94,12 @@ proxies:
   server: cm2.xcone.xyz
   type: ssr
 - cipher: aes-256-cfb
-  name: China_None_ssr_1032
+  name: China_None_ssr_1048
   obfs: tls1.2_ticket_auth
-  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
-  port: '56138'
+  port: 56138
   protocol: origin
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
-- cipher: aes-256-cfb
-  group: SSRProvider
-  name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-366"
-  obfs: tls1.2_ticket_auth
-  obfsparam: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protoparam: null
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-0365"
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- cipher: aes-256-cfb
-  name: South Korea_None_ss_1196
-  password: amazonskr05
-  port: 443
-  server: 13.125.21.61
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: "SSR-\u7F8E\u56FD-TikTok-YouTube-54.187.221.114:443"
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 54.187.221.114
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: "10|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11002
-  server: 183.232.229.164
-  tfo: false
-  type: ss
