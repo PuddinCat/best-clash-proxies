@@ -1,5 +1,25 @@
 proxies:
 - cipher: aes-256-cfb
+  name: 2,13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
+  obfs: tls1.2_ticket_auth
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  name: "2,12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  obfs: tls1.2_ticket_auth
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
   name: China_None_ssr_1186
   obfs: tls1.2_ticket_auth
   obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
@@ -9,18 +29,8 @@ proxies:
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
-- cipher: aes-256-cfb
-  name: "1,11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  obfs: tls1.2_ticket_auth
-  obfs-param: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
 - cipher: aes-128-cfb
-  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-0309"
+  name: "\U0001F1FA\U0001F1F8US-184.170.241.194-145"
   password: shadowsocks
   port: 443
   server: 184.170.241.194
@@ -36,22 +46,6 @@ proxies:
   protoparam: null
   server: cm2.xcone.xyz
   type: ssr
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: "VMESS-\u672A\u77E5>\u9999\u6E2F-NF\u89E3\u9501\u81EA\u5236\u5267-ChatGPT-YouTube-520dc7.c142-946b-a8a5.cfd:80"
-  network: ws
-  port: 80
-  server: 520dc7.c142-946b-a8a5.cfd
-  servername: hk03s.c142-946b-a8a5.cfd
-  skip-cert-verify: true
-  type: vmess
-  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
-  ws-opts:
-    headers:
-      HOST: hk03s.c142-946b-a8a5.cfd
-    path: /
 - name: "\U0001F3C1RELAY-104.21.112.1-1110"
   network: ws
   password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
@@ -64,62 +58,75 @@ proxies:
     headers:
       Host: 1kM.HUaNgSHang.pP.UA
     path: '%2FlXENb74xF4ylXngZ'
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3CN-120.226.76.137-7947"
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "55a2d4b6410e4332a38dd977b19c731e_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
+  port: 8443
+  server: esna.twn24.ir
+  servername: esna.twn24.ir
   tls: true
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  udp: false
+  uuid: 6ed41d81-3249-4aa1-b013-5eb9e55dda14
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
-    path: /
+      host: esna.twn24.ir
+    path: /4sMTyjcd
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "8448abd132d3494e9393addbc70e29b3_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "0e3f6758a0ca4395a0170d477834f27a_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
-  port: 2053
-  server: live.onetwothree123.ir
+  port: 8443
+  server: esna.twn24.ir
+  servername: esna.twn24.ir
   tls: true
   type: vmess
   udp: false
-  uuid: f5cadb89-a065-4497-bee9-a488e265edcd
+  uuid: adada63b-8b01-4e85-b6bb-4f8821eacfac
   ws-opts:
-    path: /dJcxUoyK
+    headers:
+      host: esna.twn24.ir
+    path: /4sMTyjcd
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "3e540f87cb3d4b399540375f56dc7229_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "bd7a284b60a349918945f7943b32b036_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
-  port: 2053
-  server: live.onetwothree123.ir
+  port: 8443
+  server: esna.twn24.ir
+  servername: esna.twn24.ir
   tls: true
   type: vmess
   udp: false
-  uuid: 7b400bf0-58e9-4f78-8e71-8e13b9ce1f69
+  uuid: 61836f02-5761-41c5-ae0a-1b7b923346bc
   ws-opts:
-    path: /dJcxUoyK
+    headers:
+      host: esna.twn24.ir
+    path: /4sMTyjcd
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "b6e88b2a8eab492a8b96a6b4ea06437c_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "7d199d1119e149aba2bb9040c2588473_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
-  port: 2053
-  server: live.onetwothree123.ir
+  port: 8443
+  server: esna.twn24.ir
+  servername: esna.twn24.ir
   tls: true
   type: vmess
   udp: false
-  uuid: eef3592a-6631-493c-b2b6-a36e18920137
+  uuid: cb22ef69-a1b7-416e-999e-cb178bc0a0be
   ws-opts:
-    path: /dJcxUoyK
+    headers:
+      host: esna.twn24.ir
+    path: /4sMTyjcd
