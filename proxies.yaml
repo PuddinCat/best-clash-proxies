@@ -1,45 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  group: SSRProvider
-  name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-385"
-  obfs: tls1.2_ticket_auth
-  obfsparam: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protoparam: null
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  name: China_None_ssr_1052
-  obfs: tls1.2_ticket_auth
-  obfsparam: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protoparam: null
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-1440"
-  obfs: tls1.2_ticket_auth
-  obfs-param: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  name: 13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
-  obfs: tls1.2_ticket_auth
-  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
-  password: uiACqrIr
-  port: '56138'
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
 - name: "13|\u65E5\u672C3|@ripaojiedian"
   network: tcp
   password: '74260702287384200'
@@ -53,31 +12,6 @@ proxies:
   skip-cert-verify: false
   sni: quality-kite.shiner427.skin
   type: trojan
-- cipher: aes-256-cfb
-  name: 2,13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
-  obfs: tls1.2_ticket_auth
-  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  name: South Korea_Incheon_ss_1183
-  password: amazonskr05
-  port: 443
-  server: 43.201.54.89
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: China_None_vmess_1038
-  port: 56901
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: "\U0001F3C1RELAY-104.17.213.241-1430"
@@ -92,3 +26,54 @@ proxies:
     headers:
       Host: 100-21-178-246.s4.db-link02.top
     path: /dabai.in104.24.152.253
+- alterId: 0
+  cipher: auto
+  name: China_None_vmess_1038
+  port: 56901
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Amazon\u6570\u636E\u4E2D\u5FC3 2"
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.36.115.203
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: "\U0001F1FA\U0001F1F8US-54.225.96.105-1113"
+  password: telegram-id-directvpn
+  port: 22222
+  server: 54.225.96.105
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- cipher: aes-256-cfb
+  name: South Korea_Incheon_ss_1183
+  password: amazonskr05
+  port: 443
+  server: 43.201.54.89
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: China_Guangzhou_ss_1050
+  password: VMhGp5wEIyCDf90T
+  port: 33368
+  server: shenzhou05.mysynology.net
+  type: ss
+- name: "12,13|\u9999\u6E2F3|@ripaojiedian"
+  network: tcp
+  password: VMhGp5wEIyCDf90T
+  port: 42303
+  server: csuzhou01.1cooldns.com
+  skip-cert-verify: false
+  sni: hk06.run.place
+  type: trojan
+- cipher: aes-256-cfb
+  country: "\U0001F1E7\U0001F1EABE"
+  delay: 1627
+  name: Japan_Tokyo_ss_1173
+  password: amazonskr05
+  port: 443
+  server: 57.181.29.160
+  type: ss
