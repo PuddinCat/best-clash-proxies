@@ -1,84 +1,14 @@
 proxies:
 - cipher: aes-256-cfb
-  name: "SSR-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-62.100.205.48:989"
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
+  name: 12|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
+  obfs: tls1.2_ticket_auth
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: 56138
   protocol: origin
-  server: 62.100.205.48
+  protocol-param: ''
+  server: cm2.xcone.xyz
   type: ssr
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "c2440f6ec8e646c3a57306fe29e581bb_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.farsonline24.ir
-  servername: esna.farsonline24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: ff757360-4f2d-40dc-913d-a1e4f63a0b8f
-  ws-opts:
-    headers:
-      host: esna.farsonline24.ir
-    path: /I4hsGQVV
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "0699067d9ae844349a290aa6828d6bc8_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.farsonline24.ir
-  servername: esna.farsonline24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 9ef287ea-5a76-41ad-874c-48d0c1d0933b
-  ws-opts:
-    headers:
-      host: esna.farsonline24.ir
-    path: /I4hsGQVV
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "bbfff3ca7d6344fb96bb298aab9d70c1_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.farsonline24.ir
-  servername: esna.farsonline24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 2c6db545-016b-403f-b9f8-165c68511ff4
-  ws-opts:
-    headers:
-      host: esna.farsonline24.ir
-    path: /I4hsGQVV
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "36c0f91371334e2c83bac90103be74ef_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.farsonline24.ir
-  servername: esna.farsonline24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 5e263ccc-d2a4-4303-b8cc-49d5f8ec257e
-  ws-opts:
-    headers:
-      host: esna.farsonline24.ir
-    path: /I4hsGQVV
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -137,6 +67,24 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
+  name: "bbfff3ca7d6344fb96bb298aab9d70c1_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: esna.farsonline24.ir
+  servername: esna.farsonline24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 2c6db545-016b-403f-b9f8-165c68511ff4
+  ws-opts:
+    headers:
+      host: esna.farsonline24.ir
+    path: /I4hsGQVV
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
   name: "3f0e75e4df564351a75cf8656866a683_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
@@ -151,6 +99,17 @@ proxies:
     headers:
       host: esna.farsonline24.ir
     path: /I4hsGQVV
+- cipher: aes-256-cfb
+  group: SSRProvider
+  name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-236"
+  obfs: tls1.2_ticket_auth
+  obfsparam: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protoparam: null
+  server: cm2.xcone.xyz
+  type: ssr
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -169,3 +128,31 @@ proxies:
     headers:
       host: esna.farsonline24.ir
     path: /I4hsGQVV
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "e9f77e926dc1436fb20892bbf82914ba_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: esna.farsonline24.ir
+  servername: esna.farsonline24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 8a871057-0b69-4cdb-a282-0ef5ef66c8b8
+  ws-opts:
+    headers:
+      host: esna.farsonline24.ir
+    path: /I4hsGQVV
+- cipher: aes-256-cfb
+  name: "11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  obfs: tls1.2_ticket_auth
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
