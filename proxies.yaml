@@ -1,5 +1,15 @@
 proxies:
 - cipher: aes-256-cfb
+  name: 12|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
+  obfs: tls1.2_ticket_auth
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
   name: "11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
@@ -8,14 +18,6 @@ proxies:
   protocol: origin
   protocol-param: ''
   server: cm2.xcone.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  name: "SSR-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-62.100.205.48:989"
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 62.100.205.48
   type: ssr
 - cipher: aes-256-cfb
   group: SSRProvider
@@ -29,16 +31,6 @@ proxies:
   server: cm2.xcone.xyz
   type: ssr
 - cipher: aes-256-cfb
-  name: 12|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
-  obfs: tls1.2_ticket_auth
-  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: aes-256-cfb
   name: 13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
   obfs: tls1.2_ticket_auth
   obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
@@ -47,6 +39,14 @@ proxies:
   protocol: origin
   protocol-param: ''
   server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  name: "SSR-\u82F1\u56FD-NF\u89E3\u9501\u82F1\u56FD\u81EA\u5236\u5267-ChatGPT-TikTok-YouTube-62.100.205.48:989"
+  obfs: plain
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  protocol: origin
+  server: 62.100.205.48
   type: ssr
 - alterId: 0
   cipher: auto
@@ -88,7 +88,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "9d2496c45f7e40bd959b68727b73ae2c_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "0a526abeb834429bbd4f88f7204a517a_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 8443
@@ -97,7 +97,7 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: ad9ba0ed-ea77-48c2-8419-8459015059e6
+  uuid: ab7b776c-e671-461f-9591-27cb677b11a6
   ws-opts:
     headers:
       host: esna.farsonline24.ir
@@ -106,7 +106,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "c2440f6ec8e646c3a57306fe29e581bb_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "0699067d9ae844349a290aa6828d6bc8_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 8443
@@ -115,7 +115,7 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: ff757360-4f2d-40dc-913d-a1e4f63a0b8f
+  uuid: 9ef287ea-5a76-41ad-874c-48d0c1d0933b
   ws-opts:
     headers:
       host: esna.farsonline24.ir
@@ -124,7 +124,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "a57423d3ad1d4189a2b5a17ef33fd6e2_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "bbfff3ca7d6344fb96bb298aab9d70c1_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 8443
@@ -133,7 +133,7 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: a1ec9a86-d6e0-4366-933f-ec4c78d330b3
+  uuid: 2c6db545-016b-403f-b9f8-165c68511ff4
   ws-opts:
     headers:
       host: esna.farsonline24.ir
