@@ -1,26 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
-  obfs: tls1.2_ticket_auth
-  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  name: China_None_ssr_11102
-  obfs: tls1.2_ticket_auth
-  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
-  password: uiACqrIr
-  port: '56138'
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  name: "12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  name: "11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
@@ -37,11 +17,42 @@ proxies:
   protocol: origin
   server: 62.100.205.48
   type: ssr
+- cipher: aes-256-cfb
+  group: SSRProvider
+  name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-236"
+  obfs: tls1.2_ticket_auth
+  obfsparam: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protoparam: null
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  name: 12|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
+  obfs: tls1.2_ticket_auth
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  name: 13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
+  obfs: tls1.2_ticket_auth
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: '56138'
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "93ab21e638b14e17bf4d9e4e341663bc_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "b12e99e4a4e94c3e85d936d04965d655_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 8443
@@ -59,7 +70,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "e1db4334d64347ac9964e0605edfb44a_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "3f0e75e4df564351a75cf8656866a683_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 8443
@@ -68,7 +79,7 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: 8a871057-0b69-4cdb-a282-0ef5ef66c8b8
+  uuid: fb51369a-3550-49f0-85ac-52609d853f66
   ws-opts:
     headers:
       host: esna.farsonline24.ir
@@ -77,7 +88,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "691e005cd39349dc8f6511409d4d0a52_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "9d2496c45f7e40bd959b68727b73ae2c_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 8443
@@ -86,7 +97,7 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: 5e263ccc-d2a4-4303-b8cc-49d5f8ec257e
+  uuid: ad9ba0ed-ea77-48c2-8419-8459015059e6
   ws-opts:
     headers:
       host: esna.farsonline24.ir
@@ -95,25 +106,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "610f3050007f4d239ea1d4eedfa5bfe9_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.farsonline24.ir
-  servername: esna.farsonline24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: ab7b776c-e671-461f-9591-27cb677b11a6
-  ws-opts:
-    headers:
-      host: esna.farsonline24.ir
-    path: /I4hsGQVV
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "94b44a43605a4b058b6b7902c67b9d85_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "c2440f6ec8e646c3a57306fe29e581bb_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 8443
@@ -131,7 +124,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "cd746c38bb3f4cb885d20cabe1cc8695_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "a57423d3ad1d4189a2b5a17ef33fd6e2_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 8443
@@ -140,7 +133,7 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: ad9ba0ed-ea77-48c2-8419-8459015059e6
+  uuid: a1ec9a86-d6e0-4366-933f-ec4c78d330b3
   ws-opts:
     headers:
       host: esna.farsonline24.ir
