@@ -7,27 +7,24 @@ proxies:
   protocol: origin
   server: 62.100.205.48
   type: ssr
-- cipher: aes-256-cfb
-  name: "11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  obfs: tls1.2_ticket_auth
-  obfs-param: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F1\U0001F1F9LT-45.87.175.188-0677"
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.188
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3CN-183.236.51.38-215"
+  network: tcp
+  port: 46902
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "3f0e75e4df564351a75cf8656866a683_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "b12e99e4a4e94c3e85d936d04965d655_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 8443
@@ -36,22 +33,29 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: fb51369a-3550-49f0-85ac-52609d853f66
+  uuid: fe383dfe-3c91-4524-93f7-101517bb8a2f
   ws-opts:
     headers:
       host: esna.farsonline24.ir
     path: /I4hsGQVV
-- cipher: aes-256-cfb
-  group: SSRProvider
-  name: "\U0001F1E8\U0001F1F3CN-118.253.149.81-236"
-  obfs: tls1.2_ticket_auth
-  obfsparam: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protoparam: null
-  server: cm2.xcone.xyz
-  type: ssr
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "0a526abeb834429bbd4f88f7204a517a_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: esna.farsonline24.ir
+  servername: esna.farsonline24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: ab7b776c-e671-461f-9591-27cb677b11a6
+  ws-opts:
+    headers:
+      host: esna.farsonline24.ir
+    path: /I4hsGQVV
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -66,6 +70,24 @@ proxies:
   type: vmess
   udp: false
   uuid: 2c6db545-016b-403f-b9f8-165c68511ff4
+  ws-opts:
+    headers:
+      host: esna.farsonline24.ir
+    path: /I4hsGQVV
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "3f0e75e4df564351a75cf8656866a683_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: esna.farsonline24.ir
+  servername: esna.farsonline24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: fb51369a-3550-49f0-85ac-52609d853f66
   ws-opts:
     headers:
       host: esna.farsonline24.ir
@@ -92,6 +114,42 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
+  name: "9d2496c45f7e40bd959b68727b73ae2c_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: esna.farsonline24.ir
+  servername: esna.farsonline24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: ad9ba0ed-ea77-48c2-8419-8459015059e6
+  ws-opts:
+    headers:
+      host: esna.farsonline24.ir
+    path: /I4hsGQVV
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "0699067d9ae844349a290aa6828d6bc8_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: esna.farsonline24.ir
+  servername: esna.farsonline24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 9ef287ea-5a76-41ad-874c-48d0c1d0933b
+  ws-opts:
+    headers:
+      host: esna.farsonline24.ir
+    path: /I4hsGQVV
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
   name: "36c0f91371334e2c83bac90103be74ef_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
@@ -106,31 +164,3 @@ proxies:
     headers:
       host: esna.farsonline24.ir
     path: /I4hsGQVV
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "b12e99e4a4e94c3e85d936d04965d655_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.farsonline24.ir
-  servername: esna.farsonline24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: fe383dfe-3c91-4524-93f7-101517bb8a2f
-  ws-opts:
-    headers:
-      host: esna.farsonline24.ir
-    path: /I4hsGQVV
-- cipher: aes-256-cfb
-  name: 13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
-  obfs: tls1.2_ticket_auth
-  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
-  password: uiACqrIr
-  port: '56138'
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
