@@ -11,7 +11,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "bbfff3ca7d6344fb96bb298aab9d70c1_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "36c0f91371334e2c83bac90103be74ef_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 8443
@@ -20,79 +20,7 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: 2c6db545-016b-403f-b9f8-165c68511ff4
-  ws-opts:
-    headers:
-      host: esna.farsonline24.ir
-    path: /I4hsGQVV
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "c2440f6ec8e646c3a57306fe29e581bb_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.farsonline24.ir
-  servername: esna.farsonline24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: ff757360-4f2d-40dc-913d-a1e4f63a0b8f
-  ws-opts:
-    headers:
-      host: esna.farsonline24.ir
-    path: /I4hsGQVV
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "a57423d3ad1d4189a2b5a17ef33fd6e2_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.farsonline24.ir
-  servername: esna.farsonline24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: a1ec9a86-d6e0-4366-933f-ec4c78d330b3
-  ws-opts:
-    headers:
-      host: esna.farsonline24.ir
-    path: /I4hsGQVV
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "e9f77e926dc1436fb20892bbf82914ba_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.farsonline24.ir
-  servername: esna.farsonline24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 8a871057-0b69-4cdb-a282-0ef5ef66c8b8
-  ws-opts:
-    headers:
-      host: esna.farsonline24.ir
-    path: /I4hsGQVV
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: "9d2496c45f7e40bd959b68727b73ae2c_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
-    \U0001F178"
-  network: ws
-  port: 8443
-  server: esna.farsonline24.ir
-  servername: esna.farsonline24.ir
-  tls: true
-  type: vmess
-  udp: false
-  uuid: ad9ba0ed-ea77-48c2-8419-8459015059e6
+  uuid: 5e263ccc-d2a4-4303-b8cc-49d5f8ec257e
   ws-opts:
     headers:
       host: esna.farsonline24.ir
@@ -119,7 +47,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: "36c0f91371334e2c83bac90103be74ef_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+  name: "a57423d3ad1d4189a2b5a17ef33fd6e2_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
   port: 8443
@@ -128,7 +56,7 @@ proxies:
   tls: true
   type: vmess
   udp: false
-  uuid: 5e263ccc-d2a4-4303-b8cc-49d5f8ec257e
+  uuid: a1ec9a86-d6e0-4366-933f-ec4c78d330b3
   ws-opts:
     headers:
       host: esna.farsonline24.ir
@@ -155,6 +83,24 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
+  name: "bbfff3ca7d6344fb96bb298aab9d70c1_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: esna.farsonline24.ir
+  servername: esna.farsonline24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 2c6db545-016b-403f-b9f8-165c68511ff4
+  ws-opts:
+    headers:
+      host: esna.farsonline24.ir
+    path: /I4hsGQVV
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
   name: "3f0e75e4df564351a75cf8656866a683_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
     \U0001F178"
   network: ws
@@ -165,6 +111,60 @@ proxies:
   type: vmess
   udp: false
   uuid: fb51369a-3550-49f0-85ac-52609d853f66
+  ws-opts:
+    headers:
+      host: esna.farsonline24.ir
+    path: /I4hsGQVV
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "0a526abeb834429bbd4f88f7204a517a_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: esna.farsonline24.ir
+  servername: esna.farsonline24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: ab7b776c-e671-461f-9591-27cb677b11a6
+  ws-opts:
+    headers:
+      host: esna.farsonline24.ir
+    path: /I4hsGQVV
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "e9f77e926dc1436fb20892bbf82914ba_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: esna.farsonline24.ir
+  servername: esna.farsonline24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 8a871057-0b69-4cdb-a282-0ef5ef66c8b8
+  ws-opts:
+    headers:
+      host: esna.farsonline24.ir
+    path: /I4hsGQVV
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: "c2440f6ec8e646c3a57306fe29e581bb_@_\U0001F17C\U0001F174\U0001F177\U0001F173\
+    \U0001F178"
+  network: ws
+  port: 8443
+  server: esna.farsonline24.ir
+  servername: esna.farsonline24.ir
+  tls: true
+  type: vmess
+  udp: false
+  uuid: ff757360-4f2d-40dc-913d-a1e4f63a0b8f
   ws-opts:
     headers:
       host: esna.farsonline24.ir
